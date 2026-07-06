@@ -5,7 +5,6 @@ For the basics and anything not listed here, read [SS14's upstream documentation
 ## Core guidelines
 
 1. Do not rely on language models to do everything for you. You will be ridiculed for this.
-2. If your code is shit, you will be forced to improve it. You will naturally improve as time goes on and you learn more.
 
 ## Making a PR
 
@@ -88,8 +87,7 @@ All new entity prototypes must have `categories: [ ForkFiltered ]` set, otherwis
 - type: entity
   id: MyNewItem
   name: my new item
-  categories:
-  - ForkFiltered
+  categories: [ ForkFiltered ]
 ```
 
 Unindent lists so they are in-line with whatever declared them
