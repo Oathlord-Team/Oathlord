@@ -31,6 +31,23 @@
 
 - type: entity
   parent: ClothingOuterStorageBase
+  id: ClothingOuterApronBar1
+  suffix: Bartender
+  name: apron
+  categories: [ ForkFiltered ]
+  description: A darker apron designed for bartenders.
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Robes/abyssal_robe.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Robes/abyssal_robe.rsi
+  - type: Tag
+    tags:
+    - Apron
+    - WhitelistChameleon
+
+- type: entity
+  parent: ClothingOuterStorageBase
   id: ClothingOuterApronBotanist
   name: apron
   suffix: Botanical
