@@ -1452,17 +1452,6 @@
 
 - type: entity
   parent: ClothingOuterArmorBase
-  id: ClothingOuterArmorWorkerVest
-  name: worker's vest
-  categories: [ ForkFiltered ]
-  components:
-  - type: Sprite
-    sprite: _Oathlord/Clothing/OuterClothing/Armor/Vest/workervest.rsi
-  - type: Clothing
-    sprite: _Oathlord/Clothing/OuterClothing/Armor/Vest/workervest.rsi
-
-- type: entity
-  parent: ClothingOuterArmorBase
   id: ClothingOuterArmorEliteWarlockRobe
   name: elite warlock robe
   categories: [ ForkFiltered ]
