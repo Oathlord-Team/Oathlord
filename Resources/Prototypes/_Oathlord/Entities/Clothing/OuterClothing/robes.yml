@@ -1,0 +1,286 @@
+# ALL of these need armor stats
+- type: entity
+  parent: ClothingOuterBase
+  id: ClothingOuterRobeAbyssal
+  name: abyssal robe
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Robes/abyssal_robe.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Robes/abyssal_robe.rsi
+
+- type: entity
+  parent: ClothingOuterBase
+  id: ClothingOuterRobeAbyssSorcerer
+  name: abyss sorcerer robe
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Robes/abyssorrobe.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Robes/abyssorrobe.rsi
+
+- type: entity
+  parent: ClothingOuterBase
+  id: ClothingOuterRobeApothover
+  name: apotheosis overrobe
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Robes/apothover.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Robes/apothover.rsi
+
+- type: entity
+  parent: ClothingOuterBase
+  id: ClothingOuterRobeAstrata
+  name: astrata robe
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Robes/astratarobe.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Robes/astratarobe.rsi
+
+- type: entity
+  parent: ClothingOuterBase
+  id: ClothingOuterRobeBlack
+  name: black robe
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Robes/black_robe.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Robes/black_robe.rsi
+
+- type: entity
+  parent: ClothingOuterBase
+  id: ClothingOuterRobeBogWitch
+  name: bog witch robe
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Robes/bogwitch.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Robes/bogwitch.rsi
+
+- type: entity
+  parent: ClothingOuterBase
+  id: ClothingOuterRobeDendor
+  name: dendor robe
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Robes/dendorrobe.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Robes/dendorrobe.rsi
+
+- type: entity
+  parent: ClothingOuterBase
+  id: ClothingOuterGownDesert
+  name: desert gown
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Robes/desertgown.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Robes/desertgown.rsi
+
+- type: entity
+  parent: ClothingOuterBase
+  id: ClothingOuterRobeDesert
+  name: desert robe
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Robes/desertrobe.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Robes/desertrobe.rsi
+
+- type: entity
+  parent: ClothingOuterBase
+  id: ClothingOuterRobeEora
+  name: eora robes
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Robes/eorarobes.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Robes/eorarobes.rsi
+
+- type: entity
+  parent: ClothingOuterBase
+  id: ClothingOuterRobeEoraStraps
+  name: eora straps
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Robes/eorastraps.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Robes/eorastraps.rsi
+
+- type: entity
+  parent: ClothingOuterBase
+  id: ClothingOuterRobeFacelessCloth
+  name: faceless cloth
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Robes/facelesscloth.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Robes/facelesscloth.rsi
+
+- type: entity
+  parent: ClothingOuterBase
+  id: ClothingOuterRobeFel
+  name: fel robe
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Robes/feldrobe.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Robes/feldrobe.rsi
+
+- type: entity
+  parent: ClothingOuterBase
+  id: ClothingOuterRobeHag
+  name: hag robe
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Robes/hag.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Robes/hag.rsi
+
+- type: entity
+  parent: ClothingOuterBase
+  id: ClothingOuterRobeMalum
+  name: malum robe
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Robes/malumrobe.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Robes/malumrobe.rsi
+
+- type: entity
+  parent: ClothingOuterBase
+  id: ClothingOuterRobeMer
+  name: mer robe
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Robes/merrobe.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Robes/merrobe.rsi
+
+- type: entity
+  parent: ClothingOuterBase
+  id: ClothingOuterRobeNecra
+  name: necra robe
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Robes/necrarobe.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Robes/necrarobe.rsi
+
+- type: entity # TODO: Equipped sprites
+  parent: ClothingOuterBase
+  id: ClothingOuterRobeNecromancer
+  name: necromancer robe
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Robes/necromrobe.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Robes/necromrobe.rsi
+
+- type: entity
+  parent: ClothingOuterBase
+  id: ClothingOuterRobeNoc
+  name: noc robe
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Robes/nocrobe.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Robes/nocrobe.rsi
+
+- type: entity
+  parent: ClothingOuterBase
+  id: ClothingOuterRobeOpen
+  name: open robe
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Robes/openrobe.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Robes/openrobe.rsi
+
+- type: entity
+  parent: ClothingOuterBase
+  id: ClothingOuterRobePriest
+  name: priest robe
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Robes/priestrobe.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Robes/priestrobe.rsi
+
+- type: entity
+  parent: ClothingOuterBase
+  id: ClothingOuterRobeShadow
+  name: shadow robe
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Robes/shadowrobe.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Robes/shadowrobe.rsi
+
+- type: entity
+  parent: ClothingOuterBase
+  id: ClothingOuterRobeSpellcaster
+  name: spellcaster robe
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Robes/spellcasterrobe.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Robes/spellcasterrobe.rsi
+
+- type: entity
+  parent: ClothingOuterBase
+  id: ClothingOuterRobeSurgeon
+  name: surgeon robe
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Robes/surgrobe.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Robes/surgrobe.rsi
+
+- type: entity
+  parent: ClothingOuterBase
+  id: ClothingOuterRobeWhite
+  name: white robe
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Robes/white_robe.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Robes/white_robe.rsi
+
+- type: entity
+  parent: ClothingOuterBase
+  id: ClothingOuterRobeWizard
+  name: wizard robes
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Robes/wizardrobes.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Robes/wizardrobes.rsi

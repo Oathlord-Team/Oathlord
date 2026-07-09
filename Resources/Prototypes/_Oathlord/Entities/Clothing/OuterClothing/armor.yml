@@ -1,0 +1,1517 @@
+- type: entity
+  parent: ClothingOuterArmorBase
+  id: ClothingOuterArmorAncientChainmail
+  name: ancient chainmail
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Ancient/ancientchain.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Ancient/ancientchain.rsi
+
+- type: entity
+  parent: ClothingOuterArmorBase
+  id: ClothingOuterArmorAncientCuirass
+  name: ancient cuirass
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Ancient/ancientcuirass.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Ancient/ancientcuirass.rsi
+
+- type: entity
+  parent: ClothingOuterArmorBase
+  id: ClothingOuterArmorAncientCuirassHauberk
+  name: ancient cuirass hauberk
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Ancient/ancientcuirasshauberk.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Ancient/ancientcuirasshauberk.rsi
+
+- type: entity
+  parent: ClothingOuterArmorBase
+  id: ClothingOuterArmorAncientHauberk
+  name: ancient hauberk
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Ancient/ancienthauberk.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Ancient/ancienthauberk.rsi
+
+- type: entity
+  parent: ClothingOuterArmorBase
+  id: ClothingOuterArmorAncientPlate
+  name: ancient plate armor
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Ancient/ancientplate.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Ancient/ancientplate.rsi
+
+- type: entity
+  parent: ClothingOuterArmorBase
+  id: ClothingOuterArmorArmoredDress
+  name: armored dress
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Armordress/armordress.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Armordress/armordress.rsi
+
+- type: entity
+  parent: ClothingOuterArmorBase
+  id: ClothingOuterArmorArmoredDressAlt
+  name: armored dress
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Armordress/armordressalt.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Armordress/armordressalt.rsi
+
+- type: entity
+  parent: ClothingOuterArmorBase
+  id: ClothingOuterArmorBliaut
+  name: bliaut
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Armordress/bliaut.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Armordress/bliaut.rsi
+
+- type: entity
+  parent: ClothingOuterArmorBase
+  id: ClothingOuterArmorBogArmor
+  name: bog armor
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Bog/bogarmor.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Bog/bogarmor.rsi
+
+- type: entity
+  parent: ClothingOuterArmorBase
+  id: ClothingOuterArmorBrigandine
+  name: brigandine
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Brigandine/brigandine.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Brigandine/brigandine.rsi
+
+- type: entity
+  parent: ClothingOuterArmorBase
+  id: ClothingOuterArmorLightBrigandine
+  name: light brigandine
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Brigandine/light_brigandine.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Brigandine/light_brigandine.rsi
+
+- type: entity
+  parent: ClothingOuterArmorBase
+  id: ClothingOuterArmorBronzeProtector
+  name: bronze chest protector
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Chest/bronzeprotector.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Chest/bronzeprotector.rsi
+
+- type: entity
+  parent: ClothingOuterArmorBase
+  id: ClothingOuterArmorCopperChestplate
+  name: copper chestplate
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Chest/copperchest.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Chest/copperchest.rsi
+
+- type: entity
+  parent: ClothingOuterArmorBase
+  id: ClothingOuterArmorAtgerviShamanCoat
+  name: atgervi shaman coat
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Coat/atgervi_shaman_coat.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Coat/atgervi_shaman_coat.rsi
+
+- type: entity
+  parent: ClothingOuterArmorBase
+  id: ClothingOuterArmorBlackLeatherCoat
+  name: black leather coat
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Coat/bleathercoat.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Coat/bleathercoat.rsi
+
+- type: entity
+  parent: ClothingOuterArmorBase
+  id: ClothingOuterArmorButlerCoat
+  name: butler's coat
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Coat/butlercoat.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Coat/butlercoat.rsi
+
+- type: entity
+  parent: ClothingOuterArmorBase
+  id: ClothingOuterArmorCoatOfPlates
+  name: coat of plates
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Coat/coat_of_plates.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Coat/coat_of_plates.rsi
+
+- type: entity
+  parent: ClothingOuterArmorBase
+  id: ClothingOuterArmorConfessorCoat
+  name: confessor's coat
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Coat/confessorcoat.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Coat/confessorcoat.rsi
+
+- type: entity
+  parent: ClothingOuterArmorBase
+  id: ClothingOuterArmorHandCoat
+  name: hand coat
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Coat/handcoat.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Coat/handcoat.rsi
+
+- type: entity
+  parent: ClothingOuterArmorBase
+  id: ClothingOuterArmorLongCoat
+  name: long coat
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Coat/longcoat.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Coat/longcoat.rsi
+
+- type: entity # TODO: Equipped sprites
+  parent: ClothingOuterArmorBase
+  id: ClothingOuterArmorPhysicianCoat
+  name: physician's coat
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Coat/physcoat.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Coat/physcoat.rsi
+
+- type: entity
+  parent: ClothingOuterArmorBase
+  id: ClothingOuterArmorSherwani
+  name: sherwani
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Coat/sherwani.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Coat/sherwani.rsi
+
+- type: entity
+  parent: ClothingOuterArmorBase
+  id: ClothingOuterArmorSurcoat
+  name: surcoat
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Coat/surcoat.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Coat/surcoat.rsi
+
+- type: entity
+  parent: ClothingOuterArmorBase
+  id: ClothingOuterArmorSurcoatMetal
+  name: metal-plated surcoat
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Coat/surcoat_metal.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Coat/surcoat_metal.rsi
+
+- type: entity
+  parent: ClothingOuterArmorBase
+  id: ClothingOuterArmorCorset
+  name: corset
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Corset/corset.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Corset/corset.rsi
+
+- type: entity
+  parent: ClothingOuterArmorBase
+  id: ClothingOuterArmorBlackCuirass
+  name: black cuirass
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Cuirass/bcuirass.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Cuirass/bcuirass.rsi
+
+- type: entity
+  parent: ClothingOuterArmorBase
+  id: ClothingOuterArmorBronzeCuirass
+  name: bronze cuirass
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Cuirass/bronzecuirass.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Cuirass/bronzecuirass.rsi
+
+- type: entity
+  parent: ClothingOuterArmorBase
+  id: ClothingOuterArmorCuirass
+  name: cuirass
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Cuirass/cuirass.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Cuirass/cuirass.rsi
+
+- type: entity
+  parent: ClothingOuterArmorBase
+  id: ClothingOuterArmorCuirasse
+  name: cuirasse
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Cuirass/cuirasse.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Cuirass/cuirasse.rsi
+
+- type: entity
+  parent: ClothingOuterArmorBase
+  id: ClothingOuterArmorCuirBouilli
+  name: cuir bouilli armor
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Cuirass/cuirbouilli.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Cuirass/cuirbouilli.rsi
+
+- type: entity
+  parent: ClothingOuterArmorBase
+  id: ClothingOuterArmorFencerCuirass
+  name: fencer's cuirass
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Cuirass/fencercuirass.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Cuirass/fencercuirass.rsi
+
+- type: entity
+  parent: ClothingOuterArmorBase
+  id: ClothingOuterArmorGoldCuirass
+  name: gold cuirass
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Cuirass/goldcuirass.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Cuirass/goldcuirass.rsi
+
+- type: entity
+  parent: ClothingOuterArmorBase
+  id: ClothingOuterArmorHeroicCuirass
+  name: heroic cuirass
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Cuirass/heroiccuirass.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Cuirass/heroiccuirass.rsi
+
+- type: entity
+  parent: ClothingOuterArmorBase
+  id: ClothingOuterArmorDreamHauberk
+  name: dream hauberk
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Dream/dhauberk.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Dream/dhauberk.rsi
+
+- type: entity
+  parent: ClothingOuterArmorBase
+  id: ClothingOuterArmorDreamPlate
+  name: dream plate armor
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Dream/dreamplate.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Dream/dreamplate.rsi
+
+- type: entity
+  parent: ClothingOuterArmorBase
+  id: ClothingOuterArmorEasternSuit1
+  name: eastern suit
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/East/eastsuit1.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/East/eastsuit1.rsi
+
+- type: entity
+  parent: ClothingOuterArmorBase
+  id: ClothingOuterArmorEasternSuit2
+  name: eastern suit
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/East/eastsuit2.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/East/eastsuit2.rsi
+
+- type: entity
+  parent: ClothingOuterArmorBase
+  id: ClothingOuterArmorEasternSuit3
+  name: eastern suit
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/East/eastsuit3.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/East/eastsuit3.rsi
+
+- type: entity
+  parent: ClothingOuterArmorBase
+  id: ClothingOuterArmorEasternSuit4
+  name: eastern suit
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/East/eastsuit4.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/East/eastsuit4.rsi
+
+- type: entity
+  parent: ClothingOuterArmorBase
+  id: ClothingOuterArmorEgyptianArmor
+  name: egyptian armor
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Egypt/egypt.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Egypt/egypt.rsi
+
+- type: entity
+  parent: ClothingOuterArmorBase
+  id: ClothingOuterArmorFlutedCuirass
+  name: fluted cuirass
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Fluted/flutedcuirass.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Fluted/flutedcuirass.rsi
+
+- type: entity
+  parent: ClothingOuterArmorBase
+  id: ClothingOuterArmorFlutedHalfplate
+  name: fluted half-plate
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Fluted/flutedhalfplate.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Fluted/flutedhalfplate.rsi
+
+- type: entity
+  parent: ClothingOuterArmorBase
+  id: ClothingOuterArmorFlutedPlate
+  name: fluted plate armor
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Fluted/flutedplate.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Fluted/flutedplate.rsi
+
+- type: entity
+  parent: ClothingOuterArmorBase
+  id: ClothingOuterArmorArmingDoublet
+  name: arming doublet
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Gambeson/arming.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Gambeson/arming.rsi
+
+- type: entity
+  parent: ClothingOuterArmorBase
+  id: ClothingOuterArmorDarkGambeson
+  name: dark gambeson
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Gambeson/dgamb.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Gambeson/dgamb.rsi
+
+- type: entity
+  parent: ClothingOuterArmorBase
+  id: ClothingOuterArmorFancyGambeson
+  name: fancy gambeson
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Gambeson/fancygamb.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Gambeson/fancygamb.rsi
+
+- type: entity
+  parent: ClothingOuterArmorBase
+  id: ClothingOuterArmorGambeson
+  name: gambeson
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Gambeson/gambeson.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Gambeson/gambeson.rsi
+
+- type: entity
+  parent: ClothingOuterArmorBase
+  id: ClothingOuterArmorLightGambeson
+  name: light gambeson
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Gambeson/gambesonl.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Gambeson/gambesonl.rsi
+
+- type: entity
+  parent: ClothingOuterArmorBase
+  id: ClothingOuterArmorWornGambeson
+  name: worn gambeson
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Gambeson/gambesonold.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Gambeson/gambesonold.rsi
+
+- type: entity
+  parent: ClothingOuterArmorBase
+  id: ClothingOuterArmorPaddedGambeson
+  name: padded gambeson
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Gambeson/gambesonp.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Gambeson/gambesonp.rsi
+
+- type: entity
+  parent: ClothingOuterArmorBase
+  id: ClothingOuterArmorWornPaddedGambeson
+  name: worn padded gambeson
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Gambeson/gambesonpold.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Gambeson/gambesonpold.rsi
+
+- type: entity
+  parent: ClothingOuterArmorBase
+  id: ClothingOuterArmorHudesutu
+  name: hudesutu
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Gambeson/hudesutu.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Gambeson/hudesutu.rsi
+
+- type: entity
+  parent: ClothingOuterArmorBase
+  id: ClothingOuterArmorHuus
+  name: huus
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Gambeson/huus.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Gambeson/huus.rsi
+
+- type: entity
+  parent: ClothingOuterArmorBase
+  id: ClothingOuterArmorLakkariJupon
+  name: lakkari jupon
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Gambeson/lakkarijupon.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Gambeson/lakkarijupon.rsi
+
+- type: entity
+  parent: ClothingOuterArmorBase
+  id: ClothingOuterArmorGraggarPlate
+  name: graggar plate armor
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Graggar/graggarplate.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Graggar/graggarplate.rsi
+
+- type: entity
+  parent: ClothingOuterArmorBase
+  id: ClothingOuterArmorGraggarPlateHeavy
+  name: heavy graggar plate armor
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Graggar/graggarplate_heavy.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Graggar/graggarplate_heavy.rsi
+
+- type: entity
+  parent: ClothingOuterArmorBase
+  id: ClothingOuterArmorGrenzelCuirass
+  name: grenzel cuirass
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Grenzel/grenzelcuirass.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Grenzel/grenzelcuirass.rsi
+
+- type: entity
+  parent: ClothingOuterArmorBase
+  id: ClothingOuterArmorGrenzelShirt
+  name: grenzel shirt
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Grenzel/grenzelshirt.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Grenzel/grenzelshirt.rsi
+
+- type: entity
+  parent: ClothingOuterArmorBase
+  id: ClothingOuterArmorBlackHalfplate
+  name: black half-plate
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Halfplate/bhalfplate.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Halfplate/bhalfplate.rsi
+
+- type: entity
+  parent: ClothingOuterArmorBase
+  id: ClothingOuterArmorCorsetedHalfplate
+  name: corseted half-plate
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Halfplate/corsethalfplate.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Halfplate/corsethalfplate.rsi
+
+- type: entity
+  parent: ClothingOuterArmorBase
+  id: ClothingOuterArmorFancyHalfplate
+  name: fancy half-plate
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Halfplate/fancyhalfplate.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Halfplate/fancyhalfplate.rsi
+
+- type: entity
+  parent: ClothingOuterArmorBase
+  id: ClothingOuterArmorHalfplate
+  name: half-plate armor
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Halfplate/halfplate.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Halfplate/halfplate.rsi
+
+- type: entity
+  parent: ClothingOuterArmorBase
+  id: ClothingOuterArmorHaubergeon
+  name: haubergeon
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Hauberk/haubergeon.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Hauberk/haubergeon.rsi
+
+- type: entity
+  parent: ClothingOuterArmorBase
+  id: ClothingOuterArmorHauberk
+  name: hauberk
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Hauberk/hauberk.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Hauberk/hauberk.rsi
+
+- type: entity
+  parent: ClothingOuterArmorBase
+  id: ClothingOuterArmorHeartfelt
+  name: heartfelt armor
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Heartfelt/heartfelt.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Heartfelt/heartfelt.rsi
+
+- type: entity
+  parent: ClothingOuterArmorBase
+  id: ClothingOuterArmorHeartfeltGauntlet
+  name: heartfelt gauntlet
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Heartfelt/heartfelt_hand.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Heartfelt/heartfelt_hand.rsi
+
+- type: entity
+  parent: ClothingOuterArmorBase
+  id: ClothingOuterArmorInquisitorCoat
+  name: inquisitor's coat
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Inquisitor/inqcoat.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Inquisitor/inqcoat.rsi
+
+- type: entity
+  parent: ClothingOuterArmorBase
+  id: ClothingOuterArmorInquisitorCoatAlt
+  name: inquisitor's coat
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Inquisitor/inqcoata.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Inquisitor/inqcoata.rsi
+
+- type: entity
+  parent: ClothingOuterArmorBase
+  id: ClothingOuterArmorIronBandedArmor
+  name: iron banded armor
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Iron/ibandedarmor.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Iron/ibandedarmor.rsi
+
+- type: entity
+  parent: ClothingOuterArmorBase
+  id: ClothingOuterArmorIronBreastplate
+  name: iron breastplate
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Iron/ibreastplate.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Iron/ibreastplate.rsi
+
+- type: entity
+  parent: ClothingOuterArmorBase
+  id: ClothingOuterArmorIronHalfplate
+  name: iron half-plate
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Iron/ihalfplate.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Iron/ihalfplate.rsi
+
+- type: entity
+  parent: ClothingOuterArmorBase
+  id: ClothingOuterArmorIronHaubergeon
+  name: iron haubergeon
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Iron/ihaubergeon.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Iron/ihaubergeon.rsi
+
+- type: entity
+  parent: ClothingOuterArmorBase
+  id: ClothingOuterArmorIronHauberk
+  name: iron hauberk
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Iron/ihauberk.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Iron/ihauberk.rsi
+
+- type: entity
+  parent: ClothingOuterArmorBase
+  id: ClothingOuterArmorIronPlate
+  name: iron plate armor
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Iron/iplate.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Iron/iplate.rsi
+
+- type: entity
+  parent: ClothingOuterArmorBase
+  id: ClothingOuterArmorIronPlateArmor
+  name: ironplate armor
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Iron/ironplate.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Iron/ironplate.rsi
+
+- type: entity
+  parent: ClothingOuterArmorBase
+  id: ClothingOuterArmorArtisanJacket
+  name: artisan's jacket
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Jacket/artijacket.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Jacket/artijacket.rsi
+
+- type: entity
+  parent: ClothingOuterArmorBase
+  id: ClothingOuterArmorFreijacket
+  name: freijacket
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Jacket/freijacket.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Jacket/freijacket.rsi
+
+- type: entity
+  parent: ClothingOuterArmorBase
+  id: ClothingOuterArmorWinterJacket
+  name: winter jacket
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Jacket/winterjacket.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Jacket/winterjacket.rsi
+
+- type: entity
+  parent: ClothingOuterArmorBase
+  id: ClothingOuterArmorKazengunHeavy
+  name: heavy kazengun armor
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Kazengun/kazengunheavy.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Kazengun/kazengunheavy.rsi
+
+- type: entity
+  parent: ClothingOuterArmorBase
+  id: ClothingOuterArmorKazengunMedium
+  name: medium kazengun armor
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Kazengun/kazengunmedium.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Kazengun/kazengunmedium.rsi
+
+- type: entity # TODO: Equipped sprites
+  parent: ClothingOuterArmorBase
+  id: ClothingOuterArmorLamellar
+  name: lamellar armor
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Lamellar/lamellar.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Lamellar/lamellar.rsi
+
+- type: entity
+  parent: ClothingOuterArmorBase
+  id: ClothingOuterArmorChargahLeather
+  name: chargah leather armor
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Leather/chargah.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Leather/chargah.rsi
+
+- type: entity
+  parent: ClothingOuterArmorBase
+  id: ClothingOuterArmorHatangaLeather
+  name: hatanga leather armor
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Leather/hatanga.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Leather/hatanga.rsi
+
+- type: entity
+  parent: ClothingOuterArmorBase
+  id: ClothingOuterArmorHatangaFur
+  name: furred hatanga armor
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Leather/hatangafur.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Leather/hatangafur.rsi
+
+- type: entity
+  parent: ClothingOuterArmorBase
+  id: ClothingOuterArmorHideArmor
+  name: hide armor
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Leather/hidearmor.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Leather/hidearmor.rsi
+
+- type: entity
+  parent: ClothingOuterArmorBase
+  id: ClothingOuterArmorLeather
+  name: leather armor
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Leather/leather.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Leather/leather.rsi
+
+- type: entity
+  parent: ClothingOuterArmorBase
+  id: ClothingOuterArmorLeatherCoat
+  name: leather coat
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Leather/leathercoat.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Leather/leathercoat.rsi
+
+- type: entity
+  parent: ClothingOuterArmorBase
+  id: ClothingOuterArmorLeatherJacket
+  name: leather jacket
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Leather/leatherjacketo.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Leather/leatherjacketo.rsi
+
+- type: entity
+  parent: ClothingOuterArmorBase
+  id: ClothingOuterArmorLeatherTunic
+  name: leather tunic
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Leather/leathertunic.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Leather/leathertunic.rsi
+
+- type: entity
+  parent: ClothingOuterArmorBase
+  id: ClothingOuterArmorLeatherVest
+  name: leather vest
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Leather/leathervest.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Leather/leathervest.rsi
+
+- type: entity
+  parent: ClothingOuterArmorBase
+  id: ClothingOuterArmorPangolinScale
+  name: pangolin scale armor
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Leather/pangolin.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Leather/pangolin.rsi
+
+- type: entity
+  parent: ClothingOuterArmorBase
+  id: ClothingOuterArmorStuddedLeather
+  name: studded leather armor
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Leather/studleather.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Leather/studleather.rsi
+
+- type: entity
+  parent: ClothingOuterArmorBase
+  id: ClothingOuterArmorLegacyCuirass
+  name: legacy cuirass
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Legacy/legacycuirass.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Legacy/legacycuirass.rsi
+
+- type: entity
+  parent: ClothingOuterArmorBase
+  id: ClothingOuterArmorLegacyHalfplate
+  name: legacy half-plate
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Legacy/legacyhalfplate.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Legacy/legacyhalfplate.rsi
+
+- type: entity
+  parent: ClothingOuterArmorBase
+  id: ClothingOuterArmorLegacyOrnatePlate
+  name: legacy ornate plate armor
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Legacy/legacyornateplate.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Legacy/legacyornateplate.rsi
+
+- type: entity
+  parent: ClothingOuterArmorBase
+  id: ClothingOuterArmorLegacyPlate
+  name: legacy plate armor
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Legacy/legacyplate.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Legacy/legacyplate.rsi
+
+- type: entity
+  parent: ClothingOuterArmorBase
+  id: ClothingOuterArmorAtgerviRaiderMail
+  name: atgervi raider mail
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Mail/atgervi_raider_mail.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Mail/atgervi_raider_mail.rsi
+
+- type: entity
+  parent: ClothingOuterArmorBase
+  id: ClothingOuterArmorVunderMail
+  name: vunder mail
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Mail/vunder.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Mail/vunder.rsi
+
+- type: entity
+  parent: ClothingOuterArmorBase
+  id: ClothingOuterArmorMonkCloth
+  name: monk's cloth robe
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Monk/monkcloth.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Monk/monkcloth.rsi
+
+- type: entity
+  parent: ClothingOuterArmorBase
+  id: ClothingOuterArmorMonkLeather
+  name: monk's leather armor
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Monk/monkleather.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Monk/monkleather.rsi
+
+- type: entity
+  parent: ClothingOuterArmorBase
+  id: ClothingOuterArmorMonkVestments
+  name: monk's vestments
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Monk/monkvestments.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Monk/monkvestments.rsi
+
+- type: entity
+  parent: ClothingOuterArmorBase
+  id: ClothingOuterArmorOrcMarauderArmor
+  name: orc marauder armor
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Orc/marauder_armor.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Orc/marauder_armor.rsi
+
+- type: entity
+  parent: ClothingOuterArmorBase
+  id: ClothingOuterArmorOrcChainvest
+  name: orc chain vest
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Orc/orc_chainvest.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Orc/orc_chainvest.rsi
+
+- type: entity
+  parent: ClothingOuterArmorBase
+  id: ClothingOuterArmorOrcLeather
+  name: orc leather armor
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Orc/orc_leather.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Orc/orc_leather.rsi
+
+- type: entity
+  parent: ClothingOuterArmorBase
+  id: ClothingOuterArmorOrnateChestplate
+  name: ornate chestplate
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Ornate/ornatechestplate.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Ornate/ornatechestplate.rsi
+
+- type: entity
+  parent: ClothingOuterArmorBase
+  id: ClothingOuterArmorOrnateCuirass
+  name: ornate cuirass
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Ornate/ornatecuirass.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Ornate/ornatecuirass.rsi
+
+- type: entity
+  parent: ClothingOuterArmorBase
+  id: ClothingOuterArmorOrnateHalfplate
+  name: ornate half-plate
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Ornate/ornatehalfplate.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Ornate/ornatehalfplate.rsi
+
+- type: entity
+  parent: ClothingOuterArmorBase
+  id: ClothingOuterArmorOrnateHauberk
+  name: ornate hauberk
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Ornate/ornatehauberk.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Ornate/ornatehauberk.rsi
+
+- type: entity
+  parent: ClothingOuterArmorBase
+  id: ClothingOuterArmorOrnatePlate
+  name: ornate plate armor
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Ornate/ornateplate.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Ornate/ornateplate.rsi
+
+- type: entity
+  parent: ClothingOuterArmorBase
+  id: ClothingOuterArmorAasimarPlate
+  name: aasimar plate armor
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Plate/aasimarplate.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Plate/aasimarplate.rsi
+
+- type: entity
+  parent: ClothingOuterArmorBase
+  id: ClothingOuterArmorBronzePlate
+  name: bronze plate armor
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Plate/bronzeplate.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Plate/bronzeplate.rsi
+
+- type: entity
+  parent: ClothingOuterArmorBase
+  id: ClothingOuterArmorBronzePlateAlt
+  name: bronze plate armor
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Plate/bronzeplatealt.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Plate/bronzeplatealt.rsi
+
+- type: entity
+  parent: ClothingOuterArmorBase
+  id: ClothingOuterArmorMatthiosArmor
+  name: matthios armor
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Plate/matthiosarmor.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Plate/matthiosarmor.rsi
+
+- type: entity
+  parent: ClothingOuterArmorBase
+  id: ClothingOuterArmorOrdinatorPlate
+  name: ordinator plate armor
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Plate/ordinatorplate.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Plate/ordinatorplate.rsi
+
+- type: entity
+  parent: ClothingOuterArmorBase
+  id: ClothingOuterArmorPlate
+  name: plate armor
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Plate/plate.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Plate/plate.rsi
+
+- type: entity
+  parent: ClothingOuterArmorBase
+  id: ClothingOuterArmorPlateAlt
+  name: plate armor
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Plate/plate_alt.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Plate/plate_alt.rsi
+
+- type: entity
+  parent: ClothingOuterArmorBase
+  id: ClothingOuterArmorShadowPlate
+  name: shadow plate armor
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Plate/shadowplate.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Plate/shadowplate.rsi
+
+- type: entity
+  parent: ClothingOuterArmorBase
+  id: ClothingOuterArmorVplate
+  name: v-plate armor
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Plate/vplate.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Plate/vplate.rsi
+
+- type: entity
+  parent: ClothingOuterArmorBase
+  id: ClothingOuterArmorRogueArmor
+  name: rogue armor
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Rogue/roguearmor.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Rogue/roguearmor.rsi
+
+- type: entity
+  parent: ClothingOuterArmorBase
+  id: ClothingOuterArmorRogueArmorBelt
+  name: rogue armor
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Rogue/roguearmor_belt.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Rogue/roguearmor_belt.rsi
+
+- type: entity
+  parent: ClothingOuterArmorBase
+  id: ClothingOuterArmorRogueArmorCoat
+  name: rogue armor
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Rogue/roguearmor_coat.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Rogue/roguearmor_coat.rsi
+
+- type: entity
+  parent: ClothingOuterArmorBase
+  id: ClothingOuterArmorRustedHalfplate
+  name: rusted half-plate
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Rust/rusthalf.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Rust/rusthalf.rsi
+
+- type: entity
+  parent: ClothingOuterArmorBase
+  id: ClothingOuterArmorRustedPlate
+  name: rusted plate armor
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Rust/rustplate.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Rust/rustplate.rsi
+
+- type: entity
+  parent: ClothingOuterArmorBase
+  id: ClothingOuterArmorScale
+  name: scale armor
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Scale/scale.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Scale/scale.rsi
+
+- type: entity
+  parent: ClothingOuterArmorBase
+  id: ClothingOuterArmorSilverArmor
+  name: silver armor
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Silver/silverarmor.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Silver/silverarmor.rsi
+
+- type: entity
+  parent: ClothingOuterArmorBase
+  id: ClothingOuterArmorSilverHalfplate
+  name: silver half-plate
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Silver/silverhalfplate.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Silver/silverhalfplate.rsi
+
+- type: entity
+  parent: ClothingOuterArmorBase
+  id: ClothingOuterArmorKurche
+  name: kurche armor
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Splint/kurche.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Splint/kurche.rsi
+
+- type: entity
+  parent: ClothingOuterArmorBase
+  id: ClothingOuterArmorSplint
+  name: splint armor
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Splint/splint.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Splint/splint.rsi
+
+- type: entity
+  parent: ClothingOuterArmorBase
+  id: ClothingOuterArmorSailorVest
+  name: sailor's vest
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Vest/sailorvest.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Vest/sailorvest.rsi
+
+- type: entity
+  parent: ClothingOuterArmorBase
+  id: ClothingOuterArmorShepherdVest
+  name: shepherd's vest
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Vest/shepherdvest.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Vest/shepherdvest.rsi
+
+- type: entity
+  parent: ClothingOuterArmorBase
+  id: ClothingOuterArmorStripedVest
+  name: striped vest
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Vest/striped.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Vest/striped.rsi
+
+- type: entity
+  parent: ClothingOuterArmorBase
+  id: ClothingOuterArmorVest
+  name: vest
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Vest/vest.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Vest/vest.rsi
+
+- type: entity
+  parent: ClothingOuterArmorBase
+  id: ClothingOuterArmorWorkerVest
+  name: worker's vest
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Vest/workervest.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Vest/workervest.rsi
+
+- type: entity
+  parent: ClothingOuterArmorBase
+  id: ClothingOuterArmorEliteWarlockRobe
+  name: elite warlock robe
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Warlock/ewarlock.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Warlock/ewarlock.rsi
+
+- type: entity
+  parent: ClothingOuterArmorBase
+  id: ClothingOuterArmorWarlockRobe
+  name: warlock robe
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Warlock/warlock.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Warlock/warlock.rsi
+
+- type: entity
+  parent: ClothingOuterArmorBase
+  id: ClothingOuterArmorWarlordArmor
+  name: warlord armor
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Warlord/warlord_armor.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Warlord/warlord_armor.rsi
+
+- type: entity
+  parent: ClothingOuterArmorBase
+  id: ClothingOuterArmorZizoPlate
+  name: zizo plate armor
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Zizo/zizoplate.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Zizo/zizoplate.rsi
+
+- type: entity
+  parent: ClothingOuterArmorBase
+  id: ClothingOuterArmorZizoPlateChestplate
+  name: zizo plate chestplate
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Zizo/zizoplatechest_med.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Zizo/zizoplatechest_med.rsi
