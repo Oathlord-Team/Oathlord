@@ -251,7 +251,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/OuterClothing/Armor/Coat/surcoat.rsi
 
-- type: entity
+- type: entity # TODO: Make new entity
   parent: ClothingOuterArmorBase
   id: ClothingOuterArmorSurcoatMetal
   name: metal-plated surcoat
