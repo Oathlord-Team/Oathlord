@@ -155,6 +155,17 @@
 
 - type: entity
   parent: ClothingOuterBase
+  id: CLothingOuterRobeNun
+  name: nun robe
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Robes/nun.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Robes/nun.rsi
+
+- type: entity
+  parent: ClothingOuterBase
   id: ClothingOuterRobeMalum
   name: malum robe
   categories: [ ForkFiltered ]

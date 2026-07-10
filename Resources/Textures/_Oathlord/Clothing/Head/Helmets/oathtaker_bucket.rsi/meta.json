@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Taken from: https://github.com/Monkestation/Vanderlin/blob/34f6183e7f3b80f83b85a8a46bc9d4bb1c48cb2d/icons/roguetown/clothing/head.dmi, and https://github.com/Monkestation/Vanderlin/blob/34f6183e7f3b80f83b85a8a46bc9d4bb1c48cb2d/icons/roguetown/clothing/onmob/head.dmi",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "icon"
+    }
+  ]
+}
