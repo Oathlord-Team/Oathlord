@@ -2232,17 +2232,6 @@
     sprite: _Oathlord/Clothing/Head/Helmets/headveil.rsi
 
 - type: entity
-  parent: ClothingHeadHelmetBase
-  id: HeavyHelm
-  name: heavy helm
-  categories: [ ForkFiltered ]
-  components:
-  - type: Sprite
-    sprite: _Oathlord/Clothing/Head/Helmets/heavy.rsi
-  - type: Clothing
-    sprite: _Oathlord/Clothing/Head/Helmets/heavy.rsi
-
-- type: entity
   parent: ClothingHeadBase
   id: HeavyHood
   name: heavy hood
