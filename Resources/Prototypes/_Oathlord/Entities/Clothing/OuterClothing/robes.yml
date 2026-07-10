@@ -1,4 +1,4 @@
-# ALL of these need armor stats
+# ALL of these need armor stats, and differenciating between robe and cloak
 - type: entity
   parent: ClothingOuterBase
   id: ClothingOuterRobeAbyssal
