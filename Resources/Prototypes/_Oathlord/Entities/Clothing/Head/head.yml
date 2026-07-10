@@ -1654,7 +1654,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Helmets/facelesshood_t.rsi
 
-- type: entity # TODO: icon sprite see: FancyHatAlt
+- type: entity
   parent: ClothingHeadBase
   id: FancyHat
   name: fancy hat
@@ -1664,18 +1664,6 @@
     sprite: _Oathlord/Clothing/Head/Helmets/fancy_hat.rsi
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Helmets/fancy_hat.rsi
-
-- type: entity
-  parent: ClothingHeadBase
-  id: FancyHatAlt
-  name: fancy hat
-  suffix: Alt
-  categories: [ ForkFiltered ]
-  components:
-  - type: Sprite
-    sprite: _Oathlord/Clothing/Head/Helmets/fancy_hatalt.rsi
-  - type: Clothing
-    sprite: _Oathlord/Clothing/Head/Helmets/fancy_hatalt.rsi
 
 - type: entity
   parent: ClothingHeadHelmetBase
