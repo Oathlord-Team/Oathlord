@@ -1,6 +1,6 @@
 - type: entity
   parent: ClothingHeadBase
-  id: AasimarMask
+  id: ClothingHeadHatAasimarMask
   name: aasimar mask
   categories: [ ForkFiltered ]
   components:
@@ -11,7 +11,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: AbsolutionistHelm
+  id: ClothingHeadHelmetAbsolutionistHelm
   name: absolutionist helm
   categories: [ ForkFiltered ]
   components:
@@ -22,7 +22,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: AbyssorGreatHelm
+  id: ClothingHeadHelmetAbyssorGreatHelm
   name: abyssor great helm
   categories: [ ForkFiltered ]
   components:
@@ -33,7 +33,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: AbyssorHelm
+  id: ClothingHeadHelmetAbyssorHelm
   name: abyssor helm
   categories: [ ForkFiltered ]
   components:
@@ -44,7 +44,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: AbyssorHood
+  id: ClothingHeadHatAbyssorHood
   name: abyssor hood
   categories: [ ForkFiltered ]
   components:
@@ -55,7 +55,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: AbyssorHoodTrimmed
+  id: ClothingHeadHatAbyssorHoodTrimmed
   name: abyssor hood
   suffix: Trimmed
   categories: [ ForkFiltered ]
@@ -67,7 +67,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: BlueAdeptHood
+  id: ClothingHeadHatBlueAdeptHood
   name: blue adept hood
   categories: [ ForkFiltered ]
   components:
@@ -78,7 +78,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: GrayAdeptHood
+  id: ClothingHeadHatGrayAdeptHood
   name: gray adept hood
   categories: [ ForkFiltered ]
   components:
@@ -89,7 +89,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: GreenAdeptHood
+  id: ClothingHeadHatGreenAdeptHood
   name: green adept hood
   categories: [ ForkFiltered ]
   components:
@@ -100,7 +100,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: RedAdeptHood
+  id: ClothingHeadHatRedAdeptHood
   name: red adept hood
   categories: [ ForkFiltered ]
   components:
@@ -111,7 +111,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: AdeptsCowl
+  id: ClothingHeadHatAdeptsCowl
   name: adept's cowl
   categories: [ ForkFiltered ]
   components:
@@ -122,7 +122,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: AncientBarbute
+  id: ClothingHeadHelmetAncientBarbute
   name: ancient barbute
   categories: [ ForkFiltered ]
   components:
@@ -133,7 +133,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: AncientKettleHelm
+  id: ClothingHeadHelmetAncientKettleHelm
   name: ancient kettle helm
   categories: [ ForkFiltered ]
   components:
@@ -144,7 +144,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: AncientKnightHelm
+  id: ClothingHeadHelmetAncientKnightHelm
   name: ancient knight helm
   categories: [ ForkFiltered ]
   components:
@@ -155,7 +155,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: AncientKnightHelmRaised
+  id: ClothingHeadHelmetAncientKnightHelmRaised
   name: ancient knight helm
   suffix: Raised
   categories: [ ForkFiltered ]
@@ -167,7 +167,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: AncientMask
+  id: ClothingHeadHatAncientMask
   name: ancient mask
   categories: [ ForkFiltered ]
   components:
@@ -178,7 +178,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: AncientSavoyardHelm
+  id: ClothingHeadHelmetAncientSavoyardHelm
   name: ancient savoyard helm
   categories: [ ForkFiltered ]
   components:
@@ -189,7 +189,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: AntlerHood
+  id: ClothingHeadHatAntlerHood
   name: antler hood
   categories: [ ForkFiltered ]
   components:
@@ -200,7 +200,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: ArchersCap
+  id: ClothingHeadHatArchersCap
   name: archer's cap
   categories: [ ForkFiltered ]
   components:
@@ -211,7 +211,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: Armet
+  id: ClothingHeadHelmetArmet
   name: armet
   categories: [ ForkFiltered ]
   components:
@@ -222,7 +222,7 @@
 
 - type: entity # TODO: CHANGE RSI
   parent: ClothingHeadHelmetBase
-  id: ArmetRaised
+  id: ClothingHeadHelmetArmetRaised
   name: armet
   suffix: Raised
   categories: [ ForkFiltered ]
@@ -234,7 +234,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: OwlArmet
+  id: ClothingHeadHelmetOwlArmet
   name: owl armet
   categories: [ ForkFiltered ]
   components:
@@ -245,7 +245,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: OwlArmetRaised
+  id: ClothingHeadHelmetOwlArmetRaised
   name: owl armet
   suffix: Raised
   categories: [ ForkFiltered ]
@@ -257,7 +257,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: ArmingCap
+  id: ClothingHeadHatArmingCap
   name: arming cap
   categories: [ ForkFiltered ]
   components:
@@ -268,7 +268,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: ArcticCap
+  id: ClothingHeadHatArcticCap
   name: arctic cap
   categories: [ ForkFiltered ]
   components:
@@ -279,7 +279,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: AstrataHelm
+  id: ClothingHeadHelmetAstrataHelm
   name: astrata helm
   categories: [ ForkFiltered ]
   components:
@@ -290,7 +290,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: AstrataHood
+  id: ClothingHeadHatAstrataHood
   name: astrata hood
   categories: [ ForkFiltered ]
   components:
@@ -301,7 +301,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: AstrataHoodTrimmed
+  id: ClothingHeadHatAstrataHoodTrimmed
   name: astrata hood
   suffix: Trimmed
   categories: [ ForkFiltered ]
@@ -313,7 +313,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: AstratanHelm
+  id: ClothingHeadHelmetAstratanHelm
   name: astratan helm
   categories: [ ForkFiltered ]
   components:
@@ -324,7 +324,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: SlittedWarHelm
+  id: ClothingHeadHelmetSlittedWarHelm
   name: slitted war helm
   categories: [ ForkFiltered ]
   components:
@@ -335,7 +335,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: AtgerviRaiderHelm
+  id: ClothingHeadHelmetAtgerviRaiderHelm
   name: atgervi raider helm
   categories: [ ForkFiltered ]
   components:
@@ -346,7 +346,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: AtgerviShamanHood
+  id: ClothingHeadHatAtgerviShamanHood
   name: atgervi shaman hood
   categories: [ ForkFiltered ]
   components:
@@ -357,7 +357,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: Bandana
+  id: ClothingHeadHatBandana
   name: bandana
   categories: [ ForkFiltered ]
   components:
@@ -368,7 +368,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: BanditHood
+  id: ClothingHeadHatBanditHood
   name: bandit hood
   categories: [ ForkFiltered ]
   components:
@@ -379,7 +379,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: Barbute
+  id: ClothingHeadHelmetBarbute
   name: barbute
   categories: [ ForkFiltered ]
   components:
@@ -390,7 +390,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: VisoredBarbute
+  id: ClothingHeadHelmetVisoredBarbute
   name: visored barbute
   categories: [ ForkFiltered ]
   components:
@@ -401,7 +401,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: VisoredBarbuteRaised
+  id: ClothingHeadHelmetVisoredBarbuteRaised
   name: visored barbute
   suffix: Raised
   categories: [ ForkFiltered ]
@@ -413,7 +413,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: BlackenedBarbute
+  id: ClothingHeadHelmetBlackenedBarbute
   name: blackened barbute
   categories: [ ForkFiltered ]
   components:
@@ -424,7 +424,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: BardsHat
+  id: ClothingHeadHatBardsHat
   name: bard's hat
   categories: [ ForkFiltered ]
   components:
@@ -435,7 +435,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: Bascinet
+  id: ClothingHeadHelmetBascinet
   name: bascinet
   categories: [ ForkFiltered ]
   components:
@@ -446,7 +446,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: BascinetNoVisor
+  id: ClothingHeadHelmetBascinetNoVisor
   name: bascinet
   suffix: No Visor
   categories: [ ForkFiltered ]
@@ -458,7 +458,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: BascinetRaised
+  id: ClothingHeadHelmetBascinetRaised
   name: bascinet
   suffix: Raised
   categories: [ ForkFiltered ]
@@ -470,7 +470,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: BasicBascinet
+  id: ClothingHeadHelmetBasicBascinet
   name: basic bascinet
   categories: [ ForkFiltered ]
   components:
@@ -481,7 +481,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: BasicBucketHelm
+  id: ClothingHeadHelmetBasicBucketHelm
   name: basic bucket helm
   categories: [ ForkFiltered ]
   components:
@@ -492,7 +492,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: BasicHelmCrest
+  id: ClothingHeadHatBasicHelmCrest
   name: basic helm crest
   categories: [ ForkFiltered ]
   components:
@@ -503,7 +503,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: BasicGreatBucketHelm
+  id: ClothingHeadHelmetBasicGreatBucketHelm
   name: basic great bucket helm
   categories: [ ForkFiltered ]
   components:
@@ -514,7 +514,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: BasicHoundCrest
+  id: ClothingHeadHatBasicHoundCrest
   name: basic hound crest
   categories: [ ForkFiltered ]
   components:
@@ -525,7 +525,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: BasicHood
+  id: ClothingHeadHatBasicHood
   name: basic hood
   categories: [ ForkFiltered ]
   components:
@@ -536,7 +536,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: BasicHoodTrimmed
+  id: ClothingHeadHatBasicHoodTrimmed
   name: basic hood
   suffix: Trimmed
   categories: [ ForkFiltered ]
@@ -548,7 +548,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: BattleNunsHood
+  id: ClothingHeadHatBattleNunsHood
   name: battle nun's hood
   categories: [ ForkFiltered ]
   components:
@@ -559,7 +559,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: BeakHelm
+  id: ClothingHeadHelmetBeakHelm
   name: beak helm
   categories: [ ForkFiltered ]
   components:
@@ -570,7 +570,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: BeakHelmet
+  id: ClothingHeadHelmetBeakHelmet
   name: beak helmet
   categories: [ ForkFiltered ]
   components:
@@ -581,7 +581,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: BeeKeeperHood
+  id: ClothingHeadHatBeeKeeperHood
   name: beekeeper hood
   categories: [ ForkFiltered ]
   components:
@@ -592,7 +592,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: BlackBag
+  id: ClothingHeadHatBlackBag
   name: black bag
   categories: [ ForkFiltered ]
   components:
@@ -603,7 +603,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: BlueBascinet
+  id: ClothingHeadHelmetBlueBascinet
   name: blue bascinet
   categories: [ ForkFiltered ]
   components:
@@ -614,7 +614,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: BlueBucketHelm
+  id: ClothingHeadHelmetBlueBucketHelm
   name: blue bucket helm
   categories: [ ForkFiltered ]
   components:
@@ -625,7 +625,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: BlueHelmCrest
+  id: ClothingHeadHatBlueHelmCrest
   name: blue helm crest
   categories: [ ForkFiltered ]
   components:
@@ -636,7 +636,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: BlueGreatBucketHelm
+  id: ClothingHeadHelmetBlueGreatBucketHelm
   name: blue great bucket helm
   categories: [ ForkFiltered ]
   components:
@@ -647,7 +647,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: BlueHoundCrest
+  id: ClothingHeadHatBlueHoundCrest
   name: blue hound crest
   categories: [ ForkFiltered ]
   components:
@@ -658,7 +658,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: BogWitchHood
+  id: ClothingHeadHatBogWitchHood
   name: bog witch hood
   categories: [ ForkFiltered ]
   components:
@@ -669,7 +669,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: BriarHelm
+  id: ClothingHeadHelmetBriarHelm
   name: briar helm
   categories: [ ForkFiltered ]
   components:
@@ -680,7 +680,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: BriarThorns
+  id: ClothingHeadHatBriarThorns
   name: briar thorns
   categories: [ ForkFiltered ]
   components:
@@ -691,7 +691,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: BrimmedHat
+  id: ClothingHeadHatBrimmedHat
   name: brimmed hat
   categories: [ ForkFiltered ]
   components:
@@ -702,7 +702,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: BronzeBarbute
+  id: ClothingHeadHelmetBronzeBarbute
   name: bronze barbute
   categories: [ ForkFiltered ]
   components:
@@ -713,7 +713,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: BronzeHelmet
+  id: ClothingHeadHelmetBronzeHelmet
   name: bronze helmet
   categories: [ ForkFiltered ]
   components:
@@ -724,7 +724,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: BronzeMurmilloHelm
+  id: ClothingHeadHelmetBronzeMurmilloHelm
   name: bronze murmillo helm
   categories: [ ForkFiltered ]
   components:
@@ -735,7 +735,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: BuckledHat
+  id: ClothingHeadHatBuckledHat
   name: buckled hat
   categories: [ ForkFiltered ]
   components:
@@ -746,7 +746,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: CalendulaCrown
+  id: ClothingHeadHatCalendulaCrown
   name: calendula crown
   categories: [ ForkFiltered ]
   components:
@@ -757,7 +757,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: CastleRedBascinet
+  id: ClothingHeadHelmetCastleRedBascinet
   name: castle red bascinet
   categories: [ ForkFiltered ]
   components:
@@ -768,7 +768,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: CastleRedBucketHelm
+  id: ClothingHeadHelmetCastleRedBucketHelm
   name: castle red bucket helm
   categories: [ ForkFiltered ]
   components:
@@ -779,7 +779,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: CastleRedHelmCrest
+  id: ClothingHeadHatCastleRedHelmCrest
   name: castle red helm crest
   categories: [ ForkFiltered ]
   components:
@@ -790,7 +790,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: CastleRedGreatBucketHelm
+  id: ClothingHeadHelmetCastleRedGreatBucketHelm
   name: castle red great bucket helm
   categories: [ ForkFiltered ]
   components:
@@ -801,7 +801,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: CastleRedHoundCrest
+  id: ClothingHeadHatCastleRedHoundCrest
   name: castle red hound crest
   categories: [ ForkFiltered ]
   components:
@@ -812,7 +812,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: CastleWhiteBascinet
+  id: ClothingHeadHelmetCastleWhiteBascinet
   name: castle white bascinet
   categories: [ ForkFiltered ]
   components:
@@ -823,7 +823,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: CastleWhiteBucketHelm
+  id: ClothingHeadHelmetCastleWhiteBucketHelm
   name: castle white bucket helm
   categories: [ ForkFiltered ]
   components:
@@ -834,7 +834,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: CastleWhiteHelmCrest
+  id: ClothingHeadHatCastleWhiteHelmCrest
   name: castle white helm crest
   categories: [ ForkFiltered ]
   components:
@@ -845,7 +845,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: CastleWhiteGreatBucketHelm
+  id: ClothingHeadHelmetCastleWhiteGreatBucketHelm
   name: castle white great bucket helm
   categories: [ ForkFiltered ]
   components:
@@ -856,7 +856,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: CastleWhiteHoundCrest
+  id: ClothingHeadHatCastleWhiteHoundCrest
   name: castle white hound crest
   categories: [ ForkFiltered ]
   components:
@@ -867,7 +867,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: Chaperon
+  id: ClothingHeadHatChaperon
   name: chaperon
   categories: [ ForkFiltered ]
   components:
@@ -878,7 +878,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: NailedChaperon
+  id: ClothingHeadHatNailedChaperon
   name: nailed chaperon
   categories: [ ForkFiltered ]
   components:
@@ -889,7 +889,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: NailedChaperonAlt
+  id: ClothingHeadHatNailedChaperonAlt
   name: nailed chaperon
   suffix: Alt
   categories: [ ForkFiltered ]
@@ -901,7 +901,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: NailedChaperonAltSnout
+  id: ClothingHeadHatNailedChaperonAltSnout
   name: nailed chaperon
   suffix: Alt Snout
   categories: [ ForkFiltered ]
@@ -913,7 +913,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: ChaperonAlt
+  id: ClothingHeadHatChaperonAlt
   name: chaperon
   suffix: Alt
   categories: [ ForkFiltered ]
@@ -925,7 +925,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: SilkChaperon
+  id: ClothingHeadHatSilkChaperon
   name: silk chaperon
   categories: [ ForkFiltered ]
   components:
@@ -936,7 +936,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: ChefHat
+  id: ClothingHeadHatChefHat
   name: chef's hat
   categories: [ ForkFiltered ]
   components:
@@ -947,7 +947,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: Circlet
+  id: ClothingHeadHatCirclet
   name: circlet
   categories: [ ForkFiltered ]
   components:
@@ -958,7 +958,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: AmberCirclet
+  id: ClothingHeadHatAmberCirclet
   name: amber circlet
   categories: [ ForkFiltered ]
   components:
@@ -969,7 +969,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: CoralCirclet
+  id: ClothingHeadHatCoralCirclet
   name: coral circlet
   categories: [ ForkFiltered ]
   components:
@@ -980,7 +980,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: JadeCirclet
+  id: ClothingHeadHatJadeCirclet
   name: jade circlet
   categories: [ ForkFiltered ]
   components:
@@ -991,7 +991,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: OnyxCirclet
+  id: ClothingHeadHatOnyxCirclet
   name: onyx circlet
   categories: [ ForkFiltered ]
   components:
@@ -1002,7 +1002,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: OpalCirclet
+  id: ClothingHeadHatOpalCirclet
   name: opal circlet
   categories: [ ForkFiltered ]
   components:
@@ -1013,7 +1013,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: RoseCirclet
+  id: ClothingHeadHatRoseCirclet
   name: rose circlet
   categories: [ ForkFiltered ]
   components:
@@ -1024,7 +1024,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: ShellCirclet
+  id: ClothingHeadHatShellCirclet
   name: shell circlet
   categories: [ ForkFiltered ]
   components:
@@ -1035,7 +1035,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: TurquoiseCirclet
+  id: ClothingHeadHatTurquoiseCirclet
   name: turquoise circlet
   categories: [ ForkFiltered ]
   components:
@@ -1046,7 +1046,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: ConfessorHood
+  id: ClothingHeadHatConfessorHood
   name: confessor hood
   categories: [ ForkFiltered ]
   components:
@@ -1057,7 +1057,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: ConfessorHoodTrimmed
+  id: ClothingHeadHatConfessorHoodTrimmed
   name: confessor hood
   suffix: Trimmed
   categories: [ ForkFiltered ]
@@ -1069,7 +1069,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: ConsortCrown
+  id: ClothingHeadHatConsortCrown
   name: consort crown
   categories: [ ForkFiltered ]
   components:
@@ -1080,7 +1080,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: CoppergateHelm
+  id: ClothingHeadHelmetCoppergateHelm
   name: coppergate helm
   categories: [ ForkFiltered ]
   components:
@@ -1091,7 +1091,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: CourtiersCap
+  id: ClothingHeadHatCourtiersCap
   name: courtier's cap
   categories: [ ForkFiltered ]
   components:
@@ -1102,7 +1102,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: CuratorsCap
+  id: ClothingHeadHatCuratorsCap
   name: curator's cap
   categories: [ ForkFiltered ]
   components:
@@ -1113,7 +1113,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: CursedRosaCrown
+  id: ClothingHeadHatCursedRosaCrown
   name: cursed rosa crown
   categories: [ ForkFiltered ]
   components:
@@ -1124,7 +1124,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: DeathfaceMask
+  id: ClothingHeadHatDeathfaceMask
   name: deathface mask
   categories: [ ForkFiltered ]
   components:
@@ -1135,7 +1135,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: DecoratedBascinet
+  id: ClothingHeadHelmetDecoratedBascinet
   name: decorated bascinet
   categories: [ ForkFiltered ]
   components:
@@ -1146,7 +1146,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: DecoratedBucketHelm
+  id: ClothingHeadHelmetDecoratedBucketHelm
   name: decorated bucket helm
   categories: [ ForkFiltered ]
   components:
@@ -1157,7 +1157,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: DecoratedGreatBucketHelm
+  id: ClothingHeadHelmetDecoratedGreatBucketHelm
   name: decorated great bucket helm
   categories: [ ForkFiltered ]
   components:
@@ -1168,7 +1168,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: DecoratedHounskullHelm
+  id: ClothingHeadHelmetDecoratedHounskullHelm
   name: decorated hounskull helm
   categories: [ ForkFiltered ]
   components:
@@ -1179,7 +1179,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: DecoratedKnightHelm
+  id: ClothingHeadHelmetDecoratedKnightHelm
   name: decorated knight helm
   categories: [ ForkFiltered ]
   components:
@@ -1190,7 +1190,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: DecorativeCoppergateHelm
+  id: ClothingHeadHelmetDecorativeCoppergateHelm
   name: decorative coppergate helm
   categories: [ ForkFiltered ]
   components:
@@ -1201,7 +1201,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: DeepAbyssorHelm
+  id: ClothingHeadHelmetDeepAbyssorHelm
   name: deep abyssor helm
   categories: [ ForkFiltered ]
   components:
@@ -1212,7 +1212,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: DendorHelm
+  id: ClothingHeadHelmetDendorHelm
   name: dendor helm
   categories: [ ForkFiltered ]
   components:
@@ -1223,7 +1223,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: DendorMask
+  id: ClothingHeadHatDendorMask
   name: dendor mask
   categories: [ ForkFiltered ]
   components:
@@ -1234,7 +1234,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: DesertHood
+  id: ClothingHeadHatDesertHood
   name: desert hood
   categories: [ ForkFiltered ]
   components:
@@ -1245,7 +1245,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: DesertHoodTrimmed
+  id: ClothingHeadHatDesertHoodTrimmed
   name: desert hood
   suffix: Trimmed
   categories: [ ForkFiltered ]
@@ -1257,7 +1257,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: GoldenDiadem
+  id: ClothingHeadHatGoldenDiadem
   name: golden diadem
   categories: [ ForkFiltered ]
   components:
@@ -1268,7 +1268,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: SilverDiadem
+  id: ClothingHeadHatSilverDiadem
   name: silver diadem
   categories: [ ForkFiltered ]
   components:
@@ -1279,7 +1279,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: GreenDragonBascinet
+  id: ClothingHeadHelmetGreenDragonBascinet
   name: green dragon bascinet
   categories: [ ForkFiltered ]
   components:
@@ -1290,7 +1290,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: GreenDragonBucketHelm
+  id: ClothingHeadHelmetGreenDragonBucketHelm
   name: green dragon bucket helm
   categories: [ ForkFiltered ]
   components:
@@ -1301,7 +1301,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: GreenDragonHelmCrest
+  id: ClothingHeadHatGreenDragonHelmCrest
   name: green dragon helm crest
   categories: [ ForkFiltered ]
   components:
@@ -1312,7 +1312,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: GreenDragonGreatBucketHelm
+  id: ClothingHeadHelmetGreenDragonGreatBucketHelm
   name: green dragon great bucket helm
   categories: [ ForkFiltered ]
   components:
@@ -1323,7 +1323,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: GreenDragonHoundCrest
+  id: ClothingHeadHatGreenDragonHoundCrest
   name: green dragon hound crest
   categories: [ ForkFiltered ]
   components:
@@ -1334,7 +1334,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: RedDragonBascinet
+  id: ClothingHeadHelmetRedDragonBascinet
   name: red dragon bascinet
   categories: [ ForkFiltered ]
   components:
@@ -1345,7 +1345,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: RedDragonBucketHelm
+  id: ClothingHeadHelmetRedDragonBucketHelm
   name: red dragon bucket helm
   categories: [ ForkFiltered ]
   components:
@@ -1356,7 +1356,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: RedDragonHelmCrest
+  id: ClothingHeadHatRedDragonHelmCrest
   name: red dragon helm crest
   categories: [ ForkFiltered ]
   components:
@@ -1367,7 +1367,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: RedDragonGreatBucketHelm
+  id: ClothingHeadHelmetRedDragonGreatBucketHelm
   name: red dragon great bucket helm
   categories: [ ForkFiltered ]
   components:
@@ -1378,7 +1378,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: RedDragonHoundCrest
+  id: ClothingHeadHatRedDragonHoundCrest
   name: red dragon hound crest
   categories: [ ForkFiltered ]
   components:
@@ -1389,7 +1389,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: DreamSquidHelm
+  id: ClothingHeadHelmetDreamSquidHelm
   name: dream squid helm
   categories: [ ForkFiltered ]
   components:
@@ -1400,7 +1400,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: DuelHat
+  id: ClothingHeadHatDuelHat
   name: duel hat
   categories: [ ForkFiltered ]
   components:
@@ -1411,7 +1411,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: DuelistsHat
+  id: ClothingHeadHatDuelistsHat
   name: duelist's hat
   categories: [ ForkFiltered ]
   components:
@@ -1422,7 +1422,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: DungeoneersCap
+  id: ClothingHeadHatDungeoneersCap
   name: dungeoneer's cap
   categories: [ ForkFiltered ]
   components:
@@ -1433,7 +1433,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: Durag
+  id: ClothingHeadHatDurag
   name: durag
   categories: [ ForkFiltered ]
   components:
@@ -1444,7 +1444,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: EasternHat
+  id: ClothingHeadHatEasternHat
   name: eastern hat
   categories: [ ForkFiltered ]
   components:
@@ -1455,7 +1455,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: EfreetBascinet
+  id: ClothingHeadHelmetEfreetBascinet
   name: efreet bascinet
   categories: [ ForkFiltered ]
   components:
@@ -1466,7 +1466,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: EfreetBucketHelm
+  id: ClothingHeadHelmetEfreetBucketHelm
   name: efreet bucket helm
   categories: [ ForkFiltered ]
   components:
@@ -1477,7 +1477,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: EfreetHelmCrest
+  id: ClothingHeadHatEfreetHelmCrest
   name: efreet helm crest
   categories: [ ForkFiltered ]
   components:
@@ -1488,7 +1488,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: EfreetGreatBucketHelm
+  id: ClothingHeadHelmetEfreetGreatBucketHelm
   name: efreet great bucket helm
   categories: [ ForkFiltered ]
   components:
@@ -1499,7 +1499,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: EfreetHoundCrest
+  id: ClothingHeadHatEfreetHoundCrest
   name: efreet hound crest
   categories: [ ForkFiltered ]
   components:
@@ -1510,7 +1510,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: EliteSkullcap
+  id: ClothingHeadHatEliteSkullcap
   name: elite skullcap
   categories: [ ForkFiltered ]
   components:
@@ -1521,7 +1521,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: FullElvenBarbute
+  id: ClothingHeadHelmetFullElvenBarbute
   name: full elven barbute
   categories: [ ForkFiltered ]
   components:
@@ -1532,7 +1532,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: WingedElvenBarbute
+  id: ClothingHeadHelmetWingedElvenBarbute
   name: winged elven barbute
   categories: [ ForkFiltered ]
   components:
@@ -1543,7 +1543,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: EoraHelm
+  id: ClothingHeadHelmetEoraHelm
   name: eora helm
   categories: [ ForkFiltered ]
   components:
@@ -1554,7 +1554,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: EoraSalletHelm
+  id: ClothingHeadHelmetEoraSalletHelm
   name: eora sallet helm
   categories: [ ForkFiltered ]
   components:
@@ -1565,7 +1565,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: EoraHood
+  id: ClothingHeadHatEoraHood
   name: eora hood
   categories: [ ForkFiltered ]
   components:
@@ -1576,7 +1576,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: EoraHoodTrimmed
+  id: ClothingHeadHatEoraHoodTrimmed
   name: eora hood
   suffix: Trimmed
   categories: [ ForkFiltered ]
@@ -1588,7 +1588,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: EoraMask
+  id: ClothingHeadHatEoraMask
   name: eora mask
   categories: [ ForkFiltered ]
   components:
@@ -1599,7 +1599,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: WarlocksHood
+  id: ClothingHeadHatWarlocksHood
   name: warlock's hood
   categories: [ ForkFiltered ]
   components:
@@ -1610,7 +1610,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: WarlocksHoodTrimmed
+  id: ClothingHeadHatWarlocksHoodTrimmed
   name: warlock's hood
   suffix: Trimmed
   categories: [ ForkFiltered ]
@@ -1622,7 +1622,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: ExplorersHat
+  id: ClothingHeadHatExplorersHat
   name: explorer's hat
   categories: [ ForkFiltered ]
   components:
@@ -1633,7 +1633,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: FacelessHood
+  id: ClothingHeadHatFacelessHood
   name: faceless hood
   categories: [ ForkFiltered ]
   components:
@@ -1644,7 +1644,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: FacelessHoodTrimmed
+  id: ClothingHeadHatFacelessHoodTrimmed
   name: faceless hood
   suffix: Trimmed
   categories: [ ForkFiltered ]
@@ -1656,7 +1656,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: FancyHat
+  id: ClothingHeadHatFancyHat
   name: fancy hat
   categories: [ ForkFiltered ]
   components:
@@ -1667,7 +1667,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: FeatheredBascinet
+  id: ClothingHeadHelmetFeatheredBascinet
   name: feathered bascinet
   categories: [ ForkFiltered ]
   components:
@@ -1678,7 +1678,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: FeatheredBucketHelm
+  id: ClothingHeadHelmetFeatheredBucketHelm
   name: feathered bucket helm
   categories: [ ForkFiltered ]
   components:
@@ -1689,7 +1689,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: FeatherHelmCrest
+  id: ClothingHeadHatFeatherHelmCrest
   name: feather helm crest
   categories: [ ForkFiltered ]
   components:
@@ -1700,7 +1700,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: FeatheredGreatBucketHelm
+  id: ClothingHeadHelmetFeatheredGreatBucketHelm
   name: feathered great bucket helm
   categories: [ ForkFiltered ]
   components:
@@ -1711,7 +1711,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: FeatherHoundCrest
+  id: ClothingHeadHatFeatherHoundCrest
   name: feather hound crest
   categories: [ ForkFiltered ]
   components:
@@ -1722,7 +1722,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: FeldHood
+  id: ClothingHeadHatFeldHood
   name: feld hood
   categories: [ ForkFiltered ]
   components:
@@ -1733,7 +1733,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: FeldHoodTrimmed
+  id: ClothingHeadHatFeldHoodTrimmed
   name: feld hood
   suffix: Trimmed
   categories: [ ForkFiltered ]
@@ -1745,7 +1745,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: FishBascinet
+  id: ClothingHeadHelmetFishBascinet
   name: fish bascinet
   categories: [ ForkFiltered ]
   components:
@@ -1756,7 +1756,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: FishBucketHelm
+  id: ClothingHeadHelmetFishBucketHelm
   name: fish bucket helm
   categories: [ ForkFiltered ]
   components:
@@ -1767,7 +1767,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: FishHelmCrest
+  id: ClothingHeadHatFishHelmCrest
   name: fish helm crest
   categories: [ ForkFiltered ]
   components:
@@ -1778,7 +1778,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: FishGreatBucketHelm
+  id: ClothingHeadHelmetFishGreatBucketHelm
   name: fish great bucket helm
   categories: [ ForkFiltered ]
   components:
@@ -1789,7 +1789,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: FishHoundCrest
+  id: ClothingHeadHatFishHoundCrest
   name: fish hound crest
   categories: [ ForkFiltered ]
   components:
@@ -1800,7 +1800,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: FishersHat
+  id: ClothingHeadHatFishersHat
   name: fisher's hat
   categories: [ ForkFiltered ]
   components:
@@ -1811,7 +1811,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: FlatHat
+  id: ClothingHeadHatFlatHat
   name: flat hat
   categories: [ ForkFiltered ]
   components:
@@ -1822,7 +1822,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: FrogHelm
+  id: ClothingHeadHelmetFrogHelm
   name: frog helm
   categories: [ ForkFiltered ]
   components:
@@ -1833,7 +1833,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: FrogmouthHelm
+  id: ClothingHeadHelmetFrogmouthHelm
   name: frogmouth helm
   categories: [ ForkFiltered ]
   components:
@@ -1844,7 +1844,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: FurHood
+  id: ClothingHeadHatFurHood
   name: fur hood
   categories: [ ForkFiltered ]
   components:
@@ -1855,7 +1855,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: GallowglassHelm
+  id: ClothingHeadHelmetGallowglassHelm
   name: gallowglass helm
   categories: [ ForkFiltered ]
   components:
@@ -1866,7 +1866,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: GateHelm
+  id: ClothingHeadHelmetGateHelm
   name: gate helm
   categories: [ ForkFiltered ]
   components:
@@ -1877,7 +1877,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: GnomeCap
+  id: ClothingHeadHatGnomeCap
   name: gnome cap
   categories: [ ForkFiltered ]
   components:
@@ -1888,7 +1888,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: GoldBarbute
+  id: ClothingHeadHelmetGoldBarbute
   name: gold barbute
   categories: [ ForkFiltered ]
   components:
@@ -1899,7 +1899,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: CrownedGoldBarbute
+  id: ClothingHeadHelmetCrownedGoldBarbute
   name: crowned gold barbute
   categories: [ ForkFiltered ]
   components:
@@ -1910,7 +1910,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: GoldCirclet
+  id: ClothingHeadHatGoldCirclet
   name: gold circlet
   categories: [ ForkFiltered ]
   components:
@@ -1921,7 +1921,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: GoldKnightHelm
+  id: ClothingHeadHelmetGoldKnightHelm
   name: gold knight helm
   categories: [ ForkFiltered ]
   components:
@@ -1932,7 +1932,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: GoldKnightHelmRaised
+  id: ClothingHeadHelmetGoldKnightHelmRaised
   name: gold knight helm
   suffix: Raised
   categories: [ ForkFiltered ]
@@ -1944,7 +1944,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: CrownedGoldKnightHelm
+  id: ClothingHeadHelmetCrownedGoldKnightHelm
   name: crowned gold knight helm
   categories: [ ForkFiltered ]
   components:
@@ -1955,7 +1955,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: CrownedGoldKnightHelmTrimmed
+  id: ClothingHeadHelmetCrownedGoldKnightHelmTrimmed
   name: crowned gold knight helm
   suffix: Raised
   categories: [ ForkFiltered ]
@@ -1967,7 +1967,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: GoldPinHat
+  id: ClothingHeadHatGoldPinHat
   name: gold pin hat
   categories: [ ForkFiltered ]
   components:
@@ -1978,7 +1978,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: GraggarBascinet
+  id: ClothingHeadHelmetGraggarBascinet
   name: graggar bascinet
   categories: [ ForkFiltered ]
   components:
@@ -1989,7 +1989,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: GraggarBucketHelm
+  id: ClothingHeadHelmetGraggarBucketHelm
   name: graggar bucket helm
   categories: [ ForkFiltered ]
   components:
@@ -2000,7 +2000,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: GraggarHelmCrest
+  id: ClothingHeadHatGraggarHelmCrest
   name: graggar helm crest
   categories: [ ForkFiltered ]
   components:
@@ -2011,7 +2011,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: GraggarGreatBucketHelm
+  id: ClothingHeadHelmetGraggarGreatBucketHelm
   name: graggar great bucket helm
   categories: [ ForkFiltered ]
   components:
@@ -2022,7 +2022,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: GraggarHoundCrest
+  id: ClothingHeadHatGraggarHoundCrest
   name: graggar hound crest
   categories: [ ForkFiltered ]
   components:
@@ -2033,7 +2033,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: GraggarPlateHelm
+  id: ClothingHeadHelmetGraggarPlateHelm
   name: graggar plate helm
   categories: [ ForkFiltered ]
   components:
@@ -2044,7 +2044,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: HeavyGraggarPlateHelm
+  id: ClothingHeadHelmetHeavyGraggarPlateHelm
   name: heavy graggar plate helm
   categories: [ ForkFiltered ]
   components:
@@ -2055,7 +2055,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: GraveHat
+  id: ClothingHeadHatGraveHat
   name: grave hat
   categories: [ ForkFiltered ]
   components:
@@ -2066,7 +2066,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: GrenzelHat
+  id: ClothingHeadHatGrenzelHat
   name: grenzel hat
   categories: [ ForkFiltered ]
   components:
@@ -2077,7 +2077,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: GuardHelm
+  id: ClothingHeadHelmetGuardHelm
   name: guard helm
   categories: [ ForkFiltered ]
   components:
@@ -2088,7 +2088,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: HalfVisorHelm
+  id: ClothingHeadHelmetHalfVisorHelm
   name: half visor helm
   categories: [ ForkFiltered ]
   components:
@@ -2099,7 +2099,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: BlueHat
+  id: ClothingHeadHatBlueHat
   name: blue hat
   categories: [ ForkFiltered ]
   components:
@@ -2110,7 +2110,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: FurHat
+  id: ClothingHeadHatFurHat
   name: fur hat
   categories: [ ForkFiltered ]
   components:
@@ -2121,7 +2121,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: Headband
+  id: ClothingHeadHatHeadband
   name: headband
   categories: [ ForkFiltered ]
   components:
@@ -2132,7 +2132,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: HeadCage
+  id: ClothingHeadHatHeadCage
   name: head cage
   categories: [ ForkFiltered ]
   components:
@@ -2143,7 +2143,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: Headdress
+  id: ClothingHeadHatHeaddress
   name: headdress
   categories: [ ForkFiltered ]
   components:
@@ -2154,7 +2154,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: DancersHeaddress
+  id: ClothingHeadHatDancersHeaddress
   name: dancer's headdress
   categories: [ ForkFiltered ]
   components:
@@ -2165,7 +2165,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: GoldenHeaddress
+  id: ClothingHeadHatGoldenHeaddress
   name: golden headdress
   categories: [ ForkFiltered ]
   components:
@@ -2176,7 +2176,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: SilverHeaddress
+  id: ClothingHeadHatSilverHeaddress
   name: silver headdress
   categories: [ ForkFiltered ]
   components:
@@ -2187,7 +2187,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: HeaddressAlt
+  id: ClothingHeadHatHeaddressAlt
   name: headdress
   suffix: Alt
   categories: [ ForkFiltered ]
@@ -2199,7 +2199,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: Headscarf
+  id: ClothingHeadHatHeadscarf
   name: headscarf
   categories: [ ForkFiltered ]
   components:
@@ -2210,7 +2210,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: HeadVeil
+  id: ClothingHeadHatHeadVeil
   name: head veil
   categories: [ ForkFiltered ]
   components:
@@ -2221,7 +2221,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: HeavyHood
+  id: ClothingHeadHatHeavyHood
   name: heavy hood
   categories: [ ForkFiltered ]
   components:
@@ -2232,7 +2232,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: HeavyHoodTrimmed
+  id: ClothingHeadHatHeavyHoodTrimmed
   name: heavy hood
   suffix: Trimmed
   categories: [ ForkFiltered ]
@@ -2244,7 +2244,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: HemhemCrown
+  id: ClothingHeadHatHemhemCrown
   name: hemhem crown
   categories: [ ForkFiltered ]
   components:
@@ -2255,7 +2255,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: Hennin
+  id: ClothingHeadHatHennin
   name: hennin
   categories: [ ForkFiltered ]
   components:
@@ -2266,7 +2266,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: Hijab
+  id: ClothingHeadHatHijab
   name: hijab
   categories: [ ForkFiltered ]
   components:
@@ -2277,7 +2277,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: HijabTrimmed
+  id: ClothingHeadHatHijabTrimmed
   name: hijab
   suffix: Trimmed
   categories: [ ForkFiltered ]
@@ -2289,7 +2289,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: HornedCap
+  id: ClothingHeadHatHornedCap
   name: horned cap
   categories: [ ForkFiltered ]
   components:
@@ -2300,7 +2300,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: HornedBascinet
+  id: ClothingHeadHelmetHornedBascinet
   name: horned bascinet
   categories: [ ForkFiltered ]
   components:
@@ -2311,7 +2311,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: HornedBucketHelm
+  id: ClothingHeadHelmetHornedBucketHelm
   name: horned bucket helm
   categories: [ ForkFiltered ]
   components:
@@ -2322,7 +2322,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: HornHelmCrest
+  id: ClothingHeadHatHornHelmCrest
   name: horn helm crest
   categories: [ ForkFiltered ]
   components:
@@ -2333,7 +2333,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: HornedGreatBucketHelm
+  id: ClothingHeadHelmetHornedGreatBucketHelm
   name: horned great bucket helm
   categories: [ ForkFiltered ]
   components:
@@ -2344,7 +2344,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: HornHoundCrest
+  id: ClothingHeadHatHornHoundCrest
   name: horn hound crest
   categories: [ ForkFiltered ]
   components:
@@ -2355,7 +2355,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: HounskullHelm
+  id: ClothingHeadHelmetHounskullHelm
   name: hounskull helm
   categories: [ ForkFiltered ]
   components:
@@ -2366,7 +2366,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: HounskullHelmRaised
+  id: ClothingHeadHelmetHounskullHelmRaised
   name: hounskull helm
   suffix: Raised
   categories: [ ForkFiltered ]
@@ -2378,7 +2378,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: BandedHelm
+  id: ClothingHeadHelmetBandedHelm
   name: banded helm
   categories: [ ForkFiltered ]
   components:
@@ -2389,7 +2389,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: IronKettleHelm
+  id: ClothingHeadHelmetIronKettleHelm
   name: iron kettle helm
   categories: [ ForkFiltered ]
   components:
@@ -2400,7 +2400,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: IronKnightHelm
+  id: ClothingHeadHelmetIronKnightHelm
   name: iron knight helm
   categories: [ ForkFiltered ]
   components:
@@ -2411,7 +2411,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: IronKnightHelmRaised
+  id: ClothingHeadHelmetIronKnightHelmRaised
   name: iron knight helm
   suffix: Raised
   categories: [ ForkFiltered ]
@@ -2423,7 +2423,7 @@
 
 - type: entity # TODO: Non raised version, look at GoldKnightHelm
   parent: ClothingHeadHelmetBase
-  id: IronKnightHelmAltRaised
+  id: ClothingHeadHelmetIronKnightHelmAltRaised
   name: iron knight helm
   suffix: Raised
   categories: [ ForkFiltered ]
@@ -2435,7 +2435,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: InquisitorsHat
+  id: ClothingHeadHatInquisitorsHat
   name: inquisitor's hat
   categories: [ ForkFiltered ]
   components:
@@ -2446,7 +2446,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: IranianHelm
+  id: ClothingHeadHelmetIranianHelm
   name: iranian helm
   categories: [ ForkFiltered ]
   components:
@@ -2457,7 +2457,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: IronPlateHelm
+  id: ClothingHeadHelmetIronPlateHelm
   name: iron plate helm
   categories: [ ForkFiltered ]
   components:
@@ -2468,7 +2468,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: IronPlateHelmRaised
+  id: ClothingHeadHelmetIronPlateHelmRaised
   name: iron plate helm
   suffix: Raised
   categories: [ ForkFiltered ]
@@ -2480,7 +2480,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: IronPotHelm
+  id: ClothingHeadHelmetIronPotHelm
   name: iron pot helm
   categories: [ ForkFiltered ]
   components:
@@ -2491,7 +2491,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: IronSallet
+  id: ClothingHeadHelmetIronSallet
   name: iron sallet
   categories: [ ForkFiltered ]
   components:
@@ -2502,7 +2502,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: IronSalletVisor
+  id: ClothingHeadHelmetIronSalletVisor
   name: iron sallet
   suffix: Visor
   categories: [ ForkFiltered ]
@@ -2514,7 +2514,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: IronSalletVisorRaised
+  id: ClothingHeadHelmetIronSalletVisorRaised
   name: iron sallet
   suffix: Visor Raised
   categories: [ ForkFiltered ]
@@ -2526,7 +2526,7 @@
 
 - type: entity # TODO: Non raised version, look at IronSalletVisor
   parent: ClothingHeadHelmetBase
-  id: IronSalletAltVisorRaised
+  id: ClothingHeadHelmetIronSalletAltVisorRaised
   name: iron sallet
   suffix: Visor Raised
   categories: [ ForkFiltered ]
@@ -2538,7 +2538,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: SlittedIronKettleHelm
+  id: ClothingHeadHelmetSlittedIronKettleHelm
   name: slitted iron kettle helm
   categories: [ ForkFiltered ]
   components:
@@ -2549,7 +2549,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: JesterHood
+  id: ClothingHeadHatJesterHood
   name: jester's hood
   categories: [ ForkFiltered ]
   components:
@@ -2560,7 +2560,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: KazengunHeavyHelm
+  id: ClothingHeadHelmetKazengunHeavyHelm
   name: kazengun heavy helm
   categories: [ ForkFiltered ]
   components:
@@ -2571,7 +2571,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: KazengunMediumHelm
+  id: ClothingHeadHelmetKazengunMediumHelm
   name: kazengun helm
   categories: [ ForkFiltered ]
   components:
@@ -2582,7 +2582,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: KeepersHelm
+  id: ClothingHeadHelmetKeepersHelm
   name: keeper's helm
   categories: [ ForkFiltered ]
   components:
@@ -2593,7 +2593,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: KettleHelm
+  id: ClothingHeadHelmetKettleHelm
   name: kettle helm
   categories: [ ForkFiltered ]
   components:
@@ -2604,7 +2604,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: WideKettleHelm
+  id: ClothingHeadHelmetWideKettleHelm
   name: wide kettle helm
   categories: [ ForkFiltered ]
   components:
@@ -2615,7 +2615,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: KlappvisierHelm
+  id: ClothingHeadHelmetKlappvisierHelm
   name: klappvisier helm
   categories: [ ForkFiltered ]
   components:
@@ -2626,7 +2626,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: KlappvisierHelmTrimmed
+  id: ClothingHeadHelmetKlappvisierHelmTrimmed
   name: klappvisier helm
   suffix: Raised
   categories: [ ForkFiltered ]
@@ -2638,7 +2638,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: KlappvisorHelm
+  id: ClothingHeadHelmetKlappvisorHelm
   name: klappvisor helm
   categories: [ ForkFiltered ]
   components:
@@ -2649,7 +2649,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: KlappvisorHelmRaised
+  id: ClothingHeadHelmetKlappvisorHelmRaised
   name: klappvisor helm
   suffix: Raised
   categories: [ ForkFiltered ]
@@ -2661,7 +2661,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: KnightHelm
+  id: ClothingHeadHelmetKnightHelm
   name: knight helm
   categories: [ ForkFiltered ]
   components:
@@ -2672,7 +2672,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: KnightHelmRaised
+  id: ClothingHeadHelmetKnightHelmRaised
   name: knight helm
   suffix: Raised
   categories: [ ForkFiltered ]
@@ -2684,7 +2684,7 @@
 
 - type: entity # TODO non raised version, also need icon. Look at KnightsArmet and KnightHelm
   parent: ClothingHeadHelmetBase
-  id: KnightHelmAltRaised
+  id: ClothingHeadHelmetKnightHelmAltRaised
   name: knight helm
   suffix: Raised
   categories: [ ForkFiltered ]
@@ -2696,7 +2696,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: KnightsArmet
+  id: ClothingHeadHelmetKnightsArmet
   name: knight's armet
   categories: [ ForkFiltered ]
   components:
@@ -2707,7 +2707,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: KnightsArmetRaised
+  id: ClothingHeadHelmetKnightsArmetRaised
   name: knight's armet
   suffix: Raised
   categories: [ ForkFiltered ]
@@ -2719,7 +2719,7 @@
 
 - type: entity # TODO: icon sprite
   parent: ClothingHeadHelmetBase
-  id: KnightumHelm
+  id: ClothingHeadHelmetKnightumHelm
   name: knightum helm
   categories: [ ForkFiltered ]
   components:
@@ -2730,7 +2730,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: KnitCap
+  id: ClothingHeadHatKnitCap
   name: knit cap
   categories: [ ForkFiltered ]
   components:
@@ -2741,7 +2741,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: LakkariCap
+  id: ClothingHeadHatLakkariCap
   name: lakkari cap
   categories: [ ForkFiltered ]
   components:
@@ -2752,7 +2752,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: LakkariHelm
+  id: ClothingHeadHelmetLakkariHelm
   name: lakkari helm
   categories: [ ForkFiltered ]
   components:
@@ -2763,7 +2763,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: LamellarHelm
+  id: ClothingHeadHelmetLamellarHelm
   name: lamellar helm
   categories: [ ForkFiltered ]
   components:
@@ -2774,7 +2774,7 @@
 
 - type: entity # TODO: icon sprite see: other leather helms
   parent: ClothingHeadHelmetBase
-  id: LeatherHelmAlt
+  id: ClothingHeadHelmetLeatherHelmAlt
   name: leather helm
   categories: [ ForkFiltered ]
   components:
@@ -2785,7 +2785,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: LeatherHelm
+  id: ClothingHeadHelmetLeatherHelm
   name: leather helm
   categories: [ ForkFiltered ]
   components:
@@ -2796,7 +2796,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: LeatherHelmOld
+  id: ClothingHeadHelmetLeatherHelmOld
   name: leather helm
   suffix: Old
   categories: [ ForkFiltered ]
@@ -2808,7 +2808,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: LeatherHood
+  id: ClothingHeadHatLeatherHood
   name: leather hood
   categories: [ ForkFiltered ]
   components:
@@ -2819,7 +2819,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: LeatherHoodTrimmed
+  id: ClothingHeadHatLeatherHoodTrimmed
   name: leather hood
   suffix: Trimmed
   categories: [ ForkFiltered ]
@@ -2831,7 +2831,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: LionBascinet
+  id: ClothingHeadHelmetLionBascinet
   name: lion bascinet
   categories: [ ForkFiltered ]
   components:
@@ -2842,7 +2842,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: LionBucketHelm
+  id: ClothingHeadHelmetLionBucketHelm
   name: lion bucket helm
   categories: [ ForkFiltered ]
   components:
@@ -2853,7 +2853,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: LionHelmCrest
+  id: ClothingHeadHatLionHelmCrest
   name: lion helm crest
   categories: [ ForkFiltered ]
   components:
@@ -2864,7 +2864,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: LionGreatBucketHelm
+  id: ClothingHeadHelmetLionGreatBucketHelm
   name: lion great bucket helm
   categories: [ ForkFiltered ]
   components:
@@ -2875,7 +2875,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: LionHoundCrest
+  id: ClothingHeadHatLionHoundCrest
   name: lion hound crest
   categories: [ ForkFiltered ]
   components:
@@ -2886,7 +2886,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: LoudmouthHelm
+  id: ClothingHeadHelmetLoudmouthHelm
   name: loudmouth helm
   categories: [ ForkFiltered ]
   components:
@@ -2897,7 +2897,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: LoudmouthHelmRaised
+  id: ClothingHeadHelmetLoudmouthHelmRaised
   name: loudmouth helm
   suffix: Raised
   categories: [ ForkFiltered ]
@@ -2909,7 +2909,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: MaidsHeadband
+  id: ClothingHeadHatMaidsHeadband
   name: maid's headband
   categories: [ ForkFiltered ]
   components:
@@ -2920,7 +2920,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: MalumBowlHelm
+  id: ClothingHeadHelmetMalumBowlHelm
   name: malum bowl helm
   categories: [ ForkFiltered ]
   components:
@@ -2931,7 +2931,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: MalumHelm
+  id: ClothingHeadHelmetMalumHelm
   name: malum helm
   categories: [ ForkFiltered ]
   components:
@@ -2942,7 +2942,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: MalumHood
+  id: ClothingHeadHatMalumHood
   name: malum hood
   categories: [ ForkFiltered ]
   components:
@@ -2953,7 +2953,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: ManabloomCrown
+  id: ClothingHeadHatManabloomCrown
   name: manabloom crown
   categories: [ ForkFiltered ]
   components:
@@ -2964,7 +2964,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: MarauderMask
+  id: ClothingHeadHatMarauderMask
   name: marauder mask
   categories: [ ForkFiltered ]
   components:
@@ -2975,7 +2975,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: MarauderHelm
+  id: ClothingHeadHelmetMarauderHelm
   name: marauder helm
   categories: [ ForkFiltered ]
   components:
@@ -2986,7 +2986,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: MatricariaCrown
+  id: ClothingHeadHatMatricariaCrown
   name: matricaria crown
   categories: [ ForkFiltered ]
   components:
@@ -2997,7 +2997,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: MatthiosHelm
+  id: ClothingHeadHelmetMatthiosHelm
   name: matthios helm
   categories: [ ForkFiltered ]
   components:
@@ -3008,7 +3008,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: MenacingHelm
+  id: ClothingHeadHelmetMenacingHelm
   name: menacing helm
   categories: [ ForkFiltered ]
   components:
@@ -3019,7 +3019,7 @@
 
 - type: entity # TODO: Icon sprite
   parent: ClothingHeadBase
-  id: MetalArmingCap
+  id: ClothingHeadHatMetalArmingCap
   name: metal arming cap
   categories: [ ForkFiltered ]
   components:
@@ -3030,7 +3030,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: MinersLampHelm
+  id: ClothingHeadHelmetMinersLampHelm
   name: miner's lamp helm
   categories: [ ForkFiltered ]
   components:
@@ -3041,7 +3041,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: MinersLampHelm0
+  id: ClothingHeadHelmetMinersLampHelm0
   name: miner's lamp helm
   suffix: "0"
   categories: [ ForkFiltered ]
@@ -3053,7 +3053,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: MinersLampHelm1
+  id: ClothingHeadHelmetMinersLampHelm1
   name: miner's lamp helm
   suffix: "1"
   categories: [ ForkFiltered ]
@@ -3065,7 +3065,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: MonksHood
+  id: ClothingHeadHatMonksHood
   name: monk's hood
   categories: [ ForkFiltered ]
   components:
@@ -3076,7 +3076,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: MonksHoodTrimmed
+  id: ClothingHeadHatMonksHoodTrimmed
   name: monk's hood
   suffix: Trimmed
   categories: [ ForkFiltered ]
@@ -3088,7 +3088,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: NasalHelm
+  id: ClothingHeadHelmetNasalHelm
   name: nasal helm
   categories: [ ForkFiltered ]
   components:
@@ -3099,7 +3099,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: NecraHelm
+  id: ClothingHeadHelmetNecraHelm
   name: necra helm
   categories: [ ForkFiltered ]
   components:
@@ -3110,7 +3110,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: NecraHood
+  id: ClothingHeadHatNecraHood
   name: necra hood
   categories: [ ForkFiltered ]
   components:
@@ -3121,7 +3121,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: NecranHelm
+  id: ClothingHeadHelmetNecranHelm
   name: necran helm
   categories: [ ForkFiltered ]
   components:
@@ -3132,7 +3132,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: NecromancersHood
+  id: ClothingHeadHatNecromancersHood
   name: necromancer's hood
   categories: [ ForkFiltered ]
   components:
@@ -3143,7 +3143,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: NileHeaddress
+  id: ClothingHeadHatNileHeaddress
   name: nile headdress
   categories: [ ForkFiltered ]
   components:
@@ -3154,7 +3154,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: NoblesChaperon
+  id: ClothingHeadHatNoblesChaperon
   name: noble's chaperon
   categories: [ ForkFiltered ]
   components:
@@ -3165,7 +3165,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: NochHelm
+  id: ClothingHeadHelmetNochHelm
   name: noch helm
   categories: [ ForkFiltered ]
   components:
@@ -3176,7 +3176,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: NochHood
+  id: ClothingHeadHatNochHood
   name: noch hood
   categories: [ ForkFiltered ]
   components:
@@ -3187,7 +3187,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: NochHoodRaised
+  id: ClothingHeadHatNochHoodRaised
   name: noch hood
   suffix: Raised
   categories: [ ForkFiltered ]
@@ -3199,7 +3199,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: NomadHelmet
+  id: ClothingHeadHelmetNomadHelmet
   name: nomad helmet
   categories: [ ForkFiltered ]
   components:
@@ -3210,7 +3210,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: Nun
+  id: ClothingHeadHatNun
   name: nun's habit
   categories: [ ForkFiltered ]
   components:
@@ -3221,7 +3221,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: OathtakerBascinet
+  id: ClothingHeadHelmetOathtakerBascinet
   name: oathtaker bascinet
   categories: [ ForkFiltered ]
   components:
@@ -3232,7 +3232,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: OathtakerBucketHelm
+  id: ClothingHeadHelmetOathtakerBucketHelm
   name: oathtaker bucket helm
   categories: [ ForkFiltered ]
   components:
@@ -3243,7 +3243,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: OathtakerHelmCrest
+  id: ClothingHeadHatOathtakerHelmCrest
   name: oathtaker helm crest
   categories: [ ForkFiltered ]
   components:
@@ -3254,7 +3254,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: OathtakerGreatBucketHelm
+  id: ClothingHeadHelmetOathtakerGreatBucketHelm
   name: oathtaker great bucket helm
   categories: [ ForkFiltered ]
   components:
@@ -3265,7 +3265,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: OathtakerHoundCrest
+  id: ClothingHeadHatOathtakerHoundCrest
   name: oathtaker hound crest
   categories: [ ForkFiltered ]
   components:
@@ -3276,7 +3276,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: OminousHelm
+  id: ClothingHeadHelmetOminousHelm
   name: ominous helm
   categories: [ ForkFiltered ]
   components:
@@ -3287,7 +3287,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: OnionHelm
+  id: ClothingHeadHelmetOnionHelm
   name: onion helm
   categories: [ ForkFiltered ]
   components:
@@ -3298,7 +3298,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: OrdinatorHelm
+  id: ClothingHeadHelmetOrdinatorHelm
   name: ordinator helm
   categories: [ ForkFiltered ]
   components:
@@ -3309,7 +3309,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: OrdinatorHelmRaised
+  id: ClothingHeadHelmetOrdinatorHelmRaised
   name: ordinator helm
   suffix: Raised
   categories: [ ForkFiltered ]
@@ -3321,7 +3321,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: PlumedOrdinatorHelm
+  id: ClothingHeadHelmetPlumedOrdinatorHelm
   name: plumed ordinator helm
   categories: [ ForkFiltered ]
   components:
@@ -3332,7 +3332,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: PlumedOrdinatorHelmRaised
+  id: ClothingHeadHelmetPlumedOrdinatorHelmRaised
   name: plumed ordinator helm
   suffix: Raised
   categories: [ ForkFiltered ]
@@ -3344,7 +3344,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: OtavaHelm
+  id: ClothingHeadHelmetOtavaHelm
   name: otava helm
   categories: [ ForkFiltered ]
   components:
@@ -3355,7 +3355,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: OtavaHelmRaised
+  id: ClothingHeadHelmetOtavaHelmRaised
   name: otava helm
   suffix: Raised
   categories: [ ForkFiltered ]
@@ -3367,7 +3367,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: PaddedArmingCap
+  id: ClothingHeadHatPaddedArmingCap
   name: padded arming cap
   categories: [ ForkFiltered ]
   components:
@@ -3378,7 +3378,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: Papakha
+  id: ClothingHeadHatPapakha
   name: papakha
   categories: [ ForkFiltered ]
   components:
@@ -3389,7 +3389,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: PeaceBascinet
+  id: ClothingHeadHelmetPeaceBascinet
   name: peace bascinet
   categories: [ ForkFiltered ]
   components:
@@ -3400,7 +3400,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: PeaceBucketHelm
+  id: ClothingHeadHelmetPeaceBucketHelm
   name: peace bucket helm
   categories: [ ForkFiltered ]
   components:
@@ -3411,7 +3411,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: PeaceHelmCrest
+  id: ClothingHeadHatPeaceHelmCrest
   name: peace helm crest
   categories: [ ForkFiltered ]
   components:
@@ -3422,7 +3422,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: PeaceGreatBucketHelm
+  id: ClothingHeadHelmetPeaceGreatBucketHelm
   name: peace great bucket helm
   categories: [ ForkFiltered ]
   components:
@@ -3433,7 +3433,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: PeaceHoundCrest
+  id: ClothingHeadHatPeaceHoundCrest
   name: peace hound crest
   categories: [ ForkFiltered ]
   components:
@@ -3444,7 +3444,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: PestraHelm
+  id: ClothingHeadHelmetPestraHelm
   name: pestra helm
   categories: [ ForkFiltered ]
   components:
@@ -3455,7 +3455,7 @@
 
 - type: entity # TODO: icon sprite see: PestraHelm
   parent: ClothingHeadBase
-  id: PestraHood
+  id: ClothingHeadHatPestraHood
   name: pestra hood
   categories: [ ForkFiltered ]
   components:
@@ -3466,7 +3466,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: PharaohsHeaddress
+  id: ClothingHeadHatPharaohsHeaddress
   name: pharaoh's headdress
   categories: [ ForkFiltered ]
   components:
@@ -3477,7 +3477,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: PhysHat
+  id: ClothingHeadHatPhysHat
   name: physic hat
   categories: [ ForkFiltered ]
   components:
@@ -3488,7 +3488,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: PhysiciansHat
+  id: ClothingHeadHatPhysiciansHat
   name: physician's hat
   categories: [ ForkFiltered ]
   components:
@@ -3499,7 +3499,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: PlagueHood
+  id: ClothingHeadHatPlagueHood
   name: plague hood
   categories: [ ForkFiltered ]
   components:
@@ -3510,7 +3510,7 @@
 
 - type: entity # TODO: icon sprite
   parent: ClothingHeadHelmetBase
-  id: PlateHelmItem
+  id: ClothingHeadHelmetPlateHelmItem
   name: plate helm
   categories: [ ForkFiltered ]
   components:
@@ -3521,7 +3521,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: PriestsCap
+  id: ClothingHeadHatPriestsCap
   name: priest's cap
   categories: [ ForkFiltered ]
   components:
@@ -3532,7 +3532,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: PriestsHood
+  id: ClothingHeadHatPriestsHood
   name: priest's hood
   categories: [ ForkFiltered ]
   components:
@@ -3543,7 +3543,7 @@
 
 - type: entity # TODO: icon sprite
   parent: ClothingHeadHelmetBase
-  id: PsionicBarbedHelm
+  id: ClothingHeadHelmetPsionicBarbedHelm
   name: psionic barbed helm
   categories: [ ForkFiltered ]
   components:
@@ -3554,7 +3554,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: PsionicBucketHelm
+  id: ClothingHeadHelmetPsionicBucketHelm
   name: psionic bucket helm
   categories: [ ForkFiltered ]
   components:
@@ -3565,7 +3565,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: PsydonArmet
+  id: ClothingHeadHelmetPsydonArmet
   name: psydon armet
   categories: [ ForkFiltered ]
   components:
@@ -3576,7 +3576,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: PsydonArmetRaised
+  id: ClothingHeadHelmetPsydonArmetRaised
   name: psydon armet
   suffix: Raised
   categories: [ ForkFiltered ]
@@ -3588,7 +3588,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: PsydonBarbute
+  id: ClothingHeadHelmetPsydonBarbute
   name: psydon barbute
   categories: [ ForkFiltered ]
   components:
@@ -3599,7 +3599,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: PsydonHood
+  id: ClothingHeadHatPsydonHood
   name: psydon hood
   categories: [ ForkFiltered ]
   components:
@@ -3610,7 +3610,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: PsydonHoodTrimmed
+  id: ClothingHeadHatPsydonHoodTrimmed
   name: psydon hood
   suffix: Trimmed
   categories: [ ForkFiltered ]
@@ -3622,7 +3622,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: PsionicSallet
+  id: ClothingHeadHelmetPsionicSallet
   name: psionic sallet
   categories: [ ForkFiltered ]
   components:
@@ -3633,7 +3633,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: PuritanHat
+  id: ClothingHeadHatPuritanHat
   name: puritan hat
   categories: [ ForkFiltered ]
   components:
@@ -3644,7 +3644,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: RainHood
+  id: ClothingHeadHatRainHood
   name: rain hood
   categories: [ ForkFiltered ]
   components:
@@ -3655,7 +3655,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: RaneshenHelm
+  id: ClothingHeadHelmetRaneshenHelm
   name: raneshen helm
   categories: [ ForkFiltered ]
   components:
@@ -3666,7 +3666,7 @@
 
 - type: entity # TODO: icon sprite
   parent: ClothingHeadBase
-  id: RangersHood
+  id: ClothingHeadHatRangersHood
   name: ranger's hood
   categories: [ ForkFiltered ]
   components:
@@ -3677,7 +3677,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: RavoxGorget
+  id: ClothingHeadHelmetRavoxGorget
   name: ravox gorget
   categories: [ ForkFiltered ]
   components:
@@ -3688,7 +3688,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: RavoxHelm
+  id: ClothingHeadHelmetRavoxHelm
   name: ravox helm
   categories: [ ForkFiltered ]
   components:
@@ -3699,7 +3699,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: RavoxHelmet
+  id: ClothingHeadHelmetRavoxHelmet
   name: ravox helmet
   categories: [ ForkFiltered ]
   components:
@@ -3710,7 +3710,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: RenegadesTricorn
+  id: ClothingHeadHatRenegadesTricorn
   name: renegade's tricorn
   categories: [ ForkFiltered ]
   components:
@@ -3721,7 +3721,7 @@
 
 - type: entity # TODO: icon sprite
   parent: ClothingHeadBase
-  id: ReqHat
+  id: ClothingHeadHatReqHat
   name: req hat
   categories: [ ForkFiltered ]
   components:
@@ -3732,7 +3732,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: RiceHat
+  id: ClothingHeadHatRiceHat
   name: rice hat
   categories: [ ForkFiltered ]
   components:
@@ -3743,7 +3743,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: RosaCrown
+  id: ClothingHeadHatRosaCrown
   name: rosa crown
   categories: [ ForkFiltered ]
   components:
@@ -3754,7 +3754,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: RustedBarbute
+  id: ClothingHeadHelmetRustedBarbute
   name: rusted barbute
   categories: [ ForkFiltered ]
   components:
@@ -3765,7 +3765,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: SackedHood
+  id: ClothingHeadHatSackedHood
   name: sacked hood
   categories: [ ForkFiltered ]
   components:
@@ -3776,7 +3776,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: SaigaMask
+  id: ClothingHeadHatSaigaMask
   name: saiga mask
   categories: [ ForkFiltered ]
   components:
@@ -3787,7 +3787,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: Sallet
+  id: ClothingHeadHelmetSallet
   name: sallet
   categories: [ ForkFiltered ]
   components:
@@ -3798,7 +3798,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: BellowsSallet
+  id: ClothingHeadHelmetBellowsSallet
   name: bellows sallet
   categories: [ ForkFiltered ]
   components:
@@ -3809,7 +3809,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: BellowsSalletRaised
+  id: ClothingHeadHelmetBellowsSalletRaised
   name: bellows sallet
   suffix: Raised
   categories: [ ForkFiltered ]
@@ -3821,7 +3821,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: VisoredSallet
+  id: ClothingHeadHelmetVisoredSallet
   name: visored sallet
   categories: [ ForkFiltered ]
   components:
@@ -3832,7 +3832,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: VisoredSalletRaised
+  id: ClothingHeadHelmetVisoredSalletRaised
   name: visored sallet
   suffix: Raised
   categories: [ ForkFiltered ]
@@ -3844,7 +3844,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: SalviaCrown
+  id: ClothingHeadHatSalviaCrown
   name: salvia crown
   categories: [ ForkFiltered ]
   components:
@@ -3855,7 +3855,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: SergeantsBarbute
+  id: ClothingHeadHelmetSergeantsBarbute
   name: sergeant's barbute
   categories: [ ForkFiltered ]
   components:
@@ -3866,7 +3866,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: SavoyardHelm
+  id: ClothingHeadHelmetSavoyardHelm
   name: savoyard helm
   categories: [ ForkFiltered ]
   components:
@@ -3877,7 +3877,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: SerpentCrown
+  id: ClothingHeadHatSerpentCrown
   name: serpent crown
   categories: [ ForkFiltered ]
   components:
@@ -3888,7 +3888,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: SerpentCrownAlt
+  id: ClothingHeadHatSerpentCrownAlt
   name: serpent crown
   suffix: Alt
   categories: [ ForkFiltered ]
@@ -3900,7 +3900,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: ShalalHood
+  id: ClothingHeadHatShalalHood
   name: shalal hood
   categories: [ ForkFiltered ]
   components:
@@ -3911,7 +3911,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: ShalalHoodTrimmed
+  id: ClothingHeadHatShalalHoodTrimmed
   name: shalal hood
   suffix: Trimmed
   categories: [ ForkFiltered ]
@@ -3923,7 +3923,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: Shawl
+  id: ClothingHeadHatShawl
   name: shawl
   categories: [ ForkFiltered ]
   components:
@@ -3934,7 +3934,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: ShishakHelm
+  id: ClothingHeadHelmetShishakHelm
   name: shishak helm
   categories: [ ForkFiltered ]
   components:
@@ -3945,7 +3945,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: SilverArmet
+  id: ClothingHeadHelmetSilverArmet
   name: silver armet
   categories: [ ForkFiltered ]
   components:
@@ -3956,7 +3956,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: SilverArmetRaised
+  id: ClothingHeadHelmetSilverArmetRaised
   name: silver armet
   suffix: Raised
   categories: [ ForkFiltered ]
@@ -3968,7 +3968,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: SilverBascinet
+  id: ClothingHeadHelmetSilverBascinet
   name: silver bascinet
   categories: [ ForkFiltered ]
   components:
@@ -3979,7 +3979,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: SilverBascinetRaised
+  id: ClothingHeadHelmetSilverBascinetRaised
   name: silver bascinet
   suffix: Raised
   categories: [ ForkFiltered ]
@@ -3991,7 +3991,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: SilverPinHat
+  id: ClothingHeadHatSilverPinHat
   name: silver pin hat
   categories: [ ForkFiltered ]
   components:
@@ -4002,7 +4002,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: SilverSallet
+  id: ClothingHeadHelmetSilverSallet
   name: silver sallet
   categories: [ ForkFiltered ]
   components:
@@ -4013,7 +4013,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: SinistarHelm
+  id: ClothingHeadHelmetSinistarHelm
   name: sinistar helm
   categories: [ ForkFiltered ]
   components:
@@ -4024,7 +4024,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: SmallKettleHelm
+  id: ClothingHeadHelmetSmallKettleHelm
   name: small kettle helm
   categories: [ ForkFiltered ]
   components:
@@ -4035,7 +4035,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: SkullBascinet
+  id: ClothingHeadHelmetSkullBascinet
   name: skull bascinet
   categories: [ ForkFiltered ]
   components:
@@ -4046,7 +4046,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: SkullBucketHelm
+  id: ClothingHeadHelmetSkullBucketHelm
   name: skull bucket helm
   categories: [ ForkFiltered ]
   components:
@@ -4057,7 +4057,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: SkullHelmCrest
+  id: ClothingHeadHatSkullHelmCrest
   name: skull helm crest
   categories: [ ForkFiltered ]
   components:
@@ -4068,7 +4068,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: SkullGreatBucketHelm
+  id: ClothingHeadHelmetSkullGreatBucketHelm
   name: skull great bucket helm
   categories: [ ForkFiltered ]
   components:
@@ -4079,7 +4079,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: SkullHoundCrest
+  id: ClothingHeadHatSkullHoundCrest
   name: skull hound crest
   categories: [ ForkFiltered ]
   components:
@@ -4090,7 +4090,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: Skullcap
+  id: ClothingHeadHatSkullcap
   name: skullcap
   categories: [ ForkFiltered ]
   components:
@@ -4101,7 +4101,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: SleepCirclet
+  id: ClothingHeadHatSleepCirclet
   name: sleep circlet
   categories: [ ForkFiltered ]
   components:
@@ -4112,7 +4112,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: SlittedKettleHelm
+  id: ClothingHeadHelmetSlittedKettleHelm
   name: slitted kettle helm
   categories: [ ForkFiltered ]
   components:
@@ -4123,7 +4123,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: SmokingCap
+  id: ClothingHeadHatSmokingCap
   name: smoking cap
   categories: [ ForkFiltered ]
   components:
@@ -4134,7 +4134,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: SolarHelm
+  id: ClothingHeadHelmetSolarHelm
   name: solar helm
   categories: [ ForkFiltered ]
   components:
@@ -4145,7 +4145,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: SolarHelmTrimmed
+  id: ClothingHeadHelmetSolarHelmTrimmed
   name: solar helm
   suffix: Raised
   categories: [ ForkFiltered ]
@@ -4157,7 +4157,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: BlueSorcererHood
+  id: ClothingHeadHatBlueSorcererHood
   name: blue sorcerer hood
   categories: [ ForkFiltered ]
   components:
@@ -4168,7 +4168,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: GraySorcererHood
+  id: ClothingHeadHatGraySorcererHood
   name: gray sorcerer hood
   categories: [ ForkFiltered ]
   components:
@@ -4179,7 +4179,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: GreenSorcererHood
+  id: ClothingHeadHatGreenSorcererHood
   name: green sorcerer hood
   categories: [ ForkFiltered ]
   components:
@@ -4190,7 +4190,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: RedSorcererHood
+  id: ClothingHeadHatRedSorcererHood
   name: red sorcerer hood
   categories: [ ForkFiltered ]
   components:
@@ -4201,7 +4201,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: SparrowCrown
+  id: ClothingHeadHatSparrowCrown
   name: sparrow crown
   categories: [ ForkFiltered ]
   components:
@@ -4212,7 +4212,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: SpellcastersHat
+  id: ClothingHeadHatSpellcastersHat
   name: spellcaster's hat
   categories: [ ForkFiltered ]
   components:
@@ -4223,7 +4223,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: SteelSavoyardHelm
+  id: ClothingHeadHelmetSteelSavoyardHelm
   name: steel savoyard helm
   categories: [ ForkFiltered ]
   components:
@@ -4234,7 +4234,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: StinkCirclet
+  id: ClothingHeadHatStinkCirclet
   name: stink circlet
   categories: [ ForkFiltered ]
   components:
@@ -4245,7 +4245,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: StrawHat
+  id: ClothingHeadHatStrawHat
   name: straw hat
   categories: [ ForkFiltered ]
   components:
@@ -4256,7 +4256,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: StripedBascinet
+  id: ClothingHeadHelmetStripedBascinet
   name: striped bascinet
   categories: [ ForkFiltered ]
   components:
@@ -4267,7 +4267,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: StripedBucketHelm
+  id: ClothingHeadHelmetStripedBucketHelm
   name: striped bucket helm
   categories: [ ForkFiltered ]
   components:
@@ -4278,7 +4278,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: StripedHelmCrest
+  id: ClothingHeadHatStripedHelmCrest
   name: striped helm crest
   categories: [ ForkFiltered ]
   components:
@@ -4289,7 +4289,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: StripedGreatBucketHelm
+  id: ClothingHeadHelmetStripedGreatBucketHelm
   name: striped great bucket helm
   categories: [ ForkFiltered ]
   components:
@@ -4300,7 +4300,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: StripedHoundCrest
+  id: ClothingHeadHatStripedHoundCrest
   name: striped hound crest
   categories: [ ForkFiltered ]
   components:
@@ -4311,7 +4311,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: StuddedHood
+  id: ClothingHeadHatStuddedHood
   name: studded hood
   categories: [ ForkFiltered ]
   components:
@@ -4322,7 +4322,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: StuddedHoodTrimmed
+  id: ClothingHeadHatStuddedHoodTrimmed
   name: studded hood
   suffix: Trimmed
   categories: [ ForkFiltered ]
@@ -4334,7 +4334,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: SunBascinet
+  id: ClothingHeadHelmetSunBascinet
   name: sun bascinet
   categories: [ ForkFiltered ]
   components:
@@ -4345,7 +4345,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: SunBucketHelm
+  id: ClothingHeadHelmetSunBucketHelm
   name: sun bucket helm
   categories: [ ForkFiltered ]
   components:
@@ -4356,7 +4356,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: SunHelmCrest
+  id: ClothingHeadHatSunHelmCrest
   name: sun helm crest
   categories: [ ForkFiltered ]
   components:
@@ -4367,7 +4367,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: SunGreatBucketHelm
+  id: ClothingHeadHelmetSunGreatBucketHelm
   name: sun great bucket helm
   categories: [ ForkFiltered ]
   components:
@@ -4378,7 +4378,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: SunHoundCrest
+  id: ClothingHeadHatSunHoundCrest
   name: sun hound crest
   categories: [ ForkFiltered ]
   components:
@@ -4389,7 +4389,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: SurgeonsHood
+  id: ClothingHeadHatSurgeonsHood
   name: surgeon's hood
   categories: [ ForkFiltered ]
   components:
@@ -4400,7 +4400,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: SurgeonsHoodTrimmed
+  id: ClothingHeadHatSurgeonsHoodTrimmed
   name: surgeon's hood
   suffix: Trimmed
   categories: [ ForkFiltered ]
@@ -4412,7 +4412,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: SwanBascinet
+  id: ClothingHeadHelmetSwanBascinet
   name: swan bascinet
   categories: [ ForkFiltered ]
   components:
@@ -4423,7 +4423,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: SwanBucketHelm
+  id: ClothingHeadHelmetSwanBucketHelm
   name: swan bucket helm
   categories: [ ForkFiltered ]
   components:
@@ -4434,7 +4434,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: SwanHelmCrest
+  id: ClothingHeadHatSwanHelmCrest
   name: swan helm crest
   categories: [ ForkFiltered ]
   components:
@@ -4445,7 +4445,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: SwanGreatBucketHelm
+  id: ClothingHeadHelmetSwanGreatBucketHelm
   name: swan great bucket helm
   categories: [ ForkFiltered ]
   components:
@@ -4456,7 +4456,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: SwanHoundCrest
+  id: ClothingHeadHatSwanHoundCrest
   name: swan hound crest
   categories: [ ForkFiltered ]
   components:
@@ -4467,7 +4467,7 @@
 
 - type: entity  # TODO: icon sprite
   parent: ClothingHeadBase
-  id: Takuhatsugasa
+  id: ClothingHeadHatTakuhatsugasa
   name: takuhatsugasa
   categories: [ ForkFiltered ]
   components:
@@ -4478,7 +4478,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: TiyonHood
+  id: ClothingHeadHatTiyonHood
   name: tiyon hood
   categories: [ ForkFiltered ]
   components:
@@ -4489,7 +4489,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: Topfhelm
+  id: ClothingHeadHelmetTopfhelm
   name: topfhelm
   categories: [ ForkFiltered ]
   components:
@@ -4500,7 +4500,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: GoldTopfhelm
+  id: ClothingHeadHelmetGoldTopfhelm
   name: gold topfhelm
   categories: [ ForkFiltered ]
   components:
@@ -4511,7 +4511,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: TopHat
+  id: ClothingHeadHatTopHat
   name: top hat
   categories: [ ForkFiltered ]
   components:
@@ -4522,7 +4522,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: TotodHelm
+  id: ClothingHeadHelmetTotodHelm
   name: totod helm
   categories: [ ForkFiltered ]
   components:
@@ -4533,7 +4533,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: TricornHat
+  id: ClothingHeadHatTricornHat
   name: tricorn hat
   categories: [ ForkFiltered ]
   components:
@@ -4544,7 +4544,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: SkullTricornHat
+  id: ClothingHeadHatSkullTricornHat
   name: skull tricorn hat
   categories: [ ForkFiltered ]
   components:
@@ -4555,7 +4555,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: Turban
+  id: ClothingHeadHatTurban
   name: turban
   categories: [ ForkFiltered ]
   components:
@@ -4566,7 +4566,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: VampiricHood
+  id: ClothingHeadHatVampiricHood
   name: vampiric hood
   categories: [ ForkFiltered ]
   components:
@@ -4577,7 +4577,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: VictorsCrown
+  id: ClothingHeadHatVictorsCrown
   name: victor's crown
   categories: [ ForkFiltered ]
   components:
@@ -4588,7 +4588,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: Veil
+  id: ClothingHeadHatVeil
   name: veil
   categories: [ ForkFiltered ]
   components:
@@ -4599,7 +4599,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: VeilTrimmed
+  id: ClothingHeadHatVeilTrimmed
   name: veil
   suffix: Trimmed
   categories: [ ForkFiltered ]
@@ -4611,7 +4611,7 @@
 
 - type: entity # TODO: icon sprite
   parent: ClothingHeadHelmetBase
-  id: VanguardHelmet
+  id: ClothingHeadHelmetVanguardHelmet
   name: vanguard helmet
   categories: [ ForkFiltered ]
   components:
@@ -4622,7 +4622,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: VisionCirclet
+  id: ClothingHeadHatVisionCirclet
   name: vision circlet
   categories: [ ForkFiltered ]
   components:
@@ -4633,7 +4633,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: VolfMask
+  id: ClothingHeadHatVolfMask
   name: volf mask
   categories: [ ForkFiltered ]
   components:
@@ -4644,7 +4644,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: VolfPlateHelm
+  id: ClothingHeadHelmetVolfPlateHelm
   name: volf plate helm
   categories: [ ForkFiltered ]
   components:
@@ -4655,7 +4655,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: AvantyneVolfPlateHelm
+  id: ClothingHeadHelmetAvantyneVolfPlateHelm
   name: avantyne volf plate helm
   categories: [ ForkFiltered ]
   components:
@@ -4666,7 +4666,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: AvantyneVolfPlateHelmRaised
+  id: ClothingHeadHelmetAvantyneVolfPlateHelmRaised
   name: avantyne volf plate helm
   suffix: Raised
   categories: [ ForkFiltered ]
@@ -4678,7 +4678,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: VolfPlateHelmTrimmed
+  id: ClothingHeadHelmetVolfPlateHelmTrimmed
   name: volf plate helm
   suffix: Trimmed
   categories: [ ForkFiltered ]
@@ -4690,7 +4690,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: WarlockHood
+  id: ClothingHeadHatWarlockHood
   name: warlock hood
   categories: [ ForkFiltered ]
   components:
@@ -4701,7 +4701,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: WarlockHoodTrimmed
+  id: ClothingHeadHatWarlockHoodTrimmed
   name: warlock hood
   suffix: Trimmed
   categories: [ ForkFiltered ]
@@ -4713,7 +4713,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: WarlordHelm
+  id: ClothingHeadHelmetWarlordHelm
   name: warlord helm
   categories: [ ForkFiltered ]
   components:
@@ -4724,7 +4724,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: WatchBarbute
+  id: ClothingHeadHelmetWatchBarbute
   name: watch barbute
   categories: [ ForkFiltered ]
   components:
@@ -4735,7 +4735,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: WindmillBascinet
+  id: ClothingHeadHelmetWindmillBascinet
   name: windmill bascinet
   categories: [ ForkFiltered ]
   components:
@@ -4746,7 +4746,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: WindmillBucketHelm
+  id: ClothingHeadHelmetWindmillBucketHelm
   name: windmill bucket helm
   categories: [ ForkFiltered ]
   components:
@@ -4757,7 +4757,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: WindmillHelmCrest
+  id: ClothingHeadHatWindmillHelmCrest
   name: windmill helm crest
   categories: [ ForkFiltered ]
   components:
@@ -4768,7 +4768,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: WindmillGreatBucketHelm
+  id: ClothingHeadHelmetWindmillGreatBucketHelm
   name: windmill great bucket helm
   categories: [ ForkFiltered ]
   components:
@@ -4779,7 +4779,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: WindmillHoundCrest
+  id: ClothingHeadHatWindmillHoundCrest
   name: windmill hound crest
   categories: [ ForkFiltered ]
   components:
@@ -4790,7 +4790,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: WingedCap
+  id: ClothingHeadHatWingedCap
   name: winged cap
   categories: [ ForkFiltered ]
   components:
@@ -4801,7 +4801,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: WitchHood
+  id: ClothingHeadHatWitchHood
   name: witch hood
   categories: [ ForkFiltered ]
   components:
@@ -4812,7 +4812,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: WitchsHat
+  id: ClothingHeadHatWitchsHat
   name: witch's hat
   categories: [ ForkFiltered ]
   components:
@@ -4823,7 +4823,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: WitchHuntersHood
+  id: ClothingHeadHatWitchHuntersHood
   name: witch hunter's hood
   categories: [ ForkFiltered ]
   components:
@@ -4834,7 +4834,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: WizardsHat
+  id: ClothingHeadHatWizardsHat
   name: wizard's hat
   categories: [ ForkFiltered ]
   components:
@@ -4845,7 +4845,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: BlackWizardHat
+  id: ClothingHeadHatBlackWizardHat
   name: black wizard hat
   categories: [ ForkFiltered ]
   components:
@@ -4856,7 +4856,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: GenericWizardHat
+  id: ClothingHeadHatGenericWizardHat
   name: generic wizard hat
   categories: [ ForkFiltered ]
   components:
@@ -4867,7 +4867,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: GreenWizardHat
+  id: ClothingHeadHatGreenWizardHat
   name: green wizard hat
   categories: [ ForkFiltered ]
   components:
@@ -4878,7 +4878,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: RedWizardHat
+  id: ClothingHeadHatRedWizardHat
   name: red wizard hat
   categories: [ ForkFiltered ]
   components:
@@ -4889,7 +4889,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: YellowWizardHat
+  id: ClothingHeadHatYellowWizardHat
   name: yellow wizard hat
   categories: [ ForkFiltered ]
   components:
@@ -4900,7 +4900,7 @@
 
 - type: entity # TODO: icon sprite
   parent: ClothingHeadBase
-  id: WoodenCrown
+  id: ClothingHeadHatWoodenCrown
   name: wooden crown
   categories: [ ForkFiltered ]
   components:
@@ -4911,7 +4911,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: XylixHelmet
+  id: ClothingHeadHelmetXylixHelmet
   name: xylix helm
   categories: [ ForkFiltered ]
   components:
@@ -4922,7 +4922,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: ZizoBarbute
+  id: ClothingHeadHelmetZizoBarbute
   name: zizo barbute
   categories: [ ForkFiltered ]
   components:
@@ -4933,7 +4933,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: ZizoBarbuteRaised
+  id: ClothingHeadHelmetZizoBarbuteRaised
   name: zizo barbute
   suffix: Raised
   categories: [ ForkFiltered ]
@@ -4945,7 +4945,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: ZizoBascinet
+  id: ClothingHeadHelmetZizoBascinet
   name: zizo bascinet
   categories: [ ForkFiltered ]
   components:
@@ -4956,7 +4956,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: ZizoFrogmouthHelm
+  id: ClothingHeadHelmetZizoFrogmouthHelm
   name: zizo frogmouth helm
   categories: [ ForkFiltered ]
   components:
@@ -4967,7 +4967,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: Zucchetto
+  id: ClothingHeadHatZucchetto
   name: zucchetto
   categories: [ ForkFiltered ]
   components:
