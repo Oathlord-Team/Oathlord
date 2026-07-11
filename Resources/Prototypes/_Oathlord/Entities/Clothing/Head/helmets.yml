@@ -1,0 +1,2455 @@
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetAbsolutionistHelm
+  name: absolutionist helm
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/absolutionisthelm.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/absolutionisthelm.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetAbyssorGreatHelm
+  name: abyssor great helm
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/abyssorgreathelm.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/abyssorgreathelm.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetAbyssorHelm
+  name: abyssor helm
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/abyssorhelm.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/abyssorhelm.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetAncientBarbute
+  name: ancient barbute
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/ancientbarbute.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/ancientbarbute.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetAncientKettleHelm
+  name: ancient kettle helm
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/ancientkettle.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/ancientkettle.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetAncientKnightHelm
+  name: ancient knight helm
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/ancientknight.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/ancientknight.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetAncientKnightHelmRaised
+  name: ancient knight helm
+  suffix: Raised
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/ancientknight_raised.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/ancientknight_raised.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetAncientSavoyardHelm
+  name: ancient savoyard helm
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/ancientsavoyard.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/ancientsavoyard.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetArmet
+  name: armet
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/armet.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/armet.rsi
+
+- type: entity # TODO: CHANGE RSI
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetArmetRaised
+  name: armet
+  suffix: Raised
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/armet_raised.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/armet_raised.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetOwlArmet
+  name: owl armet
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/armetowl.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/armetowl.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetOwlArmetRaised
+  name: owl armet
+  suffix: Raised
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/armetowl_raised.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/armetowl_raised.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetAstrataHelm
+  name: astrata helm
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/astratahelm.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/astratahelm.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetAstratanHelm
+  name: astratan helm
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/astratanhelm.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/astratanhelm.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetSlittedWarHelm
+  name: slitted war helm
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/atarmslit.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/atarmslit.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetAtgerviRaiderHelm
+  name: atgervi raider helm
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/atgervi_raider.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/atgervi_raider.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetBarbute
+  name: barbute
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/barbute.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/barbute.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetVisoredBarbute
+  name: visored barbute
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/barbute_visor.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/barbute_visor.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetVisoredBarbuteRaised
+  name: visored barbute
+  suffix: Raised
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/barbute_visor_raised.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/barbute_visor_raised.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetBlackenedBarbute
+  name: blackened barbute
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/barbutedunk.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/barbutedunk.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetBascinet
+  name: bascinet
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/bascinet.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/bascinet.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetBascinetNoVisor
+  name: bascinet
+  suffix: No Visor
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/bascinet_novisor.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/bascinet_novisor.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetBascinetRaised
+  name: bascinet
+  suffix: Raised
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/bascinet_raised.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/bascinet_raised.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetBasicBascinet
+  name: basic bascinet
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/basic_bascinet.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/basic_bascinet.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetBasicBucketHelm
+  name: basic bucket helm
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/basic_bucket.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/basic_bucket.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetBasicGreatBucketHelm
+  name: basic great bucket helm
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/basic_gbucket.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/basic_gbucket.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetBeakHelm
+  name: beak helm
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/beakhelm.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/beakhelm.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetBeakHelmet
+  name: beak helmet
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/beakhelmet.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/beakhelmet.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetBlueBascinet
+  name: blue bascinet
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/blue_bascinet.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/blue_bascinet.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetBlueBucketHelm
+  name: blue bucket helm
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/blue_bucket.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/blue_bucket.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetBlueGreatBucketHelm
+  name: blue great bucket helm
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/blue_gbucket.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/blue_gbucket.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetBriarHelm
+  name: briar helm
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/briarhelm.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/briarhelm.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetBronzeBarbute
+  name: bronze barbute
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/bronzebarbute.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/bronzebarbute.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetBronzeHelmet
+  name: bronze helmet
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/bronzehelmet.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/bronzehelmet.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetBronzeMurmilloHelm
+  name: bronze murmillo helm
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/bronzemurmillo.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/bronzemurmillo.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetCastleRedBascinet
+  name: castle red bascinet
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/castle_red_bascinet.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/castle_red_bascinet.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetCastleRedBucketHelm
+  name: castle red bucket helm
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/castle_red_bucket.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/castle_red_bucket.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetCastleRedGreatBucketHelm
+  name: castle red great bucket helm
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/castle_red_gbucket.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/castle_red_gbucket.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetCastleWhiteBascinet
+  name: castle white bascinet
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/castle_white_bascinet.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/castle_white_bascinet.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetCastleWhiteBucketHelm
+  name: castle white bucket helm
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/castle_white_bucket.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/castle_white_bucket.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetCastleWhiteGreatBucketHelm
+  name: castle white great bucket helm
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/castle_white_gbucket.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/castle_white_gbucket.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetCoppergateHelm
+  name: coppergate helm
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/coppergate.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/coppergate.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetDecoratedBascinet
+  name: decorated bascinet
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/decorated_bascinet.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/decorated_bascinet.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetDecoratedBucketHelm
+  name: decorated bucket helm
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/decorated_bucket.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/decorated_bucket.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetDecoratedGreatBucketHelm
+  name: decorated great bucket helm
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/decorated_gbucket.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/decorated_gbucket.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetDecoratedHounskullHelm
+  name: decorated hounskull helm
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/decorated_hounskull.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/decorated_hounskull.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetDecoratedKnightHelm
+  name: decorated knight helm
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/decorated_knight.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/decorated_knight.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetDecorativeCoppergateHelm
+  name: decorative coppergate helm
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/decorative_coppergate.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/decorative_coppergate.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetDeepAbyssorHelm
+  name: deep abyssor helm
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/deepabyssorhelm.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/deepabyssorhelm.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetDendorHelm
+  name: dendor helm
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/dendorhelm.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/dendorhelm.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetGreenDragonBascinet
+  name: green dragon bascinet
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/dragon_green_bascinet.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/dragon_green_bascinet.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetGreenDragonBucketHelm
+  name: green dragon bucket helm
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/dragon_green_bucket.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/dragon_green_bucket.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetGreenDragonGreatBucketHelm
+  name: green dragon great bucket helm
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/dragon_green_gbucket.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/dragon_green_gbucket.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetRedDragonBascinet
+  name: red dragon bascinet
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/dragon_red_bascinet.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/dragon_red_bascinet.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetRedDragonBucketHelm
+  name: red dragon bucket helm
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/dragon_red_bucket.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/dragon_red_bucket.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetRedDragonGreatBucketHelm
+  name: red dragon great bucket helm
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/dragon_red_gbucket.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/dragon_red_gbucket.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetDreamSquidHelm
+  name: dream squid helm
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/dreamsquidhelm.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/dreamsquidhelm.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetEfreetBascinet
+  name: efreet bascinet
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/efreet_bascinet.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/efreet_bascinet.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetEfreetBucketHelm
+  name: efreet bucket helm
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/efreet_bucket.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/efreet_bucket.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetEfreetGreatBucketHelm
+  name: efreet great bucket helm
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/efreet_gbucket.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/efreet_gbucket.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetFullElvenBarbute
+  name: full elven barbute
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/elven_barbute_full.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/elven_barbute_full.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetWingedElvenBarbute
+  name: winged elven barbute
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/elven_barbute_winged.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/elven_barbute_winged.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetEoraHelm
+  name: eora helm
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/eorahelm.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/eorahelm.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetEoraSalletHelm
+  name: eora sallet helm
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/eorahelmsallet.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/eorahelmsallet.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetFeatheredBascinet
+  name: feathered bascinet
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/feathers_bascinet.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/feathers_bascinet.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetFeatheredBucketHelm
+  name: feathered bucket helm
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/feathers_bucket.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/feathers_bucket.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetFeatheredGreatBucketHelm
+  name: feathered great bucket helm
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/feathers_gbucket.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/feathers_gbucket.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetFishBascinet
+  name: fish bascinet
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/fish_bascinet.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/fish_bascinet.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetFishBucketHelm
+  name: fish bucket helm
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/fish_bucket.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/fish_bucket.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetFishGreatBucketHelm
+  name: fish great bucket helm
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/fish_gbucket.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/fish_gbucket.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetFrogHelm
+  name: frog helm
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/froghelm.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/froghelm.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetFrogmouthHelm
+  name: frogmouth helm
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/frogmouth.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/frogmouth.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetGallowglassHelm
+  name: gallowglass helm
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/gallowglass.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/gallowglass.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetGateHelm
+  name: gate helm
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/gatehelm.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/gatehelm.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetGoldBarbute
+  name: gold barbute
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/goldbarbute.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/goldbarbute.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetCrownedGoldBarbute
+  name: crowned gold barbute
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/goldbarbute_crown.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/goldbarbute_crown.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetGoldKnightHelm
+  name: gold knight helm
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/goldknight.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/goldknight.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetGoldKnightHelmRaised
+  name: gold knight helm
+  suffix: Raised
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/goldknight_raised.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/goldknight_raised.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetCrownedGoldKnightHelm
+  name: crowned gold knight helm
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/goldknight_crown.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/goldknight_crown.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetCrownedGoldKnightHelmTrimmed
+  name: crowned gold knight helm
+  suffix: Raised
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/goldknight_crown_raised.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/goldknight_crown_raised.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetGraggarBascinet
+  name: graggar bascinet
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/graggar_bascinet.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/graggar_bascinet.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetGraggarBucketHelm
+  name: graggar bucket helm
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/graggar_bucket.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/graggar_bucket.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetGraggarGreatBucketHelm
+  name: graggar great bucket helm
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/graggar_gbucket.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/graggar_gbucket.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetGraggarPlateHelm
+  name: graggar plate helm
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/graggarplatehelm.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/graggarplatehelm.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetHeavyGraggarPlateHelm
+  name: heavy graggar plate helm
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/graggarplatehelm_heavy.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/graggarplatehelm_heavy.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetGuardHelm
+  name: guard helm
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/guardhelm.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/guardhelm.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetHalfVisorHelm
+  name: half visor helm
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/halfvisor.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/halfvisor.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetHornedBascinet
+  name: horned bascinet
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/horns_bascinet.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/horns_bascinet.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetHornedBucketHelm
+  name: horned bucket helm
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/horns_bucket.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/horns_bucket.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetHornedGreatBucketHelm
+  name: horned great bucket helm
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/horns_gbucket.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/horns_gbucket.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetHounskullHelm
+  name: hounskull helm
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/hounskull.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/hounskull.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetHounskullHelmRaised
+  name: hounskull helm
+  suffix: Raised
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/hounskull_raised.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/hounskull_raised.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetBandedHelm
+  name: banded helm
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/ibandedhelm.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/ibandedhelm.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetIronKettleHelm
+  name: iron kettle helm
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/ikettle.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/ikettle.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetIronKnightHelm
+  name: iron knight helm
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/iknight.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/iknight.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetIronKnightHelmRaised
+  name: iron knight helm
+  suffix: Raised
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/iknight_raised.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/iknight_raised.rsi
+
+- type: entity # TODO: Non raised version, look at GoldKnightHelm
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetIronKnightHelmAltRaised
+  name: iron knight helm
+  suffix: Raised
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/iknightalt_raised.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/iknightalt_raised.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetIranianHelm
+  name: iranian helm
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/iranian.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/iranian.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetIronPlateHelm
+  name: iron plate helm
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/ironplate.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/ironplate.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetIronPlateHelmRaised
+  name: iron plate helm
+  suffix: Raised
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/ironplate_raised.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/ironplate_raised.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetIronPotHelm
+  name: iron pot helm
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/ironpot.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/ironpot.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetIronSallet
+  name: iron sallet
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/isallet.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/isallet.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetIronSalletVisor
+  name: iron sallet
+  suffix: Visor
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/isallet_visor.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/isallet_visor.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetIronSalletVisorRaised
+  name: iron sallet
+  suffix: Visor Raised
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/isallet_visor_raised.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/isallet_visor_raised.rsi
+
+- type: entity # TODO: Non raised version, look at IronSalletVisor
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetIronSalletAltVisorRaised
+  name: iron sallet
+  suffix: Visor Raised
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/isalletalt_visor_raised.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/isalletalt_visor_raised.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetSlittedIronKettleHelm
+  name: slitted iron kettle helm
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/islitkettle.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/islitkettle.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetKazengunHeavyHelm
+  name: kazengun heavy helm
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/kazengunheavyhelm.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/kazengunheavyhelm.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetKazengunMediumHelm
+  name: kazengun helm
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/kazengunmedhelm.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/kazengunmedhelm.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetKeepersHelm
+  name: keeper's helm
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/keeperhelm.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/keeperhelm.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetKettleHelm
+  name: kettle helm
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/kettle.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/kettle.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetWideKettleHelm
+  name: wide kettle helm
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/kettlewide.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/kettlewide.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetKlappvisierHelm
+  name: klappvisier helm
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/klappvisier.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/klappvisier.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetKlappvisierHelmTrimmed
+  name: klappvisier helm
+  suffix: Raised
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/klappvisier_raised.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/klappvisier_raised.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetKlappvisorHelm
+  name: klappvisor helm
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/klappvisor.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/klappvisor.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetKlappvisorHelmRaised
+  name: klappvisor helm
+  suffix: Raised
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/klappvisor_raised.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/klappvisor_raised.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetKnightHelm
+  name: knight helm
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/knight.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/knight.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetKnightHelmRaised
+  name: knight helm
+  suffix: Raised
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/knight_raised.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/knight_raised.rsi
+
+- type: entity # TODO non raised version, also need icon. Look at KnightsArmet and KnightHelm
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetKnightHelmAltRaised
+  name: knight helm
+  suffix: Raised
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/knightalt_raised.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/knightalt_raised.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetKnightsArmet
+  name: knight's armet
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/knightarmet.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/knightarmet.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetKnightsArmetRaised
+  name: knight's armet
+  suffix: Raised
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/knightarmet_raised.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/knightarmet_raised.rsi
+
+- type: entity # TODO: icon sprite
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetKnightumHelm
+  name: knightum helm
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/knightum.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/knightum.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetLakkariHelm
+  name: lakkari helm
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/lakkarihelm.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/lakkarihelm.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetLamellarHelm
+  name: lamellar helm
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/lamellar.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/lamellar.rsi
+
+- type: entity # TODO: icon sprite see: other leather helms
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetLeatherHelmAlt
+  name: leather helm
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/leather_helmalt.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/leather_helmalt.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetLeatherHelm
+  name: leather helm
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/leatherhelm.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/leatherhelm.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetLeatherHelmOld
+  name: leather helm
+  suffix: Old
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/leatherhelm_old.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/leatherhelm_old.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetLionBascinet
+  name: lion bascinet
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/lion_bascinet.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/lion_bascinet.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetLionBucketHelm
+  name: lion bucket helm
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/lion_bucket.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/lion_bucket.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetLionGreatBucketHelm
+  name: lion great bucket helm
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/lion_gbucket.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/lion_gbucket.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetLoudmouthHelm
+  name: loudmouth helm
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/loudmouth.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/loudmouth.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetLoudmouthHelmRaised
+  name: loudmouth helm
+  suffix: Raised
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/loudmouth_raised.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/loudmouth_raised.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetMalumBowlHelm
+  name: malum bowl helm
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/malumbowl.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/malumbowl.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetMalumHelm
+  name: malum helm
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/malumhelm.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/malumhelm.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetMarauderHelm
+  name: marauder helm
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/marauder_helm.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/marauder_helm.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetMatthiosHelm
+  name: matthios helm
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/matthioshelm.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/matthioshelm.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetMenacingHelm
+  name: menacing helm
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/menacing.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/menacing.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetMinersLampHelm
+  name: miner's lamp helm
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/minerslamp.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/minerslamp.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetMinersLampHelm0
+  name: miner's lamp helm
+  suffix: "0"
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/minerslamp0.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/minerslamp0.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetMinersLampHelm1
+  name: miner's lamp helm
+  suffix: "1"
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/minerslamp1.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/minerslamp1.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetNasalHelm
+  name: nasal helm
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/nasal.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/nasal.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetNecraHelm
+  name: necra helm
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/necrahelm.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/necrahelm.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetNecranHelm
+  name: necran helm
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/necranhelm.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/necranhelm.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetNochHelm
+  name: noch helm
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/nochelm.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/nochelm.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetNomadHelmet
+  name: nomad helmet
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/nomadhelmet.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/nomadhelmet.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetOathtakerBascinet
+  name: oathtaker bascinet
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/oathtaker_bascinet.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/oathtaker_bascinet.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetOathtakerBucketHelm
+  name: oathtaker bucket helm
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/oathtaker_bucket.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/oathtaker_bucket.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetOathtakerGreatBucketHelm
+  name: oathtaker great bucket helm
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/oathtaker_gbucket.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/oathtaker_gbucket.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetOminousHelm
+  name: ominous helm
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/ominous.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/ominous.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetOnionHelm
+  name: onion helm
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/onionhelm.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/onionhelm.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetOrdinatorHelm
+  name: ordinator helm
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/ordinatorhelm.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/ordinatorhelm.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetOrdinatorHelmRaised
+  name: ordinator helm
+  suffix: Raised
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/ordinatorhelm_raised.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/ordinatorhelm_raised.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetPlumedOrdinatorHelm
+  name: plumed ordinator helm
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/ordinatorhelmplume.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/ordinatorhelmplume.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetPlumedOrdinatorHelmRaised
+  name: plumed ordinator helm
+  suffix: Raised
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/ordinatorhelmplume_raised.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/ordinatorhelmplume_raised.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetOtavaHelm
+  name: otava helm
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/otavahelm.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/otavahelm.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetOtavaHelmRaised
+  name: otava helm
+  suffix: Raised
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/otavahelm_raised.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/otavahelm_raised.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetPeaceBascinet
+  name: peace bascinet
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/peace_bascinet.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/peace_bascinet.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetPeaceBucketHelm
+  name: peace bucket helm
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/peace_bucket.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/peace_bucket.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetPeaceGreatBucketHelm
+  name: peace great bucket helm
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/peace_gbucket.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/peace_gbucket.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetPestraHelm
+  name: pestra helm
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/pestrahelm.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/pestrahelm.rsi
+
+- type: entity # TODO: icon sprite
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetPlateHelmItem
+  name: plate helm
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/plate_helm.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/plate_helm.rsi
+
+- type: entity # TODO: icon sprite
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetPsionicBarbedHelm
+  name: psionic barbed helm
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/psybarbs.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/psybarbs.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetPsionicBucketHelm
+  name: psionic bucket helm
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/psybucket.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/psybucket.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetPsydonArmet
+  name: psydon armet
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/psydonarmet.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/psydonarmet.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetPsydonArmetRaised
+  name: psydon armet
+  suffix: Raised
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/psydonarmet_raised.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/psydonarmet_raised.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetPsydonBarbute
+  name: psydon barbute
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/psydonbarbute.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/psydonbarbute.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetPsionicSallet
+  name: psionic sallet
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/psysallet.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/psysallet.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetRaneshenHelm
+  name: raneshen helm
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/raneshen.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/raneshen.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetRavoxGorget
+  name: ravox gorget
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/ravoxgorget.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/ravoxgorget.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetRavoxHelm
+  name: ravox helm
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/ravoxhelm.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/ravoxhelm.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetRavoxHelmet
+  name: ravox helmet
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/ravoxhelmet.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/ravoxhelmet.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetRustedBarbute
+  name: rusted barbute
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/rustbarbuta.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/rustbarbuta.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetSallet
+  name: sallet
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/sallet.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/sallet.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetBellowsSallet
+  name: bellows sallet
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/sallet_bellow.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/sallet_bellow.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetBellowsSalletRaised
+  name: bellows sallet
+  suffix: Raised
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/sallet_bellow_raised.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/sallet_bellow_raised.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetVisoredSallet
+  name: visored sallet
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/sallet_visor.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/sallet_visor.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetVisoredSalletRaised
+  name: visored sallet
+  suffix: Raised
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/sallet_visor_raised.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/sallet_visor_raised.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetSergeantsBarbute
+  name: sergeant's barbute
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/sargebuta.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/sargebuta.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetSavoyardHelm
+  name: savoyard helm
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/savoyard.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/savoyard.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetShishakHelm
+  name: shishak helm
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/shishak.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/shishak.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetSilverArmet
+  name: silver armet
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/silverarmet.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/silverarmet.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetSilverArmetRaised
+  name: silver armet
+  suffix: Raised
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/silverarmet_raised.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/silverarmet_raised.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetSilverBascinet
+  name: silver bascinet
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/silverbascinet.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/silverbascinet.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetSilverBascinetRaised
+  name: silver bascinet
+  suffix: Raised
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/silverbascinet_raised.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/silverbascinet_raised.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetSilverSallet
+  name: silver sallet
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/silversallet.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/silversallet.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetSinistarHelm
+  name: sinistar helm
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/sinistarhelm.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/sinistarhelm.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetSmallKettleHelm
+  name: small kettle helm
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/skettle.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/skettle.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetSkullBascinet
+  name: skull bascinet
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/skull_bascinet.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/skull_bascinet.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetSkullBucketHelm
+  name: skull bucket helm
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/skull_bucket.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/skull_bucket.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetSkullGreatBucketHelm
+  name: skull great bucket helm
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/skull_gbucket.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/skull_gbucket.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetSlittedKettleHelm
+  name: slitted kettle helm
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/slitkettle.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/slitkettle.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetSolarHelm
+  name: solar helm
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/solar.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/solar.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetSolarHelmTrimmed
+  name: solar helm
+  suffix: Raised
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/solar_raised.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/solar_raised.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetSteelSavoyardHelm
+  name: steel savoyard helm
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/steelsavoyard.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/steelsavoyard.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetStripedBascinet
+  name: striped bascinet
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/stripes_bascinet.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/stripes_bascinet.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetStripedBucketHelm
+  name: striped bucket helm
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/stripes_bucket.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/stripes_bucket.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetStripedGreatBucketHelm
+  name: striped great bucket helm
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/stripes_gbucket.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/stripes_gbucket.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetSunBascinet
+  name: sun bascinet
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/sun_bascinet.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/sun_bascinet.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetSunBucketHelm
+  name: sun bucket helm
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/sun_bucket.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/sun_bucket.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetSunGreatBucketHelm
+  name: sun great bucket helm
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/sun_gbucket.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/sun_gbucket.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetSwanBascinet
+  name: swan bascinet
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/swan_bascinet.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/swan_bascinet.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetSwanBucketHelm
+  name: swan bucket helm
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/swan_bucket.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/swan_bucket.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetSwanGreatBucketHelm
+  name: swan great bucket helm
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/swan_gbucket.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/swan_gbucket.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetTopfhelm
+  name: topfhelm
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/topfhelm.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/topfhelm.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetGoldTopfhelm
+  name: gold topfhelm
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/topfhelm_gold.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/topfhelm_gold.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetTotodHelm
+  name: totod helm
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/totodhelm.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/totodhelm.rsi
+
+- type: entity # TODO: icon sprite
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetVanguardHelmet
+  name: vanguard helmet
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/vhelmet.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/vhelmet.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetVolfPlateHelm
+  name: volf plate helm
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/volfplate.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/volfplate.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetAvantyneVolfPlateHelm
+  name: avantyne volf plate helm
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/volfplate_avantyne.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/volfplate_avantyne.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetAvantyneVolfPlateHelmRaised
+  name: avantyne volf plate helm
+  suffix: Raised
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/volfplate_avantyne_raised.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/volfplate_avantyne_raised.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetVolfPlateHelmTrimmed
+  name: volf plate helm
+  suffix: Trimmed
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/volfplate_t.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/volfplate_t.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetWarlordHelm
+  name: warlord helm
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/warlord_helm.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/warlord_helm.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetWatchBarbute
+  name: watch barbute
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/watchbuta.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/watchbuta.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetWindmillBascinet
+  name: windmill bascinet
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/windmill_bascinet.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/windmill_bascinet.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetWindmillBucketHelm
+  name: windmill bucket helm
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/windmill_bucket.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/windmill_bucket.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetWindmillGreatBucketHelm
+  name: windmill great bucket helm
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/windmill_gbucket.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/windmill_gbucket.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetXylixHelmet
+  name: xylix helm
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/xylixhelmet.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/xylixhelmet.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetZizoBarbute
+  name: zizo barbute
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/zizobarbute.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/zizobarbute.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetZizoBarbuteRaised
+  name: zizo barbute
+  suffix: Raised
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/zizobarbute_raised.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/zizobarbute_raised.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetZizoBascinet
+  name: zizo bascinet
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/zizobascinet.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/zizobascinet.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetZizoFrogmouthHelm
+  name: zizo frogmouth helm
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/zizofrogmouth.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/zizofrogmouth.rsi

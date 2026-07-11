@@ -1,0 +1,1282 @@
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatAdeptsCowl
+  name: adept's cowl
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Hats/adeptscowl.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Hats/adeptscowl.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatArchersCap
+  name: archer's cap
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Hats/archercap.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Hats/archercap.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatArmingCap
+  name: arming cap
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Hats/armingcap.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Hats/armingcap.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatArcticCap
+  name: arctic cap
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Hats/articap.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Hats/articap.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatBandana
+  name: bandana
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Hats/bandana.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Hats/bandana.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatBardsHat
+  name: bard's hat
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Hats/bardhat.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Hats/bardhat.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatBlackBag
+  name: black bag
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Hats/blackbag.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Hats/blackbag.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatBriarThorns
+  name: briar thorns
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Hats/briarthorns.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Hats/briarthorns.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatBrimmedHat
+  name: brimmed hat
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Hats/brimmed.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Hats/brimmed.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatBuckledHat
+  name: buckled hat
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Hats/bucklehat.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Hats/bucklehat.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatCalendulaCrown
+  name: calendula crown
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Hats/calendula_crown.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Hats/calendula_crown.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatChaperon
+  name: chaperon
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Hats/chaperon.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Hats/chaperon.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatNailedChaperon
+  name: nailed chaperon
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Hats/chapnaled.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Hats/chapnaled.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatNailedChaperonAlt
+  name: nailed chaperon
+  suffix: Alt
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Hats/chapnaledalt.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Hats/chapnaledalt.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatNailedChaperonAltSnout
+  name: nailed chaperon
+  suffix: Alt Snout
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Hats/chapnaledalt_snout.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Hats/chapnaledalt_snout.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatChaperonAlt
+  name: chaperon
+  suffix: Alt
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Hats/chap_alt.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Hats/chap_alt.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatSilkChaperon
+  name: silk chaperon
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Hats/chap_silk.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Hats/chap_silk.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatChefHat
+  name: chef's hat
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Hats/chef.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Hats/chef.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatCirclet
+  name: circlet
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Hats/circlet.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Hats/circlet.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatAmberCirclet
+  name: amber circlet
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Hats/circlet_amber.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Hats/circlet_amber.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatCoralCirclet
+  name: coral circlet
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Hats/circlet_coral.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Hats/circlet_coral.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatJadeCirclet
+  name: jade circlet
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Hats/circlet_jade.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Hats/circlet_jade.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatOnyxCirclet
+  name: onyx circlet
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Hats/circlet_onyxa.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Hats/circlet_onyxa.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatOpalCirclet
+  name: opal circlet
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Hats/circlet_opal.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Hats/circlet_opal.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatRoseCirclet
+  name: rose circlet
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Hats/circlet_rose.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Hats/circlet_rose.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatShellCirclet
+  name: shell circlet
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Hats/circlet_shell.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Hats/circlet_shell.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatTurquoiseCirclet
+  name: turquoise circlet
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Hats/circlet_turq.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Hats/circlet_turq.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatConsortCrown
+  name: consort crown
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Hats/consortcrown.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Hats/consortcrown.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatCourtiersCap
+  name: courtier's cap
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Hats/courtier.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Hats/courtier.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatCuratorsCap
+  name: curator's cap
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Hats/curator.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Hats/curator.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatCursedRosaCrown
+  name: cursed rosa crown
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Hats/cursedrosa_crown.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Hats/cursedrosa_crown.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatGoldenDiadem
+  name: golden diadem
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Hats/diadem_g.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Hats/diadem_g.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatSilverDiadem
+  name: silver diadem
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Hats/diadem_s.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Hats/diadem_s.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatDuelHat
+  name: duel hat
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Hats/duelhat.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Hats/duelhat.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatDuelistsHat
+  name: duelist's hat
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Hats/duelisthat.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Hats/duelisthat.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatDungeoneersCap
+  name: dungeoneer's cap
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Hats/dungeoneer.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Hats/dungeoneer.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatDurag
+  name: durag
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Hats/durag.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Hats/durag.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatEasternHat
+  name: eastern hat
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Hats/easthat.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Hats/easthat.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatEliteSkullcap
+  name: elite skullcap
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Hats/eliteskullcap.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Hats/eliteskullcap.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatExplorersHat
+  name: explorer's hat
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Hats/explorerhat.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Hats/explorerhat.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatFancyHat
+  name: fancy hat
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Hats/fancy_hat.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Hats/fancy_hat.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatFishersHat
+  name: fisher's hat
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Hats/fisherhat.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Hats/fisherhat.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatFlatHat
+  name: flat hat
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Hats/flathat.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Hats/flathat.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatGnomeCap
+  name: gnome cap
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Hats/gnomecap.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Hats/gnomecap.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatGoldCirclet
+  name: gold circlet
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Hats/goldcirclet.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Hats/goldcirclet.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatGoldPinHat
+  name: gold pin hat
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Hats/goldpin.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Hats/goldpin.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatGraveHat
+  name: grave hat
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Hats/gravehat.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Hats/gravehat.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatGrenzelHat
+  name: grenzel hat
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Hats/grenzelhat.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Hats/grenzelhat.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatBlueHat
+  name: blue hat
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Hats/hatblu.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Hats/hatblu.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatFurHat
+  name: fur hat
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Hats/hatfur.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Hats/hatfur.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatHeadband
+  name: headband
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Hats/headband.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Hats/headband.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatHeadCage
+  name: head cage
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Hats/headcage.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Hats/headcage.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatHeaddress
+  name: headdress
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Hats/headdress.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Hats/headdress.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatDancersHeaddress
+  name: dancer's headdress
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Hats/headdress_dance.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Hats/headdress_dance.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatGoldenHeaddress
+  name: golden headdress
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Hats/headdress_g.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Hats/headdress_g.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatSilverHeaddress
+  name: silver headdress
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Hats/headdress_s.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Hats/headdress_s.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatHeaddressAlt
+  name: headdress
+  suffix: Alt
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Hats/headdressalt.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Hats/headdressalt.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatHeadscarf
+  name: headscarf
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Hats/headscarf.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Hats/headscarf.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatHeadVeil
+  name: head veil
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Hats/headveil.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Hats/headveil.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatHemhemCrown
+  name: hemhem crown
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Hats/hemhem.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Hats/hemhem.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatHennin
+  name: hennin
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Hats/hennin.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Hats/hennin.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatHijab
+  name: hijab
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Hats/hijab.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Hats/hijab.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatHijabTrimmed
+  name: hijab
+  suffix: Trimmed
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Hats/hijab_t.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Hats/hijab_t.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatHornedCap
+  name: horned cap
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Hats/hornedcap.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Hats/hornedcap.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatInquisitorsHat
+  name: inquisitor's hat
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Hats/inqhat.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Hats/inqhat.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatKnitCap
+  name: knit cap
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Hats/knitcap.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Hats/knitcap.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatLakkariCap
+  name: lakkari cap
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Hats/lakkaricap.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Hats/lakkaricap.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatMaidsHeadband
+  name: maid's headband
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Hats/maidband.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Hats/maidband.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatManabloomCrown
+  name: manabloom crown
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Hats/manabloom_crown.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Hats/manabloom_crown.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatMatricariaCrown
+  name: matricaria crown
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Hats/matricaria_crown.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Hats/matricaria_crown.rsi
+
+- type: entity # TODO: Icon sprite
+  parent: ClothingHeadBase
+  id: ClothingHeadHatMetalArmingCap
+  name: metal arming cap
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Hats/metalarming.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Hats/metalarming.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatNileHeaddress
+  name: nile headdress
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Hats/nile.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Hats/nile.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatNoblesChaperon
+  name: noble's chaperon
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Hats/noblechaperon.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Hats/noblechaperon.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatNun
+  name: nun's habit
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Hats/nun.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Hats/nun.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatPaddedArmingCap
+  name: padded arming cap
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Hats/paddedarmingcap.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Hats/paddedarmingcap.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatPapakha
+  name: papakha
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Hats/papakha.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Hats/papakha.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatPharaohsHeaddress
+  name: pharaoh's headdress
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Hats/pharaoh.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Hats/pharaoh.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatPhysHat
+  name: physic hat
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Hats/physhat.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Hats/physhat.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatPhysiciansHat
+  name: physician's hat
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Hats/physicianhat.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Hats/physicianhat.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatPriestsCap
+  name: priest's cap
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Hats/priest.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Hats/priest.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatPuritanHat
+  name: puritan hat
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Hats/puritan_hat.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Hats/puritan_hat.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatRenegadesTricorn
+  name: renegade's tricorn
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Hats/renegadetricorn.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Hats/renegadetricorn.rsi
+
+- type: entity # TODO: icon sprite
+  parent: ClothingHeadBase
+  id: ClothingHeadHatReqHat
+  name: req hat
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Hats/reqhat.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Hats/reqhat.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatRiceHat
+  name: rice hat
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Hats/ricehat.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Hats/ricehat.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatRosaCrown
+  name: rosa crown
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Hats/rosa_crown.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Hats/rosa_crown.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatSalviaCrown
+  name: salvia crown
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Hats/salvia_crown.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Hats/salvia_crown.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatSerpentCrown
+  name: serpent crown
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Hats/serpcrown.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Hats/serpcrown.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatSerpentCrownAlt
+  name: serpent crown
+  suffix: Alt
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Hats/serpcrowno.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Hats/serpcrowno.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatShawl
+  name: shawl
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Hats/shawl.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Hats/shawl.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatSilverPinHat
+  name: silver pin hat
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Hats/silverpin.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Hats/silverpin.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatSkullcap
+  name: skullcap
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Hats/skullcap.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Hats/skullcap.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatSleepCirclet
+  name: sleep circlet
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Hats/sleepcirclet.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Hats/sleepcirclet.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatSmokingCap
+  name: smoking cap
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Hats/smokingc.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Hats/smokingc.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatSparrowCrown
+  name: sparrow crown
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Hats/sparrowcrown.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Hats/sparrowcrown.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatSpellcastersHat
+  name: spellcaster's hat
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Hats/spellcasterhat.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Hats/spellcasterhat.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatStinkCirclet
+  name: stink circlet
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Hats/stinkcirclet.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Hats/stinkcirclet.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatStrawHat
+  name: straw hat
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Hats/strawhat.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Hats/strawhat.rsi
+
+- type: entity  # TODO: icon sprite
+  parent: ClothingHeadBase
+  id: ClothingHeadHatTakuhatsugasa
+  name: takuhatsugasa
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Hats/takuhatsugasa.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Hats/takuhatsugasa.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatTopHat
+  name: top hat
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Hats/tophat.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Hats/tophat.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatTricornHat
+  name: tricorn hat
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Hats/tricorn.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Hats/tricorn.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatSkullTricornHat
+  name: skull tricorn hat
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Hats/tricorn_skull.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Hats/tricorn_skull.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatTurban
+  name: turban
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Hats/turban.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Hats/turban.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatVictorsCrown
+  name: victor's crown
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Hats/vcrown.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Hats/vcrown.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatVeil
+  name: veil
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Hats/veil.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Hats/veil.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatVeilTrimmed
+  name: veil
+  suffix: Trimmed
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Hats/veil_t.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Hats/veil_t.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatVisionCirclet
+  name: vision circlet
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Hats/visioncirclet.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Hats/visioncirclet.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatWingedCap
+  name: winged cap
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Hats/wingedcap.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Hats/wingedcap.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatWitchsHat
+  name: witch's hat
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Hats/witchhat.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Hats/witchhat.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatWizardsHat
+  name: wizard's hat
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Hats/wizardhat.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Hats/wizardhat.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatBlackWizardHat
+  name: black wizard hat
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Hats/wizardhatblack.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Hats/wizardhatblack.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatGenericWizardHat
+  name: generic wizard hat
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Hats/wizardhatgen.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Hats/wizardhatgen.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatGreenWizardHat
+  name: green wizard hat
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Hats/wizardhatgreen.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Hats/wizardhatgreen.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatRedWizardHat
+  name: red wizard hat
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Hats/wizardhatred.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Hats/wizardhatred.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatYellowWizardHat
+  name: yellow wizard hat
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Hats/wizardhatyellow.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Hats/wizardhatyellow.rsi
+
+- type: entity # TODO: icon sprite
+  parent: ClothingHeadBase
+  id: ClothingHeadHatWoodenCrown
+  name: wooden crown
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Hats/wooden_crown.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Hats/wooden_crown.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatZucchetto
+  name: zucchetto
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Hats/zucchetto.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Hats/zucchetto.rsi

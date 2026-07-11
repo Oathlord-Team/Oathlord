@@ -1,0 +1,87 @@
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatAasimarMask
+  name: aasimar mask
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Masks/aasimarhead.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Masks/aasimarhead.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatAncientMask
+  name: ancient mask
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Masks/ancientmask.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Masks/ancientmask.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatDeathfaceMask
+  name: deathface mask
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Masks/deathface.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Masks/deathface.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatDendorMask
+  name: dendor mask
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Masks/dendormask.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Masks/dendormask.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatEoraMask
+  name: eora mask
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Masks/eoramask.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Masks/eoramask.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatMarauderMask
+  name: marauder mask
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Masks/marauder_head.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Masks/marauder_head.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatSaigaMask
+  name: saiga mask
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Masks/saigahead.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Masks/saigahead.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatVolfMask
+  name: volf mask
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Masks/volfhead.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Masks/volfhead.rsi

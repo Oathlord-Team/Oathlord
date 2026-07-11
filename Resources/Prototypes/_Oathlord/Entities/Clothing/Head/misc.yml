@@ -1,0 +1,417 @@
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatBasicHelmCrest
+  name: basic helm crest
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Misc/basic_decoration.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Misc/basic_decoration.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatBasicHoundCrest
+  name: basic hound crest
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Misc/basic_houndecoration.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Misc/basic_houndecoration.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatBlueHelmCrest
+  name: blue helm crest
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Misc/blue_decoration.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Misc/blue_decoration.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatBlueHoundCrest
+  name: blue hound crest
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Misc/blue_houndecoration.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Misc/blue_houndecoration.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatCastleRedHelmCrest
+  name: castle red helm crest
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Misc/castle_red_decoration.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Misc/castle_red_decoration.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatCastleRedHoundCrest
+  name: castle red hound crest
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Misc/castle_red_houndecoration.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Misc/castle_red_houndecoration.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatCastleWhiteHelmCrest
+  name: castle white helm crest
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Misc/castle_white_decoration.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Misc/castle_white_decoration.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatCastleWhiteHoundCrest
+  name: castle white hound crest
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Misc/castle_white_houndecoration.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Misc/castle_white_houndecoration.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatGreenDragonHelmCrest
+  name: green dragon helm crest
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Misc/dragon_green_decoration.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Misc/dragon_green_decoration.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatGreenDragonHoundCrest
+  name: green dragon hound crest
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Misc/dragon_green_houndecoration.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Misc/dragon_green_houndecoration.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatRedDragonHelmCrest
+  name: red dragon helm crest
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Misc/dragon_red_decoration.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Misc/dragon_red_decoration.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatRedDragonHoundCrest
+  name: red dragon hound crest
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Misc/dragon_red_houndecoration.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Misc/dragon_red_houndecoration.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatEfreetHelmCrest
+  name: efreet helm crest
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Misc/efreet_decoration.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Misc/efreet_decoration.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatEfreetHoundCrest
+  name: efreet hound crest
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Misc/efreet_houndecoration.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Misc/efreet_houndecoration.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatFeatherHelmCrest
+  name: feather helm crest
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Misc/feathers_decoration.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Misc/feathers_decoration.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatFeatherHoundCrest
+  name: feather hound crest
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Misc/feathers_houndecoration.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Misc/feathers_houndecoration.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatFishHelmCrest
+  name: fish helm crest
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Misc/fish_decoration.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Misc/fish_decoration.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatFishHoundCrest
+  name: fish hound crest
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Misc/fish_houndecoration.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Misc/fish_houndecoration.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatGraggarHelmCrest
+  name: graggar helm crest
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Misc/graggar_decoration.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Misc/graggar_decoration.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatGraggarHoundCrest
+  name: graggar hound crest
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Misc/graggar_houndecoration.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Misc/graggar_houndecoration.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatHornHelmCrest
+  name: horn helm crest
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Misc/horns_decoration.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Misc/horns_decoration.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatHornHoundCrest
+  name: horn hound crest
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Misc/horns_houndecoration.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Misc/horns_houndecoration.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatLionHelmCrest
+  name: lion helm crest
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Misc/lion_decoration.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Misc/lion_decoration.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatLionHoundCrest
+  name: lion hound crest
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Misc/lion_houndecoration.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Misc/lion_houndecoration.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatOathtakerHelmCrest
+  name: oathtaker helm crest
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Misc/oathtaker_decoration.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Misc/oathtaker_decoration.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatOathtakerHoundCrest
+  name: oathtaker hound crest
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Misc/oathtaker_houndecoration.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Misc/oathtaker_houndecoration.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatPeaceHelmCrest
+  name: peace helm crest
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Misc/peace_decoration.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Misc/peace_decoration.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatPeaceHoundCrest
+  name: peace hound crest
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Misc/peace_houndecoration.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Misc/peace_houndecoration.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatSkullHelmCrest
+  name: skull helm crest
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Misc/skull_decoration.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Misc/skull_decoration.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatSkullHoundCrest
+  name: skull hound crest
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Misc/skull_houndecoration.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Misc/skull_houndecoration.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatStripedHelmCrest
+  name: striped helm crest
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Misc/stripes_decoration.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Misc/stripes_decoration.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatStripedHoundCrest
+  name: striped hound crest
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Misc/stripes_houndecoration.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Misc/stripes_houndecoration.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatSunHelmCrest
+  name: sun helm crest
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Misc/sun_decoration.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Misc/sun_decoration.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatSunHoundCrest
+  name: sun hound crest
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Misc/sun_houndecoration.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Misc/sun_houndecoration.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatSwanHelmCrest
+  name: swan helm crest
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Misc/swan_decoration.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Misc/swan_decoration.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatSwanHoundCrest
+  name: swan hound crest
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Misc/swan_houndecoration.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Misc/swan_houndecoration.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatWindmillHelmCrest
+  name: windmill helm crest
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Misc/windmill_decoration.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Misc/windmill_decoration.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatWindmillHoundCrest
+  name: windmill hound crest
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Misc/windmill_houndecoration.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Misc/windmill_houndecoration.rsi
