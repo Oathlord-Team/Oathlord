@@ -155,7 +155,7 @@
 
 - type: entity
   parent: ClothingOuterBase
-  id: CLothingOuterRobeNun
+  id: ClothingOuterRobeNun
   name: nun robe
   categories: [ ForkFiltered ]
   components:
