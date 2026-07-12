@@ -143,39 +143,6 @@
 
 - type: entity
   parent: ClothingOuterArmorBase
-  id: ClothingOuterArmorAtgerviShamanCoat
-  name: atgervi shaman coat
-  categories: [ ForkFiltered ]
-  components:
-  - type: Sprite
-    sprite: _Oathlord/Clothing/OuterClothing/Armor/Coat/atgervi_shaman_coat.rsi
-  - type: Clothing
-    sprite: _Oathlord/Clothing/OuterClothing/Armor/Coat/atgervi_shaman_coat.rsi
-
-- type: entity
-  parent: ClothingOuterArmorBase
-  id: ClothingOuterArmorBlackLeatherCoat
-  name: black leather coat
-  categories: [ ForkFiltered ]
-  components:
-  - type: Sprite
-    sprite: _Oathlord/Clothing/OuterClothing/Armor/Coat/bleathercoat.rsi
-  - type: Clothing
-    sprite: _Oathlord/Clothing/OuterClothing/Armor/Coat/bleathercoat.rsi
-
-- type: entity
-  parent: ClothingOuterArmorBase
-  id: ClothingOuterArmorButlerCoat
-  name: butler's coat
-  categories: [ ForkFiltered ]
-  components:
-  - type: Sprite
-    sprite: _Oathlord/Clothing/OuterClothing/Armor/Coat/butlercoat.rsi
-  - type: Clothing
-    sprite: _Oathlord/Clothing/OuterClothing/Armor/Coat/butlercoat.rsi
-
-- type: entity
-  parent: ClothingOuterArmorBase
   id: ClothingOuterArmorCoatOfPlates
   name: coat of plates
   categories: [ ForkFiltered ]
@@ -184,72 +151,6 @@
     sprite: _Oathlord/Clothing/OuterClothing/Armor/Coat/coat_of_plates.rsi
   - type: Clothing
     sprite: _Oathlord/Clothing/OuterClothing/Armor/Coat/coat_of_plates.rsi
-
-- type: entity
-  parent: ClothingOuterArmorBase
-  id: ClothingOuterArmorConfessorCoat
-  name: confessor's coat
-  categories: [ ForkFiltered ]
-  components:
-  - type: Sprite
-    sprite: _Oathlord/Clothing/OuterClothing/Armor/Coat/confessorcoat.rsi
-  - type: Clothing
-    sprite: _Oathlord/Clothing/OuterClothing/Armor/Coat/confessorcoat.rsi
-
-- type: entity
-  parent: ClothingOuterArmorBase
-  id: ClothingOuterArmorHandCoat
-  name: hand coat
-  categories: [ ForkFiltered ]
-  components:
-  - type: Sprite
-    sprite: _Oathlord/Clothing/OuterClothing/Armor/Coat/handcoat.rsi
-  - type: Clothing
-    sprite: _Oathlord/Clothing/OuterClothing/Armor/Coat/handcoat.rsi
-
-- type: entity
-  parent: ClothingOuterArmorBase
-  id: ClothingOuterArmorLongCoat
-  name: long coat
-  categories: [ ForkFiltered ]
-  components:
-  - type: Sprite
-    sprite: _Oathlord/Clothing/OuterClothing/Armor/Coat/longcoat.rsi
-  - type: Clothing
-    sprite: _Oathlord/Clothing/OuterClothing/Armor/Coat/longcoat.rsi
-
-- type: entity # TODO: Equipped sprites
-  parent: ClothingOuterArmorBase
-  id: ClothingOuterArmorPhysicianCoat
-  name: physician's coat
-  categories: [ ForkFiltered ]
-  components:
-  - type: Sprite
-    sprite: _Oathlord/Clothing/OuterClothing/Armor/Coat/physcoat.rsi
-  - type: Clothing
-    sprite: _Oathlord/Clothing/OuterClothing/Armor/Coat/physcoat.rsi
-
-- type: entity
-  parent: ClothingOuterArmorBase
-  id: ClothingOuterArmorSherwani
-  name: sherwani
-  categories: [ ForkFiltered ]
-  components:
-  - type: Sprite
-    sprite: _Oathlord/Clothing/OuterClothing/Armor/Coat/sherwani.rsi
-  - type: Clothing
-    sprite: _Oathlord/Clothing/OuterClothing/Armor/Coat/sherwani.rsi
-
-- type: entity
-  parent: ClothingOuterArmorBase
-  id: ClothingOuterArmorSurcoat
-  name: surcoat
-  categories: [ ForkFiltered ]
-  components:
-  - type: Sprite
-    sprite: _Oathlord/Clothing/OuterClothing/Armor/Coat/surcoat.rsi
-  - type: Clothing
-    sprite: _Oathlord/Clothing/OuterClothing/Armor/Coat/surcoat.rsi
 
 - type: entity # TODO: Make new entity
   parent: ClothingOuterArmorBase
@@ -825,39 +726,6 @@
 
 - type: entity
   parent: ClothingOuterArmorBase
-  id: ClothingOuterArmorArtisanJacket
-  name: artisan's jacket
-  categories: [ ForkFiltered ]
-  components:
-  - type: Sprite
-    sprite: _Oathlord/Clothing/OuterClothing/Armor/Jacket/artijacket.rsi
-  - type: Clothing
-    sprite: _Oathlord/Clothing/OuterClothing/Armor/Jacket/artijacket.rsi
-
-- type: entity
-  parent: ClothingOuterArmorBase
-  id: ClothingOuterArmorFreijacket
-  name: freijacket
-  categories: [ ForkFiltered ]
-  components:
-  - type: Sprite
-    sprite: _Oathlord/Clothing/OuterClothing/Armor/Jacket/freijacket.rsi
-  - type: Clothing
-    sprite: _Oathlord/Clothing/OuterClothing/Armor/Jacket/freijacket.rsi
-
-- type: entity
-  parent: ClothingOuterArmorBase
-  id: ClothingOuterArmorWinterJacket
-  name: winter jacket
-  categories: [ ForkFiltered ]
-  components:
-  - type: Sprite
-    sprite: _Oathlord/Clothing/OuterClothing/Armor/Jacket/winterjacket.rsi
-  - type: Clothing
-    sprite: _Oathlord/Clothing/OuterClothing/Armor/Jacket/winterjacket.rsi
-
-- type: entity
-  parent: ClothingOuterArmorBase
   id: ClothingOuterArmorKazengunHeavy
   name: heavy kazengun armor
   categories: [ ForkFiltered ]
@@ -1405,50 +1273,6 @@
     sprite: _Oathlord/Clothing/OuterClothing/Armor/Splint/splint.rsi
   - type: Clothing
     sprite: _Oathlord/Clothing/OuterClothing/Armor/Splint/splint.rsi
-
-- type: entity
-  parent: ClothingOuterArmorBase
-  id: ClothingOuterArmorSailorVest
-  name: sailor's vest
-  categories: [ ForkFiltered ]
-  components:
-  - type: Sprite
-    sprite: _Oathlord/Clothing/OuterClothing/Armor/Vest/sailorvest.rsi
-  - type: Clothing
-    sprite: _Oathlord/Clothing/OuterClothing/Armor/Vest/sailorvest.rsi
-
-- type: entity
-  parent: ClothingOuterArmorBase
-  id: ClothingOuterArmorShepherdVest
-  name: shepherd's vest
-  categories: [ ForkFiltered ]
-  components:
-  - type: Sprite
-    sprite: _Oathlord/Clothing/OuterClothing/Armor/Vest/shepherdvest.rsi
-  - type: Clothing
-    sprite: _Oathlord/Clothing/OuterClothing/Armor/Vest/shepherdvest.rsi
-
-- type: entity
-  parent: ClothingOuterArmorBase
-  id: ClothingOuterArmorStripedVest
-  name: striped vest
-  categories: [ ForkFiltered ]
-  components:
-  - type: Sprite
-    sprite: _Oathlord/Clothing/OuterClothing/Armor/Vest/striped.rsi
-  - type: Clothing
-    sprite: _Oathlord/Clothing/OuterClothing/Armor/Vest/striped.rsi
-
-- type: entity
-  parent: ClothingOuterArmorBase
-  id: ClothingOuterArmorVest
-  name: vest
-  categories: [ ForkFiltered ]
-  components:
-  - type: Sprite
-    sprite: _Oathlord/Clothing/OuterClothing/Armor/Vest/vest.rsi
-  - type: Clothing
-    sprite: _Oathlord/Clothing/OuterClothing/Armor/Vest/vest.rsi
 
 - type: entity
   parent: ClothingOuterArmorBase
