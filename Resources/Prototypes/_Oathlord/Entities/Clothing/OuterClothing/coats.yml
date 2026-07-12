@@ -1,3 +1,4 @@
+# ALL of these need armor stats
 - type: entity
   parent: ClothingOuterArmorBase
   id: ClothingOuterArmorAtgerviShamanCoat
@@ -118,3 +119,5 @@
     sprite: _Oathlord/Clothing/OuterClothing/Armor/Jacket/freijacket.rsi
   - type: Clothing
     sprite: _Oathlord/Clothing/OuterClothing/Armor/Jacket/freijacket.rsi
+
+# No Armor
