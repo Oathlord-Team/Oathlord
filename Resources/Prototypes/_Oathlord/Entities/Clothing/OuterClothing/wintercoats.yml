@@ -1,0 +1,10 @@
+- type: entity
+  parent: ClothingOuterArmorBase
+  id: ClothingOuterArmorWinterJacket
+  name: winter jacket
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Jacket/winterjacket.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Jacket/winterjacket.rsi

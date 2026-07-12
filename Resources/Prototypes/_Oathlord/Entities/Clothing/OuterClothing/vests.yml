@@ -1,0 +1,43 @@
+- type: entity
+  parent: ClothingOuterArmorBase
+  id: ClothingOuterArmorSailorVest
+  name: sailor's vest
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Vest/sailorvest.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Vest/sailorvest.rsi
+
+- type: entity
+  parent: ClothingOuterArmorBase
+  id: ClothingOuterArmorShepherdVest
+  name: shepherd's vest
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Vest/shepherdvest.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Vest/shepherdvest.rsi
+
+- type: entity
+  parent: ClothingOuterArmorBase
+  id: ClothingOuterArmorStripedVest
+  name: striped vest
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Vest/striped.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Vest/striped.rsi
+
+- type: entity
+  parent: ClothingOuterArmorBase
+  id: ClothingOuterArmorVest
+  name: vest
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Vest/vest.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/OuterClothing/Armor/Vest/vest.rsi
