@@ -1062,7 +1062,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: ClothingHeadHatStrawHat
+  id: ClothingHeadHatStrawHatOL
   name: straw hat
   categories: [ ForkFiltered ]
   components:
