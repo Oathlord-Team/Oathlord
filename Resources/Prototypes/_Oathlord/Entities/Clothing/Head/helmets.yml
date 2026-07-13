@@ -1382,16 +1382,16 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Helmets/lamellar.rsi
 
-- type: entity # TODO: icon sprite see: other leather helms
+- type: entity
   parent: ClothingHeadHelmetBase
   id: ClothingHeadHelmetLeatherHelmAlt
   name: leather helm
   categories: [ ForkFiltered ]
   components:
   - type: Sprite
-    sprite: _Oathlord/Clothing/Head/Helmets/leather_helmalt.rsi
+    sprite: _Oathlord/Clothing/Head/Helmets/leatherhelm_alt.rsi
   - type: Clothing
-    sprite: _Oathlord/Clothing/Head/Helmets/leather_helmalt.rsi
+    sprite: _Oathlord/Clothing/Head/Helmets/leatherhelm_alt.rsi
 
 - type: entity
   parent: ClothingHeadHelmetBase
@@ -1796,7 +1796,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Helmets/plate_helm.rsi
 
-- type: entity # TODO: icon sprite
+- type: entity
   parent: ClothingHeadHelmetBase
   id: ClothingHeadHelmetPsionicBarbedHelm
   name: psionic barbed helm

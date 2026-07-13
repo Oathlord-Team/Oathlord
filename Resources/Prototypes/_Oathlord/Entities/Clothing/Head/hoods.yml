@@ -462,7 +462,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Hoods/nochood_raised.rsi
 
-- type: entity # TODO: icon sprite see: PestraHelm
+- type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatPestraHood
   name: pestra hood
@@ -529,7 +529,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Hoods/rain_hood.rsi
 
-- type: entity # TODO: icon sprite
+- type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatRangersHood
   name: ranger's hood
