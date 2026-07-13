@@ -1,0 +1,340 @@
+- type: entity
+  parent: ClothingShoesBaseButcherable
+  id: ClothingShoesBootsAl
+  name: al boots
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Shoes/Boots/alboots.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Shoes/Boots/alboots.rsi
+
+- type: entity
+  parent: ClothingShoesBaseButcherable
+  id: ClothingShoesBootsAncient
+  name: ancient boots
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Shoes/Boots/ancientboots.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Shoes/Boots/ancientboots.rsi
+
+- type: entity
+  parent: ClothingShoesBaseButcherable
+  id: ClothingShoesBootsApoth
+  name: apothecary boots
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Shoes/Boots/apothboots.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Shoes/Boots/apothboots.rsi
+
+- type: entity
+  parent: ClothingShoesBase
+  id: ClothingShoesBootsArmor
+  name: plate boots
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Shoes/Boots/armorboots.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Shoes/Boots/armorboots.rsi
+
+- type: entity
+  parent: ClothingShoesBaseButcherable
+  id: ClothingShoesBootsAtgervi
+  name: atgervi boots
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Shoes/Boots/atgervi_boots.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Shoes/Boots/atgervi_boots.rsi
+
+- type: entity
+  parent: ClothingShoesBaseButcherable
+  id: ClothingShoesBootsBlack
+  name: black boots
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Shoes/Boots/blackboots.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Shoes/Boots/blackboots.rsi
+
+- type: entity
+  parent: ClothingShoesBase
+  id: ClothingShoesBootsBronzeGreaves
+  name: bronze greaves
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Shoes/Boots/bronzegreaves.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Shoes/Boots/bronzegreaves.rsi
+
+- type: entity
+  parent: ClothingShoesBase
+  id: ClothingShoesBootsCarapace
+  name: carapace boots
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Shoes/Boots/carapaceboots.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Shoes/Boots/carapaceboots.rsi
+
+- type: entity
+  parent: ClothingShoesBaseButcherable
+  id: ClothingShoesBootsDream
+  name: dream boots
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Shoes/Boots/dreamboots.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Shoes/Boots/dreamboots.rsi
+
+- type: entity
+  parent: ClothingShoesBaseButcherable
+  id: ClothingShoesBootsFencer
+  name: fencer boots
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Shoes/Boots/fencerboots.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Shoes/Boots/fencerboots.rsi
+
+- type: entity
+  parent: ClothingShoesBaseButcherable
+  id: ClothingShoesBootsFrei
+  name: frei boots
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Shoes/Boots/freiboots.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Shoes/Boots/freiboots.rsi
+
+- type: entity
+  parent: ClothingShoesBaseButcherable
+  id: ClothingShoesBootsFurLined
+  name: fur lined boots
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Shoes/Boots/furlinedboots.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Shoes/Boots/furlinedboots.rsi
+
+- type: entity
+  parent: ClothingShoesBase
+  id: ClothingShoesBootsGoldGreaves
+  name: gold greaves
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Shoes/Boots/goldgreaves.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Shoes/Boots/goldgreaves.rsi
+
+- type: entity
+  parent: ClothingShoesBase
+  id: ClothingShoesBootsGraggarPlate
+  name: graggar plate boots
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Shoes/Boots/graggarplateboots.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Shoes/Boots/graggarplateboots.rsi
+
+- type: entity
+  parent: ClothingShoesBaseButcherable
+  id: ClothingShoesBootsGrenzel
+  name: grenzel boots
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Shoes/Boots/grenzelboots.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Shoes/Boots/grenzelboots.rsi
+
+- type: entity
+  parent: ClothingShoesBaseButcherable
+  id: ClothingShoesBootsHunter
+  name: hunter boots
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Shoes/Boots/hunterboots.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Shoes/Boots/hunterboots.rsi
+
+- type: entity
+  parent: ClothingShoesBaseButcherable
+  id: ClothingShoesBootsInq
+  name: inquisitorial boots
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Shoes/Boots/inqboots.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Shoes/Boots/inqboots.rsi
+
+- type: entity
+  parent: ClothingShoesBase
+  id: ClothingShoesBootsIPlate
+  name: iron plate boots
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Shoes/Boots/iplateboots.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Shoes/Boots/iplateboots.rsi
+
+- type: entity
+  parent: ClothingShoesBaseButcherable
+  id: ClothingShoesBootsKazengun
+  name: kazengun boots
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Shoes/Boots/kazengunboots.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Shoes/Boots/kazengunboots.rsi
+
+- type: entity
+  parent: ClothingShoesBaseButcherable
+  id: ClothingShoesBootsLeather
+  name: leather boots
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Shoes/Boots/leatherboots.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Shoes/Boots/leatherboots.rsi
+
+- type: entity
+  parent: ClothingShoesBase
+  id: ClothingShoesBootsMaille
+  name: chainmail boots
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Shoes/Boots/mailleboots.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Shoes/Boots/mailleboots.rsi
+
+- type: entity
+  parent: ClothingShoesBase
+  id: ClothingShoesBootsMatthios
+  name: gilded boots
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Shoes/Boots/matthiosboots.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Shoes/Boots/matthiosboots.rsi
+
+- type: entity
+  parent: ClothingShoesBaseButcherable
+  id: ClothingShoesBootsNoble
+  name: noble boots
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Shoes/Boots/nobleboots.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Shoes/Boots/nobleboots.rsi
+
+- type: entity
+  parent: ClothingShoesBaseButcherable
+  id: ClothingShoesBootsPsydon
+  name: psydon boots
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Shoes/Boots/psydonboots.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Shoes/Boots/psydonboots.rsi
+
+- type: entity
+  parent: ClothingShoesBaseButcherable
+  id: ClothingShoesBootsRiding
+  name: riding boots
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Shoes/Boots/ridingboots.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Shoes/Boots/ridingboots.rsi
+
+- type: entity
+  parent: ClothingShoesBase
+  id: ClothingShoesBootsShortHalfPlate
+  name: short half plate boots
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Shoes/Boots/shalfplateboots.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Shoes/Boots/shalfplateboots.rsi
+
+- type: entity
+  parent: ClothingShoesBaseButcherable
+  id: ClothingShoesBootsShort
+  name: short boots
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Shoes/Boots/shortboots.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Shoes/Boots/shortboots.rsi
+
+- type: entity
+  parent: ClothingShoesBase
+  id: ClothingShoesBootsSilver
+  name: silver boots
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Shoes/Boots/silverboots.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Shoes/Boots/silverboots.rsi
+
+- type: entity
+  parent: ClothingShoesBase
+  id: ClothingShoesBootsSoldier
+  name: soldier boots
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Shoes/Boots/soldierboots.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Shoes/Boots/soldierboots.rsi
+
+- type: entity
+  parent: ClothingShoesBaseButcherable
+  id: ClothingShoesBootsVanguard
+  name: vanguard boots
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Shoes/Boots/vboots.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Shoes/Boots/vboots.rsi
+
+- type: entity
+  parent: ClothingShoesBase
+  id: ClothingShoesBootsZizo
+  name: zizo boots
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Shoes/Boots/zizoboots.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Shoes/Boots/zizoboots.rsi

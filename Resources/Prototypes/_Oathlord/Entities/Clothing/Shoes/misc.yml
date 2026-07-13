@@ -1,0 +1,131 @@
+- type: entity
+  parent: ClothingShoesBaseButcherable
+  id: ClothingShoesAasimarFeet
+  name: aasimar sandals
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Shoes/Misc/aasimarfeet.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Shoes/Misc/aasimarfeet.rsi
+
+- type: entity
+  parent: ClothingShoesBaseButcherable
+  id: ClothingShoesAncientSandals
+  name: ancient sandals
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Shoes/Misc/ancientsandals.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Shoes/Misc/ancientsandals.rsi
+
+- type: entity
+  parent: ClothingShoesBaseButcherable
+  id: ClothingShoesAnklets
+  name: golden anklets
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Shoes/Misc/anklets.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Shoes/Misc/anklets.rsi
+
+- type: entity
+  parent: ClothingShoesBaseButcherable
+  id: ClothingShoesBuckle
+  name: buckle shoes
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Shoes/Misc/buckleshoes.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Shoes/Misc/buckleshoes.rsi
+
+- type: entity
+  parent: ClothingShoesBaseButcherable
+  id: ClothingShoesClothLinedAnklets
+  name: cloth lined anklets
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Shoes/Misc/clothlinedanklets.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Shoes/Misc/clothlinedanklets.rsi
+
+- type: entity
+  parent: ClothingShoesBaseButcherable
+  id: ClothingShoesEastSandals
+  name: raised sandals
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Shoes/Misc/eastsandals.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Shoes/Misc/eastsandals.rsi
+
+- type: entity
+  parent: ClothingShoesBaseButcherable
+  id: ClothingShoesFurLinedAnklets
+  name: fur lined anklets
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Shoes/Misc/furlinedanklets.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Shoes/Misc/furlinedanklets.rsi
+
+- type: entity
+  parent: ClothingShoesBaseButcherable
+  id: ClothingShoesGladiator
+  name: caligae
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Shoes/Misc/gladiator.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Shoes/Misc/gladiator.rsi
+
+- type: entity
+  parent: ClothingShoesBaseButcherable
+  id: ClothingShoesSandals
+  name: sandals
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Shoes/Misc/sandals.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Shoes/Misc/sandals.rsi
+
+- type: entity
+  parent: ClothingShoesBaseButcherable
+  id: ClothingShoesShalal
+  name: babouche
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Shoes/Misc/shalal.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Shoes/Misc/shalal.rsi
+
+- type: entity
+  parent: ClothingShoesBaseButcherable
+  id: ClothingShoesSimpleShoe
+  name: simple shoes
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Shoes/Misc/simpleshoe.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Shoes/Misc/simpleshoe.rsi
+
+- type: entity
+  parent: ClothingShoesBaseButcherable
+  id: ClothingShoesTribal
+  name: tribal shoes
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Shoes/Misc/tribalshoes.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Shoes/Misc/tribalshoes.rsi

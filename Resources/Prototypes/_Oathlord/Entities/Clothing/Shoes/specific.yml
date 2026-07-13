@@ -1,0 +1,10 @@
+- type: entity
+  parent: ClothingShoesBaseButcherable
+  id: ClothingShoesJester
+  name: funny shoes
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Shoes/Specific/jestershoes.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Shoes/Specific/jestershoes.rsi
