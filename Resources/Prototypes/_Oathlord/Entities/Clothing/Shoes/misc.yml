@@ -42,7 +42,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Shoes/Misc/buckleshoes.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingShoesBaseButcherable
   id: ClothingShoesClothLinedAnklets
   name: cloth lined anklets

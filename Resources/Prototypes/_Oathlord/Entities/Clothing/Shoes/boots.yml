@@ -75,7 +75,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Shoes/Boots/bronzegreaves.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingShoesBase
   id: ClothingShoesBootsCarapace
   name: carapace boots
@@ -185,7 +185,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Shoes/Boots/inqboots.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingShoesBase
   id: ClothingShoesBootsIPlate
   name: iron plate boots
@@ -273,7 +273,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Shoes/Boots/ridingboots.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingShoesBase
   id: ClothingShoesBootsShortHalfPlate
   name: short half plate boots

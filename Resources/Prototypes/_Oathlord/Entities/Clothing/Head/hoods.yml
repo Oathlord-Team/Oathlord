@@ -99,7 +99,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Hoods/astratahood_t.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingHeadBase
   id: ClothingHeadHatAtgerviShamanHood
   name: atgervi shaman hood
@@ -166,7 +166,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Hoods/beekeeper.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingHeadBase
   id: ClothingHeadHatBogWitchHood
   name: bog witch hood
@@ -223,7 +223,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Hoods/deserthood_t.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingHeadBase
   id: ClothingHeadHatEoraHood
   name: eora hood
@@ -234,7 +234,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Hoods/eorahood.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingHeadBase
   id: ClothingHeadHatEoraHoodTrimmed
   name: eora hood
@@ -428,7 +428,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Hoods/necrahood.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingHeadBase
   id: ClothingHeadHatNecromancersHood
   name: necromancer's hood
@@ -697,7 +697,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Hoods/warlockhood.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingHeadBase
   id: ClothingHeadHatWarlockHoodTrimmed
   name: warlock hood
@@ -709,7 +709,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Hoods/warlockhood_t.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingHeadBase
   id: ClothingHeadHatWitchHood
   name: witch hood
@@ -720,7 +720,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Hoods/witch.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingHeadBase
   id: ClothingHeadHatWitchHuntersHood
   name: witch hunter's hood

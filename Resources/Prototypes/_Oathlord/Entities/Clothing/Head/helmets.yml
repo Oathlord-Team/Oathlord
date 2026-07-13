@@ -1,4 +1,4 @@
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingHeadHelmetBase
   id: ClothingHeadHelmetAbsolutionistHelm
   name: absolutionist helm
@@ -98,7 +98,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Helmets/armet.rsi
 
-- type: entity # TODO: CHANGE RSI
+- type: entity
   parent: ClothingHeadHelmetBase
   id: ClothingHeadHelmetArmetRaised
   name: armet
@@ -166,7 +166,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Helmets/atarmslit.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingHeadHelmetBase
   id: ClothingHeadHelmetAtgerviRaiderHelm
   name: atgervi raider helm
@@ -257,7 +257,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Helmets/bascinet_raised.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingHeadHelmetBase
   id: ClothingHeadHelmetBasicBascinet
   name: basic bascinet
@@ -268,7 +268,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Helmets/basic_bascinet.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingHeadHelmetBase
   id: ClothingHeadHelmetBasicBucketHelm
   name: basic bucket helm
@@ -279,7 +279,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Helmets/basic_bucket.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingHeadHelmetBase
   id: ClothingHeadHelmetBasicGreatBucketHelm
   name: basic great bucket helm
@@ -312,7 +312,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Helmets/beakhelmet.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingHeadHelmetBase
   id: ClothingHeadHelmetBlueBascinet
   name: blue bascinet
@@ -323,7 +323,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Helmets/blue_bascinet.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingHeadHelmetBase
   id: ClothingHeadHelmetBlueBucketHelm
   name: blue bucket helm
@@ -334,7 +334,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Helmets/blue_bucket.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingHeadHelmetBase
   id: ClothingHeadHelmetBlueGreatBucketHelm
   name: blue great bucket helm
@@ -367,7 +367,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Helmets/bronzebarbute.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingHeadHelmetBase
   id: ClothingHeadHelmetBronzeHelmet
   name: bronze helmet
@@ -389,7 +389,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Helmets/bronzemurmillo.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingHeadHelmetBase
   id: ClothingHeadHelmetCastleRedBascinet
   name: castle red bascinet
@@ -400,7 +400,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Helmets/castle_red_bascinet.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingHeadHelmetBase
   id: ClothingHeadHelmetCastleRedBucketHelm
   name: castle red bucket helm
@@ -411,7 +411,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Helmets/castle_red_bucket.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingHeadHelmetBase
   id: ClothingHeadHelmetCastleRedGreatBucketHelm
   name: castle red great bucket helm
@@ -422,7 +422,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Helmets/castle_red_gbucket.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingHeadHelmetBase
   id: ClothingHeadHelmetCastleWhiteBascinet
   name: castle white bascinet
@@ -433,7 +433,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Helmets/castle_white_bascinet.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingHeadHelmetBase
   id: ClothingHeadHelmetCastleWhiteBucketHelm
   name: castle white bucket helm
@@ -444,7 +444,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Helmets/castle_white_bucket.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingHeadHelmetBase
   id: ClothingHeadHelmetCastleWhiteGreatBucketHelm
   name: castle white great bucket helm
@@ -466,7 +466,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Helmets/coppergate.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingHeadHelmetBase
   id: ClothingHeadHelmetDecoratedBascinet
   name: decorated bascinet
@@ -477,7 +477,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Helmets/decorated_bascinet.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingHeadHelmetBase
   id: ClothingHeadHelmetDecoratedBucketHelm
   name: decorated bucket helm
@@ -488,7 +488,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Helmets/decorated_bucket.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingHeadHelmetBase
   id: ClothingHeadHelmetDecoratedGreatBucketHelm
   name: decorated great bucket helm
@@ -499,7 +499,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Helmets/decorated_gbucket.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingHeadHelmetBase
   id: ClothingHeadHelmetDecoratedHounskullHelm
   name: decorated hounskull helm
@@ -510,7 +510,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Helmets/decorated_hounskull.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingHeadHelmetBase
   id: ClothingHeadHelmetDecoratedKnightHelm
   name: decorated knight helm
@@ -554,7 +554,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Helmets/dendorhelm.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingHeadHelmetBase
   id: ClothingHeadHelmetGreenDragonBascinet
   name: green dragon bascinet
@@ -565,7 +565,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Helmets/dragon_green_bascinet.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingHeadHelmetBase
   id: ClothingHeadHelmetGreenDragonBucketHelm
   name: green dragon bucket helm
@@ -576,7 +576,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Helmets/dragon_green_bucket.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingHeadHelmetBase
   id: ClothingHeadHelmetGreenDragonGreatBucketHelm
   name: green dragon great bucket helm
@@ -587,7 +587,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Helmets/dragon_green_gbucket.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingHeadHelmetBase
   id: ClothingHeadHelmetRedDragonBascinet
   name: red dragon bascinet
@@ -598,7 +598,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Helmets/dragon_red_bascinet.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingHeadHelmetBase
   id: ClothingHeadHelmetRedDragonBucketHelm
   name: red dragon bucket helm
@@ -609,7 +609,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Helmets/dragon_red_bucket.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingHeadHelmetBase
   id: ClothingHeadHelmetRedDragonGreatBucketHelm
   name: red dragon great bucket helm
@@ -620,7 +620,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Helmets/dragon_red_gbucket.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingHeadHelmetBase
   id: ClothingHeadHelmetDreamSquidHelm
   name: dream squid helm
@@ -631,7 +631,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Helmets/dreamsquidhelm.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingHeadHelmetBase
   id: ClothingHeadHelmetEfreetBascinet
   name: efreet bascinet
@@ -642,7 +642,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Helmets/efreet_bascinet.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingHeadHelmetBase
   id: ClothingHeadHelmetEfreetBucketHelm
   name: efreet bucket helm
@@ -653,7 +653,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Helmets/efreet_bucket.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingHeadHelmetBase
   id: ClothingHeadHelmetEfreetGreatBucketHelm
   name: efreet great bucket helm
@@ -708,7 +708,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Helmets/eorahelmsallet.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingHeadHelmetBase
   id: ClothingHeadHelmetFeatheredBascinet
   name: feathered bascinet
@@ -719,7 +719,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Helmets/feathers_bascinet.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingHeadHelmetBase
   id: ClothingHeadHelmetFeatheredBucketHelm
   name: feathered bucket helm
@@ -730,7 +730,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Helmets/feathers_bucket.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingHeadHelmetBase
   id: ClothingHeadHelmetFeatheredGreatBucketHelm
   name: feathered great bucket helm
@@ -741,7 +741,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Helmets/feathers_gbucket.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingHeadHelmetBase
   id: ClothingHeadHelmetFishBascinet
   name: fish bascinet
@@ -752,7 +752,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Helmets/fish_bascinet.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingHeadHelmetBase
   id: ClothingHeadHelmetFishBucketHelm
   name: fish bucket helm
@@ -763,7 +763,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Helmets/fish_bucket.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingHeadHelmetBase
   id: ClothingHeadHelmetFishGreatBucketHelm
   name: fish great bucket helm
@@ -774,7 +774,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Helmets/fish_gbucket.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingHeadHelmetBase
   id: ClothingHeadHelmetFrogHelm
   name: frog helm
@@ -886,7 +886,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Helmets/goldknight_crown_raised.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingHeadHelmetBase
   id: ClothingHeadHelmetGraggarBascinet
   name: graggar bascinet
@@ -897,7 +897,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Helmets/graggar_bascinet.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingHeadHelmetBase
   id: ClothingHeadHelmetGraggarBucketHelm
   name: graggar bucket helm
@@ -908,7 +908,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Helmets/graggar_bucket.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingHeadHelmetBase
   id: ClothingHeadHelmetGraggarGreatBucketHelm
   name: graggar great bucket helm
@@ -952,7 +952,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Helmets/guardhelm.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingHeadHelmetBase
   id: ClothingHeadHelmetHalfVisorHelm
   name: half visor helm
@@ -963,7 +963,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Helmets/halfvisor.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingHeadHelmetBase
   id: ClothingHeadHelmetHornedBascinet
   name: horned bascinet
@@ -974,7 +974,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Helmets/horns_bascinet.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingHeadHelmetBase
   id: ClothingHeadHelmetHornedBucketHelm
   name: horned bucket helm
@@ -985,7 +985,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Helmets/horns_bucket.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingHeadHelmetBase
   id: ClothingHeadHelmetHornedGreatBucketHelm
   name: horned great bucket helm
@@ -1076,7 +1076,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Helmets/iknightalt_raised.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingHeadHelmetBase
   id: ClothingHeadHelmetIranianHelm
   name: iranian helm
@@ -1223,7 +1223,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Helmets/kettle.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingHeadHelmetBase
   id: ClothingHeadHelmetWideKettleHelm
   name: wide kettle helm
@@ -1257,7 +1257,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Helmets/klappvisier_raised.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingHeadHelmetBase
   id: ClothingHeadHelmetKlappvisorHelm
   name: klappvisor helm
@@ -1268,7 +1268,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Helmets/klappvisor.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingHeadHelmetBase
   id: ClothingHeadHelmetKlappvisorHelmRaised
   name: klappvisor helm
@@ -1416,7 +1416,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Helmets/leatherhelm_old.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingHeadHelmetBase
   id: ClothingHeadHelmetLionBascinet
   name: lion bascinet
@@ -1427,7 +1427,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Helmets/lion_bascinet.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingHeadHelmetBase
   id: ClothingHeadHelmetLionBucketHelm
   name: lion bucket helm
@@ -1438,7 +1438,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Helmets/lion_bucket.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingHeadHelmetBase
   id: ClothingHeadHelmetLionGreatBucketHelm
   name: lion great bucket helm
@@ -1472,7 +1472,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Helmets/loudmouth_raised.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingHeadHelmetBase
   id: ClothingHeadHelmetMalumBowlHelm
   name: malum bowl helm
@@ -1505,7 +1505,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Helmets/marauder_helm.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingHeadHelmetBase
   id: ClothingHeadHelmetMatthiosHelm
   name: matthios helm
@@ -1617,7 +1617,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Helmets/nomadhelmet.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingHeadHelmetBase
   id: ClothingHeadHelmetOathtakerBascinet
   name: oathtaker bascinet
@@ -1628,7 +1628,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Helmets/oathtaker_bascinet.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingHeadHelmetBase
   id: ClothingHeadHelmetOathtakerBucketHelm
   name: oathtaker bucket helm
@@ -1639,7 +1639,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Helmets/oathtaker_bucket.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingHeadHelmetBase
   id: ClothingHeadHelmetOathtakerGreatBucketHelm
   name: oathtaker great bucket helm
@@ -1672,7 +1672,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Helmets/onionhelm.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingHeadHelmetBase
   id: ClothingHeadHelmetOrdinatorHelm
   name: ordinator helm
@@ -1683,7 +1683,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Helmets/ordinatorhelm.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingHeadHelmetBase
   id: ClothingHeadHelmetOrdinatorHelmRaised
   name: ordinator helm
@@ -1695,7 +1695,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Helmets/ordinatorhelm_raised.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingHeadHelmetBase
   id: ClothingHeadHelmetPlumedOrdinatorHelm
   name: plumed ordinator helm
@@ -1706,7 +1706,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Helmets/ordinatorhelmplume.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingHeadHelmetBase
   id: ClothingHeadHelmetPlumedOrdinatorHelmRaised
   name: plumed ordinator helm
@@ -1741,7 +1741,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Helmets/otavahelm_raised.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingHeadHelmetBase
   id: ClothingHeadHelmetPeaceBascinet
   name: peace bascinet
@@ -1752,7 +1752,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Helmets/peace_bascinet.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingHeadHelmetBase
   id: ClothingHeadHelmetPeaceBucketHelm
   name: peace bucket helm
@@ -1763,7 +1763,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Helmets/peace_bucket.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingHeadHelmetBase
   id: ClothingHeadHelmetPeaceGreatBucketHelm
   name: peace great bucket helm
@@ -1863,7 +1863,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Helmets/psysallet.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingHeadHelmetBase
   id: ClothingHeadHelmetRaneshenHelm
   name: raneshen helm
@@ -2008,7 +2008,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Helmets/shishak.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingHeadHelmetBase
   id: ClothingHeadHelmetSilverArmet
   name: silver armet
@@ -2019,7 +2019,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Helmets/silverarmet.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingHeadHelmetBase
   id: ClothingHeadHelmetSilverArmetRaised
   name: silver armet
@@ -2031,7 +2031,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Helmets/silverarmet_raised.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingHeadHelmetBase
   id: ClothingHeadHelmetSilverBascinet
   name: silver bascinet
@@ -2042,7 +2042,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Helmets/silverbascinet.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingHeadHelmetBase
   id: ClothingHeadHelmetSilverBascinetRaised
   name: silver bascinet
@@ -2065,7 +2065,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Helmets/silversallet.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingHeadHelmetBase
   id: ClothingHeadHelmetSinistarHelm
   name: sinistar helm
@@ -2087,7 +2087,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Helmets/skettle.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingHeadHelmetBase
   id: ClothingHeadHelmetSkullBascinet
   name: skull bascinet
@@ -2098,7 +2098,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Helmets/skull_bascinet.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingHeadHelmetBase
   id: ClothingHeadHelmetSkullBucketHelm
   name: skull bucket helm
@@ -2109,7 +2109,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Helmets/skull_bucket.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingHeadHelmetBase
   id: ClothingHeadHelmetSkullGreatBucketHelm
   name: skull great bucket helm
@@ -2131,7 +2131,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Helmets/slitkettle.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingHeadHelmetBase
   id: ClothingHeadHelmetSolarHelm
   name: solar helm
@@ -2142,7 +2142,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Helmets/solar.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingHeadHelmetBase
   id: ClothingHeadHelmetSolarHelmTrimmed
   name: solar helm
@@ -2165,7 +2165,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Helmets/steelsavoyard.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingHeadHelmetBase
   id: ClothingHeadHelmetStripedBascinet
   name: striped bascinet
@@ -2176,7 +2176,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Helmets/stripes_bascinet.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingHeadHelmetBase
   id: ClothingHeadHelmetStripedBucketHelm
   name: striped bucket helm
@@ -2187,7 +2187,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Helmets/stripes_bucket.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingHeadHelmetBase
   id: ClothingHeadHelmetStripedGreatBucketHelm
   name: striped great bucket helm
@@ -2198,7 +2198,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Helmets/stripes_gbucket.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingHeadHelmetBase
   id: ClothingHeadHelmetSunBascinet
   name: sun bascinet
@@ -2209,7 +2209,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Helmets/sun_bascinet.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingHeadHelmetBase
   id: ClothingHeadHelmetSunBucketHelm
   name: sun bucket helm
@@ -2220,7 +2220,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Helmets/sun_bucket.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingHeadHelmetBase
   id: ClothingHeadHelmetSunGreatBucketHelm
   name: sun great bucket helm
@@ -2231,7 +2231,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Helmets/sun_gbucket.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingHeadHelmetBase
   id: ClothingHeadHelmetSwanBascinet
   name: swan bascinet
@@ -2242,7 +2242,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Helmets/swan_bascinet.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingHeadHelmetBase
   id: ClothingHeadHelmetSwanBucketHelm
   name: swan bucket helm
@@ -2253,7 +2253,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Helmets/swan_bucket.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingHeadHelmetBase
   id: ClothingHeadHelmetSwanGreatBucketHelm
   name: swan great bucket helm
@@ -2286,7 +2286,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Helmets/topfhelm_gold.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingHeadHelmetBase
   id: ClothingHeadHelmetTotodHelm
   name: totod helm
@@ -2376,7 +2376,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Helmets/watchbuta.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingHeadHelmetBase
   id: ClothingHeadHelmetWindmillBascinet
   name: windmill bascinet
@@ -2387,7 +2387,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Helmets/windmill_bascinet.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingHeadHelmetBase
   id: ClothingHeadHelmetWindmillBucketHelm
   name: windmill bucket helm
@@ -2398,7 +2398,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Helmets/windmill_bucket.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingHeadHelmetBase
   id: ClothingHeadHelmetWindmillGreatBucketHelm
   name: windmill great bucket helm

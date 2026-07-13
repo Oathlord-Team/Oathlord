@@ -108,7 +108,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Hats/bucklehat.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingHeadBase
   id: ClothingHeadHatCalendulaCrown
   name: calendula crown
@@ -331,7 +331,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Hats/curator.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingHeadBase
   id: ClothingHeadHatCursedRosaCrown
   name: cursed rosa crown
@@ -474,7 +474,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Hats/flathat.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingHeadBase
   id: ClothingHeadHatGnomeCap
   name: gnome cap
@@ -496,7 +496,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Hats/goldcirclet.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingHeadBase
   id: ClothingHeadHatGoldPinHat
   name: gold pin hat
@@ -562,7 +562,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Hats/headband.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingHeadBase
   id: ClothingHeadHatHeadCage
   name: head cage
@@ -673,7 +673,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Hats/hennin.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingHeadBase
   id: ClothingHeadHatHijab
   name: hijab
@@ -684,7 +684,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Hats/hijab.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingHeadBase
   id: ClothingHeadHatHijabTrimmed
   name: hijab
@@ -751,7 +751,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Hats/maidband.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingHeadBase
   id: ClothingHeadHatManabloomCrown
   name: manabloom crown
@@ -762,7 +762,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Hats/manabloom_crown.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingHeadBase
   id: ClothingHeadHatMatricariaCrown
   name: matricaria crown
@@ -839,7 +839,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Hats/papakha.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingHeadBase
   id: ClothingHeadHatPharaohsHeaddress
   name: pharaoh's headdress
@@ -861,7 +861,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Hats/physhat.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingHeadBase
   id: ClothingHeadHatPhysiciansHat
   name: physician's hat
@@ -872,7 +872,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Hats/physicianhat.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingHeadBase
   id: ClothingHeadHatPriestsCap
   name: priest's cap
@@ -927,7 +927,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Hats/ricehat.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingHeadBase
   id: ClothingHeadHatRosaCrown
   name: rosa crown
@@ -938,7 +938,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Hats/rosa_crown.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingHeadBase
   id: ClothingHeadHatSalviaCrown
   name: salvia crown
@@ -983,7 +983,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Hats/shawl.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingHeadBase
   id: ClothingHeadHatSilverPinHat
   name: silver pin hat
@@ -1038,7 +1038,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Hats/sparrowcrown.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingHeadBase
   id: ClothingHeadHatSpellcastersHat
   name: spellcaster's hat
@@ -1171,7 +1171,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Hats/visioncirclet.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingHeadBase
   id: ClothingHeadHatWingedCap
   name: winged cap
@@ -1182,7 +1182,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Hats/wingedcap.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingHeadBase
   id: ClothingHeadHatWitchsHat
   name: witch's hat
@@ -1193,7 +1193,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Hats/witchhat.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingHeadBase
   id: ClothingHeadHatWizardsHat
   name: wizard's hat
@@ -1204,7 +1204,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Hats/wizardhat.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingHeadBase
   id: ClothingHeadHatBlackWizardHat
   name: black wizard hat
@@ -1215,7 +1215,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Hats/wizardhatblack.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingHeadBase
   id: ClothingHeadHatGenericWizardHat
   name: generic wizard hat
@@ -1226,7 +1226,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Hats/wizardhatgen.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingHeadBase
   id: ClothingHeadHatGreenWizardHat
   name: green wizard hat
@@ -1237,7 +1237,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Hats/wizardhatgreen.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingHeadBase
   id: ClothingHeadHatRedWizardHat
   name: red wizard hat
@@ -1248,7 +1248,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Hats/wizardhatred.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingHeadBase
   id: ClothingHeadHatYellowWizardHat
   name: yellow wizard hat

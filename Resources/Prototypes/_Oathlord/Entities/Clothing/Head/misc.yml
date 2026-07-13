@@ -1,4 +1,4 @@
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingHeadBase
   id: ClothingHeadHatBasicHelmCrest
   name: basic helm crest
@@ -9,7 +9,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Misc/basic_decoration.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingHeadBase
   id: ClothingHeadHatBasicHoundCrest
   name: basic hound crest
@@ -20,7 +20,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Misc/basic_houndecoration.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingHeadBase
   id: ClothingHeadHatBlueHelmCrest
   name: blue helm crest
@@ -31,7 +31,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Misc/blue_decoration.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingHeadBase
   id: ClothingHeadHatBlueHoundCrest
   name: blue hound crest
@@ -42,7 +42,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Misc/blue_houndecoration.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingHeadBase
   id: ClothingHeadHatCastleRedHelmCrest
   name: castle red helm crest
@@ -53,7 +53,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Misc/castle_red_decoration.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingHeadBase
   id: ClothingHeadHatCastleRedHoundCrest
   name: castle red hound crest
@@ -64,7 +64,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Misc/castle_red_houndecoration.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingHeadBase
   id: ClothingHeadHatCastleWhiteHelmCrest
   name: castle white helm crest
@@ -75,7 +75,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Misc/castle_white_decoration.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingHeadBase
   id: ClothingHeadHatCastleWhiteHoundCrest
   name: castle white hound crest
@@ -86,7 +86,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Misc/castle_white_houndecoration.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingHeadBase
   id: ClothingHeadHatGreenDragonHelmCrest
   name: green dragon helm crest
@@ -97,7 +97,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Misc/dragon_green_decoration.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingHeadBase
   id: ClothingHeadHatGreenDragonHoundCrest
   name: green dragon hound crest
@@ -108,7 +108,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Misc/dragon_green_houndecoration.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingHeadBase
   id: ClothingHeadHatRedDragonHelmCrest
   name: red dragon helm crest
@@ -119,7 +119,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Misc/dragon_red_decoration.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingHeadBase
   id: ClothingHeadHatRedDragonHoundCrest
   name: red dragon hound crest
@@ -130,7 +130,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Misc/dragon_red_houndecoration.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingHeadBase
   id: ClothingHeadHatEfreetHelmCrest
   name: efreet helm crest
@@ -141,7 +141,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Misc/efreet_decoration.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingHeadBase
   id: ClothingHeadHatEfreetHoundCrest
   name: efreet hound crest
@@ -152,7 +152,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Misc/efreet_houndecoration.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingHeadBase
   id: ClothingHeadHatFeatherHelmCrest
   name: feather helm crest
@@ -163,7 +163,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Misc/feathers_decoration.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingHeadBase
   id: ClothingHeadHatFeatherHoundCrest
   name: feather hound crest
@@ -174,7 +174,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Misc/feathers_houndecoration.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingHeadBase
   id: ClothingHeadHatFishHelmCrest
   name: fish helm crest
@@ -185,7 +185,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Misc/fish_decoration.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingHeadBase
   id: ClothingHeadHatFishHoundCrest
   name: fish hound crest
@@ -196,7 +196,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Misc/fish_houndecoration.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingHeadBase
   id: ClothingHeadHatGraggarHelmCrest
   name: graggar helm crest
@@ -207,7 +207,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Misc/graggar_decoration.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingHeadBase
   id: ClothingHeadHatGraggarHoundCrest
   name: graggar hound crest
@@ -218,7 +218,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Misc/graggar_houndecoration.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingHeadBase
   id: ClothingHeadHatHornHelmCrest
   name: horn helm crest
@@ -229,7 +229,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Misc/horns_decoration.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingHeadBase
   id: ClothingHeadHatHornHoundCrest
   name: horn hound crest
@@ -240,7 +240,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Misc/horns_houndecoration.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingHeadBase
   id: ClothingHeadHatLionHelmCrest
   name: lion helm crest
@@ -251,7 +251,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Misc/lion_decoration.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingHeadBase
   id: ClothingHeadHatLionHoundCrest
   name: lion hound crest
@@ -262,7 +262,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Misc/lion_houndecoration.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingHeadBase
   id: ClothingHeadHatOathtakerHelmCrest
   name: oathtaker helm crest
@@ -273,7 +273,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Misc/oathtaker_decoration.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingHeadBase
   id: ClothingHeadHatOathtakerHoundCrest
   name: oathtaker hound crest
@@ -284,7 +284,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Misc/oathtaker_houndecoration.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingHeadBase
   id: ClothingHeadHatPeaceHelmCrest
   name: peace helm crest
@@ -295,7 +295,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Misc/peace_decoration.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingHeadBase
   id: ClothingHeadHatPeaceHoundCrest
   name: peace hound crest
@@ -306,7 +306,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Misc/peace_houndecoration.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingHeadBase
   id: ClothingHeadHatSkullHelmCrest
   name: skull helm crest
@@ -317,7 +317,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Misc/skull_decoration.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingHeadBase
   id: ClothingHeadHatSkullHoundCrest
   name: skull hound crest
@@ -328,7 +328,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Misc/skull_houndecoration.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingHeadBase
   id: ClothingHeadHatStripedHelmCrest
   name: striped helm crest
@@ -339,7 +339,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Misc/stripes_decoration.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingHeadBase
   id: ClothingHeadHatStripedHoundCrest
   name: striped hound crest
@@ -350,7 +350,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Misc/stripes_houndecoration.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingHeadBase
   id: ClothingHeadHatSunHelmCrest
   name: sun helm crest
@@ -361,7 +361,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Misc/sun_decoration.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingHeadBase
   id: ClothingHeadHatSunHoundCrest
   name: sun hound crest
@@ -372,7 +372,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Misc/sun_houndecoration.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingHeadBase
   id: ClothingHeadHatSwanHelmCrest
   name: swan helm crest
@@ -383,7 +383,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Misc/swan_decoration.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingHeadBase
   id: ClothingHeadHatSwanHoundCrest
   name: swan hound crest
@@ -394,7 +394,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Misc/swan_houndecoration.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingHeadBase
   id: ClothingHeadHatWindmillHelmCrest
   name: windmill helm crest
@@ -405,7 +405,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Misc/windmill_decoration.rsi
 
-- type: entity
+- type: entity # TODO: missing equipped sprites
   parent: ClothingHeadBase
   id: ClothingHeadHatWindmillHoundCrest
   name: windmill hound crest
