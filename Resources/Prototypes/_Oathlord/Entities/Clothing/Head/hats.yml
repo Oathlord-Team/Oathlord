@@ -773,7 +773,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Hats/matricaria_crown.rsi
 
-- type: entity # TODO: Icon sprite
+- type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatMetalArmingCap
   name: metal arming cap
@@ -905,7 +905,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Hats/renegadetricorn.rsi
 
-- type: entity # TODO: icon sprite
+- type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatReqHat
   name: req hat
@@ -1071,7 +1071,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Hats/strawhat.rsi
 
-- type: entity  # TODO: icon sprite
+- type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatTakuhatsugasa
   name: takuhatsugasa
@@ -1259,7 +1259,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Hats/wizardhatyellow.rsi
 
-- type: entity # TODO: icon sprite
+- type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatWoodenCrown
   name: wooden crown

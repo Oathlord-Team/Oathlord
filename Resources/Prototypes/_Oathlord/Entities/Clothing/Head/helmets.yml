@@ -1303,7 +1303,18 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Helmets/knight_raised.rsi
 
-- type: entity # TODO non raised version, also need icon. Look at KnightsArmet and KnightHelm
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetKnightHelmAlt
+  name: knight helm
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Head/Helmets/knightalt.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Head/Helmets/knightalt.rsi
+
+- type: entity
   parent: ClothingHeadHelmetBase
   id: ClothingHeadHelmetKnightHelmAltRaised
   name: knight helm
@@ -1776,8 +1787,8 @@
 
 - type: entity # TODO: icon sprite
   parent: ClothingHeadHelmetBase
-  id: ClothingHeadHelmetPlateHelmItem
-  name: plate helm
+  id: ClothingHeadHelmetGoblinPlateHelmItem
+  name: goblin plate helm
   categories: [ ForkFiltered ]
   components:
   - type: Sprite
