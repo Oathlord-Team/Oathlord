@@ -1,13 +1,13 @@
 - type: entity
   parent: ClothingShoesBaseButcherable
   id: ClothingShoesBootsAl
-  name: al boots
+  name: short black boots
   categories: [ ForkFiltered ]
   components:
   - type: Sprite
-    sprite: _Oathlord/Clothing/Shoes/Boots/alboots.rsi
+    sprite: _Oathlord/Clothing/Shoes/Boots/blackboots_short.rsi
   - type: Clothing
-    sprite: _Oathlord/Clothing/Shoes/Boots/alboots.rsi
+    sprite: _Oathlord/Clothing/Shoes/Boots/blackboots_short.rsi
 
 - type: entity
   parent: ClothingShoesBaseButcherable

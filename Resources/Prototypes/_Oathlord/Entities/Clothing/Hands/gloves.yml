@@ -1,0 +1,461 @@
+- type: entity
+  parent: ClothingHandsBase
+  id: ClothingHandsGlovesLeather
+  name: leather gloves
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Hands/Gloves/leather_gloves.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Hands/Gloves/leather_gloves.rsi
+
+- type: entity
+  parent: ClothingHandsBase
+  id: ClothingHandsGlovesChain
+  name: chain gloves
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Hands/Gloves/cgloves.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Hands/Gloves/cgloves.rsi
+
+- type: entity
+  parent: ClothingHandsBase
+  id: ClothingHandsGlovesIronChain
+  name: iron chain gloves
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Hands/Gloves/icgloves.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Hands/Gloves/icgloves.rsi
+
+- type: entity
+  parent: ClothingHandsBase
+  id: ClothingHandsGlovesBronze
+  name: bronze gloves
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Hands/Gloves/bgloves.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Hands/Gloves/bgloves.rsi
+
+- type: entity
+  parent: ClothingHandsBase
+  id: ClothingHandsGlovesGauntlets
+  name: gauntlets
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Hands/Gloves/gauntlets.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Hands/Gloves/gauntlets.rsi
+
+- type: entity
+  parent: ClothingHandsBase
+  id: ClothingHandsGlovesFingerless
+  name: fingerless gloves
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Hands/Gloves/fingerless_gloves.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Hands/Gloves/fingerless_gloves.rsi
+
+- type: entity
+  parent: ClothingHandsBase
+  id: ClothingHandsGlovesBlack
+  name: black gloves
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Hands/Gloves/gloves_black.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Hands/Gloves/gloves_black.rsi
+
+- type: entity
+  parent: ClothingHandsBase
+  id: ClothingHandsGlovesAngledGauntlets
+  name: angled gauntlets
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Hands/Gloves/angle.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Hands/Gloves/angle.rsi
+
+- type: entity
+  parent: ClothingHandsBase
+  id: ClothingHandsGlovesVanguard
+  name: vanguard gloves
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Hands/Gloves/vgloves.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Hands/Gloves/vgloves.rsi
+
+- type: entity
+  parent: ClothingHandsBase
+  id: ClothingHandsGlovesGrenzel
+  name: grenzel gloves
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Hands/Gloves/grenzelgloves.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Hands/Gloves/grenzelgloves.rsi
+
+- type: entity
+  parent: ClothingHandsBase
+  id: ClothingHandsGlovesFeld
+  name: feld gloves
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Hands/Gloves/feldgloves.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Hands/Gloves/feldgloves.rsi
+
+- type: entity
+  parent: ClothingHandsBase
+  id: ClothingHandsGlovesSurgical
+  name: surgical gloves
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Hands/Gloves/surggloves.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Hands/Gloves/surggloves.rsi
+
+- type: entity
+  parent: ClothingHandsBase
+  id: ClothingHandsGlovesShadowGauntlets
+  name: shadow gauntlets
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Hands/Gloves/shadowgauntlets.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Hands/Gloves/shadowgauntlets.rsi
+
+- type: entity
+  parent: ClothingHandsBase
+  id: ClothingHandsGlovesShadow
+  name: shadow gloves
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Hands/Gloves/shadowgloves.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Hands/Gloves/shadowgloves.rsi
+
+- type: entity
+  parent: ClothingHandsBase
+  id: ClothingHandsGlovesApothecary
+  name: apothecary gloves
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Hands/Gloves/apothgloves.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Hands/Gloves/apothgloves.rsi
+
+- type: entity
+  parent: ClothingHandsBase
+  id: ClothingHandsGlovesMasterworkLeather
+  name: masterwork leather gloves
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Hands/Gloves/leathergloves_masterwork.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Hands/Gloves/leathergloves_masterwork.rsi
+
+- type: entity
+  parent: ClothingHandsBase
+  id: ClothingHandsGlovesFencers
+  name: fencer's gloves
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Hands/Gloves/fencergloves.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Hands/Gloves/fencergloves.rsi
+
+- type: entity
+  parent: ClothingHandsBase
+  id: ClothingHandsGlovesInquisitor
+  name: inquisitor gloves
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Hands/Gloves/inqgloves.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Hands/Gloves/inqgloves.rsi
+
+- type: entity
+  parent: ClothingHandsBase
+  id: ClothingHandsGlovesIronGauntlets
+  name: iron gauntlets
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Hands/Gloves/igauntlets.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Hands/Gloves/igauntlets.rsi
+
+- type: entity
+  parent: ClothingHandsBase
+  id: ClothingHandsGlovesEssenceGauntlet
+  name: essence gauntlet
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Hands/Gloves/essence_gauntlet.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Hands/Gloves/essence_gauntlet.rsi
+
+- type: entity
+  parent: ClothingHandsBase
+  id: ClothingHandsGlovesClothWraps
+  name: cloth wraps
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Hands/Gloves/clothwraps.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Hands/Gloves/clothwraps.rsi
+
+- type: entity
+  parent: ClothingHandsBase
+  id: ClothingHandsGlovesRogue
+  name: rogue gloves
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Hands/Gloves/roguegloves.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Hands/Gloves/roguegloves.rsi
+
+- type: entity
+  parent: ClothingHandsBase
+  id: ClothingHandsGlovesPsydonChain
+  name: psydon chain gloves
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Hands/Gloves/psydongloveschain.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Hands/Gloves/psydongloveschain.rsi
+
+- type: entity
+  parent: ClothingHandsBase
+  id: ClothingHandsGlovesAtgerviShaman
+  name: atgervi shaman gloves
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Hands/Gloves/atgervi_shaman_gloves.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Hands/Gloves/atgervi_shaman_gloves.rsi
+
+- type: entity
+  parent: ClothingHandsBase
+  id: ClothingHandsGlovesAtgerviRaider
+  name: atgervi raider gloves
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Hands/Gloves/atgervi_raider_gloves.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Hands/Gloves/atgervi_raider_gloves.rsi
+
+- type: entity
+  parent: ClothingHandsBase
+  id: ClothingHandsGlovesZizoGauntlets
+  name: zizo gauntlets
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Hands/Gloves/zizogauntlets.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Hands/Gloves/zizogauntlets.rsi
+
+- type: entity
+  parent: ClothingHandsBase
+  id: ClothingHandsGlovesMatthios
+  name: matthios gloves
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Hands/Gloves/matthiosgloves.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Hands/Gloves/matthiosgloves.rsi
+
+- type: entity
+  parent: ClothingHandsBase
+  id: ClothingHandsGlovesAncientChain
+  name: ancient chain gloves
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Hands/Gloves/acgloves.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Hands/Gloves/acgloves.rsi
+
+- type: entity
+  parent: ClothingHandsBase
+  id: ClothingHandsGlovesAncientGauntlets
+  name: ancient gauntlets
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Hands/Gloves/agauntlets.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Hands/Gloves/agauntlets.rsi
+
+- type: entity
+  parent: ClothingHandsBase
+  id: ClothingHandsGlovesGraggarPlate
+  name: graggar plate gloves
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Hands/Gloves/graggarplategloves.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Hands/Gloves/graggarplategloves.rsi
+
+- type: entity
+  parent: ClothingHandsBase
+  id: ClothingHandsGlovesEastern
+  name: eastern gloves
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Hands/Gloves/eastgloves1.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Hands/Gloves/eastgloves1.rsi
+
+- type: entity
+  parent: ClothingHandsBase
+  id: ClothingHandsGlovesEastern2
+  name: eastern gloves
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Hands/Gloves/eastgloves2.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Hands/Gloves/eastgloves2.rsi
+
+- type: entity
+  parent: ClothingHandsBase
+  id: ClothingHandsGlovesManaBinding
+  name: mana binding gloves
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Hands/Gloves/manabindinggloves.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Hands/Gloves/manabindinggloves.rsi
+
+- type: entity
+  parent: ClothingHandsBase
+  id: ClothingHandsGlovesPsydon
+  name: psydon gloves
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Hands/Gloves/psydongloves.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Hands/Gloves/psydongloves.rsi
+
+- type: entity
+  parent: ClothingHandsBase
+  id: ClothingHandsGlovesPsydonChainWrap
+  name: psydon chain wrap gloves
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Hands/Gloves/psydongloveschainwrap.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Hands/Gloves/psydongloveschainwrap.rsi
+
+- type: entity
+  parent: ClothingHandsBase
+  id: ClothingHandsGlovesSilver
+  name: silver gloves
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Hands/Gloves/silvergloves.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Hands/Gloves/silvergloves.rsi
+
+- type: entity
+  parent: ClothingHandsBase
+  id: ClothingHandsGlovesDreamGauntlets
+  name: dream gauntlets
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Hands/Gloves/dreamgauntlets.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Hands/Gloves/dreamgauntlets.rsi
+
+- type: entity
+  parent: ClothingHandsBase
+  id: ClothingHandsGlovesKazengunGauntlets
+  name: kazengun gauntlets
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Hands/Gloves/kazengungauntlets.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Hands/Gloves/kazengungauntlets.rsi
+
+- type: entity
+  parent: ClothingHandsBase
+  id: ClothingHandsGlovesFrei
+  name: frei gloves
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Hands/Gloves/freigloves.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Hands/Gloves/freigloves.rsi
+
+- type: entity
+  parent: ClothingHandsBase
+  id: ClothingHandsGlovesBanded
+  name: banded gloves
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Hands/Gloves/bandedgloves.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Hands/Gloves/bandedgloves.rsi
+
+- type: entity
+  parent: ClothingHandsBase
+  id: ClothingHandsGlovesZizoPlateGauntlets
+  name: zizo plate gauntlets
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Hands/Gloves/zizoplategauntlets_med.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Hands/Gloves/zizoplategauntlets_med.rsi
+
+- type: entity
+  parent: ClothingHandsBase
+  id: ClothingHandsGlovesHeavyGraggarPlate
+  name: heavy graggar plate gloves
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Hands/Gloves/graggarplategloves_heavy.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Hands/Gloves/graggarplategloves_heavy.rsi
