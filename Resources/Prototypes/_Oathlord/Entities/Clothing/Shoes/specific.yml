@@ -1,6 +1,6 @@
 - type: entity
   parent: ClothingShoesBaseButcherable
-  id: ClothingShoesJester
+  id: ClothingShoesJesterOL
   name: funny shoes
   categories: [ ForkFiltered ]
   components:

@@ -1,6 +1,6 @@
 - type: entity
   parent: ClothingHandsBase
-  id: ClothingHandsGlovesLeather
+  id: ClothingHandsGlovesLeatherOL
   name: leather gloves
   categories: [ ForkFiltered ]
   components:
@@ -55,7 +55,7 @@
 
 - type: entity
   parent: ClothingHandsBase
-  id: ClothingHandsGlovesFingerless
+  id: ClothingHandsGlovesFingerlessOL
   name: fingerless gloves
   categories: [ ForkFiltered ]
   components:

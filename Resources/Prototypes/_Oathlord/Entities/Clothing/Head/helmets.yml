@@ -1792,9 +1792,9 @@
   categories: [ ForkFiltered ]
   components:
   - type: Sprite
-    sprite: _Oathlord/Clothing/Head/Helmets/plate_helm.rsi
+    sprite: _Oathlord/Clothing/Head/Helmets/goblin_plate_helm.rsi
   - type: Clothing
-    sprite: _Oathlord/Clothing/Head/Helmets/plate_helm.rsi
+    sprite: _Oathlord/Clothing/Head/Helmets/goblin_plate_helm.rsi
 
 - type: entity
   parent: ClothingHeadHelmetBase
@@ -2297,7 +2297,7 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Helmets/totodhelm.rsi
 
-- type: entity # TODO: icon sprite
+- type: entity
   parent: ClothingHeadHelmetBase
   id: ClothingHeadHelmetVanguardHelmet
   name: vanguard helmet
