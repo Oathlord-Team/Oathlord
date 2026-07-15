@@ -1761,9 +1761,9 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Helmets/pestrahelm.rsi
 
-- type: entity # TODO: icon sprite
+- type: entity
   parent: ClothingHeadHelmetBase
-  id: ClothingHeadHelmetGoblinPlateHelmItem
+  id: ClothingHeadHelmetGoblinPlateHelm
   name: goblin plate helm
   categories: [ ForkFiltered ]
   components:
