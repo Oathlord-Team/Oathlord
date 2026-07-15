@@ -1349,17 +1349,6 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Helmets/knightarmet_raised.rsi
 
-- type: entity # TODO: icon sprite
-  parent: ClothingHeadHelmetBase
-  id: ClothingHeadHelmetKnightumHelm
-  name: knightum helm
-  categories: [ ForkFiltered ]
-  components:
-  - type: Sprite
-    sprite: _Oathlord/Clothing/Head/Helmets/knightum.rsi
-  - type: Clothing
-    sprite: _Oathlord/Clothing/Head/Helmets/knightum.rsi
-
 - type: entity
   parent: ClothingHeadHelmetBase
   id: ClothingHeadHelmetLakkariHelm
@@ -1540,21 +1529,8 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: ClothingHeadHelmetMinersLampHelm0
-  name: miner's lamp helm
-  suffix: "0"
-  categories: [ ForkFiltered ]
-  components:
-  - type: Sprite
-    sprite: _Oathlord/Clothing/Head/Helmets/minerslamp0.rsi
-  - type: Clothing
-    sprite: _Oathlord/Clothing/Head/Helmets/minerslamp0.rsi
-
-- type: entity
-  parent: ClothingHeadHelmetBase
   id: ClothingHeadHelmetMinersLampHelm1
   name: miner's lamp helm
-  suffix: "1"
   categories: [ ForkFiltered ]
   components:
   - type: Sprite

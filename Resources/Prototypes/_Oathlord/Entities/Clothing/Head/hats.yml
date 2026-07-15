@@ -145,31 +145,17 @@
   parent: ClothingHeadBase
   id: ClothingHeadHatNailedChaperonAlt
   name: nailed chaperon
-  suffix: Alt
   categories: [ ForkFiltered ]
   components:
   - type: Sprite
     sprite: _Oathlord/Clothing/Head/Hats/chapnaledalt.rsi
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Hats/chapnaledalt.rsi
-
-- type: entity
-  parent: ClothingHeadBase
-  id: ClothingHeadHatNailedChaperonAltSnout
-  name: nailed chaperon
-  suffix: Alt Snout
-  categories: [ ForkFiltered ]
-  components:
-  - type: Sprite
-    sprite: _Oathlord/Clothing/Head/Hats/chapnaledalt_snout.rsi
-  - type: Clothing
-    sprite: _Oathlord/Clothing/Head/Hats/chapnaledalt_snout.rsi
 
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatChaperonAlt
   name: chaperon
-  suffix: Alt
   categories: [ ForkFiltered ]
   components:
   - type: Sprite
@@ -621,7 +607,6 @@
   parent: ClothingHeadBase
   id: ClothingHeadHatHeaddressAlt
   name: headdress
-  suffix: Alt
   categories: [ ForkFiltered ]
   components:
   - type: Sprite
@@ -964,7 +949,6 @@
   parent: ClothingHeadBase
   id: ClothingHeadHatSerpentCrownAlt
   name: serpent crown
-  suffix: Alt
   categories: [ ForkFiltered ]
   components:
   - type: Sprite
