@@ -429,17 +429,6 @@
 
 - type: entity
   parent: ClothingOuterArmorBase
-  id: ClothingOuterArmorWornGambeson
-  name: worn gambeson
-  categories: [ ForkFiltered ]
-  components:
-  - type: Sprite
-    sprite: _Oathlord/Clothing/OuterClothing/Armor/Gambeson/gambesonold.rsi
-  - type: Clothing
-    sprite: _Oathlord/Clothing/OuterClothing/Armor/Gambeson/gambesonold.rsi
-
-- type: entity
-  parent: ClothingOuterArmorBase
   id: ClothingOuterArmorPaddedGambeson
   name: padded gambeson
   categories: [ ForkFiltered ]
@@ -448,17 +437,6 @@
     sprite: _Oathlord/Clothing/OuterClothing/Armor/Gambeson/gambesonp.rsi
   - type: Clothing
     sprite: _Oathlord/Clothing/OuterClothing/Armor/Gambeson/gambesonp.rsi
-
-- type: entity
-  parent: ClothingOuterArmorBase
-  id: ClothingOuterArmorWornPaddedGambeson
-  name: worn padded gambeson
-  categories: [ ForkFiltered ]
-  components:
-  - type: Sprite
-    sprite: _Oathlord/Clothing/OuterClothing/Armor/Gambeson/gambesonpold.rsi
-  - type: Clothing
-    sprite: _Oathlord/Clothing/OuterClothing/Armor/Gambeson/gambesonpold.rsi
 
 - type: entity
   parent: ClothingOuterArmorBase
@@ -943,17 +921,6 @@
     sprite: _Oathlord/Clothing/OuterClothing/Armor/Mail/vunder.rsi
   - type: Clothing
     sprite: _Oathlord/Clothing/OuterClothing/Armor/Mail/vunder.rsi
-
-- type: entity
-  parent: ClothingOuterArmorBase
-  id: ClothingOuterArmorMonkCloth
-  name: monk's cloth robe
-  categories: [ ForkFiltered ]
-  components:
-  - type: Sprite
-    sprite: _Oathlord/Clothing/OuterClothing/Armor/Monk/monkcloth.rsi
-  - type: Clothing
-    sprite: _Oathlord/Clothing/OuterClothing/Armor/Monk/monkcloth.rsi
 
 - type: entity
   parent: ClothingOuterArmorBase

@@ -187,17 +187,6 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: ClothingHeadHatCirclet
-  name: circlet
-  categories: [ ForkFiltered ]
-  components:
-  - type: Sprite
-    sprite: _Oathlord/Clothing/Head/Hats/circlet.rsi
-  - type: Clothing
-    sprite: _Oathlord/Clothing/Head/Hats/circlet.rsi
-
-- type: entity
-  parent: ClothingHeadBase
   id: ClothingHeadHatAmberCirclet
   name: amber circlet
   categories: [ ForkFiltered ]
@@ -1131,18 +1120,6 @@
     sprite: _Oathlord/Clothing/Head/Hats/veil.rsi
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Hats/veil.rsi
-
-- type: entity
-  parent: ClothingHeadBase
-  id: ClothingHeadHatVeilTrimmed
-  name: veil
-  suffix: Trimmed
-  categories: [ ForkFiltered ]
-  components:
-  - type: Sprite
-    sprite: _Oathlord/Clothing/Head/Hats/veil_t.rsi
-  - type: Clothing
-    sprite: _Oathlord/Clothing/Head/Hats/veil_t.rsi
 
 - type: entity
   parent: ClothingHeadBase

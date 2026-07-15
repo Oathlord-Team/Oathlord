@@ -257,39 +257,6 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Helmets/bascinet_raised.rsi
 
-- type: entity # TODO: missing equipped sprites
-  parent: ClothingHeadHelmetBase
-  id: ClothingHeadHelmetBasicBascinet
-  name: basic bascinet
-  categories: [ ForkFiltered ]
-  components:
-  - type: Sprite
-    sprite: _Oathlord/Clothing/Head/Helmets/basic_bascinet.rsi
-  - type: Clothing
-    sprite: _Oathlord/Clothing/Head/Helmets/basic_bascinet.rsi
-
-- type: entity # TODO: missing equipped sprites
-  parent: ClothingHeadHelmetBase
-  id: ClothingHeadHelmetBasicBucketHelm
-  name: basic bucket helm
-  categories: [ ForkFiltered ]
-  components:
-  - type: Sprite
-    sprite: _Oathlord/Clothing/Head/Helmets/basic_bucket.rsi
-  - type: Clothing
-    sprite: _Oathlord/Clothing/Head/Helmets/basic_bucket.rsi
-
-- type: entity # TODO: missing equipped sprites
-  parent: ClothingHeadHelmetBase
-  id: ClothingHeadHelmetBasicGreatBucketHelm
-  name: basic great bucket helm
-  categories: [ ForkFiltered ]
-  components:
-  - type: Sprite
-    sprite: _Oathlord/Clothing/Head/Helmets/basic_gbucket.rsi
-  - type: Clothing
-    sprite: _Oathlord/Clothing/Head/Helmets/basic_gbucket.rsi
-
 - type: entity
   parent: ClothingHeadHelmetBase
   id: ClothingHeadHelmetBeakHelm
@@ -688,17 +655,6 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: ClothingHeadHelmetEoraHelm
-  name: eora helm
-  categories: [ ForkFiltered ]
-  components:
-  - type: Sprite
-    sprite: _Oathlord/Clothing/Head/Helmets/eorahelm.rsi
-  - type: Clothing
-    sprite: _Oathlord/Clothing/Head/Helmets/eorahelm.rsi
-
-- type: entity
-  parent: ClothingHeadHelmetBase
   id: ClothingHeadHelmetEoraSalletHelm
   name: eora sallet helm
   categories: [ ForkFiltered ]
@@ -1076,17 +1032,6 @@
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Helmets/iknightalt_raised.rsi
 
-- type: entity # TODO: missing equipped sprites
-  parent: ClothingHeadHelmetBase
-  id: ClothingHeadHelmetIranianHelm
-  name: iranian helm
-  categories: [ ForkFiltered ]
-  components:
-  - type: Sprite
-    sprite: _Oathlord/Clothing/Head/Helmets/iranian.rsi
-  - type: Clothing
-    sprite: _Oathlord/Clothing/Head/Helmets/iranian.rsi
-
 - type: entity
   parent: ClothingHeadHelmetBase
   id: ClothingHeadHelmetIronPlateHelm
@@ -1325,29 +1270,6 @@
     sprite: _Oathlord/Clothing/Head/Helmets/knightalt_raised.rsi
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Helmets/knightalt_raised.rsi
-
-- type: entity
-  parent: ClothingHeadHelmetBase
-  id: ClothingHeadHelmetKnightsArmet
-  name: knight's armet
-  categories: [ ForkFiltered ]
-  components:
-  - type: Sprite
-    sprite: _Oathlord/Clothing/Head/Helmets/knightarmet.rsi
-  - type: Clothing
-    sprite: _Oathlord/Clothing/Head/Helmets/knightarmet.rsi
-
-- type: entity
-  parent: ClothingHeadHelmetBase
-  id: ClothingHeadHelmetKnightsArmetRaised
-  name: knight's armet
-  suffix: Raised
-  categories: [ ForkFiltered ]
-  components:
-  - type: Sprite
-    sprite: _Oathlord/Clothing/Head/Helmets/knightarmet_raised.rsi
-  - type: Clothing
-    sprite: _Oathlord/Clothing/Head/Helmets/knightarmet_raised.rsi
 
 - type: entity
   parent: ClothingHeadHelmetBase
@@ -1625,17 +1547,6 @@
     sprite: _Oathlord/Clothing/Head/Helmets/oathtaker_gbucket.rsi
   - type: Clothing
     sprite: _Oathlord/Clothing/Head/Helmets/oathtaker_gbucket.rsi
-
-- type: entity
-  parent: ClothingHeadHelmetBase
-  id: ClothingHeadHelmetOminousHelm
-  name: ominous helm
-  categories: [ ForkFiltered ]
-  components:
-  - type: Sprite
-    sprite: _Oathlord/Clothing/Head/Helmets/ominous.rsi
-  - type: Clothing
-    sprite: _Oathlord/Clothing/Head/Helmets/ominous.rsi
 
 - type: entity
   parent: ClothingHeadHelmetBase

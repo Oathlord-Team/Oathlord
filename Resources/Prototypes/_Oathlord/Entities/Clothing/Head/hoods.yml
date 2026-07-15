@@ -396,29 +396,6 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: ClothingHeadHatMonksHood
-  name: monk's hood
-  categories: [ ForkFiltered ]
-  components:
-  - type: Sprite
-    sprite: _Oathlord/Clothing/Head/Hoods/monkhood.rsi
-  - type: Clothing
-    sprite: _Oathlord/Clothing/Head/Hoods/monkhood.rsi
-
-- type: entity
-  parent: ClothingHeadBase
-  id: ClothingHeadHatMonksHoodTrimmed
-  name: monk's hood
-  suffix: Trimmed
-  categories: [ ForkFiltered ]
-  components:
-  - type: Sprite
-    sprite: _Oathlord/Clothing/Head/Hoods/monkhood_t.rsi
-  - type: Clothing
-    sprite: _Oathlord/Clothing/Head/Hoods/monkhood_t.rsi
-
-- type: entity
-  parent: ClothingHeadBase
   id: ClothingHeadHatNecraHood
   name: necra hood
   categories: [ ForkFiltered ]

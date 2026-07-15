@@ -165,17 +165,6 @@
 
 - type: entity
   parent: ClothingHandsBase
-  id: ClothingHandsGlovesMasterworkLeather
-  name: masterwork leather gloves
-  categories: [ ForkFiltered ]
-  components:
-  - type: Sprite
-    sprite: _Oathlord/Clothing/Hands/Gloves/leathergloves_masterwork.rsi
-  - type: Clothing
-    sprite: _Oathlord/Clothing/Hands/Gloves/leathergloves_masterwork.rsi
-
-- type: entity
-  parent: ClothingHandsBase
   id: ClothingHandsGlovesFencers
   name: fencer's gloves
   categories: [ ForkFiltered ]

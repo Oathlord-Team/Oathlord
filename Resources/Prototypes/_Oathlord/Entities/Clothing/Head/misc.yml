@@ -1,27 +1,5 @@
 - type: entity # TODO: missing equipped sprites
   parent: ClothingHeadBase
-  id: ClothingHeadHatBasicHelmCrest
-  name: basic helm crest
-  categories: [ ForkFiltered ]
-  components:
-  - type: Sprite
-    sprite: _Oathlord/Clothing/Head/Misc/basic_decoration.rsi
-  - type: Clothing
-    sprite: _Oathlord/Clothing/Head/Misc/basic_decoration.rsi
-
-- type: entity # TODO: missing equipped sprites
-  parent: ClothingHeadBase
-  id: ClothingHeadHatBasicHoundCrest
-  name: basic hound crest
-  categories: [ ForkFiltered ]
-  components:
-  - type: Sprite
-    sprite: _Oathlord/Clothing/Head/Misc/basic_houndecoration.rsi
-  - type: Clothing
-    sprite: _Oathlord/Clothing/Head/Misc/basic_houndecoration.rsi
-
-- type: entity # TODO: missing equipped sprites
-  parent: ClothingHeadBase
   id: ClothingHeadHatBlueHelmCrest
   name: blue helm crest
   categories: [ ForkFiltered ]
