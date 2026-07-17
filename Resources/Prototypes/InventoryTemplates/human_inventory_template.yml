@@ -9,13 +9,13 @@
       strippingWindowPos: 1,3
       displayName: Shoes
     # <Oathlord>
-    - name: pants
-      slotTexture: pants
+    - name: legs
+      slotTexture: legs
       slotFlags: LEGS
       stripTime: 6
       uiWindowPos: 1,1
       strippingWindowPos: 0,3
-      displayName: Pants
+      displayName: Legs
     # </Oathlord>
     - name: jumpsuit
       slotTexture: uniform
