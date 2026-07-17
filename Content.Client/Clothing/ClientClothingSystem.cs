@@ -39,6 +39,7 @@ public sealed partial class ClientClothingSystem : ClothingSystem
         {"back", "BACKPACK"},
         {"belt", "BELT"},
         {"gloves", "HAND"},
+        {"pants", "LEGS"}, // Oathlord
         {"shoes", "FEET"},
         {"id", "IDCARD"},
         {"pocket1", "POCKET1"},

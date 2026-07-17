@@ -1,0 +1,353 @@
+- type: entity
+  parent: ClothingPantsButcherable
+  id: ClothingLegsPantsAncient
+  name: ancient pants
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Pants/ancientpants.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Pants/ancientpants.rsi
+
+- type: entity
+  parent: ClothingPantsButcherable
+  id: ClothingLegsPantsApothecary
+  name: apothecary pants
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Pants/apothpants.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Pants/apothpants.rsi
+
+- type: entity
+  parent: ClothingPantsButcherable
+  id: ClothingLegsPantsArtisan
+  name: artisan pants
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Pants/artipants.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Pants/artipants.rsi
+
+- type: entity
+  parent: ClothingPantsButcherable
+  id: ClothingLegsPantsAtgervi
+  name: atgervi pants
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Pants/atgervi_pants.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Pants/atgervi_pants.rsi
+
+- type: entity
+  parent: ClothingPantsButcherable
+  id: ClothingLegsPantsBaggy
+  name: baggy pants
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Pants/baggypants.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Pants/baggypants.rsi
+
+- type: entity
+  parent: ClothingPantsButcherable
+  id: ClothingLegsPantsBelted
+  name: belted pants
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Pants/beltpants.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Pants/beltpants.rsi
+
+- type: entity
+  parent: ClothingPantsButcherable
+  id: ClothingLegsPantsButler
+  name: butler pants
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Pants/butlerpants.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Pants/butlerpants.rsi
+
+- type: entity
+  parent: ClothingPantsButcherable
+  id: ClothingLegsPantsButlerShorts
+  name: butler shorts
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Pants/butlershorts.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Pants/butlershorts.rsi
+
+- type: entity
+  parent: ClothingPantsButcherable
+  id: ClothingLegsPantsDesertSkirt
+  name: desert skirt
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Pants/desertskirt.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Pants/desertskirt.rsi
+
+- type: entity
+  parent: ClothingPantsButcherable
+  id: ClothingLegsPantsDhoti
+  name: dhoti
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Pants/dhoti.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Pants/dhoti.rsi
+
+- type: entity
+  parent: ClothingPantsButcherable
+  id: ClothingLegsPantsDream
+  name: dream leggings
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Pants/dreamlegs.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Pants/dreamlegs.rsi
+
+- type: entity
+  parent: ClothingPantsButcherable
+  id: ClothingLegsPantsEastern1
+  name: eastern pants
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Pants/eastpants1.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Pants/eastpants1.rsi
+
+- type: entity
+  parent: ClothingPantsButcherable
+  id: ClothingLegsPantsEastern2
+  name: eastern pants
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Pants/eastpants2.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Pants/eastpants2.rsi
+
+- type: entity
+  parent: ClothingPantsButcherable
+  id: ClothingLegsPantsExplorer
+  name: explorer's pants
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Pants/explorerpants.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Pants/explorerpants.rsi
+
+- type: entity
+  parent: ClothingPantsButcherable
+  id: ClothingLegsPantsFencingBreeches
+  name: fencing breeches
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Pants/fencingbreeches.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Pants/fencingbreeches.rsi
+
+- type: entity
+  parent: ClothingPantsButcherable
+  id: ClothingLegsPantsGrenzel
+  name: grenzel pants
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Pants/grenzelpants.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Pants/grenzelpants.rsi
+
+- type: entity
+  parent: ClothingPantsButcherable
+  id: ClothingLegsPantsLakkariKilt
+  name: lakkari kilt
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Pants/lakkarikilt.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Pants/lakkarikilt.rsi
+
+- type: entity
+  parent: ClothingPantsButcherable
+  id: ClothingLegsPantsLeatherTights
+  name: leather tights
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Pants/leathertights.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Pants/leathertights.rsi
+
+- type: entity
+  parent: ClothingPantsButcherable
+  id: ClothingLegsPantsLeatherTrousers
+  name: leather trousers
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Pants/leathertrou.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Pants/leathertrou.rsi
+
+- type: entity
+  parent: ClothingPantsButcherable
+  id: ClothingLegsPantsLoincloth
+  name: loincloth
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Pants/loincloth.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Pants/loincloth.rsi
+
+- type: entity
+  parent: ClothingPantsButcherable
+  id: ClothingLegsPantsMonk
+  name: monk pants
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Pants/monkpants.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Pants/monkpants.rsi
+
+- type: entity
+  parent: ClothingPantsButcherable
+  id: ClothingLegsPantsPatchedKilt
+  name: patched kilt
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Pants/patkilt.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Pants/patkilt.rsi
+
+- type: entity
+  parent: ClothingPantsButcherable
+  id: ClothingLegsPantsSailor
+  name: sailor pants
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Pants/sailorpants.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Pants/sailorpants.rsi
+
+- type: entity
+  parent: ClothingPantsButcherable
+  id: ClothingLegsPantsShadow
+  name: shadow pants
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Pants/shadowpants.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Pants/shadowpants.rsi
+
+- type: entity
+  parent: ClothingPantsButcherable
+  id: ClothingLegsPantsShepherd
+  name: shepherd pants
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Pants/shepherdpants.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Pants/shepherdpants.rsi
+
+- type: entity
+  parent: ClothingPantsButcherable
+  id: ClothingLegsPantsSkirt
+  name: skirt
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Pants/skirt.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Pants/skirt.rsi
+
+- type: entity
+  parent: ClothingPantsButcherable
+  id: ClothingLegsPantsTights
+  name: tights
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Pants/tights.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Pants/tights.rsi
+
+- type: entity
+  parent: ClothingPantsButcherable
+  id: ClothingLegsPantsTightsTrimmed
+  name: tights
+  suffix: Trimmed
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Pants/tights_t.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Pants/tights_t.rsi
+
+- type: entity
+  parent: ClothingPantsButcherable
+  id: ClothingLegsPantsTrousers
+  name: trousers
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Pants/trou.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Pants/trou.rsi
+
+- type: entity
+  parent: ClothingPantsButcherable
+  id: ClothingLegsPantsTrousersTrimmed
+  name: trousers
+  suffix: Trimmed
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Pants/trou_t.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Pants/trou_t.rsi
+
+- type: entity
+  parent: ClothingPantsButcherable
+  id: ClothingLegsPantsWebs
+  name: web leggings
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Pants/webs.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Pants/webs.rsi
+
+- type: entity
+  parent: ClothingPantsButcherable
+  id: ClothingLegsPantsZizoCloth
+  name: zizo cloth pants
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Pants/zizocloth.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Pants/zizocloth.rsi

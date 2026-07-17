@@ -1,0 +1,56 @@
+- type: entity
+  abstract: true
+  parent: [ SolutionFood, SolutionToolNormal, Clothing ]
+  id: ClothingPantsBase
+  components:
+  - type: Sprite
+    state: icon
+  - type: Clothing
+    slots: [ legs ]
+    equipSound:
+      path: /Audio/Items/jumpsuit_equip.ogg
+  - type: Edible
+    requiresSpecialDigestion: true
+  - type: Solution
+    solution:
+      reagents:
+      - ReagentId: Fiber
+        Quantity: 20
+  - type: Tag
+    tags:
+    - ClothMade
+    - WhitelistChameleon
+
+- type: entity
+  abstract: true
+  parent: ClothingPantsBase
+  id: ClothingPantsButcherable
+  components:
+  - type: Butcherable
+    butcheringType: Knife
+    spawned:
+    - id: MaterialCloth1
+      amount: 2
+  - type: PhysicalComposition
+    materialComposition:
+      Cloth: 100
+  - type: Tag
+    tags:
+    - ClothMade
+    - Recyclable
+    - WhitelistChameleon
+
+- type: entity
+  abstract: true
+  parent: ClothingPantsBase
+  id: ClothingPantsArmorBase
+  components:
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.70
+        Slash: 0.70
+        Piercing: 0.70
+        Heat: 0.80
+  - type: ExplosionResistance
+    damageCoefficient: 0.90

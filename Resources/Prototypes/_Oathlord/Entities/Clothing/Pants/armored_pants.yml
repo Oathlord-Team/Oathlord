@@ -1,0 +1,143 @@
+- type: entity
+  parent: ClothingPantsArmorBase
+  id: ClothingLegsPantsChainKiltAlt
+  name: chainmail kilt
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Pants/achainkilt.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Pants/achainkilt.rsi
+
+- type: entity
+  parent: ClothingPantsArmorBase
+  id: ClothingLegsPantsChainLegs
+  name: chainmail leggings
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Pants/chain_legs.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Pants/chain_legs.rsi
+
+- type: entity
+  parent: ClothingPantsArmorBase
+  id: ClothingLegsPantsChainKilt
+  name: chainmail kilt
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Pants/chainkilt.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Pants/chainkilt.rsi
+
+- type: entity
+  parent: ClothingPantsArmorBase
+  id: ClothingLegsPantsGraggarPlateLegs
+  name: graggar plate legs
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Pants/graggarplatelegs.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Pants/graggarplatelegs.rsi
+
+- type: entity
+  parent: ClothingPantsArmorBase
+  id: ClothingLegsPantsIronChainLegs
+  name: iron chainmail leggings
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Pants/ichain_legs.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Pants/ichain_legs.rsi
+
+- type: entity
+  parent: ClothingPantsArmorBase
+  id: ClothingLegsPantsIronChainKilt
+  name: iron chainmail kilt
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Pants/ichainkilt.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Pants/ichainkilt.rsi
+
+- type: entity
+  parent: ClothingPantsArmorBase
+  id: ClothingLegsPantsIronPlateLegs
+  name: iron plate leggings
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Pants/iplate_legs.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Pants/iplate_legs.rsi
+
+- type: entity
+  parent: ClothingPantsButcherable
+  id: ClothingLegsPantsMatthios
+  name: matthios pants
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Pants/matthioslegs.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Pants/matthioslegs.rsi
+
+- type: entity
+  parent: ClothingPantsArmorBase
+  id: ClothingLegsPantsPlateLegs
+  name: plate leggings
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Pants/plate_legs.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Pants/plate_legs.rsi
+
+- type: entity
+  parent: ClothingPantsArmorBase
+  id: ClothingLegsPantsSilverLegs
+  name: silver pants
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Pants/silverlegs.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Pants/silverlegs.rsi
+
+- type: entity
+  parent: ClothingPantsArmorBase
+  id: ClothingLegsPantsSplintLegs
+  name: splint mail leggings
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Pants/splintlegs.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Pants/splintlegs.rsi
+
+- type: entity
+  parent: ClothingPantsButcherable
+  id: ClothingLegsPantsVelvet
+  name: vanguard pants
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Pants/vpants.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Pants/vpants.rsi
+
+- type: entity
+  parent: ClothingPantsArmorBase
+  id: ClothingLegsPantsZizoPlateLegsMedium
+  name: zizo plate legs
+  suffix: Medium
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Pants/zizoplatelegs_med.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Pants/zizoplatelegs_med.rsi
