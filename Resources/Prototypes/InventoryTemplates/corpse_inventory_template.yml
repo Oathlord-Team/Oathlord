@@ -1,13 +1,6 @@
 ﻿- type: inventoryTemplate
   id: corpse
   slots:
-    - name: shoes
-      slotTexture: shoes
-      slotFlags: FEET
-      stripTime: 3
-      uiWindowPos: 1,0
-      strippingWindowPos: 1,3
-      displayName: Shoes
     # <Oathlord>
     - name: legs
       slotTexture: legs
@@ -17,6 +10,13 @@
       strippingWindowPos: 0,3
       displayName: Legs
     # </Oathlord>
+    - name: shoes
+      slotTexture: shoes
+      slotFlags: FEET
+      stripTime: 3
+      uiWindowPos: 1,0
+      strippingWindowPos: 1,3
+      displayName: Shoes
     - name: jumpsuit
       slotTexture: uniform
       slotFlags: INNERCLOTHING

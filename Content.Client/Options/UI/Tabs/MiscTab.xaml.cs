@@ -27,6 +27,11 @@ public sealed partial class MiscTab : Control
         var themeEntries = new List<OptionDropDownCVar<string>.ValueOption>();
         foreach (var gear in themes)
         {
+            // <Oathlord> Hide themes that are disabled
+            if (!gear.Enabled)
+                continue;
+            // </Oathlord>
+
             themeEntries.Add(new OptionDropDownCVar<string>.ValueOption(gear.ID, Loc.GetString(gear.Name)));
         }
 

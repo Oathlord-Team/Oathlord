@@ -3,3 +3,4 @@
   name: ui-options-hud-theme-oldefault
   path: OLDefault
   order: -2
+  enabled: true
