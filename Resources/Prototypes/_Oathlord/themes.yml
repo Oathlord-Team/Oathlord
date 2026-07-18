@@ -1,6 +1,6 @@
 - type: uiTheme
   id: OLDefaultTheme
-  path: /Textures/Interface/OLDefault/
+  path: _Oathlord/Interface/OLDefault
   colors:
     whiteText: "#FFF5EE"
     slotSelectedGold: "#e6b812"
