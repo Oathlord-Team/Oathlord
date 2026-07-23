@@ -21,8 +21,8 @@
     sprite: _Oathlord/Clothing/Eyes/eyepatch.rsi
 
 - type: entity
-  parent: ClothingEyesEyepatch
-  id: ClothingEyesEyepatchFlipped
+  parent: ClothingEyesEyepatchOL
+  id: ClothingEyesEyepatchFlippedOL
   name: eyepatch
   suffix: flipped
   categories: [ ForkFiltered ]
