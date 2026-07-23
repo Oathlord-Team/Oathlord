@@ -1,0 +1,88 @@
+- type: entity
+  parent: ClothingEyesGlassesSunglasses
+  id: ClothingEyesArtificerGoggles
+  name: artificer goggles
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Eyes/artigoggles.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Eyes/artigoggles.rsi
+
+- type: entity
+  parent: ClothingEyesBase
+  id: ClothingEyesArtificerGogglesRaised
+  name: artificer goggles
+  suffix: raised
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Eyes/artigoggles_raised.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Eyes/artigoggles_raised.rsi
+
+- type: entity
+  parent: ClothingEyesGlassesSunglasses
+  id: ClothingEyesBlackGlasses
+  name: black glasses
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Eyes/bglasses.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Eyes/bglasses.rsi
+
+- type: entity
+  parent: ClothingEyesBase
+  id: ClothingEyesGlasses
+  name: glasses
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Eyes/glasses.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Eyes/glasses.rsi
+
+- type: entity
+  parent: ClothingEyesBase
+  id: ClothingEyesGlassesBig
+  name: big glasses
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Eyes/glassesbig.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Eyes/glassesbig.rsi
+
+- type: entity
+  parent: ClothingEyesBase
+  id: ClothingEyesGoggles
+  name: goggles
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Eyes/goggles.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Eyes/goggles.rsi
+
+- type: entity
+  parent: ClothingEyesBase
+  id: ClothingEyesMonocle
+  name: monocle
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Eyes/monocle.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Eyes/monocle.rsi
+
+- type: entity
+  parent: ClothingEyesGlassesSunglasses
+  id: ClothingEyesGlassesSunglassesOL
+  name: sunglasses
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Eyes/sunglasses.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Eyes/sunglasses.rsi

@@ -1,3 +1,5 @@
+# TODO: integrate with clothing layer system when done
+
 - type: entity # TODO: missing equipped sprites
   parent: ClothingHeadBase
   id: ClothingHeadHatAasimarMask

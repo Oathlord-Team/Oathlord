@@ -100,8 +100,8 @@
 
 - type: entity
   parent: ClothingOuterArmorBase
-  id: ClothingOuterArmorArtisanJacket
-  name: artisan's jacket
+  id: ClothingOuterArmorArtificerJacket
+  name: artificer jacket
   categories: [ ForkFiltered ]
   components:
   - type: Sprite

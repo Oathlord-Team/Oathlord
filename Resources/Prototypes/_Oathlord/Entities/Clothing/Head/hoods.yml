@@ -11,9 +11,9 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: ClothingHeadHatAbyssorHoodTrimmed
+  id: ClothingHeadHatAbyssorHoodToggled
   name: abyssor hood
-  suffix: Trimmed
+  suffix: Toggled
   categories: [ ForkFiltered ]
   components:
   - type: Sprite
@@ -89,9 +89,9 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: ClothingHeadHatAstrataHoodTrimmed
+  id: ClothingHeadHatAstrataHoodToggled
   name: astrata hood
-  suffix: Trimmed
+  suffix: Toggled
   categories: [ ForkFiltered ]
   components:
   - type: Sprite
@@ -134,9 +134,9 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: ClothingHeadHatBasicHoodTrimmed
+  id: ClothingHeadHatBasicHoodToggled
   name: basic hood
-  suffix: Trimmed
+  suffix: Toggled
   categories: [ ForkFiltered ]
   components:
   - type: Sprite
@@ -190,9 +190,9 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: ClothingHeadHatConfessorHoodTrimmed
+  id: ClothingHeadHatConfessorHoodToggled
   name: confessor hood
-  suffix: Trimmed
+  suffix: Toggled
   categories: [ ForkFiltered ]
   components:
   - type: Sprite
@@ -213,9 +213,9 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: ClothingHeadHatDesertHoodTrimmed
+  id: ClothingHeadHatDesertHoodToggled
   name: desert hood
-  suffix: Trimmed
+  suffix: Toggled
   categories: [ ForkFiltered ]
   components:
   - type: Sprite
@@ -236,9 +236,9 @@
 
 - type: entity # TODO: missing equipped sprites
   parent: ClothingHeadBase
-  id: ClothingHeadHatEoraHoodTrimmed
+  id: ClothingHeadHatEoraHoodToggled
   name: eora hood
-  suffix: Trimmed
+  suffix: Toggled
   categories: [ ForkFiltered ]
   components:
   - type: Sprite
@@ -259,9 +259,9 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: ClothingHeadHatWarlocksHoodTrimmed
+  id: ClothingHeadHatWarlocksHoodToggled
   name: warlock's hood
-  suffix: Trimmed
+  suffix: Toggled
   categories: [ ForkFiltered ]
   components:
   - type: Sprite
@@ -282,9 +282,9 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: ClothingHeadHatFacelessHoodTrimmed
+  id: ClothingHeadHatFacelessHoodToggled
   name: faceless hood
-  suffix: Trimmed
+  suffix: Toggled
   categories: [ ForkFiltered ]
   components:
   - type: Sprite
@@ -305,9 +305,9 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: ClothingHeadHatFeldHoodTrimmed
+  id: ClothingHeadHatFeldHoodToggled
   name: feld hood
-  suffix: Trimmed
+  suffix: Toggled
   categories: [ ForkFiltered ]
   components:
   - type: Sprite
@@ -339,9 +339,9 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: ClothingHeadHatHeavyHoodTrimmed
+  id: ClothingHeadHatHeavyHoodToggled
   name: heavy hood
-  suffix: Trimmed
+  suffix: Toggled
   categories: [ ForkFiltered ]
   components:
   - type: Sprite
@@ -373,9 +373,9 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: ClothingHeadHatLeatherHoodTrimmed
+  id: ClothingHeadHatLeatherHoodToggled
   name: leather hood
-  suffix: Trimmed
+  suffix: Toggled
   categories: [ ForkFiltered ]
   components:
   - type: Sprite
@@ -485,9 +485,9 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: ClothingHeadHatPsydonHoodTrimmed
+  id: ClothingHeadHatPsydonHoodToggled
   name: psydon hood
-  suffix: Trimmed
+  suffix: Toggled
   categories: [ ForkFiltered ]
   components:
   - type: Sprite
@@ -541,9 +541,9 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: ClothingHeadHatShalalHoodTrimmed
+  id: ClothingHeadHatShalalHoodToggled
   name: shalal hood
-  suffix: Trimmed
+  suffix: Toggled
   categories: [ ForkFiltered ]
   components:
   - type: Sprite
@@ -608,9 +608,9 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: ClothingHeadHatStuddedHoodTrimmed
+  id: ClothingHeadHatStuddedHoodToggled
   name: studded hood
-  suffix: Trimmed
+  suffix: Toggled
   categories: [ ForkFiltered ]
   components:
   - type: Sprite
@@ -631,9 +631,9 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: ClothingHeadHatSurgeonsHoodTrimmed
+  id: ClothingHeadHatSurgeonsHoodToggled
   name: surgeon's hood
-  suffix: Trimmed
+  suffix: Toggled
   categories: [ ForkFiltered ]
   components:
   - type: Sprite
@@ -676,9 +676,9 @@
 
 - type: entity # TODO: missing equipped sprites
   parent: ClothingHeadBase
-  id: ClothingHeadHatWarlockHoodTrimmed
+  id: ClothingHeadHatWarlockHoodToggled
   name: warlock hood
-  suffix: Trimmed
+  suffix: Toggled
   categories: [ ForkFiltered ]
   components:
   - type: Sprite

@@ -1,0 +1,688 @@
+- type: entity
+  parent: ClothingMaskBase
+  id: ClothingMaskAncientMask
+  name: ancient mask
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Mask/ancientmask.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Mask/ancientmask.rsi
+
+- type: entity
+  parent: ClothingMaskBase
+  id: ClothingMaskAntiqueMask
+  name: antique mask
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Mask/antiqmask.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Mask/antiqmask.rsi
+
+- type: entity
+  parent: ClothingMaskBase
+  id: ClothingMaskBronzeMask
+  name: bronze mask
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Mask/bronzemask.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Mask/bronzemask.rsi
+
+- type: entity
+  parent: ClothingMaskBronzeMask
+  id: ClothingMaskBronzeMaskLegacy
+  name: bronze mask
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Mask/bronzemask_legacy.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Mask/bronzemask_legacy.rsi
+
+- type: entity
+  parent: ClothingMaskBase
+  id: ClothingMaskCloth
+  name: cloth mask
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Mask/cloth.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Mask/cloth.rsi
+
+- type: entity
+  parent: ClothingMaskCloth
+  id: ClothingMaskClothToggled
+  name: cloth mask
+  suffix: Toggled
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Mask/cloth_t.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Mask/cloth_t.rsi
+
+- type: entity
+  parent: ClothingMaskBase
+  id: ClothingMaskCopperMask
+  name: copper mask
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Mask/cmask.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Mask/cmask.rsi
+
+- type: entity
+  parent: ClothingMaskBase
+  id: ClothingMaskConfessorMask
+  name: confessor mask
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Mask/confessormask.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Mask/confessormask.rsi
+
+- type: entity
+  parent: ClothingMaskConfessorMask
+  id: ClothingMaskConfessorMaskLens
+  name: confessor mask
+  suffix: Lens
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Mask/confessormask_lens.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Mask/confessormask_lens.rsi
+
+- type: entity
+  parent: ClothingMaskBase
+  id: ClothingMaskDuelMask
+  name: duelist mask
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Mask/duelmask.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Mask/duelmask.rsi
+
+- type: entity
+  parent: ClothingMaskBase
+  id: ClothingMaskExoticSilk
+  name: exotic silk mask
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Mask/exoticsilkmask.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Mask/exoticsilkmask.rsi
+
+- type: entity
+  parent: ClothingMaskExoticSilk
+  id: ClothingMaskExoticSilkToggled
+  name: exotic silk mask
+  suffix: Toggled
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Mask/exoticsilkmask_t.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Mask/exoticsilkmask_t.rsi
+
+- type: entity
+  parent: ClothingMaskBase
+  id: ClothingMaskFaceVeil
+  name: face veil
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Mask/faceveil.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Mask/faceveil.rsi
+
+- type: entity
+  parent: ClothingMaskBase
+  id: ClothingMaskFeld
+  name: feld mask
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Mask/feldmask.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Mask/feldmask.rsi
+
+- type: entity
+  parent: ClothingMaskBase
+  id: ClothingMaskGoblin
+  name: goblin mask
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Mask/goblin.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Mask/goblin.rsi
+
+- type: entity
+  parent: ClothingMaskBase
+  id: ClothingMaskGold
+  name: gold mask
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Mask/goldmask.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Mask/goldmask.rsi
+
+- type: entity
+  parent: ClothingMaskBase
+  id: ClothingMaskHeavyGraggarPlate
+  name: heavy graggar plate mask
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Mask/graggarplatemask_heavy.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Mask/graggarplatemask_heavy.rsi
+
+- type: entity
+  parent: ClothingMaskBase
+  id: ClothingMaskHighway
+  name: highwayman mask
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Mask/highway.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Mask/highway.rsi
+
+- type: entity
+  parent: ClothingMaskBase
+  id: ClothingMaskIron
+  name: iron mask
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Mask/imask.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Mask/imask.rsi
+
+- type: entity
+  parent: ClothingMaskIron
+  id: ClothingMaskIronHound
+  name: hound iron mask
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Mask/imask_hound.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Mask/imask_hound.rsi
+
+- type: entity
+  parent: ClothingMaskBase
+  id: ClothingMaskJadeMask
+  name: jade mask
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Mask/jademask.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Mask/jademask.rsi
+
+- type: entity
+  parent: ClothingMaskBase
+  id: ClothingMaskKazengunFaceGuard
+  name: kazengun faceguard
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Mask/kazengunfaceguard.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Mask/kazengunfaceguard.rsi
+
+- type: entity
+  parent: ClothingMaskBase
+  id: ClothingMaskKazengunMouthGuard
+  name: kazengun mouthguard
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Mask/kazengunmouthguard.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Mask/kazengunmouthguard.rsi
+
+- type: entity
+  parent: ClothingMaskBase
+  id: ClothingMaskKitsune
+  name: kitsune mask
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Mask/kitsune.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Mask/kitsune.rsi
+
+- type: entity
+  parent: ClothingMaskBase
+  id: ClothingMaskGoldenHalf
+  name: golden half mask
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Mask/goldhalfmask.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Mask/goldhalfmask.rsi
+
+- type: entity
+  parent: ClothingMaskGoldenHalf
+  id: ClothingMaskGoldenHalfLeft
+  name: golden half mask
+  suffix: Left
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Mask/goldhalfmask_l.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Mask/goldhalfmask_l.rsi
+
+- type: entity
+  parent: ClothingMaskBase
+  id: ClothingMaskAmber
+  name: amber mask
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Mask/mask_amber.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Mask/mask_amber.rsi
+
+- type: entity
+  parent: ClothingMaskBase
+  id: ClothingMaskCoral
+  name: coral mask
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Mask/mask_coral.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Mask/mask_coral.rsi
+
+- type: entity
+  parent: ClothingMaskBase
+  id: ClothingMaskJade
+  name: jade mask
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Mask/mask_jade.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Mask/mask_jade.rsi
+
+- type: entity
+  parent: ClothingMaskBase
+  id: ClothingMaskOnyx
+  name: onyx mask
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Mask/mask_onyx.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Mask/mask_onyx.rsi
+
+- type: entity
+  parent: ClothingMaskBase
+  id: ClothingMaskOpal
+  name: opal mask
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Mask/mask_opal.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Mask/mask_opal.rsi
+
+- type: entity
+  parent: ClothingMaskBase
+  id: ClothingMaskRose
+  name: rose mask
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Mask/mask_rose.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Mask/mask_rose.rsi
+
+- type: entity
+  parent: ClothingMaskBase
+  id: ClothingMaskShell
+  name: shell mask
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Mask/mask_shell.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Mask/mask_shell.rsi
+
+- type: entity
+  parent: ClothingMaskBase
+  id: ClothingMaskTurquoise
+  name: turquoise mask
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Mask/mask_turq.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Mask/mask_turq.rsi
+
+- type: entity
+  parent: ClothingMaskBase
+  id: ClothingMaskNaledi
+  name: naledi mask
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Mask/naledimask.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Mask/naledimask.rsi
+
+- type: entity
+  parent: ClothingMaskBase
+  id: ClothingMaskNoseChainGold
+  name: gold nose chain
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Mask/nosechain_g.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Mask/nosechain_g.rsi
+
+- type: entity
+  parent: ClothingMaskBase
+  id: ClothingMaskNoseChainSilver
+  name: silver nose chain
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Mask/nosechain_s.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Mask/nosechain_s.rsi
+
+- type: entity
+  parent: ClothingMaskBase
+  id: ClothingMaskOni
+  name: oni mask
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Mask/oni.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Mask/oni.rsi
+
+- type: entity
+  parent: ClothingMaskBase
+  id: ClothingMaskPestra
+  name: pestra mask
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Mask/pestramask.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Mask/pestramask.rsi
+
+- type: entity
+  parent: ClothingMaskBase
+  id: ClothingMaskPhysician
+  name: physician mask
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Mask/physmask.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Mask/physmask.rsi
+
+- type: entity
+  parent: ClothingMaskBase
+  id: ClothingMaskPsydon
+  name: psydon mask
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Mask/psydonmask.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Mask/psydonmask.rsi
+
+- type: entity
+  parent: ClothingMaskBase
+  id: ClothingMaskRag
+  name: rag mask
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Mask/ragmask.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Mask/ragmask.rsi
+
+- type: entity
+  parent: ClothingMaskRag
+  id: ClothingMaskRagToggled
+  name: rag mask
+  suffix: Toggled
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Mask/ragmask_t.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Mask/ragmask_t.rsi
+
+- type: entity
+  parent: ClothingMaskBase
+  id: ClothingMaskSack
+  name: sack mask
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Mask/sackmask.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Mask/sackmask.rsi
+
+- type: entity
+  parent: ClothingMaskSack
+  id: ClothingMaskSackPsydon
+  name: psydon sack mask
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Mask/sackmask_psy.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Mask/sackmask_psy.rsi
+
+- type: entity
+  parent: ClothingMaskBase
+  id: ClothingMaskShadow
+  name: shadow mask
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Mask/shadowfacemask.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Mask/shadowfacemask.rsi
+
+- type: entity
+  parent: ClothingMaskBase
+  id: ClothingMaskShadowCloth
+  name: shadow cloth mask
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Mask/shadowmask.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Mask/shadowmask.rsi
+
+- type: entity
+  parent: ClothingMaskShadowCloth
+  id: ClothingMaskShadowClothToggled
+  name: shadow cloth mask
+  suffix: Toggled
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Mask/shadowmask_t.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Mask/shadowmask_t.rsi
+
+- type: entity
+  parent: ClothingMaskBase
+  id: ClothingMaskShepherd
+  name: shepherd mask
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Mask/shepherd.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Mask/shepherd.rsi
+
+- type: entity
+  parent: ClothingMaskShepherd
+  id: ClothingMaskShepherdToggled
+  name: shepherd mask
+  suffix: Toggled
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Mask/shepherd_t.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Mask/shepherd_t.rsi
+
+- type: entity
+  parent: ClothingMaskBase
+  id: ClothingMaskSkull
+  name: skull mask
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Mask/skullmask.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Mask/skullmask.rsi
+
+- type: entity
+  parent: ClothingMaskBase
+  id: ClothingMaskSilver
+  name: silver mask
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Mask/smask.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Mask/smask.rsi
+
+- type: entity
+  parent: ClothingMaskSilver
+  id: ClothingMaskSilverHarlequin
+  name: silver harlequin mask
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Mask/smask_harlequin.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Mask/smask_harlequin.rsi
+
+- type: entity
+  parent: ClothingMaskSilver
+  id: ClothingMaskSilverHound
+  name: hound silver mask
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Mask/smask_hound.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Mask/smask_hound.rsi
+
+- type: entity
+  parent: ClothingMaskBase
+  id: ClothingMaskSteppe
+  name: steppe mask
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Mask/steppemask.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Mask/steppemask.rsi
+
+- type: entity
+  parent: ClothingMaskBase
+  id: ClothingMaskSurgeon
+  name: surgeon mask
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Mask/surgmask.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Mask/surgmask.rsi
+
+- type: entity
+  parent: ClothingMaskBase
+  id: ClothingMaskSurgeonSack
+  name: surgeon sack mask
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Mask/surgsackmask.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Mask/surgsackmask.rsi
+
+- type: entity
+  parent: ClothingMaskBase
+  id: ClothingMaskVeilGold
+  name: gold veil
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Mask/veil_g.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Mask/veil_g.rsi
+
+- type: entity
+  parent: ClothingMaskBase
+  id: ClothingMaskVeilS
+  name: silver veil
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Mask/veil_s.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Mask/veil_s.rsi
+
+- type: entity
+  parent: ClothingMaskBase
+  id: ClothingMaskWildGuard
+  name: wildguard mask
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Mask/wildguard.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Mask/wildguard.rsi
+
+- type: entity
+  parent: ClothingMaskBase
+  id: ClothingMaskXylix
+  name: xylix mask
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Mask/xylixmask.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Mask/xylixmask.rsi
+
+- type: entity
+  parent: ClothingMaskXylix
+  id: ClothingMaskXylixWeathered
+  name: weathered xylix mask
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Mask/xylix_weathered.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Mask/xylix_weathered.rsi

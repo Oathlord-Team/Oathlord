@@ -22,8 +22,8 @@
 
 - type: entity
   parent: ClothingPantsButcherable
-  id: ClothingLegsPantsArtisan
-  name: artisan pants
+  id: ClothingLegsPantsArtificer
+  name: artificer pants
   categories: [ ForkFiltered ]
   components:
   - type: Sprite

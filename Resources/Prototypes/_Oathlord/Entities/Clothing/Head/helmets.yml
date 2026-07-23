@@ -832,7 +832,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: ClothingHeadHelmetCrownedGoldKnightHelmTrimmed
+  id: ClothingHeadHelmetCrownedGoldKnightHelmToggled
   name: crowned gold knight helm
   suffix: Raised
   categories: [ ForkFiltered ]
@@ -1192,7 +1192,7 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: ClothingHeadHelmetKlappvisierHelmTrimmed
+  id: ClothingHeadHelmetKlappvisierHelmToggled
   name: klappvisier helm
   suffix: Raised
   categories: [ ForkFiltered ]
@@ -2031,7 +2031,7 @@
 
 - type: entity # TODO: missing equipped sprites
   parent: ClothingHeadHelmetBase
-  id: ClothingHeadHelmetSolarHelmTrimmed
+  id: ClothingHeadHelmetSolarHelmToggled
   name: solar helm
   suffix: Raised
   categories: [ ForkFiltered ]
@@ -2231,9 +2231,9 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: ClothingHeadHelmetVolfPlateHelmTrimmed
+  id: ClothingHeadHelmetVolfPlateHelmToggled
   name: volf plate helm
-  suffix: Trimmed
+  suffix: Toggled
   categories: [ ForkFiltered ]
   components:
   - type: Sprite

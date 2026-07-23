@@ -1,0 +1,33 @@
+- type: entity
+  parent: ClothingEyesBase
+  id: ClothingEyesClothBlindfold
+  name: cloth blindfold
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Eyes/clothblindfold.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Eyes/clothblindfold.rsi
+
+- type: entity
+  parent: ClothingEyesBase
+  id: ClothingEyesEyepatchOL
+  name: eyepatch
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Eyes/eyepatch.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Eyes/eyepatch.rsi
+
+- type: entity
+  parent: ClothingEyesEyepatch
+  id: ClothingEyesEyepatchFlipped
+  name: eyepatch
+  suffix: flipped
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Clothing/Eyes/eyepatch_l.rsi
+  - type: Clothing
+    sprite: _Oathlord/Clothing/Eyes/eyepatch_l.rsi
