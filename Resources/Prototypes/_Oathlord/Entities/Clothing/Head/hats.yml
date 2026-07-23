@@ -660,7 +660,7 @@
 
 - type: entity # TODO: missing equipped sprites
   parent: ClothingHeadBase
-  id: ClothingHeadHatHijabTrimmed
+  id: ClothingHeadHatHijabToggled
   name: hijab
   suffix: Toggled
   categories: [ ForkFiltered ]
@@ -683,8 +683,8 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: ClothingHeadHatInquisitorsHat
-  name: inquisitor's hat
+  id: ClothingHeadHatInquisitorHat
+  name: inquisitor hat
   categories: [ ForkFiltered ]
   components:
   - type: Sprite
