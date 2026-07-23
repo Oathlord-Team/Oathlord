@@ -760,8 +760,8 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: ClothingHeadHatNileHeaddress
-  name: nile headdress
+  id: ClothingHeadHatNileCirclet
+  name: nile circlet
   categories: [ ForkFiltered ]
   components:
   - type: Sprite
@@ -772,7 +772,7 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatNoblesChaperon
-  name: noble's chaperon
+  name: noble chaperon
   categories: [ ForkFiltered ]
   components:
   - type: Sprite
@@ -783,7 +783,7 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatNun
-  name: nun's habit
+  name: nun habit
   categories: [ ForkFiltered ]
   components:
   - type: Sprite
@@ -816,7 +816,7 @@
 - type: entity # TODO: missing equipped sprites
   parent: ClothingHeadBase
   id: ClothingHeadHatPharaohsHeaddress
-  name: pharaoh's headdress
+  name: pharaoh headdress
   categories: [ ForkFiltered ]
   components:
   - type: Sprite
@@ -826,8 +826,8 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: ClothingHeadHatPhysHat
-  name: physic hat
+  id: ClothingHeadHatPhysicianHat
+  name: physicianhat hat
   categories: [ ForkFiltered ]
   components:
   - type: Sprite
@@ -837,8 +837,8 @@
 
 - type: entity # TODO: missing equipped sprites
   parent: ClothingHeadBase
-  id: ClothingHeadHatPhysiciansHat
-  name: physician's hat
+  id: ClothingHeadHatPhysicianHatAlt
+  name: physician hat
   categories: [ ForkFiltered ]
   components:
   - type: Sprite
@@ -848,8 +848,8 @@
 
 - type: entity # TODO: missing equipped sprites
   parent: ClothingHeadBase
-  id: ClothingHeadHatPriestsCap
-  name: priest's cap
+  id: ClothingHeadHatPriestCap
+  name: priest cap
   categories: [ ForkFiltered ]
   components:
   - type: Sprite
@@ -859,7 +859,7 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: ClothingHeadHatPuritanHat
+  id: ClothingHeadHatPuritan
   name: puritan hat
   categories: [ ForkFiltered ]
   components:
@@ -871,7 +871,7 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatRenegadesTricorn
-  name: renegade's tricorn
+  name: renegade tricorn
   categories: [ ForkFiltered ]
   components:
   - type: Sprite
@@ -1013,8 +1013,8 @@
 
 - type: entity # TODO: missing equipped sprites
   parent: ClothingHeadBase
-  id: ClothingHeadHatSpellcastersHat
-  name: spellcaster's hat
+  id: ClothingHeadHatSpellcasterHat
+  name: spellcaster hat
   categories: [ ForkFiltered ]
   components:
   - type: Sprite
@@ -1101,8 +1101,8 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: ClothingHeadHatVictorsCrown
-  name: victor's crown
+  id: ClothingHeadHatVictorCrown
+  name: victor crown
   categories: [ ForkFiltered ]
   components:
   - type: Sprite
@@ -1145,8 +1145,8 @@
 
 - type: entity # TODO: missing equipped sprites
   parent: ClothingHeadBase
-  id: ClothingHeadHatWitchsHat
-  name: witch's hat
+  id: ClothingHeadHatWitchHat
+  name: witch hat
   categories: [ ForkFiltered ]
   components:
   - type: Sprite
@@ -1156,8 +1156,8 @@
 
 - type: entity # TODO: missing equipped sprites
   parent: ClothingHeadBase
-  id: ClothingHeadHatWizardsHat
-  name: wizard's hat
+  id: ClothingHeadHatWizardHat
+  name: wizard hat
   categories: [ ForkFiltered ]
   components:
   - type: Sprite
@@ -1178,8 +1178,8 @@
 
 - type: entity # TODO: missing equipped sprites
   parent: ClothingHeadBase
-  id: ClothingHeadHatGenericWizardHat
-  name: generic wizard hat
+  id: ClothingHeadHatWizardHatAlt
+  name: wizard hat
   categories: [ ForkFiltered ]
   components:
   - type: Sprite
