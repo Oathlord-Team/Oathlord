@@ -224,14 +224,14 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: ClothingHeadHelmetBascinet
-  name: bascinet
+  id: ClothingHeadHelmetHoundsnout
+  name: houndsnout helm
   categories: [ ForkFiltered ]
   components:
   - type: Sprite
-    sprite: _Oathlord/Clothing/Head/Helmets/bascinet.rsi
+    sprite: _Oathlord/Clothing/Head/Helmets/houndsnout.rsi
   - type: Clothing
-    sprite: _Oathlord/Clothing/Head/Helmets/bascinet.rsi
+    sprite: _Oathlord/Clothing/Head/Helmets/houndsnout.rsi
 
 - type: entity
   parent: ClothingHeadHelmetBase
@@ -247,15 +247,15 @@
 
 - type: entity
   parent: ClothingHeadHelmetBase
-  id: ClothingHeadHelmetBascinetRaised
-  name: bascinet
+  id: ClothingHeadHelmetHoundsnoutRaised
+  name: houndsnout helm
   suffix: Raised
   categories: [ ForkFiltered ]
   components:
   - type: Sprite
-    sprite: _Oathlord/Clothing/Head/Helmets/bascinet_raised.rsi
+    sprite: _Oathlord/Clothing/Head/Helmets/houndsnout_raised.rsi
   - type: Clothing
-    sprite: _Oathlord/Clothing/Head/Helmets/bascinet_raised.rsi
+    sprite: _Oathlord/Clothing/Head/Helmets/houndsnout_raised.rsi
 
 - type: entity
   parent: ClothingHeadHelmetBase
