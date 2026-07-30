@@ -255,7 +255,7 @@
   - type: Sprite
     sprite: _Oathlord/Clothing/Head/Helmets/houndsnout_raised.rsi
   - type: Clothing
-    sprite: _Oathlord/Clothing/Head/Helmets/houndsnout_raised.rsi
+    sprite: _Oathlord/Clothing/Head/Helmets/houndsnout_raised.rs
 
 - type: entity
   parent: ClothingHeadHelmetBase
