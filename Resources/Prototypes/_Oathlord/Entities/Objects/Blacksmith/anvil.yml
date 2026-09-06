@@ -1,0 +1,52 @@
+﻿- type: entity
+  parent: BaseStructure
+  id: Anvil
+  name: Anvil
+  description: An anvil.
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite # todo: replace
+    sprite: Structures/Furniture/chairs.rsi
+    state: chair
+  - type: Anvil
+    numbers: [ -9, -7, -3, -1, 1, 3, 7, 9 ]
+  - type: InteractionOutline
+  - type: UserInterface
+    interfaces:
+      enum.AnvilUiKey.Key:
+        type: AnvilBoundInterface
+      enum.StorageUiKey.Key:
+        type: StorageBoundUserInterface
+  - type: ActivatableUI
+    key: enum.AnvilUiKey.Key
+  - type: Storage
+    grid:
+    - 0,0,1,1
+    openOnActivate: false
+    whitelist:
+      components:
+      - MetalWorkable
+
+- type: entity
+  parent: BaseItem
+  id: DebugWorkable
+  name: Workable Metal
+  description: Debug
+  categories: [ ForkFiltered ]
+  components:
+  - type: Sprite
+    sprite: Objects/Devices/pda.rsi
+    state: pda
+  - type: MetalWorkable
+
+- type: anvilRecipe
+  id: DebugAnvilRecipe1
+  metals: [ DebugWorkable ]
+  workRequired: 60
+  result: Throngler
+
+- type: anvilRecipe
+  id: DebugAnvilRecipe2
+  metals: [ DebugWorkable, DebugWorkable ]
+  workRequired: 75
+  result: PlushieThrongler

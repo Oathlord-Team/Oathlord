@@ -1,0 +1,14 @@
+﻿<controls:AnvilRecipe
+    xmlns="https://spacestation14.io"
+    xmlns:controls="using:Content.Oathlord.Client.Blacksmith.Anvil"
+    xmlns:graphics="using:Robust.Client.Graphics"
+    MinSize="64 64"
+    VerticalAlignment="Center">
+    <PanelContainer MinSize="64 64">
+        <PanelContainer.PanelOverride>
+            <graphics:StyleBoxFlat BackgroundColor="#36454F" BorderColor="#000000" BorderThickness="2"/>
+        </PanelContainer.PanelOverride>
+
+        <TextureButton Name="RecipeButton" Access="Public"/>
+    </PanelContainer>
+</controls:AnvilRecipe>

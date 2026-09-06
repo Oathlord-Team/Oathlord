@@ -1,0 +1,20 @@
+﻿<controls:FancyWindow
+    xmlns="https://spacestation14.io"
+    xmlns:controls="using:Content.Client.UserInterface.Controls"
+    MinSize="400 200"
+    Title="Recipes"
+    Resizable="False">
+    <BoxContainer Orientation="Vertical" SeparationOverride="10">
+        <ScrollContainer HScrollEnabled="True" VScrollEnabled="False" VerticalExpand="True">
+            <BoxContainer Name="RecipesContainer" Margin="16 0" SeparationOverride="6"/>
+        </ScrollContainer>
+        <controls:HLine StyleClasses="highlight" Thickness="2" Margin="6 0"/>
+        <Button
+            Text="Select Recipe"
+            Name="SelectRecipeButton"
+            MinSize="32 32"
+            Margin="0 8"
+            HorizontalAlignment="Center"
+            Disabled="True"/>
+    </BoxContainer>
+</controls:FancyWindow>

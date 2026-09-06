@@ -1,0 +1,80 @@
+﻿<controls:FancyWindow
+    xmlns="https://spacestation14.io"
+    xmlns:controls="using:Content.Client.UserInterface.Controls"
+    xmlns:graphics="using:Robust.Client.Graphics"
+    Title="Anvil"
+    MinSize="500 500">
+    <BoxContainer Orientation="Vertical">
+
+        <BoxContainer Orientation="Vertical" HorizontalAlignment="Left" Margin="16" SeparationOverride="6">
+            <Label Text="Metals" Align="Left"/>
+            <controls:HLine StyleClasses="highlight" Thickness="2"/>
+            <BoxContainer SeparationOverride="6">
+                <BoxContainer
+                    Name="ViewsContainer"
+                    SeparationOverride="10"
+                    Align="Center"/>
+                <Button Text="Outputs" Name="OutputsButton"/>
+            </BoxContainer>
+        </BoxContainer>
+
+        <controls:HLine StyleClasses="highlight" Thickness="3" Margin="16 0"/>
+        <BoxContainer Orientation="Vertical" HorizontalAlignment="Center" Margin="0 16">
+
+            <BoxContainer Orientation="Vertical">
+                <Label Name="RecipeName" Align="Center" Margin="0 6"/>
+                <PanelContainer HorizontalAlignment="Center">
+                    <PanelContainer.PanelOverride>
+                        <graphics:StyleBoxFlat BackgroundColor="#36454F"/>
+                    </PanelContainer.PanelOverride>
+                    <TextureRect Name="RecipeView"/>
+                </PanelContainer>
+            </BoxContainer>
+
+        </BoxContainer>
+
+        <BoxContainer Name="RecipeMinigameContainer"
+                      VerticalExpand="True"
+                      HorizontalExpand="True"
+                      HorizontalAlignment="Center"
+                      SeparationOverride="15"
+                      Visible="False">
+            <GridContainer Name="PositiveNumbersContainer" Columns="3" Rows="3"/>
+
+            <PanelContainer Margin="8">
+                <PanelContainer.PanelOverride>
+                    <graphics:StyleBoxFlat BackgroundColor="#36454F"/>
+                </PanelContainer.PanelOverride>
+
+                <BoxContainer SeparationOverride="5" Margin="6">
+
+                    <ProgressBar Name="WorkDoneBar"
+                                 MinSize="32 6"
+                                 Margin="12"
+                                 Vertical="True">
+                        <ProgressBar.ForegroundStyleBoxOverride>
+                            <graphics:StyleBoxFlat BackgroundColor="#EFBF04"/>
+                        </ProgressBar.ForegroundStyleBoxOverride>
+                    </ProgressBar>
+
+                    <PanelContainer VerticalExpand="True" MinWidth="3" VerticalAlignment="Stretch" Margin="6">
+                        <PanelContainer.PanelOverride>
+                            <graphics:StyleBoxFlat BackgroundColor="#a88b5e"/>
+                        </PanelContainer.PanelOverride>
+                    </PanelContainer>
+
+                    <ProgressBar Name="WorkNeededBar"
+                                 MinSize="32 6"
+                                 Margin="12"
+                                 Vertical="True">
+                        <ProgressBar.ForegroundStyleBoxOverride>
+                            <graphics:StyleBoxFlat BackgroundColor="#880808"/>
+                        </ProgressBar.ForegroundStyleBoxOverride>
+                    </ProgressBar>
+
+                </BoxContainer>
+            </PanelContainer>
+            <GridContainer Name="NegativeNumbersContainer" Columns="3" Rows="3"/>
+        </BoxContainer>
+    </BoxContainer>
+</controls:FancyWindow>

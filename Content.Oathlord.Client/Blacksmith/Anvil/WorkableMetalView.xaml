@@ -1,0 +1,12 @@
+﻿<controls:WorkableMetalView
+    xmlns="https://spacestation14.io"
+    xmlns:controls="using:Content.Oathlord.Client.Blacksmith.Anvil"
+    xmlns:graphics="using:Robust.Client.Graphics">
+    <PanelContainer MinSize="64 64">
+        <PanelContainer.PanelOverride>
+            <graphics:StyleBoxFlat BackgroundColor="#36454F"/>
+        </PanelContainer.PanelOverride>
+
+        <SpriteView Name="MetalView" Scale="2 2"/>
+    </PanelContainer>
+</controls:WorkableMetalView>
