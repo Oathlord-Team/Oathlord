@@ -1,5 +1,7 @@
 # Our naming conventions are "class/classes" instead of jobs.
 #
+# todo: make job prototype inheritable
+#
 # Wretch
 - type: job
   id: Wretch
@@ -16,3 +18,20 @@
 
 - type: playTimeTracker
   id: Wretch
+
+# Metalsmith
+- type: job
+  id: Metalsmith
+  name: metalsmith-class-name-role
+  description: metalsmith-class-desc-role
+  playTimeTracker: Metalsmith
+  icon: "ClassIconMetalsmith"
+  supervisors: job-supervisors-nobody
+  setPreference: true
+  special:
+  - !type:AddComponentSpecial
+    components:
+    - type: EconomyAccount
+
+- type: playTimeTracker
+  id: Metalsmith

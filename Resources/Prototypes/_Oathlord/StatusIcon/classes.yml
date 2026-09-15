@@ -6,3 +6,11 @@
     sprite: &class-icon /Textures/_Oathlord/Interface/Misc/class_icons.rsi
     state: Wretch
   jobName: class-name-wretch
+
+- type: jobIcon
+  parent: JobIcon
+  id: ClassIconMetalsmith
+  icon:
+    sprite: *class-icon
+    state: Metalsmith
+  jobName: class-name-metalsmith

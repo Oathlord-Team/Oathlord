@@ -1,7 +1,7 @@
 {
     "version": 1,
     "license": "CC-BY-SA-3.0",
-    "copyright": "Wretch by skellyton_man (Discord)",
+    "copyright": "Wretch by skellyton_man (@Discord), Metalsmith by Es",
     "size": {
         "x": 8,
         "y": 8
@@ -9,6 +9,9 @@
     "states": [
         {
             "name": "Wretch"
+        },
+        {
+            "name": "Metalsmith"
         }
     ]
 }

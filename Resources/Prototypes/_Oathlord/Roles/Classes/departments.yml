@@ -6,3 +6,12 @@
   editorHidden: false
   roles:
   - Wretch
+
+- type: department
+  id: Craftsmen
+  name: craftsmen-department
+  description: craftsmen-department-description
+  color: "#A46106"
+  editorHidden: false
+  roles:
+  - Metalsmith
