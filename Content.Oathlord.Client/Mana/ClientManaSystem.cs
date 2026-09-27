@@ -10,6 +10,8 @@ public sealed partial class ClientManaSystem : ManaSystem
     [Dependency] private IPlayerManager _player = default!;
 
     public event EventHandler<(FixedPoint2, FixedPoint2, bool)>? SyncMana;
+    public event EventHandler? EnableMana;
+    public event EventHandler? DisableMana;
 
     // TODO: Add LocalPlayerAttached and Detached events and show/hide the mana widget in the respective event
 
@@ -17,7 +19,16 @@ public sealed partial class ClientManaSystem : ManaSystem
     private void OnPlayerAttached(Entity<ManaUserComponent> ent, ref LocalPlayerAttachedEvent args)
     {
         if (_player.LocalEntity == ent.Owner)
+        {
+            EnableMana?.Invoke(this, EventArgs.Empty);
             SyncMana?.Invoke(this, (ent.Comp.CurrentMana, ent.Comp.MaxMana, ent.Comp.CanUse));
+        }
+    }
+
+    [SubscribeLocalEvent]
+    private void OnPlayerDetached(Entity<ManaUserComponent> ent, ref LocalPlayerDetachedEvent args)
+    {
+        DisableMana?.Invoke(this, EventArgs.Empty);
     }
 
     [SubscribeLocalEvent]

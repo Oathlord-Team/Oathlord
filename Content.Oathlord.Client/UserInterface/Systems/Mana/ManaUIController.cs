@@ -37,11 +37,25 @@ public sealed partial class ManaUIController : UIController, IOnStateEntered<Gam
     public void OnSystemLoaded(ClientManaSystem system)
     {
         system.SyncMana += SystemOnSyncMana;
+        system.EnableMana += SystemOnEnableMana;
+        system.DisableMana += SystemOnDisableMana;
     }
 
     public void OnSystemUnloaded(ClientManaSystem system)
     {
         system.SyncMana -= SystemOnSyncMana;
+        system.EnableMana -= SystemOnEnableMana;
+        system.DisableMana -= SystemOnDisableMana;
+    }
+
+    private void SystemOnDisableMana(object? sender, EventArgs e)
+    {
+        UI?.Visible = false;
+    }
+
+    private void SystemOnEnableMana(object? sender, EventArgs e)
+    {
+        UI?.Visible = true;
     }
 
     public void OnStateEntered(GameplayState state)
