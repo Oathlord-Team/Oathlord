@@ -13,8 +13,6 @@ public sealed partial class ClientManaSystem : ManaSystem
     public event EventHandler? EnableMana;
     public event EventHandler? DisableMana;
 
-    // TODO: Add LocalPlayerAttached and Detached events and show/hide the mana widget in the respective event
-
     [SubscribeLocalEvent]
     private void OnPlayerAttached(Entity<ManaUserComponent> ent, ref LocalPlayerAttachedEvent args)
     {
