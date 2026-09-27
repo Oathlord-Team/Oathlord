@@ -2,7 +2,7 @@
   id: MothershipCore
   name: roles-antag-mothership-core-name
   antagonist: true
-  setPreference: false # Oathlord - disable vanilla content
+  setPreference: true
   objective: roles-antag-mothership-core-objective
   requirements:
   - !type:RoleTimeRequirement
@@ -20,7 +20,7 @@
   id: Xenoborg
   name: roles-antag-xenoborg-name
   antagonist: true
-  setPreference: false # Oathlord - disable vanilla content
+  setPreference: true
   objective: roles-antag-xenoborg-objective
   requirements:
   - !type:RoleTimeRequirement

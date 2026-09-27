@@ -1,0 +1,47 @@
+﻿- type: antag
+  id: Nukeops
+  setPreference: false
+
+- type: antag
+  id: NukeopsCommander
+  setPreference: false
+
+- type: antag
+  id: NukeopsMedic
+  setPreference: false
+
+- type: antag
+  id: HeadRev
+  setPreference: false
+
+- type: antag
+  id: Thief
+  setPreference: false
+
+- type: antag
+  id: Traitor
+  setPreference: false
+
+- type: antag
+  id: TraitorSleeper
+  setPreference: false
+
+- type: antag
+  id: Wizard
+  setPreference: false
+
+- type: antag
+  id: InitialInfected
+  setPreference: false
+
+- type: antag
+  id: MothershipCore
+  setPreference: false
+
+- type: antag
+  id: Xenoborg
+  setPreference: false
+
+- type: antag
+  id: Changeling
+  setPreference: false

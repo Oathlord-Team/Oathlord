@@ -2,7 +2,7 @@
   id: Traitor
   name: roles-antag-syndicate-agent-name
   antagonist: true
-  setPreference: false # Baseline - disable vanilla content
+  setPreference: true
   objective: roles-antag-syndicate-agent-objective
   guides: [ Traitors ]
   requirements:
@@ -29,7 +29,7 @@
   id: TraitorSleeper
   name: roles-antag-syndicate-agent-sleeper-name
   antagonist: true
-  setPreference: false # Baseline - disable vanilla content
+  setPreference: true
   objective: roles-antag-syndicate-agent-sleeper-objective
   guides: [ Traitors ]
   requirements:
@@ -108,7 +108,7 @@
     - WeaponPistolViper
     - Syringe
     - Syringe
-    
+
 - type: startingGear
   id: SyndicateReinforcementSpy
   equipment:

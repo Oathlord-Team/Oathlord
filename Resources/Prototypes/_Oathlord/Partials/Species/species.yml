@@ -1,0 +1,31 @@
+﻿- type: species
+  id: SlimePerson
+  roundStart: false
+
+- type: species
+  id: Vulpkanin
+  roundStart: false
+
+- type: species
+  id: Diona
+  roundStart: false
+
+- type: species
+  id: Arachnid
+  roundStart: false
+
+- type: species
+  id: Moth
+  roundStart: false
+
+- type: species
+  id: Dwarf
+  roundStart: false
+
+- type: species
+  id: Reptilian
+  roundStart: false
+
+- type: species
+  id: Vox
+  roundStart: false

@@ -2,7 +2,7 @@
   id: Changeling
   name: roles-antag-changeling-name
   antagonist: true
-  setPreference: false # Oathlord
+  setPreference: true
   objective: roles-antag-changeling-objective
   guides: [ Changelings ]
   requirements:
