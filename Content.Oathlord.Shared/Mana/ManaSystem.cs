@@ -60,7 +60,7 @@ public abstract partial class ManaSystem : EntitySystem
             return;
 
         ent.Comp.CurrentMana = FixedPoint2.Clamp(ent.Comp.CurrentMana + amount, 0, ent.Comp.MaxMana);
-        Dirty(ent);
+        DirtyField(ent, nameof(ManaUserComponent.CurrentMana));
 
         UpdateHud((ent.Owner, ent.Comp));
     }
