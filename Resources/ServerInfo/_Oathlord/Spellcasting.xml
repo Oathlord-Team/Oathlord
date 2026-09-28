@@ -1,0 +1,41 @@
+﻿<Document>
+  # The Mystical World of Spells
+
+  This feature is: [color=orange]In-Progress[/color].
+
+  Where magic exists, spells follow. And with the use of spells, comes great accountability.
+
+  ## Accessing your spells
+
+  In order to access your spell memory, you may press 'L' by default. Any living being can access this.
+  You will notice two sections; the [color=green]learned spells[/color], and the [color=yellow]active spells[/color].
+
+  Your total spell capacity is your learned plus active spells. That's how many spells you can 'remember' at any moment.
+
+  - The [color=green]learned spells[/color] are simply a backlog of spells that can be used.
+  - The [color=yellow]active spells[/color] are spells that can currently be used by the magic user.
+
+  In order to move a spell from the learned category, to the active one, and vice versa, you must press the respective spell by clicking it.
+
+  There is also a small UI element on your HUD, at the bottom left of your screen. That element displays your current active spell.
+  As you may have noticed, you can only use one active spell at a time.
+
+  If you have many spells in the [color=yellow]active category[/color], you may press 'pgup' and 'pgdown' by default,
+  to go to the next, or previous active spell.
+
+  ## Using spells
+
+  Let's use assume you have an active spell on. Firstly, you'll need a spellcasting item.
+  An item that basically grants you the ability to cast spells. You can't just fire off spells with your bare hands.
+
+  Once you have that item in your hand, press 'middle-click' by default to cast the spell.
+
+  Simple!
+
+  ## Diving deeper
+
+  Spells are usually categorized into various "types".
+  Most common folk will encounter "dumb spells", which are spells of no huge importance.
+
+  However, via magic research, individuals can acquire specialized spells.
+</Document>

@@ -1,0 +1,6 @@
+﻿- type: guideEntry
+  hidden: false
+  locFilter: "en-US"
+  id: Spellcasting
+  name: guidebook-oathlord-spellcasting-name
+  text: "/ServerInfo/_Oathlord/Spellcasting.xml"
