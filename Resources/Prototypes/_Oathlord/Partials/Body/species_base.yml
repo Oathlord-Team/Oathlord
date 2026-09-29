@@ -6,3 +6,17 @@
   - type: ManaUser
     currentMana: 100
   - type: Spells
+
+- type: entity
+  save: false
+  abstract: true
+  id: BaseMob
+  components:
+  # Sane defaults for oathlord movement.
+  # Makes movement have more weight by lowering accel and upping friction.
+  # Also, make sprint feel like sprinting...
+  - type: MovementSpeedModifier
+    baseAcceleration: 4
+    baseFriction: 3.5
+    baseSprintSpeed: 5.5
+    baseWalkSpeed: 3.5
