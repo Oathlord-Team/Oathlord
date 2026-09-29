@@ -15,6 +15,9 @@ binds:
   type: State
   key: PageDown
   priority: -1 # text takes priority
+- function: MovementMod
+  type: State
+  key: Control
 # </Oathlord>
 - function: UIClick
   type: State
