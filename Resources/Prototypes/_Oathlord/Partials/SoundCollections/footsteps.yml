@@ -1,0 +1,6 @@
+﻿# They sound too robotic lol
+- type: soundCollection
+  id: FootstepGrass
+  files:
+  - !Remove /Audio/Effects/Footsteps/grass3.ogg
+  - !Remove /Audio/Effects/Footsteps/grass4.ogg

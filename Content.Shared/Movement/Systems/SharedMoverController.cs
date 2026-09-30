@@ -347,7 +347,7 @@ public abstract partial class SharedMoverController : VirtualController
             if (!weightless && MobMoverQuery.TryGetComponent(uid, out var mobMover) &&
                 TryGetSound(weightless, uid, mover, mobMover, xform, out var sound, tileDef: tileDef))
             {
-                var soundModifier = mover.Sprinting ? InputMoverComponent.SprintingSoundModifier : InputMoverComponent.WalkingSoundModifier;
+                var soundModifier = GetMovementModSound(uid, mover.Sprinting); // Oathlord - Changed sound calculation with our partial method
 
                 var audioParams = sound.Params
                     .AddVolume(sound.Params.Volume + soundModifier)

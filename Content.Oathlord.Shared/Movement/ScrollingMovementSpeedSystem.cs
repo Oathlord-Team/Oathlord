@@ -16,7 +16,11 @@ public sealed partial class ScrollingMovementSpeedSystem : EntitySystem
 
     [Dependency] private EntityQuery<ScrollingMovementComponent> _scrollMoveQuery = default!;
 
-    private TimeSpan _delay = TimeSpan.FromSeconds(0.2f);
+    /// <summary>
+    /// How many seconds the user has to wait before adjusting their speed again
+    /// Exists mainly to prevent spam and also, we don't want users to go to max/min speed immediately which is bad UX
+    /// </summary>
+    private TimeSpan _delay = TimeSpan.FromSeconds(0.1f);
 
     [EventSubscription]
     private void OnScrollingWalkSpeed(RequestScrollingWalkSpeed msg, EntitySessionEventArgs args)
@@ -26,10 +30,10 @@ public sealed partial class ScrollingMovementSpeedSystem : EntitySystem
             || TerminatingOrDeleted(player))
             return;
 
-        // Prevent spam...
         if (scrollMove.NextDelay > _timing.CurTime)
             return;
 
+        // Delta values are either 1/-1, so we need a demical number
         AdjustScrollingSpeed((player, scrollMove), msg.DeltaY * 0.1f);
     }
 

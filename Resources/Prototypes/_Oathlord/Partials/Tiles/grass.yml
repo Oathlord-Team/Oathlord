@@ -1,0 +1,6 @@
+﻿- type: tile
+  id: FloorPlanetGrass
+  barestepSounds:
+    collection: FootstepGrassBarefoot
+    params:
+      volume: -2
