@@ -169,7 +169,7 @@ namespace Content.Client.Options.UI.Tabs
             AddButton(EngineKeyFunctions.MoveDown);
             AddButton(EngineKeyFunctions.MoveRight);
             AddButton(EngineKeyFunctions.Walk);
-            AddCheckBox("ui-options-hotkey-toggle-walk", _cfg.GetCVar(CCVars.ToggleWalk), HandleToggleWalk);
+            AddCheckBox("ui-options-hotkey-toggle-sprint", _cfg.GetCVar(CCVars.ToggleWalk), HandleToggleWalk); // Oathlord - Changed to locale sprint
             InitToggleWalk();
             AddButton(ContentKeyFunctions.ToggleKnockdown);
 

@@ -1,0 +1,5 @@
+﻿# Oathlord uses walk by default, so this alert will toggle during sprinting...
+- type: alert
+  id: Walking
+  name: alerts-sprinting-name
+  description: alerts-sprinting-desc
