@@ -21,3 +21,5 @@
     baseSprintSpeed: 5.5
     baseWalkSpeed: 3.5
   - type: ScrollingMovement
+  - type: EffectsMovement
+    effect: BaseMobMoveEffects

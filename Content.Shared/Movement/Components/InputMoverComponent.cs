@@ -83,7 +83,7 @@ namespace Content.Shared.Movement.Components
         public const float WalkingSoundModifier = 1.5f;
 
         [ViewVariables]
-        public bool Sprinting => (HeldMoveButtons & MoveButtons.Walk) != 0x0; // Oathlord - Changed condition from == to !=
+        public bool Sprinting => (HeldMoveButtons & MoveButtons.Walk) != 0x0; // Oathlord - Changed to check for walking. Changed condition from == to !=
 
         [ViewVariables(VVAccess.ReadWrite)]
         public bool CanMove = true;

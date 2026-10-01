@@ -1,0 +1,13 @@
+﻿# All mobs take these movement debuffs when sprinting
+- type: entityEffect
+  id: BaseMobMoveEffects
+  effects:
+  - !type:StaminaDamage
+    damage: 1
+    visual: false
+  - !type:Satiate
+    satiationType: Hunger
+    factor: -0.1
+  - !type:Satiate
+    satiationType: Thirst
+    factor: -0.5
