@@ -15,6 +15,10 @@ public sealed partial class EffectsMovementSystem : EntitySystem
     [SubscribeLocalEvent]
     private void OnMove(Entity<EffectsMovementComponent> ent, ref MoveEvent args)
     {
+        // help
+        if (_timing.ApplyingState)
+            return;
+
         var curTime = _timing.CurTime;
         if (TerminatingOrDeleted(ent)
             || ent.Comp.NextUpdate > curTime

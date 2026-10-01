@@ -9,7 +9,7 @@ namespace Content.Oathlord.Shared.Movement;
 ///
 /// No public API provided, this should not be used by anything other than this system
 /// </summary>
-public sealed partial class ScrollingMovementSpeedSystem : EntitySystem
+public abstract partial class ScrollingMovementSystem : EntitySystem
 {
     [Dependency] private IGameTiming _timing = default!;
     [Dependency] private MovementSpeedModifierSystem _movement = default!;

@@ -2,6 +2,7 @@ using Content.Client.UserInterface.Screens;
 using Content.Client.UserInterface.Systems.Gameplay;
 using Content.Oathlord.Client.UserInterface.Systems.Mana;
 using Content.Oathlord.Client.UserInterface.Systems.Mana.Widgets;
+using Content.Oathlord.Client.UserInterface.Systems.ScrollingMovement;
 using Content.Oathlord.Client.UserInterface.Systems.Spells;
 using Content.Oathlord.Client.UserInterface.Systems.Spells.Widgets;
 using JetBrains.Annotations;
@@ -28,6 +29,7 @@ public sealed partial class OathlordScreenUIController : UIController
 
     private ManaBar? _manaBar;
     private SpellsButton? _spellsButton;
+    private ScrollingMovementWidget? _scrollingMovement;
 
     public override void Initialize()
     {
@@ -42,6 +44,7 @@ public sealed partial class OathlordScreenUIController : UIController
     {
         _manaBar = null;
         _spellsButton = null;
+        _scrollingMovement = null;
 
         _spells.UnloadGui();
 
@@ -63,10 +66,12 @@ public sealed partial class OathlordScreenUIController : UIController
             case DefaultGameScreen screen:
                 SetupMana(screen, false);
                 SetupSpells(screen, false);
+                SetupScrollingMovement(screen);
                 break;
             case SeparatedChatGameScreen separated:
                 SetupMana(separated, true);
                 SetupSpells(separated, true);
+                SetupScrollingMovement(separated);
                 break;
         }
 
@@ -109,11 +114,17 @@ public sealed partial class OathlordScreenUIController : UIController
         LayoutContainer.SetMarginLeft(_spellsButton, 200);
     }
 
+    private void SetupScrollingMovement(InGameScreen screen)
+    {
+        _scrollingMovement = screen.GetOrAddWidget<ScrollingMovementWidget>();
+    }
+
     #endregion
 
     private void ClearWidgets(InGameScreen screen)
     {
         screen.RemoveWidget<ManaBar>();
         screen.RemoveWidget<SpellsButton>();
+        screen.RemoveWidget<ScrollingMovementWidget>();
     }
 }

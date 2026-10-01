@@ -37,7 +37,7 @@ namespace Content.Client.Cooldown
             if (Progress >= 0f)
             {
                 var hue = (5f / 18f) * lerp;
-                color = Color.FromHsv(new Vector4(hue, 0.75f, 0.75f, 0.50f));
+                color = SetColor ?? Color.FromHsv(new Vector4(hue, 0.75f, 0.75f, 0.50f)); // Oathlord - Use SetColor if it exists
             }
             else
             {

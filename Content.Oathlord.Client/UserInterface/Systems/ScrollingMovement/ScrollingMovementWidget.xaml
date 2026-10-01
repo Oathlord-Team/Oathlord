@@ -1,0 +1,13 @@
+﻿<scrollingMovement:ScrollingMovementWidget xmlns="https://spacestation14.io"
+          xmlns:scrollingMovement="using:Content.Oathlord.Client.UserInterface.Systems.ScrollingMovement"
+          xmlns:graphics="using:Robust.Client.Graphics"
+          Visible="False">
+    <ProgressBar Name="MovementBar" MinSize="8 24" MaxValue="1" MinValue="0.1" Vertical="True">
+        <ProgressBar.BackgroundStyleBoxOverride>
+            <graphics:StyleBoxFlat BackgroundColor="#06402B"/>
+        </ProgressBar.BackgroundStyleBoxOverride>
+        <ProgressBar.ForegroundStyleBoxOverride>
+            <graphics:StyleBoxFlat BackgroundColor="#0E9464"/>
+        </ProgressBar.ForegroundStyleBoxOverride>
+    </ProgressBar>
+</scrollingMovement:ScrollingMovementWidget>

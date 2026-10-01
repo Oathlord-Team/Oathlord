@@ -8,7 +8,7 @@ namespace Content.Oathlord.Shared.Movement;
 /// Component used on entities that can adjust their walking speed via mouse wheel scrolling
 /// </summary>
 [RegisterComponent, NetworkedComponent]
-[AutoGenerateComponentState, AutoGenerateComponentPause]
+[AutoGenerateComponentState(true), AutoGenerateComponentPause]
 public sealed partial class ScrollingMovementComponent : Component
 {
     /// <summary>
