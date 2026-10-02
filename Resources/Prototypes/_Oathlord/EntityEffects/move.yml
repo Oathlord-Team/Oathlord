@@ -3,7 +3,7 @@
   id: BaseMobMoveEffects
   effects:
   - !type:StaminaDamage
-    damage: 1
+    damage: 2
     visual: false
   - !type:Satiate
     satiationType: Hunger
