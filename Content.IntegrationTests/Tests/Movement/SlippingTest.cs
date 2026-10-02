@@ -24,14 +24,14 @@ public sealed class SlippingTest : MovementTest
         Assert.That(Delta(), Is.GreaterThan(0.5f));
 
         // Walking over the banana slowly does not trigger a slip.
-        await SetKey(EngineKeyFunctions.Walk, BoundKeyState.Down);
+        await SetKey(EngineKeyFunctions.Walk, BoundKeyState.Up); // Oathlord - Set to Up from Down (walk key is sprinting now)
         await AssertFiresEvent<SlipEvent>(async () => await Move(DirectionFlag.East, 1f), count: 0);
 
         Assert.That(Delta(), Is.LessThan(0.5f));
         AssertComp<KnockedDownComponent>(false, Player);
 
         // Moving at normal speeds does trigger a slip.
-        await SetKey(EngineKeyFunctions.Walk, BoundKeyState.Up);
+        await SetKey(EngineKeyFunctions.Walk, BoundKeyState.Down); // Oathlord - Set to Down from Up
         await AssertFiresEvent<SlipEvent>(async () => await Move(DirectionFlag.West, 1f));
 
         // And the person that slipped was the player
