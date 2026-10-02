@@ -11,12 +11,11 @@ public sealed partial class ScalingViewport
     {
         base.MouseWheel(args);
 
-        _mouseWheel ??= _entityManager.System<CommonMouseWheelSystem>();
-
         var delta = args.Delta;
         if (args.Handled || MathHelper.CloseToPercent(0f, delta.Y))
             return;
 
+        _mouseWheel ??= _entityManager.System<CommonMouseWheelSystem>();
         _mouseWheel.HandleMouseWheel(delta);
     }
 }

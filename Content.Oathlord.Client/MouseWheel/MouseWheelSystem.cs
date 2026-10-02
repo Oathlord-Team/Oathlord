@@ -37,7 +37,7 @@ public sealed partial class MouseWheelSystem : CommonMouseWheelSystem
         if (_methods.TryAdd(prio, action))
             return;
 
-        Log.Error($"Tried to add a key to the mouse wheel methods dictionary, but it already exists: {function.FunctionName}");
+        Log.Warning($"Tried to add a key to the mouse wheel methods dictionary, but it already exists: {function.FunctionName}");
     }
 
     /// <summary>

@@ -25,6 +25,12 @@ public sealed partial class EffectsMovementComponent : Component
     [DataField]
     public TimeSpan Delay = TimeSpan.FromSeconds(0.5f);
 
+    /// <summary>
+    /// Whether effects can be applied
+    /// </summary>
+    [DataField, AutoNetworkedField]
+    public bool CanApply = true;
+
     [DataField(customTypeSerializer: typeof(TimeOffsetSerializer))]
     [AutoNetworkedField, AutoPausedField]
     public TimeSpan NextUpdate;
