@@ -1,0 +1,20 @@
+﻿# A staff that can only cast dumb spells
+- type: entity
+  parent: BaseItem
+  id: BasicSpellStaff
+  name: Spell Staff
+  suffix: DEBUG
+  description: A staff to cast spells.
+  categories: [ ForkFiltered ]
+  components:
+  - type: Item
+    sprite: _Oathlord/Objects/Spellcasting/basic_staff.rsi
+    inhandVisuals:
+      left:
+      - state: inhand-left
+      right:
+      - state: inhand-right
+  - type: Sprite
+    sprite: _Oathlord/Objects/Spellcasting/basic_staff.rsi
+    state: staff
+  - type: Spellcaster
