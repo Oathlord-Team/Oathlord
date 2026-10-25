@@ -169,6 +169,7 @@ namespace Content.Client.Options.UI.Tabs
             AddButton(EngineKeyFunctions.MoveDown);
             AddButton(EngineKeyFunctions.MoveRight);
             AddButton(EngineKeyFunctions.Walk);
+            AddButton(OathlordKeyFunctions.MovementMod); // Oathlord
             AddCheckBox("ui-options-hotkey-toggle-sprint", _cfg.GetCVar(CCVars.ToggleWalk), HandleToggleWalk); // Oathlord - Changed to locale sprint
             InitToggleWalk();
             AddButton(ContentKeyFunctions.ToggleKnockdown);
@@ -190,7 +191,6 @@ namespace Content.Client.Options.UI.Tabs
             AddButton(ContentKeyFunctions.AltActivateItemInWorld);
             // </Oathlord>
             AddButton(OathlordKeyFunctions.SpecialItemAction);
-            AddButton(OathlordKeyFunctions.OpenSpellsMenu);
             AddButton(OathlordKeyFunctions.MoveSpellUp);
             AddButton(OathlordKeyFunctions.MoveSpellDown);
             // <Oathlord>
@@ -239,6 +239,10 @@ namespace Content.Client.Options.UI.Tabs
             AddButton(ContentKeyFunctions.OpenAHelp);
             AddButton(ContentKeyFunctions.OpenActionsMenu);
             AddButton(ContentKeyFunctions.OpenEmotesMenu);
+            // <Oathlord>
+            AddButton(OathlordKeyFunctions.OpenSpellsMenu);
+            AddButton(OathlordKeyFunctions.OpenAttributesMenu);
+            // </Oathlord>
             AddButton(ContentKeyFunctions.ToggleRoundEndSummaryWindow);
             AddButton(ContentKeyFunctions.OpenEntitySpawnWindow);
             AddButton(ContentKeyFunctions.OpenSandboxWindow);

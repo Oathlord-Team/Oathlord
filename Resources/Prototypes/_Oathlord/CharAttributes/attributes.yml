@@ -1,0 +1,13 @@
+- type: entity
+  abstract: true
+  id: BaseCharAttribute
+  components:
+  - type: CharacterAttribute
+
+- type: entity
+  parent: BaseCharAttribute
+  id: DebugAttribute
+  name: Debug Attribute
+  description: We're fight to kill
+  components:
+  - type: CharacterAttribute

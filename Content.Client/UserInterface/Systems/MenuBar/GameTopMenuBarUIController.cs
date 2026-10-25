@@ -47,6 +47,7 @@ public sealed partial class GameTopMenuBarUIController : UIController
         _action.UnloadButton();
         _sandbox.UnloadButton();
         _emotes.UnloadButton();
+        RaiseOnUnload(GameTopMenuBar); // Oathlord
     }
 
     public void LoadButtons()
@@ -60,5 +61,6 @@ public sealed partial class GameTopMenuBarUIController : UIController
         _action.LoadButton();
         _sandbox.LoadButton();
         _emotes.LoadButton();
+        RaiseOnLoad(GameTopMenuBar); // Oathlord
     }
 }

@@ -6,6 +6,7 @@
   - type: ManaUser
     currentMana: 100
   - type: Spells
+  - type: CharacterAttributes
 
 - type: entity
   save: false

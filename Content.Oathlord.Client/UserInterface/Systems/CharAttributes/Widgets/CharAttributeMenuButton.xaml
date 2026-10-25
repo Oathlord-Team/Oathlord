@@ -1,0 +1,18 @@
+<widgets:CharAttributeMenuButton
+    xmlns="https://spacestation14.io"
+    xmlns:widgets="clr-namespace:Content.Oathlord.Client.UserInterface.Systems.CharAttributes.Widgets"
+    xmlns:ui="using:Content.Client.UserInterface.Controls"
+    xmlns:xe="using:Content.Client.UserInterface.XamlExtensions"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:ic="using:Content.Oathlord.Common.Input"
+    xmlns:style="using:Content.Client.Stylesheets">
+    <ui:MenuButton
+        Name="CharAttributeButton"
+        Access="Internal"
+        Icon="{xe:Tex '/Textures/_Oathlord/Interface/attributes.png'}"
+        BoundKey = "{x:Static ic:OathlordKeyFunctions.OpenAttributesMenu}"
+        ToolTip="{Loc 'game-hud-open-attributes-menu-tooltip'}"
+        MinSize="60 54"
+        HorizontalExpand="True"
+        AppendStyleClass="{x:Static style:StyleClass.ButtonOpenRight}"/>
+</widgets:CharAttributeMenuButton>
