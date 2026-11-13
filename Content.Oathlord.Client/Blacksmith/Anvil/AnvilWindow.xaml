@@ -8,7 +8,7 @@
     <BoxContainer Orientation="Vertical">
         <BoxContainer Orientation="Vertical" HorizontalAlignment="Left" Margin="16" SeparationOverride="6">
             <Label Text="Metals" Align="Left"/>
-            <controls:HLine StyleClasses="highlight" Thickness="2"/>
+            <controls:Separator StyleClasses="highlight" Thickness="2"/>
             <BoxContainer SeparationOverride="6">
                 <BoxContainer
                     Name="ViewsContainer"
@@ -17,7 +17,7 @@
                 <Button Text="Outputs" Name="OutputsButton"/>
             </BoxContainer>
         </BoxContainer>
-        <controls:HLine StyleClasses="highlight" Thickness="3" Margin="16 0"/>
+        <controls:Separator StyleClasses="highlight" Thickness="3" Margin="16 0"/>
         <BoxContainer Orientation="Vertical" HorizontalAlignment="Center" Margin="0 16">
             <BoxContainer Orientation="Vertical">
                 <Label Name="RecipeName" Align="Center" Margin="0 6"/>

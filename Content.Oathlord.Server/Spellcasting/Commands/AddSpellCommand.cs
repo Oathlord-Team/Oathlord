@@ -13,6 +13,7 @@ namespace Content.Oathlord.Server.Spellcasting.Commands;
 public sealed partial class AddSpellCommand : LocalizedEntityCommands
 {
     [Dependency] private SpellcastingSystem _spellcasting = default!;
+    [Dependency] private IComponentFactory _factory = default!;
     [Dependency] private IPrototypeManager _prototypeManager = default!;
 
     public override string Command => "addspell";
@@ -38,7 +39,7 @@ public sealed partial class AddSpellCommand : LocalizedEntityCommands
         }
 
         if (!_prototypeManager.TryIndex<EntityPrototype>(args[1], out var proto)
-            || !proto.HasComponent<SpellComponent>())
+            || !proto.HasComp<SpellComponent>(_factory))
         {
             shell.WriteError($"Spell not found: {args[1]}");
             return;
@@ -63,7 +64,7 @@ public sealed partial class AddSpellCommand : LocalizedEntityCommands
             return CompletionResult.Empty;
 
         var spellPrototypes = _prototypeManager.EnumeratePrototypes<EntityPrototype>()
-            .Where(p => p.HasComponent<SpellComponent>())
+            .Where(p => p.HasComp<SpellComponent>(_factory))
             .Select(p => p.ID)
             .Order();
 

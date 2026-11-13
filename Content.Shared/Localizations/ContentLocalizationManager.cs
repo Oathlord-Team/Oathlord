@@ -45,7 +45,7 @@ namespace Content.Shared.Localizations
 
             if (!_loc.HasCulture(cultureEn))
                 _loc.LoadCulture(cultureEn);
-            _loc.SetFallbackCluture(cultureEn); // I don't think there's any reason to change the fallback culture.
+            _loc.SetFallbackCulture(cultureEn); // I don't think there's any reason to change the fallback culture.
 
             _cfg.OnValueChanged(CCVars.ServerLanguage, OnCultureUpdate, true);
         }

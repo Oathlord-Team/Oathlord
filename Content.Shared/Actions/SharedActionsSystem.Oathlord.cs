@@ -28,7 +28,7 @@ public partial class SharedActionsSystem
         if (IsCooldownActive(action, curTime))
             return;
 
-        var attemptEv = new ActionAttemptEvent(user);
+        var attemptEv = new ActionAttemptEvent(user, target);
         RaiseLocalEvent(action, ref attemptEv);
         if (attemptEv.Cancelled)
             return;
