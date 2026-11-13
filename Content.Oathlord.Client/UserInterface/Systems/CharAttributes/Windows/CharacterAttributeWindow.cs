@@ -24,6 +24,8 @@ public sealed partial class CharacterAttributeWindow : FancyWindow
 
     public void Populate(EntityUid user, IEntityManager entMan)
     {
+        _changedAttributes.Clear();
+
         _charAttribute ??= entMan.System<CharacterAttributesSystem>();
         AttributesContainer.Children.Clear();
 
@@ -33,7 +35,12 @@ public sealed partial class CharacterAttributeWindow : FancyWindow
             var attrControl = new CharacterAttributeControl(attribute, this, entMan);
             attrControl.PointsChanged += points =>
             {
-                _changedAttributes.Add(entMan.GetNetEntity(attribute), points);
+                var attr = entMan.GetNetEntity(attribute);
+                if (_changedAttributes.ContainsKey(attr))
+                    _changedAttributes[attr] = points;
+                else
+                    _changedAttributes.TryAdd(attr, points);
+
                 ApplyButton.Disabled = false;
             };
 

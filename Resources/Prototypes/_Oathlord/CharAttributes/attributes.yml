@@ -11,3 +11,11 @@
   description: We're fight to kill
   components:
   - type: CharacterAttribute
+
+- type: entity
+  parent: BaseCharAttribute
+  id: DebugAttribute2
+  name: Debug Attribute2
+  description: We're fight to kill2
+  components:
+  - type: CharacterAttribute

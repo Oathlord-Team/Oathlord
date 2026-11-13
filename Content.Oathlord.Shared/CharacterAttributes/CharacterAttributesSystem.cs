@@ -38,7 +38,7 @@ public sealed partial class CharacterAttributesSystem : EntitySystem
     }
 
     [SubscribeLocalEvent]
-    private void OnCompInit(Entity<CharacterAttributesComponent> ent, ref ComponentInit args)
+    private void OnCompInit(Entity<CharacterAttributesComponent> ent, ref MapInitEvent args)
     {
         ent.Comp.Container = _container.EnsureContainer<Container>(ent, CharacterAttributesComponent.ContainerId);
 
@@ -69,6 +69,9 @@ public sealed partial class CharacterAttributesSystem : EntitySystem
         foreach (var (attribute, points) in msg.ChangedPoints)
         {
             var entityAttr = GetEntity(attribute);
+            if (!_attrQuery.HasComp(entityAttr)) // malf
+                continue;
+
             entityAttributes.Add(entityAttr, points);
         }
 

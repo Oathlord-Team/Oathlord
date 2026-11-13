@@ -45,8 +45,6 @@ public sealed partial class CharacterAttributesSystem
         if (ent.Comp.Points == 0)
             return; // no points to give lol
 
-        // todo: fix this shit
-
         var points = ent.Comp.Points;
         var wasted = 0;
 
@@ -61,7 +59,7 @@ public sealed partial class CharacterAttributesSystem
 
             if (wasted >= points) // we reached the limit
             {
-                Log.Info("Wasted more than points, leaving");
+                Log.Info($"Wasted more than {points}, leaving");
                 break;
             }
 
@@ -69,7 +67,7 @@ public sealed partial class CharacterAttributesSystem
             wasted += value;
         }
 
-        ent.Comp.Points = wasted;
+        ent.Comp.Points = Math.Clamp(ent.Comp.Points - wasted, 0, 10);
         Dirty(ent);
     }
 
