@@ -476,8 +476,13 @@ public abstract partial class GameTicker
             if (proto.Abstract)
                 continue;
 
-            if (HasComp<GameRuleComponent>(proto))
-                yield return proto;
+            // <Oathlord>
+            if (proto.TryComp<GameRuleComponent>(out var rule, Factory))
+            {
+                if (!rule.Hidden)
+                    yield return proto;
+            }
+            // </Oathlord>
         }
     }
 
