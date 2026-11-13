@@ -1181,6 +1181,7 @@ Entries:
     type: Tweak
   id: 154
   time: '2026-07-27T00:00:03.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/44889
 - author: Emisse
   changes:
   - message: Several job slots have been tweaked across the board to accommodate a smaller maxpop.
@@ -1189,6 +1190,7 @@ Entries:
     type: Remove
   id: 155
   time: '2026-07-29T14:47:34.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/44996
 - author: SuperDicq
   changes:
   - message: Added Sushi Station!
@@ -1197,36 +1199,42 @@ Entries:
     type: Tweak
   id: 156
   time: '2026-08-01T17:20:31.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/45064
 - author: ProPeperos
   changes:
   - message: On all Cargo shuttles - Tweaked atmos systems and small fixes
     type: Tweak
   id: 157
   time: '2026-08-01T19:47:13.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/44125
 - author: ProPeperos
   changes:
   - message: On Fland - Reworked the TEG room + small tweaks around atmos.
     type: Tweak
   id: 158
   time: '2026-08-01T19:47:13.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/44751
 - author: ProPeperos
   changes:
   - message: On Bagel - Replaced some pressure pumps to manual valves in atmos
     type: Tweak
   id: 159
   time: '2026-08-01T20:12:53.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/44010
 - author: ProPeperos
   changes:
   - message: On Box station - Added AI restoration console in RD office and minor issue fixes
     type: Add
   id: 160
   time: '2026-08-03T18:19:36.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/45099
 - author: ProPeperos
   changes:
   - message: On Elkridge - Added AI restoration console to RD office and other issue fixes
     type: Add
   id: 161
   time: '2026-08-03T18:36:28.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/45111
 - author: ProPeperos
   changes:
   - message: On Bagel - Moved exosuit fabricator and material silo in science and other minor tweaks and fixes.
@@ -1235,6 +1243,7 @@ Entries:
     type: Add
   id: 162
   time: '2026-08-03T18:42:03.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/45096
 - author: ProPeperos
   changes:
   - message: On Plasma - Added missing AI Restoration computer and other issue fixes
@@ -1245,18 +1254,21 @@ Entries:
     type: Fix
   id: 163
   time: '2026-08-03T21:20:28.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/45125
 - author: ProPeperos
   changes:
   - message: On Packed - You will no longer spawn in cryogenics pod at round start and other tweaks and fixes
     type: Fix
   id: 164
   time: '2026-08-05T19:30:13.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/45160
 - author: ProPeperos
   changes:
   - message: On Elkridge - You will no longer spawn in cryogenics pod at round start
     type: Fix
   id: 165
   time: '2026-08-05T20:08:46.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/45161
 - author: Spessmann
   changes:
   - message: On Snowball added wheelchairs to med
@@ -1265,46 +1277,218 @@ Entries:
     type: Remove
   id: 166
   time: '2026-08-09T04:34:51.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/45131
 - author: ProPeperos
   changes:
   - message: Updated Box to comply with the Respritening.
     type: Tweak
   id: 167
   time: '2026-08-22T23:10:16.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/45567
 - author: ProPeperos
   changes:
   - message: Updated Snowball to comply with the Respritening.
     type: Tweak
   id: 168
   time: '2026-08-22T23:10:33.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/45571
 - author: SuperDicq
   changes:
   - message: Updated Sushi Station to comply with the Respritening.
     type: Tweak
   id: 169
   time: '2026-08-22T23:10:41.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/45532
 - author: ScarKy0
   changes:
   - message: Updated event shuttles to comply with the Respritening.
     type: Tweak
   id: 170
   time: '2026-08-22T23:11:05.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/45566
 - author: ketufaispikinut
   changes:
   - message: Added energy gates to Elkridge's arrivals.
     type: Add
   id: 171
   time: '2026-08-22T23:11:14.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/45575
 - author: ScarKy0
   changes:
   - message: Updated Marathon to comply with the Respritening.
     type: Tweak
   id: 172
   time: '2026-08-22T23:13:04.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/45557
 - author: ProPeperos
   changes:
   - message: Updated Packed to comply with the Respritening.
     type: Tweak
   id: 173
   time: '2026-08-22T23:13:15.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/45568
+- author: SuperDicq
+  changes:
+  - message: Fixed a whole lot of minor issues on Sushi Station.
+    type: Tweak
+  id: 174
+  time: '2026-08-27T22:02:00.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/45695
+- author: ProPeperos
+  changes:
+  - message: Box - sink in chem starts fully filled
+    type: Fix
+  id: 175
+  time: '2026-08-31T18:01:03.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/45755
+- author: ProPeperos
+  changes:
+  - message: On Nukie Planet - removed the roof, now the map uses real natural light! And other small tweaks
+    type: Tweak
+  id: 176
+  time: '2026-09-06T01:17:18.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/45867
+- author: Betterwithketchup, emisse
+  changes:
+  - message: Various wiring and air alarm bugs on tram are now fixed.
+    type: Fix
+  - message: Cargo telepad has been added to Tram Station
+    type: Add
+  - message: The entire traffic loop around the tram section is now continuous
+    type: Tweak
+  - message: Tram Evac (Made by qwerltaz) has been implemented and with fixes, such as a couple issues with not enough closets, removing the gates on it and some misc small fixes.
+    type: Tweak
+  id: 177
+  time: '2026-09-14T21:55:20.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/46028
+- author: jckspjf
+  changes:
+  - message: Low quality backgrounds/parallax setting now properly works on Snowball.
+    type: Fix
+  id: 178
+  time: '2026-09-21T21:48:46.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/45736
+- author: Hitlinemoss
+  changes:
+  - message: On Elkridge Depot, Exo, Oasis, Packed, Relic, Snowball Station, and Sushi Station, EVA Storage's non-maints airlocks now require Head of Personnel access, rather than External access. In the future, all EVA Storage rooms on all maps (including their maints airlocks) are also planned to be changed to Head of Personnel access.
+    type: Tweak
+  id: 179
+  time: '2026-09-22T14:43:01.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/45219
+- author: Hitlinemoss
+  changes:
+  - message: On Elkridge, the EVA Storage room has received some layout tweaks.
+    type: Tweak
+  - message: On Elkridge, the airlock between EVA Storage and the HoP office now requires Head of Personnel access (was previously External access).
+    type: Fix
+  - message: On Elkridge, the airlock between Cargo and Salvage now requires Salvage access (was previously completely unlocked).
+    type: Fix
+  id: 180
+  time: '2026-09-23T03:26:18.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/46126
+- author: Hitlinemoss
+  changes:
+  - message: On Packed, EVA Storage's maints airlock now requires Head of Personnel access (was previously Command access).
+    type: Fix
+  - message: On Packed, the airlock between Security and the genpop locker room now requires Brig access (was previously Security access).
+    type: Fix
+  id: 181
+  time: '2026-09-23T03:28:47.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/46127
+- author: Hitlinemoss
+  changes:
+  - message: On Tram2, EVA Storage's airlocks now require Head of Personnel access (was previously Command access).
+    type: Fix
+  id: 182
+  time: '2026-09-23T03:29:23.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/46128
+- author: Hitlinemoss
+  changes:
+  - message: On Exo, the EVA Storage room has received some layout tweaks, and now contains one fewer pair of magboots.
+    type: Tweak
+  id: 183
+  time: '2026-09-23T03:33:05.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/46130
+- author: Hitlinemoss
+  changes:
+  - message: On Marathon, the EVA Storage room no longer has a blast door entrance.
+    type: Tweak
+  id: 184
+  time: '2026-09-23T03:42:07.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/46132
+- author: Hitlinemoss
+  changes:
+  - message: On Plasma, EVA Storage's airlocks now require Head of Personnel access (was previously Command access).
+    type: Fix
+  id: 185
+  time: '2026-09-23T03:45:57.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/46133
+- author: Hitlinemoss
+  changes:
+  - message: On Sushi Station, the EVA Storage room has received some layout tweaks, and now contains one fewer pair of magboots.
+    type: Tweak
+  - message: On Sushi Station, EVA Storage's maints airlock is now maints-airlock-colored.
+    type: Fix
+  - message: On Sushi Station, the gas tank dispenser in EVA Storage no longer dispenses plasma gas tanks.
+    type: Fix
+  id: 186
+  time: '2026-09-23T04:24:30.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/46136
+- author: Hitlinemoss
+  changes:
+  - message: On Saltern, the EVA Storage room has received some layout tweaks, and now contains two fewer pairs of magboots.
+    type: Tweak
+  - message: On Saltern, EVA Storage's airlocks now require Head of Personnel access (was previously Command access).
+    type: Fix
+  - message: On Saltern, EVA Storage now contains a nitrogen canister instead of a duplicate oxygen canister.
+    type: Fix
+  id: 187
+  time: '2026-09-23T04:25:39.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/46137
+- author: Hitlinemoss
+  changes:
+  - message: On Box, the EVA Storage room has received a significant overhaul.
+    type: Tweak
+  - message: On Box, EVA Storage's airlocks now require Head of Personnel access (was previously Command access).
+    type: Fix
+  id: 188
+  time: '2026-09-23T04:25:40.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/46140
+- author: Hitlinemoss
+  changes:
+  - message: On Snowball, EVA Storage's maints airlock and windoors now require Head of Personnel access (maints airlock was previously Command access, windoors were previously External access)
+    type: Fix
+  id: 189
+  time: '2026-09-23T04:37:37.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/46134
+- author: SlamBamActionman
+  changes:
+  - message: Station map configs now correctly utilize minimum job slots.
+    type: Fix
+  id: 190
+  time: '2026-09-23T08:11:31.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/46075
+- author: SomeAspy
+  changes:
+  - message: On Box - added button in chem
+    type: Tweak
+  id: 191
+  time: '2026-10-11T20:52:04.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/46398
+- author: SomeAspy
+  changes:
+  - message: On Box, Move mouse spawn out of a room that is impossible to leave.
+    type: Tweak
+  id: 192
+  time: '2026-10-18T15:14:32.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/46472
+- author: SomeAspy
+  changes:
+  - message: On Elkridge, remove janitor buttons .
+    type: Remove
+  - message: On Elkridge, door buttons are now linked.
+    type: Fix
+  id: 193
+  time: '2026-10-18T15:20:27.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/46429
 Order: 2

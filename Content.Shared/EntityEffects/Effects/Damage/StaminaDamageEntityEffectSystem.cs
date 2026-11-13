@@ -13,7 +13,7 @@ public sealed partial class StaminaDamageEntityEffectSystem : EntityEffectSystem
 
     protected override void Effect(Entity<StaminaComponent> entity, ref EntityEffectEvent<StaminaDamage> args)
     {
-        _stamina.TakeStaminaDamage(entity, args.Scale * args.Effect.Damage, entity.Comp, args.User, visual: args.Effect.Visual); // Oathlord - Passed visual
+        _stamina.TakeStaminaDamage(entity, args.Scale * args.Effect.Damage, entity.Comp, args.User);
     }
 }
 
@@ -26,3 +26,4 @@ public sealed partial class StaminaDamage : EntityEffectBase<StaminaDamage>
     [DataField(required: true)]
     public float Damage;
 }
+
