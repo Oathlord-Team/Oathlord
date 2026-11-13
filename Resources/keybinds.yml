@@ -18,6 +18,9 @@ binds:
 - function: MovementMod
   type: State
   key: Control
+- function: OpenAttributesMenu
+  type: State
+  key: O
 # </Oathlord>
 - function: UIClick
   type: State

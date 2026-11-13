@@ -1,0 +1,8 @@
+<BoxContainer
+    xmlns="https://spacestation14.io"
+    SeparationOverride="16">
+    <SpriteView Name="IconView"/>
+    <Label Name="AttributeLabel"/>
+    <Label Name="PointsLabel"/>
+    <Button Text="Strengthen" Name="StrengthenButton"/>
+</BoxContainer>

@@ -1,0 +1,17 @@
+<controls:FancyWindow
+    xmlns="https://spacestation14.io"
+    xmlns:controls="using:Content.Client.UserInterface.Controls"
+    Title="Attributes"
+    MinSize="600 400">
+    <BoxContainer Orientation="Vertical">
+        <BoxContainer Orientation="Vertical" Name="AttributesContainer"/>
+        <Button Text="Resolve"
+                Name="ApplyButton"
+                HorizontalAlignment="Center"
+                VerticalAlignment="Bottom"
+                VerticalExpand="True"
+                Margin="0 16"
+                Disabled="True"
+                ToolTip="This will apply all the changes you made to the attributes."/>
+    </BoxContainer>
+</controls:FancyWindow>
