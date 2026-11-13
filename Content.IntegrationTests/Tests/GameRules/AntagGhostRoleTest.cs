@@ -2,12 +2,11 @@
 using System.Collections.Generic;
 using Content.IntegrationTests.Fixtures.Attributes;
 using Content.IntegrationTests.Utility;
-using Content.Server.Antag;
-using Content.Server.Antag.Components;
 using Content.Server.GameTicking;
 using Content.Server.Ghost.Roles;
 using Content.Server.Ghost.Roles.Components;
 using Content.Shared.Antag;
+using Content.Shared.Antag.Components;
 using Content.Shared.GameTicking.Components;
 using Content.Shared.Players;
 using Robust.Shared.GameObjects;
@@ -34,7 +33,7 @@ public sealed partial class AntagGhostRoleTest : AntagTest
     private static readonly string[] AntagGameRules = GameDataScrounger.EntitiesWithComponent("AntagSelection");
 
     [Test]
-    [TestOf(typeof(GameTicker)), TestOf(typeof(AntagSelectionSystem)), TestOf(typeof(AntagSelectionComponent)), TestOf(typeof(GhostRoleSystem))]
+    [TestOf(typeof(ServerGameTicker)), TestOf(typeof(AntagSelectionSystem)), TestOf(typeof(AntagSelectionComponent)), TestOf(typeof(GhostRoleSystem))]
     [TestCaseSource(nameof(AntagGameRules))]
     [Ignore("Needs a valid map to work")] // Oathlord - Add it back once we get a valid map
     [Description($"Ensures all GameRule entities with {nameof(AntagSelectionComponent)} can properly spawn those roles and they can be taken.")]
@@ -42,9 +41,9 @@ public sealed partial class AntagGhostRoleTest : AntagTest
     public void TestAntagGhostRoles(string ruleId)
     {
         var rule = SProtoMan.Index<EntityPrototype>(ruleId);
-        Assert.That(rule.TryGetComponent<AntagSelectionComponent>(out var antag, SEntMan.ComponentFactory), Is.True);
+        Assert.That(rule.TryComp<AntagSelectionComponent>(out var antag, SEntMan.ComponentFactory), Is.True);
         // <Oathlord> - Skip hidden rules and maps we don't have
-        if (rule.TryGetComponent<GameRuleComponent>(out var gameRuleComp, SEntMan.ComponentFactory) && gameRuleComp.Hidden)
+        if (rule.TryComp<GameRuleComponent>(out var gameRuleComp, SEntMan.ComponentFactory) && gameRuleComp.Hidden)
             return;
         // </Oathlord>
 
@@ -70,7 +69,7 @@ public sealed partial class AntagGhostRoleTest : AntagTest
         while (roleEnumerator.MoveNext(out var spawner, out var role, out var xform))
         {
             // Ensure the ghost role spawner spawned correctly!
-            Assert.That(spawner.Rule, Is.EqualTo(gameRule));
+            Assert.That(spawner.Rule, Is.EqualTo(gameRule?.Owner));
             Assert.That(spawner.Definition, Is.Not.Null);
             AssertGhostRoleTaken(spawner, role, xform);
             var value = rules[spawner.Definition.Value];
@@ -86,7 +85,7 @@ public sealed partial class AntagGhostRoleTest : AntagTest
     }
 
     [Test]
-    [TestOf(typeof(GameTicker)), TestOf(typeof(AntagSelectionSystem)), TestOf(typeof(AntagSelectionComponent)), TestOf(typeof(GhostRoleSystem))]
+    [TestOf(typeof(ServerGameTicker)), TestOf(typeof(AntagSelectionSystem)), TestOf(typeof(AntagSelectionComponent)), TestOf(typeof(GhostRoleSystem))]
     [Ignore("Needs a valid map to work")] // Oathlord - Add it back once we get a valid map
     [Description("Ensures a player can take all antag ghost roles sequentially without transferring unwanted mind data.")]
     [RunOnSide(Side.Server)]
@@ -95,9 +94,9 @@ public sealed partial class AntagGhostRoleTest : AntagTest
         foreach (var ruleId in AntagGameRules)
         {
             var rule = SProtoMan.Index<EntityPrototype>(ruleId);
-            Assert.That(rule.TryGetComponent<AntagSelectionComponent>(out var antag, SEntMan.ComponentFactory), Is.True);
+            Assert.That(rule.TryComp<AntagSelectionComponent>(out var antag, SEntMan.ComponentFactory), Is.True);
             // <Oathlord> - Skipped hidden rules
-            if (rule.TryGetComponent<GameRuleComponent>(out var gameRule, SEntMan.ComponentFactory) && gameRule.Hidden)
+            if (rule.TryComp<GameRuleComponent>(out var gameRule, SEntMan.ComponentFactory) && gameRule.Hidden)
                 return;
             // </Oathlord>
             STicker.StartGameRule(ruleId);

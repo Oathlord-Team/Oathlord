@@ -7,7 +7,7 @@
     <BoxContainer>
         <BoxContainer Orientation="Vertical">
             <Label Text="Learned Spells" Align="Center" Margin="16"/>
-            <controls:HLine StyleClasses="highlight" Thickness="2"/>
+            <controls:Separator StyleClasses="highlight" Thickness="2"/>
             <GridContainer Name="LearnedSpellsContainer"
                            Rows="5"
                            Columns="5"
@@ -26,7 +26,7 @@
         </PanelContainer>
         <BoxContainer Orientation="Vertical" HorizontalExpand="True">
             <Label Text="Active Spells" Align="Center" Margin="16"/>
-            <controls:HLine StyleClasses="highlight" Thickness="2"/>
+            <controls:Separator StyleClasses="highlight" Thickness="2"/>
             <BoxContainer
                 Name="ActiveSpellsContainer"
                 Orientation="Vertical"

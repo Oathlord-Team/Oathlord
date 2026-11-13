@@ -8,7 +8,7 @@
     <BoxContainer Orientation="Vertical" VerticalExpand="True">
         <BoxContainer Align="Center" Orientation="Vertical" Margin="8">
             <Label Text="SPELLS" Align="Center" FontColorOverride="#EDEADE"/>
-            <controls:HLine StyleClasses="highlight" Thickness="3"/>
+            <controls:Separator StyleClasses="highlight" Thickness="3"/>
         </BoxContainer>
         <spells:SpellSlot Name="SelectedSpellSlot" Access="Public" MinSize="64 86"/>
     </BoxContainer>
