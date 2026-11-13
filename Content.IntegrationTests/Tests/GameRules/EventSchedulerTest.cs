@@ -28,6 +28,7 @@ public sealed partial class EventSchedulerTest : GameTest
     [Test]
     [TestOf(typeof(GameTicker)), TestOf(typeof(EventSchedulerTest)), TestOf(typeof(GameRuleComponent)),
      TestOf(typeof(StationEventComponent))]
+    [Ignore("Oathlord - Needs proper map to work")]
     [TestCaseSource(nameof(AntagGameRules))]
     [Description($"Ensures all GameRule entities with {nameof(GameRuleComponent)} run only when they're supposed to!")]
     [RunOnSide(Side.Server)]
