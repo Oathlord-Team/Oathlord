@@ -6,7 +6,7 @@
     </PanelContainer.PanelOverride>
     <BoxContainer Orientation="Vertical" SeparationOverride="2">
         <Label Name="OathNameLabel" StyleClasses="LabelHeadingBigger" HorizontalAlignment="Center" Margin="8"/>
-        <controls:HLine StyleClasses="highlight" Thickness="2" Margin="8 0" />
+        <controls:Separator StyleClasses="highlight" Thickness="2" Margin="8 0" />
         <RichTextLabel Name="OathDescLabel" MaxWidth="600" StyleClasses="TooltipDesc" Margin="16"/>
     </BoxContainer>
 </PanelContainer>

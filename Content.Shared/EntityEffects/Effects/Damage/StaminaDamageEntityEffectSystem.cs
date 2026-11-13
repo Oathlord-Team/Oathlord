@@ -26,3 +26,4 @@ public sealed partial class StaminaDamage : EntityEffectBase<StaminaDamage>
     [DataField(required: true)]
     public float Damage;
 }
+
