@@ -7,6 +7,7 @@ using Content.Oathlord.Common.Input;
 using Content.Oathlord.Shared.CharacterAttributes;
 using JetBrains.Annotations;
 using Robust.Client.Player;
+using Robust.Client.ResourceManagement;
 using Robust.Client.UserInterface.Controllers;
 using Robust.Client.UserInterface.Controls;
 using Robust.Shared.Input.Binding;
@@ -17,6 +18,7 @@ namespace Content.Oathlord.Client.UserInterface.Systems.CharAttributes;
 public sealed partial class CharacterAttributesUIController : UIController, IOnStateChanged<GameplayState>
 {
     [Dependency] private IPlayerManager _player = default!;
+    [Dependency] private IResourceCache _resource = default!;
 
     private CharacterAttributeWindow? _menu;
     private CharAttributeMenuButton? _charButton;
@@ -110,7 +112,7 @@ public sealed partial class CharacterAttributesUIController : UIController, IOnS
         }
 
         _menu.OpenCenteredRight();
-        
+
         PopulateMenu();
     }
 
@@ -128,7 +130,7 @@ public sealed partial class CharacterAttributesUIController : UIController, IOnS
         if (_player.LocalEntity is not { } player)
             return;
 
-        _menu?.Populate(player, EntityManager);
+        _menu?.Populate(player, EntityManager, _resource);
     }
 
     private void OnMenuClosed()

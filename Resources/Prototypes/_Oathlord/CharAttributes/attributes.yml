@@ -2,20 +2,26 @@
   abstract: true
   id: BaseCharAttribute
   components:
+  - type: Sprite
+    sprite: _Oathlord/Interface/attributes.rsi
   - type: CharacterAttribute
 
 - type: entity
   parent: BaseCharAttribute
   id: DebugAttribute
-  name: Debug Attribute
+  name: Strength
   description: We're fight to kill
   components:
+  - type: Sprite
+    state: strength
   - type: CharacterAttribute
 
 - type: entity
   parent: BaseCharAttribute
   id: DebugAttribute2
-  name: Debug Attribute2
+  name: Intelligence
   description: We're fight to kill2
   components:
+  - type: Sprite
+    state: magic
   - type: CharacterAttribute

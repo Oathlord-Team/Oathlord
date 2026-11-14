@@ -17,7 +17,6 @@ public sealed partial class CharacterAttributesComponent : Component
 
     /// <summary>
     /// The points you can put towards an attribute of your choice.
-    /// By default, everyone starts with 0 points at round-start.
     /// </summary>
     [DataField, AutoNetworkedField]
     public int Points;

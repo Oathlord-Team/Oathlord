@@ -2,16 +2,18 @@
     xmlns="https://spacestation14.io"
     xmlns:controls="using:Content.Client.UserInterface.Controls"
     Title="Attributes"
+    Resizable="False"
     MinSize="600 400">
     <BoxContainer Orientation="Vertical">
-        <BoxContainer Orientation="Vertical" Name="AttributesContainer"/>
-        <Button Text="Resolve"
-                Name="ApplyButton"
-                HorizontalAlignment="Center"
-                VerticalAlignment="Bottom"
-                VerticalExpand="True"
-                Margin="0 16"
-                Disabled="True"
-                ToolTip="This will apply all the changes you made to the attributes."/>
+        <TableContainer Name="AttributesContainer" Margin="12" Columns="16"/>
+        <VBox VerticalExpand="True" VerticalAlignment="Bottom" >
+            <Label Name="PointsLeftLabel" Margin="8" HorizontalAlignment="Center"/>
+            <Button Text="Resolve"
+                    Name="ApplyButton"
+                    HorizontalAlignment="Center"
+                    Margin="0 16"
+                    Disabled="True"
+                    ToolTip="This will apply all the changes you made to the attributes."/>
+        </VBox>
     </BoxContainer>
 </controls:FancyWindow>

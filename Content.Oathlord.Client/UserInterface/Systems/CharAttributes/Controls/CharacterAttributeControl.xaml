@@ -1,8 +1,19 @@
 <BoxContainer
     xmlns="https://spacestation14.io"
-    SeparationOverride="16">
-    <SpriteView Name="IconView"/>
-    <Label Name="AttributeLabel"/>
-    <Label Name="PointsLabel"/>
-    <Button Text="Strengthen" Name="StrengthenButton"/>
+    xmlns:gfx="using:Robust.Client.Graphics">
+    <PanelContainer Margin="8">
+        <PanelContainer.PanelOverride>
+            <gfx:StyleBoxFlat BackgroundColor="#36454F"/>
+        </PanelContainer.PanelOverride>
+        <BoxContainer SeparationOverride="8" Margin="12">
+            <SpriteView Name="IconView"/>
+            <Label Name="AttributeLabel" HorizontalAlignment="Center" Align="Center" MinWidth="160"/>
+        </BoxContainer>
+    </PanelContainer>
+    <TextureButton Name="StrengthenButton"
+                   Modulate="#9d8854"
+                   HorizontalExpand="True"
+                   HorizontalAlignment="Left"
+                   Margin="0 16"
+                   MinSize="48 32"/>
 </BoxContainer>
