@@ -389,6 +389,25 @@ public abstract partial class SpellcastingSystem : EntitySystem
         UpdateUi((ent.Owner, ent.Comp));
     }
 
+    /// <summary>
+    /// Adds a slot to our memory
+    /// </summary>
+    /// <param name="ent">The entity</param>
+    /// <param name="amount">How many slots to add</param>
+    /// <param name="type">In which section to add the slots</param>
+    public void AddSlot(Entity<SpellsComponent?> ent, int amount, SpellTransfer type)
+    {
+        if (type == SpellTransfer.Active)
+        {
+            ent.Comp.CurrentSlots = Math.Clamp(ent.Comp.CurrentSlots + amount, 0, 99); // 99 limit seems reasonable
+            DirtyField(ent, nameof(SpellsComponent.CurrentSlots));
+            return;
+        }
+
+        ent.Comp.MaxLearned = Math.Clamp(ent.Comp.MaxLearned + amount, 0, 99);
+        DirtyField(ent, nameof(SpellsComponent.MaxLearned));
+    }
+
     #endregion
 
     #region Virtual

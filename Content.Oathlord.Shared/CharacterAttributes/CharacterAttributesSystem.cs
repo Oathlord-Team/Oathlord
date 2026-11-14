@@ -1,3 +1,4 @@
+using Content.Shared.Administration.Logs;
 using Robust.Shared.Containers;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Timing;
@@ -9,6 +10,7 @@ namespace Content.Oathlord.Shared.CharacterAttributes;
 /// </summary>
 public sealed partial class CharacterAttributesSystem : EntitySystem
 {
+    [Dependency] private ISharedAdminLogManager _admin = default!;
     [Dependency] private IGameTiming _timing = default!;
     [Dependency] private SharedContainerSystem _container = default!;
 
@@ -69,12 +71,10 @@ public sealed partial class CharacterAttributesSystem : EntitySystem
         foreach (var (attribute, points) in msg.ChangedPoints)
         {
             var entityAttr = GetEntity(attribute);
-            if (!_attrQuery.HasComp(entityAttr)) // malf
-                continue;
-
             entityAttributes.Add(entityAttr, points);
         }
 
+        // note: client validation happens in the API methods
         AdjustAttributes(player, entityAttributes);
     }
 

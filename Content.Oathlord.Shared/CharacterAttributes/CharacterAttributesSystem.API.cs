@@ -1,4 +1,5 @@
 using System.Linq;
+using Content.Shared.Database;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Serialization;
 
@@ -24,7 +25,7 @@ public sealed partial class CharacterAttributesSystem
             // Don't allow duplicate attributes to go in...
             if (Prototype(entity) is not { } proto || proto == attribute)
             {
-                Log.Warning($"Tried to add an attribute {attribute.Id} that already " +
+                Log.Error($"Tried to add an attribute {attribute.Id} that already " +
                             $"exists on the entity {ToPrettyString(ent)}");
                 return;
             }
@@ -63,17 +64,17 @@ public sealed partial class CharacterAttributesSystem
                 continue;
 
             if (wasted >= points) // we reached the limit
-            {
-                Log.Info($"Wasted more than {points}, leaving");
                 break;
-            }
 
-            AdjustAttribute(attribute, value);
+            AdjustAttribute(attribute, value, ent);
             wasted += value;
         }
 
         ent.Comp.Points = Math.Clamp(ent.Comp.Points - wasted, 0, 10);
         Dirty(ent);
+
+        _admin.Add(LogType.CharacterAttribute, LogImpact.Low,
+            $"{ent.Owner} wasted {wasted} points to increase: {toChange.ToString()} attributes. They now have {points} points left.");
     }
 
     /// <summary>
@@ -81,7 +82,8 @@ public sealed partial class CharacterAttributesSystem
     /// </summary>
     /// <param name="ent">The attribute</param>
     /// <param name="points">The points to adjust</param>
-    public void AdjustAttribute(Entity<CharacterAttributeComponent?> ent, int points)
+    /// <param name="user">The attribute's owner (not container)</param>
+    public void AdjustAttribute(Entity<CharacterAttributeComponent?> ent, int points, EntityUid user)
     {
         if (!_attrQuery.Resolve(ent.Owner, ref ent.Comp))
             return;
@@ -90,8 +92,11 @@ public sealed partial class CharacterAttributesSystem
         if (Prototype(ent) is not { } proto || !AllAttributes.Contains(proto))
             return;
 
-        ent.Comp.CurrentPoints = Math.Clamp(ent.Comp.CurrentPoints + points, 0, 10); // todo cvar max?
+        ent.Comp.CurrentPoints = Math.Clamp(ent.Comp.CurrentPoints + points, 0, ent.Comp.MaxPoints);
         Dirty(ent);
+
+        var ev = new AttributeAdjustedEvent(ent.Comp.CurrentPoints, user);
+        RaiseLocalEvent(ent, ref ev);
     }
 
     /// <summary>
@@ -118,6 +123,17 @@ public sealed partial class CharacterAttributesSystem
 
         return ent.Comp.Points;
     }
+
+    /// <summary>
+    /// Returns all points we have on our attribute
+    /// </summary>
+    public int GetAttributePoints(Entity<CharacterAttributeComponent?> ent)
+    {
+        if (!_attrQuery.Resolve(ent.Owner, ref ent.Comp))
+            return 0;
+
+        return ent.Comp.CurrentPoints;
+    }
 }
 
 /// <summary>
@@ -129,3 +145,11 @@ public sealed class ApplyCharacterAttributesEvent(Dictionary<NetEntity, int> cha
 {
     public Dictionary<NetEntity, int> ChangedPoints = changedPoints;
 }
+
+/// <summary>
+/// Raised when an attributes points have been adjusted
+/// </summary>
+/// <param name="CurrentPoints">The current points we have</param>
+/// <param name="User">The entity holder of the attribute that was adjusted</param>
+[ByRefEvent]
+public record struct AttributeAdjustedEvent(int CurrentPoints, EntityUid User);

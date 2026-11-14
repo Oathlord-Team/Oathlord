@@ -1,10 +1,12 @@
+using Content.Shared.Weapons.Melee.Events;
+
 namespace Content.Oathlord.Shared.CharacterAttributes;
 
 public sealed partial class CharacterAttributesSystem
 {
     private void InitializeRelay()
     {
-
+        SubscribeLocalEvent<CharacterAttributesComponent, GetMeleeDamageEvent>(RefRelayCharAttributeEvent);
     }
 
     private void RefRelayCharAttributeEvent<T>(
@@ -45,7 +47,4 @@ public sealed partial class CharacterAttributesSystem
 }
 
 [ByRefEvent]
-public record struct CharAttributeRelayedEvent<TEvent>(TEvent Args)
-{
-    public TEvent Args = Args;
-};
+public record struct CharAttributeRelayedEvent<TEvent>(TEvent Args);

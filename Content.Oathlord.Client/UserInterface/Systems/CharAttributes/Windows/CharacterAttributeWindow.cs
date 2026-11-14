@@ -12,10 +12,17 @@ namespace Content.Oathlord.Client.UserInterface.Systems.CharAttributes.Windows;
 [GenerateTypedNameReferences]
 public sealed partial class CharacterAttributeWindow : FancyWindow
 {
+    /// <summary>
+    /// Raised when we want to apply the changes made to the attributes
+    /// </summary>
+    public event Action<Dictionary<NetEntity, int>>? ApplyChanges;
+
     private CharacterAttributesSystem? _charAttribute;
 
+    /// <summary>
+    /// A dictionary containing an attribute, and the points we want to adjust for it
+    /// </summary>
     private Dictionary<NetEntity, int> _changedAttributes = new();
-    public event Action<Dictionary<NetEntity, int>>? ApplyChanges;
 
     public CharacterAttributeWindow()
     {
@@ -40,6 +47,8 @@ public sealed partial class CharacterAttributeWindow : FancyWindow
         {
             var canIncrease = pointsLeft > 0;
             var attrControl = new CharacterAttributeControl(attribute, entMan, res, canIncrease);
+            AttributesContainer.AddChild(attrControl);
+
             attrControl.PointsChanged += points =>
             {
                 // Iterate over all attribute controls and check that we can increase points on them (for UX, don't let people input infinite numbers)
@@ -68,8 +77,6 @@ public sealed partial class CharacterAttributeWindow : FancyWindow
                 // So user can apply the changes...
                 ApplyButton.Disabled = false;
             };
-
-            AttributesContainer.AddChild(attrControl);
         }
     }
 

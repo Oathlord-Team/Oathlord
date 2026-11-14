@@ -15,6 +15,7 @@
   - type: Sprite
     state: strength
   - type: CharacterAttribute
+  - type: StrengthAttribute
 
 - type: entity
   parent: BaseCharAttribute
@@ -25,3 +26,4 @@
   - type: Sprite
     state: magic
   - type: CharacterAttribute
+  - type: IntelligenceAttribute
