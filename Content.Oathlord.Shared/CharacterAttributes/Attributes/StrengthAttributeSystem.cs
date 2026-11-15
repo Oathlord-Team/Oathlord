@@ -9,16 +9,17 @@ public sealed partial class StrengthAttributeSystem : EntitySystem
     [SubscribeLocalEvent]
     private void OnGetDamage(Entity<StrengthAttributeComponent> ent, ref CharAttributeRelayedEvent<GetMeleeDamageEvent> args)
     {
-        var arguments = args.Args;
+        var ev = args.Args;
         var points = _attributes.GetAttributePoints(ent.Owner) + 1;
 
         // We want weapons to have lower damage than bare hands, but still gain increased damage.
-        var multiplier = arguments.User == arguments.Weapon
+        var multiplier = ev.User == ev.Weapon
             ? points - ( ent.Comp.DamageFalloffBare * points )
             : points - ( ent.Comp.DamageFalloffWeapon * points );
 
-        var extraDmg = arguments.Damage * multiplier;
-        arguments.Damage += extraDmg;
-        args.Args = arguments;
+        var extraDmg = ev.Damage * multiplier;
+        ev.Damage += extraDmg;
+
+        args.Args = ev;
     }
 }

@@ -28,7 +28,7 @@ public sealed partial class CharacterAttributesSystem
     public void RelayEvent<T>(Entity<CharacterAttributesComponent> ent, ref T args) where T : struct
     {
         var ev = new CharAttributeRelayedEvent<T>(args);
-        foreach (var attr in ent.Comp.Container.ContainedEntities)
+        foreach (var attr in GetAttributes(ent.AsNullable()))
         {
             RaiseLocalEvent(attr, ref ev);
         }
@@ -39,7 +39,7 @@ public sealed partial class CharacterAttributesSystem
     public void RelayEvent<T>(Entity<CharacterAttributesComponent> ent, T args) where T : class
     {
         var ev = new CharAttributeRelayedEvent<T>(args);
-        foreach (var attr in ent.Comp.Container.ContainedEntities)
+        foreach (var attr in GetAttributes(ent.AsNullable()))
         {
             RaiseLocalEvent(attr, ref ev);
         }

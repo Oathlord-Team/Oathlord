@@ -11,7 +11,6 @@ public sealed partial class IntelligenceAttributeSystem : EntitySystem
     private void OnAttributeAdjusted(Entity<IntelligenceAttributeComponent> ent, ref AttributeAdjustedEvent args)
     {
         var user = args.User;
-
         if (args.CurrentPoints % ent.Comp.ActiveIncrease == 0)
         {
             _spellcasting.AddSlot(user, 1, SpellTransfer.Active);

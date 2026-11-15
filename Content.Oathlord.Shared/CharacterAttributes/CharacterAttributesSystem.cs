@@ -1,4 +1,5 @@
 using Content.Shared.Administration.Logs;
+using Content.Shared.Popups;
 using Robust.Shared.Containers;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Timing;
@@ -13,6 +14,7 @@ public sealed partial class CharacterAttributesSystem : EntitySystem
     [Dependency] private ISharedAdminLogManager _admin = default!;
     [Dependency] private IGameTiming _timing = default!;
     [Dependency] private SharedContainerSystem _container = default!;
+    [Dependency] private SharedPopupSystem _popup = default!;
 
     [Dependency] private EntityQuery<CharacterAttributesComponent> _characterAttrQuery = default!;
     [Dependency] private EntityQuery<CharacterAttributeComponent> _attrQuery = default!;

@@ -1,5 +1,6 @@
 using System.Linq;
 using Content.Shared.Database;
+using Content.Shared.Popups;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Serialization;
 
@@ -66,15 +67,42 @@ public sealed partial class CharacterAttributesSystem
             if (wasted >= points) // we reached the limit
                 break;
 
-            AdjustAttribute(attribute, value, ent);
+            if (!TryAdjustAttribute(attribute, value, ent))
+                continue;
+
             wasted += value;
         }
 
         ent.Comp.Points = Math.Clamp(ent.Comp.Points - wasted, 0, 10);
         Dirty(ent);
 
+        _popup.PopupEntity("Your resolve increases...", ent, PopupType.SmallCaution);
+
         _admin.Add(LogType.CharacterAttribute, LogImpact.Low,
             $"{ent.Owner} wasted {wasted} points to increase: {toChange.ToString()} attributes. They now have {points} points left.");
+    }
+
+    /// <summary>
+    /// Adjust attributes by prototype.
+    /// </summary>
+    /// <param name="ent">The entity containing the attributes</param>
+    /// <param name="attributes">A dictionary holding attributes and points to adjust them by</param>
+    public void AdjustAttributes(Entity<CharacterAttributesComponent?> ent, [ForbidLiteral] Dictionary<EntProtoId, int> attributes)
+    {
+        if (!_characterAttrQuery.Resolve(ent.Owner, ref ent.Comp))
+            return;
+
+        var dict = new Dictionary<EntityUid, int>();
+        var attributeList = GetAttributes(ent);
+        foreach (var attribute in attributeList)
+        {
+            if (Prototype(attribute) is not { } proto || !attributes.TryGetValue(proto, out var value))
+                continue;
+
+            dict.Add(attribute, value);
+        }
+
+        AdjustAttributes(ent, dict);
     }
 
     /// <summary>
@@ -83,20 +111,52 @@ public sealed partial class CharacterAttributesSystem
     /// <param name="ent">The attribute</param>
     /// <param name="points">The points to adjust</param>
     /// <param name="user">The attribute's owner (not container)</param>
-    public void AdjustAttribute(Entity<CharacterAttributeComponent?> ent, int points, EntityUid user)
+    /// <returns>True if the adjustment was successful, false if nothing was adjusted</returns>
+    public bool TryAdjustAttribute(Entity<CharacterAttributeComponent?> ent, int points, EntityUid user)
     {
         if (!_attrQuery.Resolve(ent.Owner, ref ent.Comp))
-            return;
+            return false;
 
         // Validate that the prototype is actually ours in case of malf client
         if (Prototype(ent) is not { } proto || !AllAttributes.Contains(proto))
-            return;
+        {
+            Log.Warning($"Invalid character attribute was provided by {ToPrettyString(user)}. The attribute {ToPrettyString(ent)} is not contained anywhere.");
+            return false;
+        }
+
+        if (ent.Comp.CurrentPoints + points > ent.Comp.MaxPoints)
+            return false;
 
         ent.Comp.CurrentPoints = Math.Clamp(ent.Comp.CurrentPoints + points, 0, ent.Comp.MaxPoints);
         Dirty(ent);
 
         var ev = new AttributeAdjustedEvent(ent.Comp.CurrentPoints, user);
         RaiseLocalEvent(ent, ref ev);
+        return true;
+    }
+
+    /// <summary>
+    /// Tries to adjust an attribute by prototype.
+    /// </summary>
+    public bool TryAdjustAttribute(Entity<CharacterAttributesComponent?> ent, [ForbidLiteral] EntProtoId attributeProto, int points)
+    {
+        if (!_characterAttrQuery.Resolve(ent.Owner, ref ent.Comp))
+            return false;
+
+        var attributes = GetAttributes(ent);
+        foreach (var attribute in attributes)
+        {
+            if (Prototype(attribute) is not { } proto)
+                continue;
+
+            if (proto != attributeProto)
+                continue;
+
+            TryAdjustAttribute(attribute, points, ent);
+            return true;
+        }
+
+        return false;
     }
 
     /// <summary>

@@ -57,25 +57,30 @@ public sealed partial class CharacterAttributeWindow : FancyWindow
                 foreach (var control in attributeControls)
                     pointsFromControls += control.GetPoints();
 
-                if (pointsFromControls >= pointsLeft)
+                Log.Info($"{pointsFromControls}");
+                if (pointsFromControls <= pointsLeft)
                 {
+                    var equal = pointsFromControls != pointsLeft;
                     foreach (var control in attributeControls)
-                        control.ChangeIncreaseButton(false);
+                        control.ChangeIncreaseButton(equal);
+
+                    // If we passed the above, we can add points to the changed points dictionary.
+                    var attr = entMan.GetNetEntity(attribute);
+                    if (_changedAttributes.ContainsKey(attr))
+                        _changedAttributes[attr] = points;
+                    else
+                        _changedAttributes.TryAdd(attr, points);
+
+                    ApplyButton.Disabled = false;
                     return;
                 }
 
                 foreach (var control in attributeControls)
-                    control.ChangeIncreaseButton(true);
+                    control.ChangeIncreaseButton(false);
 
-                // If we passed the above, we can add points to the changed points dictionary.
-                var attr = entMan.GetNetEntity(attribute);
-                if (_changedAttributes.ContainsKey(attr))
-                    _changedAttributes[attr] = points;
-                else
-                    _changedAttributes.TryAdd(attr, points);
+                Log.Info($"{pointsFromControls}");
 
-                // So user can apply the changes...
-                ApplyButton.Disabled = false;
+                ApplyButton.Disabled = true;
             };
         }
     }

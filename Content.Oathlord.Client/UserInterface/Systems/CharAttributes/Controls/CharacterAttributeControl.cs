@@ -45,19 +45,26 @@ public sealed partial class CharacterAttributeControl : BoxContainer, IEntityCon
         var points = charAttribute.CurrentPoints;
 
         IconView.SetEntity(attribute);
-        AttributeLabel.Text = $"{name}: {points.ToString()}";
 
-        StrengthenButton.OnPressed += _ => OnPressed(points, name);
+        // Display that we have reached the maximum points if we did, so they know that's where it caps.
+        var max = charAttribute.CurrentPoints == charAttribute.MaxPoints;
+        AttributeLabel.Text = !max
+            ? $"{name}: {points.ToString()}"
+            : $"{name}: MAX";
+
+        StrengthenButton.OnPressed += _ => OnPressed(points, name, charAttribute);
     }
 
-    private void OnPressed(int currentPoints, string name)
+    private void OnPressed(int currentPoints, string name, CharacterAttributeComponent comp)
     {
         if (!_canIncrease)
             return;
 
         _points++;
-        AttributeLabel.Text = $"{name}: {currentPoints} (+{_points})";
+        if (comp.CurrentPoints + _points > comp.MaxPoints)
+            return; // this gets validated, but good UX to not show that you can go past the limit
 
+        AttributeLabel.Text = $"{name}: {currentPoints} (+{_points})";
         PointsChanged?.Invoke(_points);
     }
 
