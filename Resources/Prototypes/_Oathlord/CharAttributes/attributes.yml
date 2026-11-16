@@ -8,9 +8,9 @@
 
 - type: entity
   parent: BaseCharAttribute
-  id: DebugAttribute
+  id: StrengthAttribute
   name: Strength
-  description: We're fight to kill
+  description: Helps you at punching better.
   components:
   - type: Sprite
     state: strength
@@ -19,9 +19,9 @@
 
 - type: entity
   parent: BaseCharAttribute
-  id: DebugAttribute2
+  id: IntelligenceAttribute
   name: Intelligence
-  description: We're fight to kill2
+  description: Increases your spell slots every few points.
   components:
   - type: Sprite
     state: magic

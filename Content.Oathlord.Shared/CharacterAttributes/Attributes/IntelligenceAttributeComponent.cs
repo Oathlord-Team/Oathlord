@@ -22,8 +22,14 @@ public sealed partial class IntelligenceAttributeComponent : Component
     public int LearnedIncrease = 2;
 
     /// <summary>
-    /// How many learned spell slots to add per increase.
+    /// How many learned spell slots to add per <see cref="LearnedIncrease"/> in points.
     /// </summary>
     [DataField]
     public int LearnedAmount = 3;
+
+    /// <summary>
+    /// How many active spell slots to add per <see cref="LearnedIncrease"/> in points.
+    /// </summary>
+    [DataField]
+    public int ActiveAmount = 1;
 }

@@ -153,7 +153,7 @@ public abstract partial class SpellcastingSystem : EntitySystem
 
                 // so things don't get fucked up, always reset the index to the first spell
                 ent.Comp.SelectedSpell = 0;
-                Dirty(ent);
+                DirtyField(ent, nameof(SpellsComponent.SelectedSpell));
                 break;
             }
         }
@@ -174,6 +174,7 @@ public abstract partial class SpellcastingSystem : EntitySystem
             return;
 
         SetActive(spell, active: spellTransferType == SpellTransfer.Active);
+
         UpdateUi((ent.Owner, ent.Comp));
     }
 
@@ -384,7 +385,7 @@ public abstract partial class SpellcastingSystem : EntitySystem
         }
 
         ent.Comp.SelectedSpell = currentSpell;
-        Dirty(ent);
+        DirtyField(ent, nameof(SpellsComponent.SelectedSpell));
 
         UpdateUi((ent.Owner, ent.Comp));
     }

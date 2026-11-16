@@ -3,7 +3,7 @@ using Robust.Shared.GameStates;
 namespace Content.Oathlord.Shared.CharacterAttributes.Attributes;
 
 /// <summary>
-/// Attribute component that gives you better pulling, and meelee damage increases
+/// Attribute component that gives you mêlée damage.
 /// </summary>
 [RegisterComponent, NetworkedComponent]
 public sealed partial class StrengthAttributeComponent : Component

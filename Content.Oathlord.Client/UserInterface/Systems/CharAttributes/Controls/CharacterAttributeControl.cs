@@ -45,6 +45,7 @@ public sealed partial class CharacterAttributeControl : BoxContainer, IEntityCon
         var points = charAttribute.CurrentPoints;
 
         IconView.SetEntity(attribute);
+        StrengthenButton.ToolTip = meta.EntityDescription;
 
         // Display that we have reached the maximum points if we did, so they know that's where it caps.
         var max = charAttribute.CurrentPoints == charAttribute.MaxPoints;

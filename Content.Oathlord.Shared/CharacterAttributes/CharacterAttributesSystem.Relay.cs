@@ -25,7 +25,7 @@ public sealed partial class CharacterAttributesSystem
         RelayEvent((uid, component), args);
     }
 
-    public void RelayEvent<T>(Entity<CharacterAttributesComponent> ent, ref T args) where T : struct
+    private void RelayEvent<T>(Entity<CharacterAttributesComponent> ent, ref T args) where T : struct
     {
         var ev = new CharAttributeRelayedEvent<T>(args);
         foreach (var attr in GetAttributes(ent.AsNullable()))
@@ -36,7 +36,7 @@ public sealed partial class CharacterAttributesSystem
         args = ev.Args;
     }
 
-    public void RelayEvent<T>(Entity<CharacterAttributesComponent> ent, T args) where T : class
+    private void RelayEvent<T>(Entity<CharacterAttributesComponent> ent, T args) where T : class
     {
         var ev = new CharAttributeRelayedEvent<T>(args);
         foreach (var attr in GetAttributes(ent.AsNullable()))
@@ -46,5 +46,8 @@ public sealed partial class CharacterAttributesSystem
     }
 }
 
+/// <summary>
+/// Relay event used for character attribute entities (e.g. strength) for relaying events to them.
+/// </summary>
 [ByRefEvent]
 public record struct CharAttributeRelayedEvent<TEvent>(TEvent Args);

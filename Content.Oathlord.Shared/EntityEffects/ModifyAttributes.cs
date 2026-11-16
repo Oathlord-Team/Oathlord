@@ -14,6 +14,12 @@ public sealed partial class ModifyAttributes : EntityEffectBase<ModifyAttributes
     /// </summary>
     [DataField(required: true)]
     public Dictionary<EntProtoId, int> Points = new();
+
+    /// <summary>
+    /// Whether to notify the user.
+    /// </summary>
+    [DataField]
+    public bool Silent = true;
 }
 
 public sealed partial class ModifyAttributesEffectSystem : EntityEffectSystem<CharacterAttributesComponent, ModifyAttributes>
@@ -22,6 +28,10 @@ public sealed partial class ModifyAttributesEffectSystem : EntityEffectSystem<Ch
 
     protected override void Effect(Entity<CharacterAttributesComponent> ent, ref EntityEffectEvent<ModifyAttributes> args)
     {
-        _attributes.AdjustAttributes(ent.AsNullable(), args.Effect.Points);
+        var effect = args.Effect;
+        var points = effect.Points;
+        var silent = effect.Silent;
+
+        _attributes.AdjustAttributes(ent.AsNullable(), points, silent);
     }
 }

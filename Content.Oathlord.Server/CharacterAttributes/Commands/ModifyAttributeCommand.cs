@@ -15,6 +15,7 @@ public sealed partial class ModifyAttributeCommand : LocalizedEntityCommands
     [Dependency] private IComponentFactory _factory = default!;
 
     public override string Command => "modifyattribute";
+
     public override void Execute(IConsoleShell shell, string argStr, string[] args)
     {
         if (args.Length != 3)

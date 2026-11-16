@@ -44,7 +44,8 @@ public sealed partial class CharacterAttributesSystem
     /// </summary>
     /// <param name="ent">The entity containg the attribtues</param>
     /// <param name="toChange">A dictionary containing attribute entities as keys, and points to give as int</param>
-    public void AdjustAttributes(Entity<CharacterAttributesComponent?> ent, Dictionary<EntityUid, int> toChange)
+    /// <param name="silent">Should we notify the user about the adjustments?</param>
+    public void AdjustAttributes(Entity<CharacterAttributesComponent?> ent, Dictionary<EntityUid, int> toChange, bool silent = false)
     {
         if (!_characterAttrQuery.Resolve(ent.Owner, ref ent.Comp))
             return;
@@ -76,7 +77,8 @@ public sealed partial class CharacterAttributesSystem
         ent.Comp.Points = Math.Clamp(ent.Comp.Points - wasted, 0, 10);
         Dirty(ent);
 
-        _popup.PopupEntity("Your resolve increases...", ent, PopupType.SmallCaution);
+        if (!silent)
+            _popup.PopupEntity("Your resolve increases...", ent, PopupType.SmallCaution);
 
         _admin.Add(LogType.CharacterAttribute, LogImpact.Low,
             $"{ent.Owner} wasted {wasted} points to increase: {toChange.ToString()} attributes. They now have {points} points left.");
@@ -87,7 +89,8 @@ public sealed partial class CharacterAttributesSystem
     /// </summary>
     /// <param name="ent">The entity containing the attributes</param>
     /// <param name="attributes">A dictionary holding attributes and points to adjust them by</param>
-    public void AdjustAttributes(Entity<CharacterAttributesComponent?> ent, [ForbidLiteral] Dictionary<EntProtoId, int> attributes)
+    /// <param name="silent">Whether to notify the user about this</param>
+    public void AdjustAttributes(Entity<CharacterAttributesComponent?> ent, [ForbidLiteral] Dictionary<EntProtoId, int> attributes, bool silent = false)
     {
         if (!_characterAttrQuery.Resolve(ent.Owner, ref ent.Comp))
             return;
@@ -102,7 +105,7 @@ public sealed partial class CharacterAttributesSystem
             dict.Add(attribute, value);
         }
 
-        AdjustAttributes(ent, dict);
+        AdjustAttributes(ent, dict, silent);
     }
 
     /// <summary>
@@ -127,10 +130,11 @@ public sealed partial class CharacterAttributesSystem
         if (ent.Comp.CurrentPoints + points > ent.Comp.MaxPoints)
             return false;
 
+        var prev = ent.Comp.CurrentPoints;
         ent.Comp.CurrentPoints = Math.Clamp(ent.Comp.CurrentPoints + points, 0, ent.Comp.MaxPoints);
         Dirty(ent);
 
-        var ev = new AttributeAdjustedEvent(ent.Comp.CurrentPoints, user);
+        var ev = new AttributeAdjustedEvent(ent.Comp.CurrentPoints, prev, user);
         RaiseLocalEvent(ent, ref ev);
         return true;
     }
@@ -210,6 +214,7 @@ public sealed class ApplyCharacterAttributesEvent(Dictionary<NetEntity, int> cha
 /// Raised when an attributes points have been adjusted
 /// </summary>
 /// <param name="CurrentPoints">The current points we have</param>
+/// <param name="PreviousPoints">The points we had before</param>
 /// <param name="User">The entity holder of the attribute that was adjusted</param>
 [ByRefEvent]
-public record struct AttributeAdjustedEvent(int CurrentPoints, EntityUid User);
+public record struct AttributeAdjustedEvent(int CurrentPoints, int PreviousPoints, EntityUid User);
