@@ -89,11 +89,11 @@ public sealed partial class CharacterAttributesUIController : UIController, IOnS
 
         if (_menu is not null)
         {
-            _menu.Close();
             _menu.OnClose -= OnMenuClosed;
             _menu.OnOpen -= OnMenuOpened;
             _menu.ApplyChanges -= MenuOnApplyChanges;
 
+            _menu.Close();
             _menu = null;
         }
     }
