@@ -127,6 +127,7 @@ public sealed partial class CharacterAttributesSystem
             return false;
         }
 
+        // Restrict from wasting points if we go over max...
         if (ent.Comp.CurrentPoints + points > ent.Comp.MaxPoints)
             return false;
 
@@ -136,6 +137,7 @@ public sealed partial class CharacterAttributesSystem
 
         var ev = new AttributeAdjustedEvent(ent.Comp.CurrentPoints, prev, user);
         RaiseLocalEvent(ent, ref ev);
+
         return true;
     }
 
@@ -211,10 +213,10 @@ public sealed class ApplyCharacterAttributesEvent(Dictionary<NetEntity, int> cha
 }
 
 /// <summary>
-/// Raised when an attributes points have been adjusted
+/// Raised on the attribute itself, when the attribute's points have been adjusted
 /// </summary>
-/// <param name="CurrentPoints">The current points we have</param>
-/// <param name="PreviousPoints">The points we had before</param>
-/// <param name="User">The entity holder of the attribute that was adjusted</param>
+/// <param name="CurrentPoints">The current points the attribute has now</param>
+/// <param name="PreviousPoints">The points the attribute had before</param>
+/// <param name="User">The entity that is containing this attribute</param>
 [ByRefEvent]
 public record struct AttributeAdjustedEvent(int CurrentPoints, int PreviousPoints, EntityUid User);

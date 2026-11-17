@@ -42,7 +42,7 @@ public sealed partial class CharacterAttributesSystem : EntitySystem
     }
 
     [SubscribeLocalEvent]
-    private void OnCompInit(Entity<CharacterAttributesComponent> ent, ref MapInitEvent args)
+    private void OnMapInit(Entity<CharacterAttributesComponent> ent, ref MapInitEvent args)
     {
         ent.Comp.Container = _container.EnsureContainer<Container>(ent, CharacterAttributesComponent.ContainerId);
 

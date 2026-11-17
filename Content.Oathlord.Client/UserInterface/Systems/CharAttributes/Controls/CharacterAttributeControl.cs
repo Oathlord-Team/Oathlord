@@ -7,6 +7,9 @@ using Robust.Client.UserInterface.XAML;
 
 namespace Content.Oathlord.Client.UserInterface.Systems.CharAttributes.Controls;
 
+/// <summary>
+/// Control that holds a character attribute and displays it.
+/// </summary>
 [GenerateTypedNameReferences]
 public sealed partial class CharacterAttributeControl : BoxContainer, IEntityControl
 {
@@ -14,6 +17,8 @@ public sealed partial class CharacterAttributeControl : BoxContainer, IEntityCon
     /// Raised when the user changes the <see cref="_points"/> by clicking the strengthen button.
     /// </summary>
     public event Action<int>? PointsChanged;
+
+    public EntityUid? UiEntity { get; }
 
     /// <summary>
     /// Points to add to this attribute
@@ -25,7 +30,7 @@ public sealed partial class CharacterAttributeControl : BoxContainer, IEntityCon
     /// </summary>
     private bool _canIncrease;
 
-    private ResPath _btnPath = new("/Textures/_Oathlord/Interface/attributes.rsi/button.png");
+    private ResPath _btnPath = new("/Textures/_Oathlord/Interface/attributes.rsi/button.png"); // stylesheet refactor in 2028
 
     public CharacterAttributeControl(EntityUid attribute, IEntityManager entMan, IResourceCache res, bool canIncrease)
     {
@@ -63,22 +68,27 @@ public sealed partial class CharacterAttributeControl : BoxContainer, IEntityCon
 
         _points++;
         if (comp.CurrentPoints + _points > comp.MaxPoints)
-            return; // this gets validated, but good UX to not show that you can go past the limit
+            return; // this gets validated, but good UX should probably not show that you can go past the limit
 
         AttributeLabel.Text = $"{name}: {currentPoints} (+{_points})";
         PointsChanged?.Invoke(_points);
     }
 
+    /// <summary>
+    /// Returns the points this attribute control has.
+    /// </summary>
     public int GetPoints()
     {
         return _points;
     }
 
+    /// <summary>
+    /// Changes if this control can increase it's current points, or not.
+    /// </summary>
+    /// <param name="to">False will disallow from increasing <see cref="_points"/>, true will do the opposite</param>
     public void ChangeIncreaseButton(bool to)
     {
         _canIncrease = to;
     }
-
-    public EntityUid? UiEntity { get; }
 }
 

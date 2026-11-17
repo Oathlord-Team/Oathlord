@@ -4,4 +4,4 @@
   id: OathlordWelcome
   name: guidebook-oathlord-name
   text: "/ServerInfo/_Oathlord/Welcome.xml"
-  priority: 10
+  priority: -1

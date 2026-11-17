@@ -5,13 +5,15 @@
     Resizable="False"
     MinSize="600 400">
     <BoxContainer Orientation="Vertical">
-        <TableContainer Name="AttributesContainer" Margin="12" Columns="16"/>
+        <ScrollContainer VerticalExpand="True" HScrollEnabled="False" Margin="12 -32 12 32">
+            <TableContainer Name="AttributesContainer" Columns="16"/>
+        </ScrollContainer>
         <VBox VerticalExpand="True" VerticalAlignment="Bottom" >
-            <Label Name="PointsLeftLabel" Margin="8" HorizontalAlignment="Center"/>
+            <RichTextLabel Name="PointsLeftLabel" Margin="2" HorizontalAlignment="Center"/>
             <Button Text="Resolve"
                     Name="ApplyButton"
                     HorizontalAlignment="Center"
-                    Margin="0 16"
+                    Margin="0 12"
                     Disabled="True"
                     ToolTip="This will apply all the changes you made to the attributes."/>
         </VBox>

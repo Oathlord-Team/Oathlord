@@ -7,6 +7,10 @@ using Robust.Shared.Prototypes;
 
 namespace Content.Oathlord.Server.CharacterAttributes.Commands;
 
+/// <summary>
+/// Command that modifies your character attributes based on a prototype.
+/// This is silent (no popups) to the user.
+/// </summary>
 [AdminCommand(AdminFlags.Admin)]
 public sealed partial class ModifyAttributeCommand : LocalizedEntityCommands
 {

@@ -4,6 +4,9 @@ using Robust.Client.UserInterface.XAML;
 
 namespace Content.Oathlord.Client.UserInterface.Systems.CharAttributes.Widgets;
 
+/// <summary>
+/// Widget that holds a menu button, so we don't have merge conflicts with upstream, so we just inject this instead.
+/// </summary>
 [GenerateTypedNameReferences]
 public sealed partial class CharAttributeMenuButton : UIWidget
 {

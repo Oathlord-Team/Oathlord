@@ -12,12 +12,15 @@ namespace Content.Oathlord.Client.UserInterface.Systems.CharAttributes.Windows;
 [GenerateTypedNameReferences]
 public sealed partial class CharacterAttributeWindow : FancyWindow
 {
+    [Dependency] private IEntityManager _ent = default!;
+    [Dependency] private IResourceCache _res = default!;
+
     /// <summary>
     /// Raised when we want to apply the changes made to the attributes
     /// </summary>
     public event Action<Dictionary<NetEntity, int>>? ApplyChanges;
 
-    private CharacterAttributesSystem? _charAttribute;
+    private readonly CharacterAttributesSystem _charAttribute;
 
     /// <summary>
     /// A dictionary containing an attribute, and the points we want to adjust for it
@@ -27,26 +30,28 @@ public sealed partial class CharacterAttributeWindow : FancyWindow
     public CharacterAttributeWindow()
     {
         RobustXamlLoader.Load(this);
+        IoCManager.InjectDependencies(this);
+
+        _charAttribute = _ent.System<CharacterAttributesSystem>();
 
         ApplyButton.OnPressed += ApplyButtonOnOnPressed;
     }
 
-    public void Populate(EntityUid user, IEntityManager entMan, IResourceCache res)
+    public void Populate(EntityUid user)
     {
         ApplyButton.Disabled = true;
         _changedAttributes.Clear();
 
-        _charAttribute ??= entMan.System<CharacterAttributesSystem>();
         AttributesContainer.Children.Clear();
 
         var pointsLeft = _charAttribute.GetPoints(user);
-        PointsLeftLabel.Text = $"You have {pointsLeft.ToString()} point(s) left."; // todo: do locstring
+        PointsLeftLabel.Text = Loc.GetString("attribute-ui-points-left", ("count", pointsLeft));
 
         var attributes = _charAttribute.GetAttributes(user);
         foreach (var attribute in attributes)
         {
             var canIncrease = pointsLeft > 0;
-            var attrControl = new CharacterAttributeControl(attribute, entMan, res, canIncrease);
+            var attrControl = new CharacterAttributeControl(attribute, _ent, _res, canIncrease);
             AttributesContainer.AddChild(attrControl);
 
             attrControl.PointsChanged += points =>
@@ -65,7 +70,7 @@ public sealed partial class CharacterAttributeWindow : FancyWindow
                         control.ChangeIncreaseButton(equal);
 
                     // If we passed the above, we can add points to the changed points dictionary.
-                    var attr = entMan.GetNetEntity(attribute);
+                    var attr = _ent.GetNetEntity(attribute);
                     if (_changedAttributes.ContainsKey(attr))
                         _changedAttributes[attr] = points;
                     else
@@ -77,8 +82,6 @@ public sealed partial class CharacterAttributeWindow : FancyWindow
 
                 foreach (var control in attributeControls)
                     control.ChangeIncreaseButton(false);
-
-                Log.Info($"{pointsFromControls}");
 
                 ApplyButton.Disabled = true;
             };
