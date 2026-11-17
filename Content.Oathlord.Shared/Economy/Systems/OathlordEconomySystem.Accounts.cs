@@ -1,4 +1,4 @@
-﻿using Content.Oathlord.Shared.Economy.Components;
+using Content.Oathlord.Shared.Economy.Components;
 using Content.Oathlord.Shared.Economy.Prototypes;
 using Content.Shared.IdentityManagement;
 using Robust.Shared.Prototypes;

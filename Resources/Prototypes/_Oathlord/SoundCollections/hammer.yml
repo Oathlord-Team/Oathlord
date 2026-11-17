@@ -1,4 +1,4 @@
-﻿- type: soundCollection
+- type: soundCollection
   id: HitSounds
   files:
   - /Audio/_Oathlord/Blacksmith/Smithing/hit_metal_1.ogg

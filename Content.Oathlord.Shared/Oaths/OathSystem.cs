@@ -1,4 +1,4 @@
-﻿using Content.Oathlord.Common.Oaths;
+using Content.Oathlord.Common.Oaths;
 using Content.Shared.Body;
 using Content.Shared.EntityEffects;
 using Robust.Shared.Prototypes;

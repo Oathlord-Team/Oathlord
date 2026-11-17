@@ -1,4 +1,4 @@
-﻿using Content.Shared.Destructible.Thresholds;
+using Content.Shared.Destructible.Thresholds;
 using Robust.Shared.GameStates;
 using Robust.Shared.Serialization.TypeSerializers.Implementations.Custom;
 

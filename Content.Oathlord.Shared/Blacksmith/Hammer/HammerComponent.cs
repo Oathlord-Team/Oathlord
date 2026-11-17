@@ -1,4 +1,4 @@
-﻿using Content.Shared.EntityEffects;
+using Content.Shared.EntityEffects;
 using Robust.Shared.GameStates;
 
 namespace Content.Oathlord.Shared.Blacksmith.Hammer;

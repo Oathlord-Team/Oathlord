@@ -1,4 +1,4 @@
-﻿using Content.Oathlord.Client.Movement;
+using Content.Oathlord.Client.Movement;
 using JetBrains.Annotations;
 using Robust.Client.UserInterface.Controllers;
 
@@ -24,4 +24,3 @@ public sealed partial class ScrollingMovementController : UIController, IOnSyste
         UI?.Blink(value);
     }
 }
-

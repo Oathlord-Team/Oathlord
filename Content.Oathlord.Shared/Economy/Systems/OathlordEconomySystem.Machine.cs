@@ -1,4 +1,4 @@
-﻿using Content.Oathlord.Shared.Economy.Components;
+using Content.Oathlord.Shared.Economy.Components;
 using Content.Shared.Popups;
 
 namespace Content.Oathlord.Shared.Economy.Systems;

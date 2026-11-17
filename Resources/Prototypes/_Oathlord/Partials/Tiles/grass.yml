@@ -1,4 +1,4 @@
-﻿- type: tile
+- type: tile
   id: FloorPlanetGrass
   barestepSounds:
     collection: FootstepGrassBarefoot

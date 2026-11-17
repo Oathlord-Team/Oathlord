@@ -1,4 +1,4 @@
-﻿using System.Linq;
+using System.Linq;
 using Content.Oathlord.Shared.Spellcasting.Components;
 using Content.Oathlord.Shared.Spellcasting.Systems;
 using Content.Server.Administration;

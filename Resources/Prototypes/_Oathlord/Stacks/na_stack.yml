@@ -1,4 +1,4 @@
-﻿- type: stack
+- type: stack
   id: BaseNaStack
   name: stack-na
   icon: { sprite: /Textures/_Oathlord/Objects/Economy/copper.rsi, state: copper }

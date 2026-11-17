@@ -1,4 +1,4 @@
-﻿using Content.Client.Gameplay;
+using Content.Client.Gameplay;
 using Content.Client.UserInterface.Systems.Gameplay;
 using Content.Oathlord.Client.Spellcasting;
 using Content.Oathlord.Client.UserInterface.Systems.Spells.Controls;

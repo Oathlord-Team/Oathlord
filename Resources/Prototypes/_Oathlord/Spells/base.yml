@@ -1,4 +1,4 @@
-﻿# A spell is simply an action with SpellsComponent.
+# A spell is simply an action with SpellsComponent.
 #
 # Spells are done this way, because:
 # - There is no reason to re-invent the wheel. I already knew from day 1 that spells should do the same thing actions do.

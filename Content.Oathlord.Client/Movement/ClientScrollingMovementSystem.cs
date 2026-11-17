@@ -1,4 +1,4 @@
-﻿using Content.Oathlord.Shared.Movement;
+using Content.Oathlord.Shared.Movement;
 using Robust.Client.Player;
 
 namespace Content.Oathlord.Client.Movement;

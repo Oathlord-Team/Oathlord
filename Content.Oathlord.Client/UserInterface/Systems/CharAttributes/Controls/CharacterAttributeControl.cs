@@ -91,4 +91,3 @@ public sealed partial class CharacterAttributeControl : BoxContainer, IEntityCon
         _canIncrease = to;
     }
 }
-

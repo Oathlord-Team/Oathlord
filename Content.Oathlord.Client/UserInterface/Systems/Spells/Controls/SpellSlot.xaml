@@ -1,4 +1,4 @@
-﻿<controls:SpellSlot
+<controls:SpellSlot
     xmlns="https://spacestation14.io"
     xmlns:controls="using:Content.Oathlord.Client.UserInterface.Systems.Spells.Controls"
     xmlns:graphics="using:Robust.Client.Graphics"

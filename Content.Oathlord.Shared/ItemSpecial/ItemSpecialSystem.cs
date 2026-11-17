@@ -1,4 +1,4 @@
-﻿using Content.Oathlord.Common.Input;
+using Content.Oathlord.Common.Input;
 using Content.Shared.Hands.EntitySystems;
 using Robust.Shared.Input.Binding;
 using Robust.Shared.Map;
