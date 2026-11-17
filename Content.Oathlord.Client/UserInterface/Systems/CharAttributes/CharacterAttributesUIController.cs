@@ -60,12 +60,12 @@ public sealed partial class CharacterAttributesUIController : UIController, IOnS
         _menu = new CharacterAttributeWindow();
 
         var btn = _charButton.CharAttributeButton;
+        btn.Parent?.RemoveChild(btn);
 
-        _charButton.RemoveChild(btn);
-
-        btn.OnPressed += OnPressed;
         bar.AddChild(btn);
         btn.SetPositionLast(); // don't care
+
+        btn.OnPressed += OnPressed;
 
         _menu.OnClose += OnMenuClosed;
         _menu.OnOpen += OnMenuOpened;
