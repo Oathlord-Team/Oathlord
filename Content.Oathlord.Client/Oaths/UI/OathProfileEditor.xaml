@@ -1,3 +1,7 @@
+<!--
+SPDX-License-Identifier: AGPL-3.0-or-later
+-->
+
 <BoxContainer xmlns="https://spacestation14.io">
     <BoxContainer Orientation="Vertical" VerticalExpand="True" HorizontalExpand="True">
         <GridContainer Name="OathContainer" Rows="5" Columns="5" HSeparationOverride="25" Margin="6"/>

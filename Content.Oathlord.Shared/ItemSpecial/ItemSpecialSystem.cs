@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: AGPL-3.0-or-later
+
 using Content.Oathlord.Common.Input;
 using Content.Shared.Hands.EntitySystems;
 using Robust.Shared.Input.Binding;

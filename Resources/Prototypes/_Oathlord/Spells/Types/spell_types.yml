@@ -1,12 +1,5 @@
-# Here we store all spell types.
-#
-# A spell type defines in which category a spell belongs to.
-# Usually, a item with SpellcasterComponent must meet the spell types of a spell in order to cast it
-#
-# Do not bloat spell types, spell types should be part of Magic Research and have a major impact.
-# Make sure to add edgy oc mystical lore or something, if you're adding new spell types
+# SPDX-License-Identifier: AGPL-3.0-or-later
 
-# This type may or may not be deleted in the future, exists just to exist for now
 - type: spellType
   id: Crimson
   name: Crimson

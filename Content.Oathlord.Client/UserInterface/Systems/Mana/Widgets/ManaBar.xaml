@@ -1,3 +1,7 @@
+<!--
+SPDX-License-Identifier: AGPL-3.0-or-later
+-->
+
 <widgets:ManaBar
     xmlns="https://spacestation14.io"
     xmlns:widgets="using:Content.Oathlord.Client.UserInterface.Systems.Mana.Widgets"

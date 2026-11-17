@@ -1,5 +1,5 @@
-# Put all hammers in this file.
-# Hammers don't have any functionality now other than restricting you from using the anvil, but will get more later as blacksmithing develops.
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
 - type: entity
   abstract: true
   parent: BaseItem

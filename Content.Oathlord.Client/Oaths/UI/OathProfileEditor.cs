@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: AGPL-3.0-or-later
+
 using Content.Oathlord.Client.Oaths.UI.Controls;
 using Content.Oathlord.Common.Oaths;
 using Content.Oathlord.Shared.Oaths;

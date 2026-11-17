@@ -1,23 +1,5 @@
-# A spell is simply an action with SpellsComponent.
-#
-# Spells are done this way, because:
-# - There is no reason to re-invent the wheel. I already knew from day 1 that spells should do the same thing actions do.
-# - Modularity and simplicity. I don't have to maintain another API, instead I rely on upstream which should be stable (hopefully).
-#
-# That does not mean spells are an action re-skin. In fact, it's the opposite.
-#
-# Spells operate within their give context (a user with SpellsComponent, and not ActionsComponent), and are limited by various factors, like:
-# - You can't cast spells without holding an entity with SpellcasterComponent
-# - You are limited in what spells you know
-# - You are limited in how many spells you can use
-# - You can't cast any spell you want, unless you meet the requirements. Be it spell types, or being a mana user (not implemented yet).
-# - You can only have 1 active spell
-# - They are always instant. There's no targeting, meaning they are less forgiving
-#
-# If you want to debug spells, use this command in the in-game console (works like addaction):
-# addspell <EntityUid> <SpellProto>
-#
-# You should NOT ever add a spell to the Actions Container of an entity.
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
 - type: entity
   abstract: true
   parent: BaseAction

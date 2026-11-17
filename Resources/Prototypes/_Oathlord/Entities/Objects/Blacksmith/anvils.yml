@@ -1,21 +1,5 @@
-# Put all anvils in this file.
-#
-# An anvil is a structure machine that takes in metals, and outputs parts based off those metals.
-# It does not, however, work like a lathe. Instead, it has a minigame.description:
-#
-# The minigame is simple. The user is met with two progress bars, and the anvil provides him with "hit" numbers.description:
-# The green progress bar indicates the user's progress, and the red progress bar indicates the progress that must be met.
-#
-# Clicking on a hit number will result on the green bar to advance (either up or down).
-# Once the user reaches the red bar's progress, the recipe is considered complete and it will spawn on the anvil.
-# However, there can be more complex recipes where patterns are required.
-# And of course, once heating gets added to metals, you will have to be quick with the recipes.
-#
-# Examples of a basic anvil:
-#
-# - type: Anvil
-#   allowedWorkables: 2 -> How many metals this specific anvil can hold.
-#   numbers: [ 5, -5 ] -> The "hit" numbers provided by the anvil. They get separated into positive and negative on the UI.
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
 - type: entity
   abstract: true
   parent: BaseStructure

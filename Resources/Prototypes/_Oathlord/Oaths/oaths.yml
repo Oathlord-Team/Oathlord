@@ -1,20 +1,5 @@
-# Define all oaths here.
-#
-# In lore, oaths are simply beliefs, and they are mostly groups that have their own duties, and not religions/cults, led by Idols (those who represent oaths).
-# In game, they are not factions or anything like that. They just provide benefits.
-#
-# All oaths should have valid icons, backgrounds (you can re-use bgs but not icons), and effects.
-#
-# If you want an oath to not appear in the customization menu, but only in-world, set:
-#    preference: false
-#
-# For curses:
-#   curseEffect: your entity effect prototype
-#
-# If you want your oath to appear in-world, the only way to do it via making an entity with OathProvider component.
-# Ideally, most of those entities should be hard to come by, and not be items (just statues, or structures that are set in one place)
-#
-# Define effects for oaths in EntityEffects/oaths.yml file (there's a small game design explanation on how to do effects)
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
 - type: oath
   id: Oathless
   name: Oathless

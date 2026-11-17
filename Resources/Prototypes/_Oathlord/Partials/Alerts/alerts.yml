@@ -1,4 +1,5 @@
-# Oathlord uses walk by default, so this alert will toggle during sprinting...
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
 - type: alert
   id: Walking
   name: alerts-sprinting-name

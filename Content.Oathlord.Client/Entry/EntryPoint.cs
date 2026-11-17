@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: AGPL-3.0-or-later
+
 using Content.Oathlord.Client.Input;
 using Robust.Client.Input;
 using Robust.Shared.ContentPack;

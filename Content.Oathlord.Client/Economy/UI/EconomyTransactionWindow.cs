@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: AGPL-3.0-or-later
+
 using Content.Client.UserInterface.Controls;
 using Content.Oathlord.Shared.Economy.Prototypes;
 using Content.Oathlord.Shared.Economy.Systems;

@@ -1,4 +1,5 @@
-# All mobs take these movement debuffs when sprinting
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
 - type: entityEffect
   id: BaseMobMoveEffects
   effects:
