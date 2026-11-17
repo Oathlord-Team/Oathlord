@@ -30,8 +30,9 @@ public sealed partial class CharacterAttributesUIController : UIController, IOnS
     {
         base.Initialize();
 
-        GameTopMenuBarUIController.OnLoad += OnLoad;
-        GameTopMenuBarUIController.OnUnload += OnUnload;
+        var gameTop = UIManager.GetUIController<GameTopMenuBarUIController>();
+        gameTop.OnLoad += OnLoad;
+        gameTop.OnUnload += OnUnload;
     }
 
     private void OnUnload(GameTopMenuBar bar)
