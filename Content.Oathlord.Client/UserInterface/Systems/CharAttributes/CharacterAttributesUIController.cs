@@ -1,7 +1,7 @@
 using Content.Client.Gameplay;
 using Content.Client.UserInterface.Systems.MenuBar;
 using Content.Client.UserInterface.Systems.MenuBar.Widgets;
-using Content.Oathlord.Client.UserInterface.Systems.CharAttributes.Widgets;
+using Content.Oathlord.Client.UserInterface.Systems.CharAttributes.Controls;
 using Content.Oathlord.Client.UserInterface.Systems.CharAttributes.Windows;
 using Content.Oathlord.Common.Input;
 using Content.Oathlord.Shared.CharacterAttributes;
@@ -59,13 +59,10 @@ public sealed partial class CharacterAttributesUIController : UIController, IOnS
         _charButton = new CharAttributeMenuButton();
         _menu = new CharacterAttributeWindow();
 
-        var btn = _charButton.CharAttributeButton;
-        btn.Parent?.RemoveChild(btn);
+        bar.AddChild(_charButton);
+        _charButton.SetPositionLast(); // don't care
 
-        bar.AddChild(btn);
-        btn.SetPositionLast(); // don't care
-
-        btn.OnPressed += OnPressed;
+        _charButton.OnPressed += OnPressed;
 
         _menu.OnClose += OnMenuClosed;
         _menu.OnOpen += OnMenuOpened;
@@ -74,13 +71,20 @@ public sealed partial class CharacterAttributesUIController : UIController, IOnS
 
     private void UnloadButton(GameTopMenuBar bar)
     {
-        foreach (var child in bar.Children)
+        if (_charButton is not null)
         {
-            if (child == _charButton?.CharAttributeButton)
+            foreach (var child in bar.Children)
             {
-                bar.RemoveChild(child);
-                break;
+                if (child == _charButton)
+                {
+                    bar.RemoveChild(child);
+                    break;
+                }
             }
+
+            _charButton.OnPressed -= OnPressed;
+
+            _charButton = null;
         }
 
         if (_menu is not null)
@@ -92,8 +96,6 @@ public sealed partial class CharacterAttributesUIController : UIController, IOnS
 
             _menu = null;
         }
-
-        _charButton?.CharAttributeButton.OnPressed -= OnPressed;
     }
 
     private void OnPressed(BaseButton.ButtonEventArgs obj)
@@ -139,7 +141,7 @@ public sealed partial class CharacterAttributesUIController : UIController, IOnS
         if (_charButton is not { } charBtn)
             return;
 
-        charBtn.CharAttributeButton.SetClickPressed(false);
+        charBtn.SetClickPressed(false);
     }
 
     private void OnMenuOpened()
@@ -147,6 +149,6 @@ public sealed partial class CharacterAttributesUIController : UIController, IOnS
         if (_charButton is not { } charBtn)
             return;
 
-        charBtn.CharAttributeButton.SetClickPressed(true);
+        charBtn.SetClickPressed(true);
     }
 }
