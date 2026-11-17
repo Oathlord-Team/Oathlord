@@ -1,4 +1,6 @@
-﻿- type: species
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+- type: species
   id: SlimePerson
   roundStart: false
 

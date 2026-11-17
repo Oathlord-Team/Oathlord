@@ -1,4 +1,8 @@
-﻿<controls:SpellSlot
+<!--
+SPDX-License-Identifier: AGPL-3.0-or-later
+-->
+
+<controls:SpellSlot
     xmlns="https://spacestation14.io"
     xmlns:controls="using:Content.Oathlord.Client.UserInterface.Systems.Spells.Controls"
     xmlns:graphics="using:Robust.Client.Graphics"

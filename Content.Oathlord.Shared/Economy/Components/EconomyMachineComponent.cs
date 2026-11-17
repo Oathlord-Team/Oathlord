@@ -1,4 +1,6 @@
-﻿using Content.Oathlord.Shared.Economy.Prototypes;
+// SPDX-License-Identifier: AGPL-3.0-or-later
+
+using Content.Oathlord.Shared.Economy.Prototypes;
 using Content.Oathlord.Shared.Economy.Systems;
 using Robust.Shared.Audio;
 using Robust.Shared.GameStates;

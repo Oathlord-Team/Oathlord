@@ -1,4 +1,6 @@
-﻿using System.Linq;
+// SPDX-License-Identifier: AGPL-3.0-or-later
+
+using System.Linq;
 using Content.Oathlord.Shared.Spellcasting.Components;
 using Content.Oathlord.Shared.Spellcasting.Systems;
 using Content.Server.Administration;

@@ -1,4 +1,8 @@
-﻿<Control
+<!--
+SPDX-License-Identifier: AGPL-3.0-or-later
+-->
+
+<Control
     xmlns="https://spacestation14.io"
     xmlns:controls="using:Content.Client.UserInterface.Controls"
     Margin="6">

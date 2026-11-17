@@ -1,4 +1,6 @@
-﻿using Content.Oathlord.Common.Input;
+// SPDX-License-Identifier: AGPL-3.0-or-later
+
+using Content.Oathlord.Common.Input;
 using Content.Oathlord.Shared.Spellcasting.Components;
 using Content.Shared.Actions;
 using Content.Shared.Actions.Components;

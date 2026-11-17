@@ -1,4 +1,6 @@
-﻿- type: soundCollection
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+- type: soundCollection
   id: HitSounds
   files:
   - /Audio/_Oathlord/Blacksmith/Smithing/hit_metal_1.ogg

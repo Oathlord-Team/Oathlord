@@ -1,4 +1,6 @@
-﻿using Content.Oathlord.Shared.ItemSpecial;
+// SPDX-License-Identifier: AGPL-3.0-or-later
+
+using Content.Oathlord.Shared.ItemSpecial;
 using Content.Oathlord.Shared.Spellcasting.Components;
 
 namespace Content.Oathlord.Shared.Spellcasting.Systems;

@@ -1,4 +1,8 @@
-﻿<controls:LabelProgressBar
+<!--
+SPDX-License-Identifier: AGPL-3.0-or-later
+-->
+
+<controls:LabelProgressBar
     xmlns="https://spacestation14.io"
     xmlns:controls="using:Content.Oathlord.Client.UserInterface.Controls">
     <Label Name="ValueLabel" Align="Center"/>

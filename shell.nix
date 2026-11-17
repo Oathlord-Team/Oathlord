@@ -49,6 +49,7 @@ let
     at-spi2-core
     cups
     python3
+    pre-commit # Oathlord
     wayland
     nixfmt
   ];

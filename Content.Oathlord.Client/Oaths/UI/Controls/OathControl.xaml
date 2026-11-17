@@ -1,4 +1,8 @@
-﻿<Control xmlns="https://spacestation14.io"
+<!--
+SPDX-License-Identifier: AGPL-3.0-or-later
+-->
+
+<Control xmlns="https://spacestation14.io"
          xmlns:graphics="using:Robust.Client.Graphics">
     <BoxContainer Orientation="Vertical">
         <PanelContainer Name="OathPanel" MinSize="64 64">

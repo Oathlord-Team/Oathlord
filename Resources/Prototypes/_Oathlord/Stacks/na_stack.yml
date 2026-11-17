@@ -1,4 +1,6 @@
-﻿- type: stack
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+- type: stack
   id: BaseNaStack
   name: stack-na
   icon: { sprite: /Textures/_Oathlord/Objects/Economy/copper.rsi, state: copper }

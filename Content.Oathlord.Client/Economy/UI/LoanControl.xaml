@@ -1,4 +1,8 @@
-﻿<Control
+<!--
+SPDX-License-Identifier: AGPL-3.0-or-later
+-->
+
+<Control
     xmlns="https://spacestation14.io"
     xmlns:graphics="using:Robust.Client.Graphics">
     <PanelContainer Margin="8" HorizontalExpand="True" VerticalAlignment="Center">

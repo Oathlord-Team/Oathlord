@@ -1,4 +1,6 @@
-﻿- type: tile
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+- type: tile
   id: FloorPlanetGrass
   barestepSounds:
     collection: FootstepGrassBarefoot

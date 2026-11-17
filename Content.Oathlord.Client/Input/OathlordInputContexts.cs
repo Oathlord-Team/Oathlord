@@ -1,4 +1,6 @@
-﻿using Content.Oathlord.Common.Input;
+// SPDX-License-Identifier: AGPL-3.0-or-later
+
+using Content.Oathlord.Common.Input;
 using Robust.Shared.Input;
 
 namespace Content.Oathlord.Client.Input;

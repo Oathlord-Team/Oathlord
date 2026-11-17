@@ -1,4 +1,6 @@
-﻿using Content.Shared.EntityEffects;
+// SPDX-License-Identifier: AGPL-3.0-or-later
+
+using Content.Shared.EntityEffects;
 using Robust.Shared.Audio;
 using Robust.Shared.Audio.Systems;
 
@@ -48,4 +50,3 @@ public sealed partial class PlaySoundEffectSystem : EntityEffectSystem<Transform
             _audio.PlayPvs(sound, entity);
     }
 }
-

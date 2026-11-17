@@ -1,4 +1,6 @@
-﻿using Robust.Shared.Prototypes;
+// SPDX-License-Identifier: AGPL-3.0-or-later
+
+using Robust.Shared.Prototypes;
 using Robust.Shared.Serialization.TypeSerializers.Implementations.Custom.Prototype.Array;
 
 namespace Content.Oathlord.Shared.Blacksmith.Anvil.Prototypes;

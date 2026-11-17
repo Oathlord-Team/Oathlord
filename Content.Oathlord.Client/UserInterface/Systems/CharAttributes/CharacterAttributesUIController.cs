@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: AGPL-3.0-or-later
+
 using Content.Client.Gameplay;
 using Content.Client.UserInterface.Systems.MenuBar;
 using Content.Client.UserInterface.Systems.MenuBar.Widgets;
@@ -28,8 +30,9 @@ public sealed partial class CharacterAttributesUIController : UIController, IOnS
     {
         base.Initialize();
 
-        GameTopMenuBarUIController.OnLoad += OnLoad;
-        GameTopMenuBarUIController.OnUnload += OnUnload;
+        var gameTop = UIManager.GetUIController<GameTopMenuBarUIController>();
+        gameTop.OnLoad += OnLoad;
+        gameTop.OnUnload += OnUnload;
     }
 
     private void OnUnload(GameTopMenuBar bar)
@@ -69,30 +72,25 @@ public sealed partial class CharacterAttributesUIController : UIController, IOnS
         _menu.ApplyChanges += MenuOnApplyChanges;
     }
 
-    private void UnloadButton(GameTopMenuBar bar)
+    private void UnloadButton(GameTopMenuBar _)
     {
-        if (_charButton is not null)
+        if (_charButton is { } button)
         {
-            _charButton.OnPressed -= OnPressed;
-
-            foreach (var child in bar.Children)
-            {
-                if (child == _charButton)
-                {
-                    bar.RemoveChild(child);
-                    break;
-                }
-            }
+            button.OnPressed -= OnPressed;
+            if (button.Parent != null)
+                button.Orphan();
 
             _charButton = null;
         }
 
-        if (_menu is not null)
+        if (_menu is { } menu)
         {
-            _menu.Close();
-            _menu.OnClose -= OnMenuClosed;
-            _menu.OnOpen -= OnMenuOpened;
-            _menu.ApplyChanges -= MenuOnApplyChanges;
+            menu.OnClose -= OnMenuClosed;
+            menu.OnOpen -= OnMenuOpened;
+            menu.ApplyChanges -= MenuOnApplyChanges;
+
+            if (menu.IsOpen)
+                menu.Close();
 
             _menu = null;
         }

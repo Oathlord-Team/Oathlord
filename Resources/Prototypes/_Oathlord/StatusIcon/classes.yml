@@ -1,4 +1,5 @@
-# For any future classes, use *class-icon in icon->sprite (check StatusIcon/job.yml for reference in upstream)
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
 - type: jobIcon
   parent: JobIcon
   id: ClassIconWretch

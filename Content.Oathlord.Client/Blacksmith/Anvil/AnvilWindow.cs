@@ -1,4 +1,6 @@
-﻿using System.Linq;
+// SPDX-License-Identifier: AGPL-3.0-or-later
+
+using System.Linq;
 using Content.Client.UserInterface.Controls;
 using Content.Oathlord.Shared.Blacksmith.Anvil;
 using Content.Oathlord.Shared.Blacksmith.Anvil.Prototypes;
@@ -186,4 +188,3 @@ public sealed partial class AnvilWindow : FancyWindow
         DoHit?.Invoke(number);
     }
 }
-

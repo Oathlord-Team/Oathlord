@@ -1,4 +1,6 @@
-﻿- type: guideEntry
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+- type: guideEntry
   hidden: false
   locFilter: "en-US"
   id: OathlordSmithing

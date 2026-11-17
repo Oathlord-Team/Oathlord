@@ -1,4 +1,8 @@
-﻿<controls:FancyWindow
+<!--
+SPDX-License-Identifier: AGPL-3.0-or-later
+-->
+
+<controls:FancyWindow
     xmlns="https://spacestation14.io"
     xmlns:graphics="using:Robust.Client.Graphics"
     xmlns:controls="using:Content.Client.UserInterface.Controls"

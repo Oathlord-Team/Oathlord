@@ -1,4 +1,4 @@
-# TODO: integrate with clothing layer system when done
+# SPDX-License-Identifier: AGPL-3.0-or-later
 
 - type: entity # TODO: missing equipped sprites
   parent: ClothingHeadBase

@@ -1,4 +1,6 @@
-﻿using Content.Shared.Destructible.Thresholds;
+// SPDX-License-Identifier: AGPL-3.0-or-later
+
+using Content.Shared.Destructible.Thresholds;
 using Robust.Shared.GameStates;
 using Robust.Shared.Serialization.TypeSerializers.Implementations.Custom;
 

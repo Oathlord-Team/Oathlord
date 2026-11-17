@@ -1,4 +1,6 @@
-﻿using Content.Oathlord.Shared.Economy.Components;
+// SPDX-License-Identifier: AGPL-3.0-or-later
+
+using Content.Oathlord.Shared.Economy.Components;
 using Content.Shared.Popups;
 
 namespace Content.Oathlord.Shared.Economy.Systems;

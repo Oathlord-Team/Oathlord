@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: AGPL-3.0-or-later
+
 using System.Linq;
 using Content.Client.UserInterface.Controls;
 using Content.Oathlord.Client.UserInterface.Systems.CharAttributes.Controls;
@@ -101,4 +103,3 @@ public sealed partial class CharacterAttributeWindow : FancyWindow
         ApplyChanges?.Invoke(_changedAttributes);
     }
 }
-

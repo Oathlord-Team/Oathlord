@@ -1,4 +1,6 @@
-﻿using System.Linq;
+// SPDX-License-Identifier: AGPL-3.0-or-later
+
+using System.Linq;
 using Content.Client.UserInterface.Controls;
 using Content.Oathlord.Shared.Economy.Components;
 using Content.Oathlord.Shared.Economy.Systems;
@@ -73,4 +75,3 @@ public sealed partial class EconomyLoanWindow : FancyWindow
         }
     }
 }
-

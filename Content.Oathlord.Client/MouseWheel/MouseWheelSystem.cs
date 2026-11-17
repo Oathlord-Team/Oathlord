@@ -1,4 +1,6 @@
-﻿using System.Linq;
+// SPDX-License-Identifier: AGPL-3.0-or-later
+
+using System.Linq;
 using Content.Oathlord.Common.Input;
 using Content.Oathlord.Common.MouseWheel;
 using Robust.Client.GameObjects;
@@ -51,5 +53,3 @@ public sealed partial class MouseWheelSystem : CommonMouseWheelSystem
         return _input.CmdStates.GetState(function) == BoundKeyState.Down ? 1 : -1;
     }
 }
-
-

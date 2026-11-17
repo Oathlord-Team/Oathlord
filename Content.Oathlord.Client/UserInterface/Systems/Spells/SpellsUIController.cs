@@ -1,4 +1,6 @@
-﻿using Content.Client.Gameplay;
+// SPDX-License-Identifier: AGPL-3.0-or-later
+
+using Content.Client.Gameplay;
 using Content.Client.UserInterface.Systems.Gameplay;
 using Content.Oathlord.Client.Spellcasting;
 using Content.Oathlord.Client.UserInterface.Systems.Spells.Controls;

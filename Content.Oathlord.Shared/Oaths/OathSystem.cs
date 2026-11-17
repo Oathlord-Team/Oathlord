@@ -1,4 +1,6 @@
-﻿using Content.Oathlord.Common.Oaths;
+// SPDX-License-Identifier: AGPL-3.0-or-later
+
+using Content.Oathlord.Common.Oaths;
 using Content.Shared.Body;
 using Content.Shared.EntityEffects;
 using Robust.Shared.Prototypes;

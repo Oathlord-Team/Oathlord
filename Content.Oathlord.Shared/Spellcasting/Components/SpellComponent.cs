@@ -1,4 +1,6 @@
-﻿using Content.Oathlord.Shared.Spellcasting.Prototypes;
+// SPDX-License-Identifier: AGPL-3.0-or-later
+
+using Content.Oathlord.Shared.Spellcasting.Prototypes;
 using Content.Oathlord.Shared.Spellcasting.Systems;
 using Robust.Shared.GameStates;
 using Robust.Shared.Prototypes;

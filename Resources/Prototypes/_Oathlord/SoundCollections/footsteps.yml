@@ -1,4 +1,6 @@
-﻿- type: soundCollection
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+- type: soundCollection
   id: FootstepGrassBarefoot
   files:
   - /Audio/_Oathlord/Effects/Footsteps/grass1.ogg

@@ -1,8 +1,5 @@
-# Our naming conventions are "class/classes" instead of jobs.
-#
-# todo: make job prototype inheritable
-#
-# Wretch
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
 - type: job
   id: Wretch
   name: wretch-class-name-role

@@ -1,0 +1,57 @@
+# Oathlord's pre-commit.com config
+# You don't have to install it yourself, CI applies fixes to PRs automatically (but it's still good to have)
+# Use `pip3 install pre-commit` or use your system package.
+
+repos:
+- repo: "https://github.com/pre-commit/pre-commit-hooks"
+  rev: "v6.0.0"
+  hooks:
+  # File checkers
+  - id: check-yaml
+    # only check prototypes, maps would be too slow
+    files: "^Resources/(Prototypes/_Oathlord|Partials)/.*\\.yml$"
+    # !type:... doesn't work without somehow loading SS14, which would probably make commits take years
+    args: ["--unsafe"]
+  - id: check-json
+    # only need to check meta.json files
+    files: "^Resources/Textures/_Oathlord/.*/meta\\.json$"
+  - id: check-xml
+    # Check all ui XAML files
+    # Can't check guidebook "xml" as it is a monster
+    files: "^Content.Oathlord.Client/.*\\.xaml$"
+    types: ["text"]
+  - id: check-merge-conflict
+  # Fixers that can and will change commits to PRs
+  - id: end-of-file-fixer
+    files: "^(Content\\.Oathlord\\.|Resources/.*_Oathlord/|Resources/(Prototypes/_Oathlord|Partials)/)"
+  - id: trailing-whitespace
+    files: "^(Content\\.Oathlord\\.|Resources/.*_Oathlord/|Resources/(Prototypes/_Oathlord|Partials)/)"
+  - id: fix-byte-order-marker
+    files: "^(Content\\.Oathlord\\.|Resources/.*_Oathlord/|Resources/(Prototypes/_Oathlord|Partials)/)"
+- repo: "local"
+  hooks:
+  # Fixers
+  - id: license-headers-cs
+    name: "Update License Headers (C#)"
+    entry: pre_commit_hooks/license-headers.py
+    language: python
+    args: ["-c", "^(\\s*//[^\\n]*\\n)*\\s*", "-H", "// SPDX-License-Identifier: AGPL-3.0-or-later"]
+    # Applies to all modules
+    files: "^Content\\.Oathlord\\..+/.*\\.cs$"
+  - id: license-headers-xaml
+    name: "Update License Headers (XAML)"
+    entry: pre_commit_hooks/license-headers.py
+    language: python
+    args: ["-c", "^\\s*(<!--.*?-->)?\\s*", "-H", "<!--\nSPDX-License-Identifier: AGPL-3.0-or-later\n-->"]
+    # Applies to all modules
+    files: "^Content\\.Oathlord\\..+/.*\\.xaml$"
+  - id: license-headers-yml
+    name: "Update License Headers (YML)"
+    entry: pre_commit_hooks/license-headers.py
+    language: python
+    args: ["-c", "^(\\s*#[^\\n]*\\n)*\\s*", "-H", "# SPDX-License-Identifier: AGPL-3.0-or-later"]
+    # Applies to all prototypes from AGPL codebases
+    files: "^Resources/(Partials|Prototypes/_Oathlord)/.*\\.yml$"
+
+ci:
+  autofix_commit_msg: "[pre-commit] automated pr fixes"

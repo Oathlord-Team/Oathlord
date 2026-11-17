@@ -1,4 +1,6 @@
-﻿using Content.Client.Actions.UI;
+// SPDX-License-Identifier: AGPL-3.0-or-later
+
+using Content.Client.Actions.UI;
 using Content.Client.Cooldown;
 using Content.Client.UserInterface;
 using Content.Shared.Actions.Components;
@@ -109,4 +111,3 @@ public sealed partial class SpellSlot : Control, IEntityControl
 
     public EntityUid? UiEntity => Spell;
 }
-
