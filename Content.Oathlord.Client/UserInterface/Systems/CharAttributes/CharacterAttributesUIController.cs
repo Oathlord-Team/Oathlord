@@ -73,6 +73,8 @@ public sealed partial class CharacterAttributesUIController : UIController, IOnS
     {
         if (_charButton is not null)
         {
+            _charButton.OnPressed -= OnPressed;
+
             foreach (var child in bar.Children)
             {
                 if (child == _charButton)
@@ -81,8 +83,6 @@ public sealed partial class CharacterAttributesUIController : UIController, IOnS
                     break;
                 }
             }
-
-            _charButton.OnPressed -= OnPressed;
 
             _charButton = null;
         }
