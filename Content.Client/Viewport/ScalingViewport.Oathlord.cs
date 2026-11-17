@@ -1,4 +1,4 @@
-﻿using Content.Oathlord.Common.MouseWheel;
+using Content.Oathlord.Common.MouseWheel;
 using Robust.Client.UserInterface;
 
 namespace Content.Client.Viewport;

@@ -22,4 +22,3 @@ public sealed partial class BurnStateVisualizerSystem : VisualizerSystem<BurnSta
         SpriteSystem.LayerSetRsiState((uid, args.Sprite), 0, state);
     }
 }
-

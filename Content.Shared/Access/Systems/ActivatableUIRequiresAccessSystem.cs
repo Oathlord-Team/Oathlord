@@ -28,4 +28,3 @@ public sealed partial class ActivatableUIRequiresAccessSystem : EntitySystem
         }
     }
 }
-

@@ -18,4 +18,3 @@ public sealed partial class ObjectiveTargetCondition : EntityConditionBase<Objec
         return String.Empty;
     }
 }
-

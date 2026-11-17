@@ -1,4 +1,4 @@
-﻿<ContainerButton HorizontalExpand="True" MinHeight="60" Margin="4"
+<ContainerButton HorizontalExpand="True" MinHeight="60" Margin="4"
                  xmlns:pda="clr-namespace:Content.Client.PDA"
                  xmlns="https://spacestation14.io">
     <PanelContainer Name="Panel"/>

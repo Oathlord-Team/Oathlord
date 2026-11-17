@@ -1,4 +1,4 @@
-﻿<windows:ActionsWindow
+<windows:ActionsWindow
     xmlns="https://spacestation14.io"
     xmlns:windows="clr-namespace:Content.Client.UserInterface.Systems.Actions.Windows"
     Name="ActionsList"

@@ -175,4 +175,3 @@ public sealed class PowerStateTest : GameTest
         });
     }
 }
-

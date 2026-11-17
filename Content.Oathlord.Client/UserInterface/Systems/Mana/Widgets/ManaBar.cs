@@ -25,4 +25,3 @@ public sealed partial class ManaBar : UIWidget
         ManaProgress.Value = (float)mana;
     }
 }
-

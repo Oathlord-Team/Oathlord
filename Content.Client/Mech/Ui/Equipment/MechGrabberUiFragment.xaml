@@ -1,4 +1,4 @@
-﻿<equipment:MechGrabberUiFragment
+<equipment:MechGrabberUiFragment
     xmlns:equipment="clr-namespace:Content.Client.Mech.Ui.Equipment"
     xmlns="https://spacestation14.io" Margin="1 0 2 0" HorizontalExpand="True" VerticalExpand="True">
     <BoxContainer Orientation="Vertical"

@@ -1,4 +1,4 @@
-﻿# Put all new metals in this file, parented off BaseWorkableMetal. Don't re-use or touch upstream metals (e.g. IngotSilver, IngotGold etc).
+# Put all new metals in this file, parented off BaseWorkableMetal. Don't re-use or touch upstream metals (e.g. IngotSilver, IngotGold etc).
 - type: entity
   abstract: true
   parent: BaseItem

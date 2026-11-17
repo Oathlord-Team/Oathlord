@@ -1,4 +1,4 @@
-﻿using System.Linq;
+using System.Linq;
 using Content.Client.UserInterface.Controls;
 using Content.Oathlord.Shared.Economy.Components;
 using Content.Oathlord.Shared.Economy.Systems;
@@ -73,4 +73,3 @@ public sealed partial class EconomyLoanWindow : FancyWindow
         }
     }
 }
-

@@ -55,4 +55,3 @@ sealed partial class SalvageRulerCommand : LocalizedEntityCommands
         shell.WriteLine(total.ToString());
     }
 }
-

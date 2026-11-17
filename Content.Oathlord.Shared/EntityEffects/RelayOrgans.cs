@@ -1,4 +1,4 @@
-﻿using Content.Shared.Body;
+using Content.Shared.Body;
 using Content.Shared.EntityEffects;
 using Content.Shared.Whitelist;
 

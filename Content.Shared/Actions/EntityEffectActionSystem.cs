@@ -15,7 +15,7 @@ public sealed partial class EntityEffectActionSystem : EntitySystem
     {
         if (ent.Comp.Effects == null)
             return;
-        
+
         // we trigger the actions on the user
         if (_effects.TryApplyEffects(args.Performer, ent.Comp.Effects, user: args.Performer))
             args.Handled = true;
@@ -29,6 +29,6 @@ public sealed partial class EntityEffectActionSystem : EntitySystem
 
         if (_effects.TryApplyEffects(args.Target, ent.Comp.Effects, user: args.Performer))
             args.Handled = true;
-        
+
     }
 }

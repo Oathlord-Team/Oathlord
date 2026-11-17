@@ -1,4 +1,4 @@
-﻿using Content.Shared.EntityEffects;
+using Content.Shared.EntityEffects;
 using Content.Shared.Movement.Components;
 using Content.Shared.Movement.Systems;
 using Content.Shared.Storage.EntitySystems;

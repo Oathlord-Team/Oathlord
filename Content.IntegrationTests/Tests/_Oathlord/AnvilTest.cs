@@ -1,4 +1,4 @@
-﻿using System.Linq;
+using System.Linq;
 using Content.IntegrationTests.Fixtures.Attributes;
 using Content.IntegrationTests.Tests.Interaction;
 using Content.Oathlord.Shared.Blacksmith.Anvil;

@@ -57,7 +57,7 @@ public partial record struct BorgHand
     public Hand Hand = new();
 
     /// <summary>
-    /// Allows hand to act like normal universal humanoid hand. Pick up and put down items. 
+    /// Allows hand to act like normal universal humanoid hand. Pick up and put down items.
     /// </summary>
     [DataField]
     public bool ForceRemovable = false;

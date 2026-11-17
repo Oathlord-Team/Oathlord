@@ -1,4 +1,4 @@
-﻿namespace Content.Shared.EntityEffects.Effects.Damage;
+namespace Content.Shared.EntityEffects.Effects.Damage;
 
 public sealed partial class StaminaDamage
 {

@@ -14,4 +14,3 @@ round-end-summary-window-player-manifest-tab-sort-player = Player
 round-end-summary-window-player-manifest-tab-sort-player-type-antag = Antagonist
 round-end-summary-window-player-manifest-tab-sort-player-type-crew = Crew
 round-end-summary-window-player-manifest-tab-sort-player-type-observer = Observer
-

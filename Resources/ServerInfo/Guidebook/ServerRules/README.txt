@@ -1,4 +1,4 @@
-﻿These files contain Wizard's Den server rules. Since they reference Wizard's Den, they should not be used
+These files contain Wizard's Den server rules. Since they reference Wizard's Den, they should not be used
 by other servers without at least enough modification to not mislead players into thinking that they are
 playing on Wizard's Den.
 

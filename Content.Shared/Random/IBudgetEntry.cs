@@ -19,4 +19,3 @@ public interface IProbEntry
 {
     float Prob { get; set; }
 }
-

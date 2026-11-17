@@ -1,4 +1,4 @@
-﻿$replacements = @{
+$replacements = @{
     "moonheart08" = "moony"
     "Elijahrane" = "Rane"
     "ZeroDayDaemon" = "Daemon"

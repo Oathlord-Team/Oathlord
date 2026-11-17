@@ -1,4 +1,4 @@
-﻿using Content.Oathlord.Shared.Blacksmith.Anvil;
+using Content.Oathlord.Shared.Blacksmith.Anvil;
 using Content.Shared.EntityEffects;
 using Content.Shared.Hands;
 

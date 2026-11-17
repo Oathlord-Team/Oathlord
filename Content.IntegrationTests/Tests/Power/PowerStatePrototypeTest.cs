@@ -38,7 +38,7 @@ public sealed class PowerStatePrototypeTest : GameTest
                     Assert.Fail(
                         $"Entity prototype '{prototype.ID}' has a PowerStateComponent but is missing the required ApcPowerReceiverComponent.");
                 }
-                
+
                 var expectedLoad = powerStateComp.IsWorking
                     ? powerStateComp.WorkingPowerDraw
                     : powerStateComp.IdlePowerDraw;

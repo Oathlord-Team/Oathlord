@@ -1,4 +1,4 @@
-﻿<controls:FancyWindow
+<controls:FancyWindow
     xmlns="https://spacestation14.io"
     xmlns:graphics="using:Robust.Client.Graphics"
     xmlns:controls="using:Content.Client.UserInterface.Controls"

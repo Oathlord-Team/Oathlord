@@ -43,4 +43,3 @@ public sealed partial class BarSignBoundUserInterface(EntityUid owner, Enum uiKe
     }
 
 }
-

@@ -70,4 +70,3 @@ public partial record struct OrganProfileData
     [DataField]
     public Color SkinColor = Color.White;
 }
-

@@ -1,4 +1,4 @@
-﻿uniform sampler2D SCREEN_TEXTURE;
+uniform sampler2D SCREEN_TEXTURE;
 uniform highp float boozePower;
 // How fast to do the rotating motion.
 // 1 for normal effect.

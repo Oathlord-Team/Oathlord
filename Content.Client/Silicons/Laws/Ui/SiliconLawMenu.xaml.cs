@@ -61,7 +61,7 @@ public sealed partial class SiliconLawMenu : FancyWindow
         LawAnnounceButton.Disabled = curTime < _nextAllowedAnnouncePress;
         // Don't want to change the channel while currently announcing laws
         LawChatChannelOption.Disabled = curTime < _nextAllowedAnnouncePress;
-        
+
         // Announce laws
         // Skip if no queued laws or delay still active
         if (_queuedLaws.Count < 1 || _queuedLaws.Peek().announceTime > curTime)

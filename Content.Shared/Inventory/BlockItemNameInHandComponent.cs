@@ -8,4 +8,3 @@ namespace Content.Shared.Inventory;
 /// </summary>
 [RegisterComponent, NetworkedComponent]
 public sealed partial class BlockItemNameInHandComponent : Component;
-

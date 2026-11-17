@@ -382,7 +382,7 @@
     localizedLabel: reagent-name-tequila
   - type: Sprite
     sprite: Objects/Consumable/Drinks/tequillabottle.rsi
-    
+
 - type: entity
   parent: DrinkBottleTequila
   id: DrinkTequilaBottleFull

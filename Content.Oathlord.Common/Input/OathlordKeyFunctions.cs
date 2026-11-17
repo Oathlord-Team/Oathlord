@@ -1,4 +1,4 @@
-﻿using Robust.Shared.Input;
+using Robust.Shared.Input;
 
 namespace Content.Oathlord.Common.Input;
 

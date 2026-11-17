@@ -11,4 +11,3 @@ public interface ISwitchButtonConfig
     public ResPath SwitchButtonSymbolOffPath { get; }
     public ResPath SwitchButtonSymbolOnPath { get; }
 }
-

@@ -93,4 +93,3 @@ public sealed partial class VentriloquistPuppetSystem : SharedVentriloquistPuppe
         RemComp<GhostTakeoverAvailableComponent>(ent);
     }
 }
-

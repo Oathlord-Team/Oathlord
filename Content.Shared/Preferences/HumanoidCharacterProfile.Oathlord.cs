@@ -1,4 +1,4 @@
-﻿using Content.Oathlord.Common.Oaths;
+using Content.Oathlord.Common.Oaths;
 using Content.Shared.Humanoid;
 using Robust.Shared.Prototypes;
 

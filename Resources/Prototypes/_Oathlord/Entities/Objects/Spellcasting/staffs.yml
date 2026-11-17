@@ -1,4 +1,4 @@
-﻿# A staff that can only cast dumb spells
+# A staff that can only cast dumb spells
 - type: entity
   parent: BaseItem
   id: BasicSpellStaff

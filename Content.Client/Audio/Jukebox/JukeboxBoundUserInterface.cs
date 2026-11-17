@@ -98,4 +98,3 @@ public sealed partial class JukeboxBoundUserInterface : BoundUserInterface
         SendMessage(new JukeboxSetTimeMessage(sentTime));
     }
 }
-

@@ -1,4 +1,4 @@
-﻿<Control xmlns="https://spacestation14.io"
+<Control xmlns="https://spacestation14.io"
          MinHeight="100">
     <PanelContainer StyleClasses="BackgroundPanel" ModulateSelfOverride="#2b2b31"/>
     <BoxContainer Orientation="Vertical">

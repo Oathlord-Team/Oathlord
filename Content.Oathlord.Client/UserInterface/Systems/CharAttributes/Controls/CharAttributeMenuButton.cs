@@ -15,4 +15,3 @@ public sealed partial class CharAttributeMenuButton : MenuButton
         RobustXamlLoader.Load(this);
     }
 }
-

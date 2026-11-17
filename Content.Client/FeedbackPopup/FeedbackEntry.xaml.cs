@@ -51,4 +51,3 @@ public sealed partial class FeedbackEntry : Control
         DescriptionLabel.InvalidateArrange();
     }
 }
-

@@ -1,4 +1,4 @@
-﻿using Content.IntegrationTests.Fixtures.Attributes;
+using Content.IntegrationTests.Fixtures.Attributes;
 using Content.IntegrationTests.Tests.Interaction;
 using Content.Oathlord.Shared.Spellcasting.Components;
 using Content.Oathlord.Shared.Spellcasting.Systems;

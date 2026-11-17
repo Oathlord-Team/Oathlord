@@ -195,4 +195,3 @@
             min: 20
           - !type:RoundDurationCondition
             min: 2700 # 45 minutes
-

@@ -127,5 +127,3 @@ public sealed partial class XATInteractWithSystem : BaseXATSystem<XATInteractWit
         Dirty(ent);
     }
 }
-
-

@@ -20,7 +20,7 @@ public sealed partial class XenoArtifactCommand : ToolshedCommand
     [Dependency] private IPrototypeManager _prototypeManager = default!;
 
     private XenoArtifactSystem? _artifact;
-    
+
     public static readonly EntProtoId ArtifactPrototype = "ComplexXenoArtifactItem";
 
     /// <summary> List existing artifacts. </summary>

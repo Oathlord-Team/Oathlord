@@ -4,7 +4,7 @@
     Orientation="Horizontal"
     HorizontalExpand="True"
     >
-    
+
     <TextureButton
         Name="LockButton"
         StyleIdentifier="RandomizerLockButton"

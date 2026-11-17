@@ -55,4 +55,3 @@ maskseed = 8398
 # Colour-to-alpha.
 [[layers]]
 type = "toalpha"
-

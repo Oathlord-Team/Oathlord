@@ -1,4 +1,4 @@
-﻿<roleBans:RoleBanListControl
+<roleBans:RoleBanListControl
     xmlns="https://spacestation14.io"
     xmlns:roleBans="clr-namespace:Content.Client.Administration.UI.BanList.RoleBans">
     <PanelContainer StyleClasses="BackgroundDark">

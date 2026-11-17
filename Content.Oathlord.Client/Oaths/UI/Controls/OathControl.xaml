@@ -1,4 +1,4 @@
-﻿<Control xmlns="https://spacestation14.io"
+<Control xmlns="https://spacestation14.io"
          xmlns:graphics="using:Robust.Client.Graphics">
     <BoxContainer Orientation="Vertical">
         <PanelContainer Name="OathPanel" MinSize="64 64">

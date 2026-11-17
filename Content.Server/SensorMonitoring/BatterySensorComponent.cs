@@ -13,4 +13,3 @@ namespace Content.Server.SensorMonitoring;
 public sealed partial class BatterySensorComponent : Component
 {
 }
-

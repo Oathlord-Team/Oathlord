@@ -45,4 +45,3 @@ public sealed partial class SecretDataAnomalySystem : EntitySystem
         return component.Secret.Contains(item);
     }
 }
-

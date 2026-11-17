@@ -1,4 +1,4 @@
-﻿using Content.Client.Actions.UI;
+using Content.Client.Actions.UI;
 using Content.Client.Cooldown;
 using Content.Client.UserInterface;
 using Content.Shared.Actions.Components;
@@ -109,4 +109,3 @@ public sealed partial class SpellSlot : Control, IEntityControl
 
     public EntityUid? UiEntity => Spell;
 }
-

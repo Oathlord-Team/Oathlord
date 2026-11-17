@@ -22,4 +22,3 @@ public interface IGameTestPairConfigModifier
     /// <param name="settings">The settings object to modify.</param>
     void ApplyToPairSettings(GameTest test, ref PoolSettings settings);
 }
-

@@ -1,4 +1,4 @@
-﻿using Content.Oathlord.Shared.Spellcasting.Systems;
+using Content.Oathlord.Shared.Spellcasting.Systems;
 using Robust.Shared.Containers;
 using Robust.Shared.GameStates;
 using Robust.Shared.Serialization;

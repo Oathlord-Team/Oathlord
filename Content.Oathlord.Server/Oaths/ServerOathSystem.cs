@@ -1,4 +1,4 @@
-﻿using Content.Oathlord.Shared.Oaths;
+using Content.Oathlord.Shared.Oaths;
 
 namespace Content.Oathlord.Server.Oaths;
 

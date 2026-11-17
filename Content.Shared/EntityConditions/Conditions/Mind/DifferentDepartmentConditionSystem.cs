@@ -55,4 +55,3 @@ public sealed partial class DifferentDepartmentCondition : EntityConditionBase<D
         return string.Empty;
     }
 }
-

@@ -1,4 +1,4 @@
-﻿<Control
+<Control
     xmlns="https://spacestation14.io"
     xmlns:graphics="using:Robust.Client.Graphics">
     <PanelContainer Margin="8" HorizontalExpand="True" VerticalAlignment="Center">

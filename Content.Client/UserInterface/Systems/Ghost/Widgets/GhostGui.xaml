@@ -1,4 +1,4 @@
-﻿<widgets:GhostGui xmlns="https://spacestation14.io"
+<widgets:GhostGui xmlns="https://spacestation14.io"
                   xmlns:widgets="clr-namespace:Content.Client.UserInterface.Systems.Ghost.Widgets"
                   HorizontalAlignment="Center">
     <BoxContainer Orientation="Horizontal">

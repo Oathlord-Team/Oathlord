@@ -39,5 +39,3 @@ public sealed partial class MeleeSpeechWindow : DefaultWindow
         BattlecryLineEdit.IsValid = s => s.Length <= maxLength;
     }
 }
-
-

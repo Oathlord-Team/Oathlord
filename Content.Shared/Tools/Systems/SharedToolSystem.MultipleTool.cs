@@ -85,4 +85,3 @@ public abstract partial class SharedToolSystem
             multiple.CurrentQualityName = Loc.GetString(quality.Name);
     }
 }
-

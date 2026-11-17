@@ -1,4 +1,4 @@
-﻿<DefaultWindow Title="{Loc make-ghost-roles-window-title}"
+<DefaultWindow Title="{Loc make-ghost-roles-window-title}"
             xmlns="https://spacestation14.io">
 
     <BoxContainer Orientation="Vertical">

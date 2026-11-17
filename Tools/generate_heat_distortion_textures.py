@@ -7,9 +7,9 @@ import math
 def generate_noise_image(output_filename="perlin_noise.png"):
     width = 512
     height = 512
-    
+
     noise = FastNoiseLite()
-    
+
     noise.noise_type = NoiseType.NoiseType_Perlin
     noise.fractal_type = FractalType.FractalType_FBm
     noise.fractal_octaves = 4
@@ -23,7 +23,7 @@ def generate_noise_image(output_filename="perlin_noise.png"):
             value = (noise.get_noise(x, y) + 1.0) / 2.0
             color_val = int(value * 255)
             color_val = max(0, min(255, color_val))
-            
+
             pixels[x, y] = (color_val, color_val, color_val, 255)
     image.save(output_filename)
     print(f"Success! Image exported to: {output_filename}")
@@ -31,10 +31,10 @@ def generate_noise_image(output_filename="perlin_noise.png"):
 def generate_soft_circle_texture(output_filename="soft_circle.png"):
     width = 64
     height = 64
-    
+
     image = Image.new("RGBA", (width, height))
     pixels = image.load()
-    
+
     center_x = width / 2.0
     center_y = height / 2.0
     max_dist = width / 2.0

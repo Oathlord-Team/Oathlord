@@ -1,4 +1,4 @@
-﻿- type: entity
+- type: entity
   id: HammerSparksEffect
   categories: [ HideSpawnMenu ]
   components:
@@ -20,4 +20,3 @@
   - type: Tag
     tags:
     - HideContextMenu
-

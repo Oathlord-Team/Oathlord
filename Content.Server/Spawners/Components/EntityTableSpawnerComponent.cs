@@ -39,4 +39,3 @@ public sealed partial class EntityTableSpawnerComponent : Component
     [DataField]
     public bool AutoStack = false;
 }
-

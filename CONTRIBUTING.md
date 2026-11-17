@@ -29,7 +29,7 @@ Remember to test your PR again after making changes to it! Not doing so is one o
 4. If you are adding new methods, fields, etc. in upstream files make a partial class with the same filename but with `.Oathlord.cs`. If it isn't partial already, make it partial with a comment.
 5. Do not add new event handlers to upstream systems, make your own system in `Content.Oathlord.*` instead.
 6. Always use proxy methods when they are available, e.g. `TryComp` instead of `EntityManager.TryGetComponent`. This also means don't depend on `EntityManager` when you are in a `EntitySystem` or a BUI.
-7. Always use the most updated methods the engine offers. Older ways of doing things will no longer be allowed, such as using `SubscribeLocalEvent<T, TEvent>()` instead of the `[SubscribeLocalEvent]` attribute. 
+7. Always use the most updated methods the engine offers. Older ways of doing things will no longer be allowed, such as using `SubscribeLocalEvent<T, TEvent>()` instead of the `[SubscribeLocalEvent]` attribute.
 8. Default to naming conventions of upstream. E.g. server systems should be `ServerXSystem`, and shared systems should be `XSystem`. Same goes for client, `ClientXSystem`.
 
 ### Resources
@@ -193,7 +193,7 @@ This causes less conflicts with upstream for 2 reasons:
 
 ## Integration Tests
 
-Test coverage for new core systems are *mandatory*. 
+Test coverage for new core systems are *mandatory*.
 If you do not know how to write integration tests, then you can contact a maintainer to help you setup one.
 
 Tests help reduce game-breaking bugs that you may not notice at first, and help contributors who work with your systems (e.g. in yaml) to not fuck up.

@@ -1,4 +1,4 @@
-﻿<widgets:ChatBox
+<widgets:ChatBox
     xmlns="https://spacestation14.io"
     xmlns:widgets="clr-namespace:Content.Client.UserInterface.Systems.Chat.Widgets"
     xmlns:controls="clr-namespace:Content.Client.UserInterface.Systems.Chat.Controls"

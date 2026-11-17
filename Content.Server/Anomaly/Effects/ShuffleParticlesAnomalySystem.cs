@@ -35,4 +35,3 @@ public sealed partial class ShuffleParticlesAnomalySystem : EntitySystem
         }
     }
 }
-

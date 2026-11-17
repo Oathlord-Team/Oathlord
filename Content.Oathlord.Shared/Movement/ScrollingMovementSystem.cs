@@ -1,4 +1,4 @@
-﻿using Content.Shared.Movement.Systems;
+using Content.Shared.Movement.Systems;
 using Robust.Shared.Serialization;
 using Robust.Shared.Timing;
 
