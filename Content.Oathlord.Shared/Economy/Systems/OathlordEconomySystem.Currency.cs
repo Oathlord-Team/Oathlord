@@ -1,4 +1,4 @@
-using Content.Oathlord.Shared.Economy.Prototypes;
+﻿using Content.Oathlord.Shared.Economy.Prototypes;
 using Content.Shared.Stacks;
 using Robust.Shared.Prototypes;
 

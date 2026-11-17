@@ -1,4 +1,4 @@
-using Content.Oathlord.Shared.Spellcasting.Components;
+﻿using Content.Oathlord.Shared.Spellcasting.Components;
 using Content.Oathlord.Shared.Spellcasting.Prototypes;
 using Robust.Shared.Prototypes;
 

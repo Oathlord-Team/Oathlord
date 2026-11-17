@@ -30,28 +30,28 @@ public sealed class EntityTableTest : GameTest
         $"""
          - type: entity
            id: {EntProto1}
-
+         
          - type: entity
            id: {EntProto2}
-
+         
          - type: entity
            id: {EntProtoWithCost}
            components:
            - type: DynamicRuleCost
              cost: 10
-
+         
          - type: entityTable
            id: EntityTableTestEntSelector
            table: !type:EntSelector
              id: {EntProto1}
-
+         
          - type: entityTable
            id: EntityTableTestEntSelectorAmountRolls
            table: !type:EntSelector
              id: {EntProto1}
              amount: 3
              rolls: 2
-
+         
          - type: entityTable
            id: EntityTableTestAllSelector
            table: !type:AllSelector
@@ -59,11 +59,11 @@ public sealed class EntityTableTest : GameTest
              - id: {EntProto1}
              - !type:NoneSelector
              - id: {EntProto2}
-
+         
          - type: entityTable
            id: EntityTableTestNoneSelector
            table: !type:NoneSelector
-
+         
          - type: entityTable
            id: EntityTableTestNestedTable
            table: !type:GroupSelector
@@ -72,7 +72,7 @@ public sealed class EntityTableTest : GameTest
                weight: 1
              - id: {EntProto2}
                weight: 2
-
+         
          - type: entityTable
            id: EntityTableTestGroupAllFail
            table: !type:GroupSelector
@@ -81,14 +81,14 @@ public sealed class EntityTableTest : GameTest
                conditions:
                - !type:HasBudgetCondition
                  costOverride: 100
-
+         
          - type: entityTable
            id: EntityTableTestEntSelectorWithCost
            table: !type:EntSelector
              id: {EntProtoWithCost}
              conditions:
              - !type:HasBudgetCondition
-
+         
          - type: entityTable
            id: EntityTableTestEntRequireAll
            table: !type:EntSelector
@@ -99,7 +99,7 @@ public sealed class EntityTableTest : GameTest
                costOverride: 100
              - !type:HasBudgetCondition
                costOverride: 0
-
+         
          - type: entityTable
            id: EntityTableTestEntRequireAny
            table: !type:EntSelector
@@ -110,7 +110,7 @@ public sealed class EntityTableTest : GameTest
                costOverride: 100
              - !type:HasBudgetCondition
                costOverride: 0
-
+         
          - type: entityTable
            id: EntityTableTestEntRequireAnyAllFail
            table: !type:EntSelector
@@ -121,7 +121,7 @@ public sealed class EntityTableTest : GameTest
                costOverride: 100
              - !type:HasBudgetCondition
                costOverride: 200
-
+         
          - type: entityTable
            id: EntityTableTestDeepComposition
            table: !type:AllSelector
@@ -136,19 +136,19 @@ public sealed class EntityTableTest : GameTest
                - id: {EntProto2}
                  weight: 2
              - id: {EntProto1}
-
+         
          - type: entityTable
            id: EntityTableTestChainTable
            table: !type:NestedSelector
              tableId: EntityTableTestNestedTable
-
+         
          - type: entityTable
            id: EntityTableTestNotRepeating
            table: !type:EntSelector
              id: {EntProto1}
              conditions:
              - !type:ExcludeEntitiesFromContextCondition
-
+         
          - type: entityTable
            id: EntityTableTestAllNotRepeating
            table: !type:AllSelector
@@ -157,26 +157,26 @@ public sealed class EntityTableTest : GameTest
              children:
              - id: {EntProto1}
              - id: {EntProto2}
-
+         
          - type: entityTable
            id: EntityTableTestChainNotRepeating
            table: !type:NestedSelector
              tableId: EntityTableTestNestedTable
              conditionsForChildren:
              - !type:ExcludeEntitiesFromContextCondition
-
+         
          - type: entityTable
            id: EntityTableTestNestedTableWithCost
            table: !type:EntSelector
              id: {EntProtoWithCost}
              conditions:
              - !type:HasBudgetCondition
-
+         
          - type: entityTable
            id: EntityTableTestChainTableWithCost
            table: !type:NestedSelector
              tableId: EntityTableTestNestedTableWithCost
-
+         
          - type: entityTable
            id: EntityTableTestGroupWithCostlyNested
            table: !type:GroupSelector
@@ -186,7 +186,7 @@ public sealed class EntityTableTest : GameTest
                weight: 1
              - id: {EntProto2}
                weight: 1
-
+               
          - type: entityTable
            id: EntityTableTestLocalizedChildConditions
            table: !type:AllSelector

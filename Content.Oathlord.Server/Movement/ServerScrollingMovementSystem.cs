@@ -1,4 +1,4 @@
-using Content.Oathlord.Shared.Movement;
+﻿using Content.Oathlord.Shared.Movement;
 
 namespace Content.Oathlord.Server.Movement;
 

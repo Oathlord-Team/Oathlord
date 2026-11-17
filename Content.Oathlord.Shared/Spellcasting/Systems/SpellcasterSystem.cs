@@ -1,4 +1,4 @@
-using Content.Oathlord.Shared.Spellcasting.Components;
+﻿using Content.Oathlord.Shared.Spellcasting.Components;
 
 namespace Content.Oathlord.Shared.Spellcasting.Systems;
 

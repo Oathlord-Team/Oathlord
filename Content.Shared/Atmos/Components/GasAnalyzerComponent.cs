@@ -103,3 +103,4 @@ public enum GasAnalyzerVisuals : byte
 {
     Enabled,
 }
+

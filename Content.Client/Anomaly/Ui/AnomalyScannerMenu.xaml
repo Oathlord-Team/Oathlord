@@ -8,3 +8,5 @@
         <RichTextLabel Name="TextDisplay"></RichTextLabel>
     </BoxContainer>
 </controls:FancyWindow>
+
+

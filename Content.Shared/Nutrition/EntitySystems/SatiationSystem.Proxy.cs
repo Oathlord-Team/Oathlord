@@ -299,7 +299,7 @@ public abstract partial class SatiationSystem
         satiation.SatiationType = type;
 
         entity.Comp.Satiations.TryAdd(type, satiation);
-
+        
         var rand = SharedRandomExtensions.PredictedRandom(_timing, GetNetEntity(entity));
         var value = rand.NextFloat(proto.StartingValueMinimum, proto.StartingValueMaximum);
 

@@ -60,3 +60,4 @@ public sealed partial class SpaceHeaterWindow : FancyWindow
         DecreaseTempRange.Disabled = targetTemperature - TemperatureChangeDelta < MinTemp;
     }
 }
+

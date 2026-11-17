@@ -37,3 +37,4 @@ public sealed class PanelScrewing : InteractionTest
         Assert.That(comp.Open, Is.False);
     }
 }
+

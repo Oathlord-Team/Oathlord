@@ -76,3 +76,4 @@ public sealed partial class ShuttleComponent : Component
     [DataField]
     public TimeSpan? FTLCooldownOverride = null;
 }
+

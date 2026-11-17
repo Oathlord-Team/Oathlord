@@ -1,4 +1,4 @@
-# Here we store all spell types.
+﻿# Here we store all spell types.
 #
 # A spell type defines in which category a spell belongs to.
 # Usually, a item with SpellcasterComponent must meet the spell types of a spell in order to cast it

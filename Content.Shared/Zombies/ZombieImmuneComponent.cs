@@ -10,3 +10,4 @@ public sealed partial class ZombieImmuneComponent : Component
 {
     //still no
 }
+

@@ -28,3 +28,4 @@ public sealed partial class StethoscopeComponent : Component
     [DataField]
     public EntityUid? ActionEntity;
 }
+

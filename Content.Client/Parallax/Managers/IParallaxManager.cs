@@ -28,3 +28,4 @@ public interface IParallaxManager
 
     void UnloadParallax(string name);
 }
+

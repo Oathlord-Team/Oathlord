@@ -7,3 +7,4 @@ namespace Content.Shared.IgnitionSource.Components;
 /// </summary>
 [RegisterComponent, NetworkedComponent]
 public sealed partial class MatchboxComponent : Component;
+

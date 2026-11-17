@@ -25,3 +25,4 @@
     tasks:
       - !type:HTNCompoundTask
         task: SimpleHostileCompound
+

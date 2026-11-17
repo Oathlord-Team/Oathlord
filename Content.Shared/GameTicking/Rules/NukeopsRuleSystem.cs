@@ -1,4 +1,4 @@
-using Content.Shared.Antag;
+﻿using Content.Shared.Antag;
 using Content.Shared.GameTicking.Components;
 using Content.Shared.GameTicking.Rules.Components;
 using Content.Shared.NPC.Components;
@@ -85,3 +85,4 @@ public readonly struct NukeopsTargetStationSelectedEvent(EntityUid ruleEntity, E
     /// </summary>
     public readonly EntityUid? TargetStation = targetStation;
 }
+

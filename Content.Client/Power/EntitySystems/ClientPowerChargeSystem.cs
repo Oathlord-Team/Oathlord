@@ -1,4 +1,4 @@
-using Content.Shared.Power.EntitySystems;
+﻿using Content.Shared.Power.EntitySystems;
 
 namespace Content.Client.Power.EntitySystems;
 

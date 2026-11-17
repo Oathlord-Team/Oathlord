@@ -1,4 +1,4 @@
-using Content.Client.Lobby.UI;
+﻿using Content.Client.Lobby.UI;
 
 namespace Content.Client.Lobby;
 

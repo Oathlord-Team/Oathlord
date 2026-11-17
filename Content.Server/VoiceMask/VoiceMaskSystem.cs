@@ -290,3 +290,4 @@ public sealed partial class VoiceMaskSystem : EntitySystem
     }
     #endregion
 }
+

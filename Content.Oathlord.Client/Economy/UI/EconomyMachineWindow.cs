@@ -1,4 +1,4 @@
-using Content.Client.UserInterface.Controls;
+﻿using Content.Client.UserInterface.Controls;
 using Content.Oathlord.Shared.Economy.Components;
 using Content.Oathlord.Shared.Economy.Prototypes;
 using Content.Oathlord.Shared.Economy.Systems;
@@ -201,3 +201,4 @@ public sealed partial class EconomyMachineWindow : FancyWindow
         return type == EconomyTransaction.Deposit ? "Deposit" : "Withdraw";
     }
 }
+

@@ -91,3 +91,4 @@ public sealed class WhisperCreatedEvent(EntityUid speaker, string message, float
     public float MinRange = minRange;
     public float MaxRange = maxRange;
 }
+

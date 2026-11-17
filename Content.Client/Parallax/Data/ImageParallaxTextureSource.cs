@@ -24,3 +24,4 @@ public sealed partial class ImageParallaxTextureSource : IParallaxTextureSource
         return Task.FromResult(StaticIoC.ResC.GetTexture(Path));
     }
 }
+

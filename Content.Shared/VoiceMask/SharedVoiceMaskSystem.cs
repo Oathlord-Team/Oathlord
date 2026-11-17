@@ -68,14 +68,14 @@ public sealed class VoiceMaskAccentToggleMessage : BoundUserInterfaceMessage;
 /// <summary>
 ///  Fired when a voice mask is turned on.
 /// </summary>
-/// <param name=="Mask">The voice mask that was turned on</param>
-/// <param name=="Source">The entity that owns the voice mask</param>
-/// <param name=="Active">The new value of the voice mask</param>
+/// <param name=="Mask">The voice mask that was turned on</param> 
+/// <param name=="Source">The entity that owns the voice mask</param> 
+/// <param name=="Active">The new value of the voice mask</param> 
 public sealed class VoiceMaskToggledEvent(EntityUid mask, EntityUid source, bool active) : IInventoryRelayEvent
 {
     public EntityUid Mask = mask;
     public EntityUid Source = source;
-
+    
     public bool Active = active;
 
     SlotFlags IInventoryRelayEvent.TargetSlots => SlotFlags.WITHOUT_POCKET;

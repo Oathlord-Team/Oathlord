@@ -70,3 +70,4 @@ public sealed partial class StunOnCollideComponent : Component
     [DataField]
     public EntityWhitelist Blacklist = new();
 }
+

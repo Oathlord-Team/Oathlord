@@ -1,4 +1,4 @@
-# Put all hammers in this file.
+﻿# Put all hammers in this file.
 # Hammers don't have any functionality now other than restricting you from using the anvil, but will get more later as blacksmithing develops.
 - type: entity
   abstract: true

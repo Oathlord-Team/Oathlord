@@ -286,3 +286,4 @@ public sealed partial class AmbientOcclusionOverlay : Overlay
         }
     }
 }
+

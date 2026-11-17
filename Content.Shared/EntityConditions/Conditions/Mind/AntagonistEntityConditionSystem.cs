@@ -24,3 +24,4 @@ public sealed partial class AntagonistCondition : EntityConditionBase<Antagonist
         return String.Empty;
     }
 }
+

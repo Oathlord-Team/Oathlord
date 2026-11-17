@@ -77,3 +77,4 @@ public sealed partial class VoiceMaskComponent : Component
     [DataField]
     public LocId TitleText = "voice-mask-name-change-window";
 }
+

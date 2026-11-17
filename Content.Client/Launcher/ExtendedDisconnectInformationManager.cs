@@ -42,3 +42,4 @@ public sealed partial class ExtendedDisconnectInformationManager
         LastNetDisconnectedArgs = args;
     }
 }
+

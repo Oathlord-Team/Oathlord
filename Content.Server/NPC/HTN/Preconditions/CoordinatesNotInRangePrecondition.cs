@@ -27,3 +27,4 @@ public sealed partial class CoordinatesNotInRangePrecondition : HTNPrecondition
         return !_transformSystem.InRange(coordinates, target, blackboard.GetValueOrDefault<float>(RangeKey, _entManager));
     }
 }
+

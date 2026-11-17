@@ -32,3 +32,4 @@ public sealed class ShuttleTimerMasks
     public static readonly string Bye = Loc.GetString("shuttle-timer-bye");
     public static readonly string Kill = Loc.GetString("shuttle-timer-kill");
 }
+

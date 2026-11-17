@@ -1,4 +1,4 @@
-using Content.Shared.EntityEffects;
+﻿using Content.Shared.EntityEffects;
 using Robust.Shared.Audio;
 using Robust.Shared.Audio.Systems;
 
@@ -48,3 +48,4 @@ public sealed partial class PlaySoundEffectSystem : EntityEffectSystem<Transform
             _audio.PlayPvs(sound, entity);
     }
 }
+

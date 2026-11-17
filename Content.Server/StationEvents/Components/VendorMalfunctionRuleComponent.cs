@@ -25,7 +25,7 @@ public sealed partial class VendorMalfunctionRuleComponent : Component
     /// <summary>
     /// Chance of the 'contraband' inventory of the vending machine being enabled.
     /// </summary>
-    [DataField]
+    [DataField] 
     public float ContrabandChance = 0.5f;
 
     /// <summary>

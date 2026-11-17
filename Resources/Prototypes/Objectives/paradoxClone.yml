@@ -37,3 +37,4 @@
     requireDead: true
   - type: TargetObjective
     title: objective-condition-kill-head-title # kill <name>, <job>
+

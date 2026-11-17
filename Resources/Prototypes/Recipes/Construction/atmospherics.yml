@@ -179,7 +179,7 @@
   id: !type:CreateVariants
     values: [ GasVentScrubber, GasVentScrubberAlt1, GasVentScrubberAlt2 ]
   hide: !type:CreateVariants
-    values: [ false, true, true ]
+    values: [ false, true, true ]  
   graph: !type:CreateVariants
     values: [ GasUnary, GasUnaryAlt1, GasUnaryAlt2 ]
   targetNode: ventscrubber

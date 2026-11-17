@@ -162,3 +162,4 @@ public sealed partial class ParallaxManager : IParallaxManager
         return prepared;
     }
 }
+

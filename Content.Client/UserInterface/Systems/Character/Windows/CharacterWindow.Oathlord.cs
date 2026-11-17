@@ -1,4 +1,4 @@
-namespace Content.Client.UserInterface.Systems.Character.Windows;
+﻿namespace Content.Client.UserInterface.Systems.Character.Windows;
 
 public partial class CharacterWindow
 {

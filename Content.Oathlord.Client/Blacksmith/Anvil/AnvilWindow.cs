@@ -1,4 +1,4 @@
-using System.Linq;
+﻿using System.Linq;
 using Content.Client.UserInterface.Controls;
 using Content.Oathlord.Shared.Blacksmith.Anvil;
 using Content.Oathlord.Shared.Blacksmith.Anvil.Prototypes;
@@ -186,3 +186,4 @@ public sealed partial class AnvilWindow : FancyWindow
         DoHit?.Invoke(number);
     }
 }
+

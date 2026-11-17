@@ -18,3 +18,4 @@ public sealed partial class MappingDoNotMeasure : Control
         return Vector2.Zero;
     }
 }
+

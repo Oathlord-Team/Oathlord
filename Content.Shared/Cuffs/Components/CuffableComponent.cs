@@ -63,3 +63,4 @@ public sealed class CuffableComponentState : ComponentState
 
 [ByRefEvent]
 public readonly record struct CuffedStateChangeEvent;
+

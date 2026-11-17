@@ -83,3 +83,4 @@ public sealed partial class AnomalyGeneratorWindow : FancyWindow
         UpdateTimer();
     }
 }
+

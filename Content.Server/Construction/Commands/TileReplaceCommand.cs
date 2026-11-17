@@ -85,3 +85,4 @@ public sealed partial class TileReplaceCommand : IConsoleCommand
         shell.WriteLine($"Changed {changed} tiles.");
     }
 }
+

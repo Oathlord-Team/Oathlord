@@ -1,4 +1,4 @@
-# All mobs take these movement debuffs when sprinting
+﻿# All mobs take these movement debuffs when sprinting
 - type: entityEffect
   id: BaseMobMoveEffects
   effects:

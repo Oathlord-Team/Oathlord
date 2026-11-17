@@ -92,3 +92,4 @@ public sealed partial class TryStandDoAfterEvent : SimpleDoAfterEvent;
 /// </summary>
 [Serializable, NetSerializable]
 public sealed class ForceStandUpEvent : EntityEventArgs;
+

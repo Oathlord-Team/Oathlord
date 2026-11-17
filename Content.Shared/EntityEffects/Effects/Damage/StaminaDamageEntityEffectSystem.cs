@@ -1,4 +1,4 @@
-using Content.Shared.Damage.Components;
+﻿using Content.Shared.Damage.Components;
 using Content.Shared.Damage.Systems;
 
 namespace Content.Shared.EntityEffects.Effects.Damage;
@@ -26,3 +26,4 @@ public sealed partial class StaminaDamage : EntityEffectBase<StaminaDamage>
     [DataField(required: true)]
     public float Damage;
 }
+

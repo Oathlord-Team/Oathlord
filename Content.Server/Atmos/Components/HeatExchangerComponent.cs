@@ -33,3 +33,4 @@ public sealed partial class HeatExchangerComponent : Component
     [DataField("radiationCoefficient")]
     public float alpha { get; set; } = 140f;
 }
+

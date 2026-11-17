@@ -38,7 +38,7 @@ public abstract partial class EntityTableSelectorWithChildrenBase : EntityTableS
 /// <summary>
 /// Base type for entity table selector that can apply list of additional entity table conditions upon
 /// nested entity table selectors.
-/// When making type, derived from this one, please remember to use <see cref="ScopedConditions"/> in your implementation of
+/// When making type, derived from this one, please remember to use <see cref="ScopedConditions"/> in your implementation of 
 /// <see cref="EntityTableSelector.GetSpawnsImplementation"/>, and inside <see cref="EntityTableSelector.CheckConditions"/>
 /// (if you override it).
 /// </summary>

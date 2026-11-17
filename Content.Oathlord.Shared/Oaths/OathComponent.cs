@@ -1,4 +1,4 @@
-using Content.Oathlord.Common.Oaths;
+﻿using Content.Oathlord.Common.Oaths;
 using Robust.Shared.GameStates;
 using Robust.Shared.Prototypes;
 

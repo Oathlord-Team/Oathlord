@@ -26,3 +26,4 @@ internal sealed partial class MappingClientSideSetupCommand : LocalizedEntityCom
         _actionSystem.LoadActionAssignments("/mapping_actions.yml", false);
     }
 }
+

@@ -11,3 +11,4 @@ public sealed partial class IdBindComponent : Component
     [DataField]
     public bool BindPDAOwner = true;
 }
+

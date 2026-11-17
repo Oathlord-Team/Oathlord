@@ -43,3 +43,4 @@ public sealed class MagicMirrorBoundUserInterface : BoundUserInterface
         _markingsModel.Markings = data.AppliedMarkings;
     }
 }
+

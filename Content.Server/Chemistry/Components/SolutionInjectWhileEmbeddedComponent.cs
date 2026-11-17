@@ -14,10 +14,11 @@ public sealed partial class SolutionInjectWhileEmbeddedComponent : BaseSolutionI
         ///</summary>
         [DataField(customTypeSerializer: typeof(TimeOffsetSerializer)), AutoPausedField]
         public TimeSpan NextUpdate;
-
+        
         ///<summary>
         ///The delay between each injection in seconds.
         ///</summary>
         [DataField]
         public TimeSpan UpdateInterval = TimeSpan.FromSeconds(3);
 }
+

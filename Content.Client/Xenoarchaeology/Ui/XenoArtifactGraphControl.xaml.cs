@@ -205,3 +205,4 @@ public sealed partial class XenoArtifactGraphControl : BoxContainer
         return (NodeDiameter * num) + MinXSpacing * (num - 1);
     }
 }
+

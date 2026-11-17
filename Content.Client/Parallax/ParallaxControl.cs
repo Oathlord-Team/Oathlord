@@ -92,3 +92,4 @@ public sealed partial class ParallaxControl : Control
         }
     }
 }
+

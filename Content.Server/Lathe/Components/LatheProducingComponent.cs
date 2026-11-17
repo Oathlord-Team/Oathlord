@@ -18,3 +18,4 @@ public sealed partial class LatheProducingComponent : Component
     [ViewVariables(VVAccess.ReadWrite)]
     public TimeSpan ProductionLength;
 }
+

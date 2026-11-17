@@ -56,7 +56,7 @@
             Text="{Loc 'shuttle-console-iff-toggle'}"
             TextAlign="Center"
             ToggleMode="True"/>
-
+        
         <controls:StripeBack MinSize="48 48">
             <Label Text="{Loc 'shuttle-console-nav-legend'}"
                 VerticalExpand="True"

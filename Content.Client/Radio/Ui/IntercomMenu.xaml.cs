@@ -68,3 +68,4 @@ public sealed partial class IntercomMenu : FancyWindow
         };
     }
 }
+

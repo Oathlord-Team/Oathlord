@@ -15,3 +15,4 @@ public sealed partial class DamageOnHitComponent : Component
     [ViewVariables(VVAccess.ReadWrite)]
     public DamageSpecifier Damage = default!;
 }
+

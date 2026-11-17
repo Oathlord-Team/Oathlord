@@ -49,3 +49,4 @@ public enum ArtifactAnalyzerUiKey : byte
 
 [Serializable, NetSerializable]
 public sealed class AnalysisConsoleExtractButtonPressedMessage : BoundUserInterfaceMessage;
+

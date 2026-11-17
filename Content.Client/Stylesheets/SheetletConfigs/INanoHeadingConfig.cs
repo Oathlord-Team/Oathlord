@@ -6,3 +6,4 @@ public interface INanoHeadingConfig : ISheetletConfig
 {
     public ResPath NanoHeadingPath { get;  }
 }
+

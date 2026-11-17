@@ -521,7 +521,7 @@
       ports:
         - Pressurize
         - Depressurize
-
+      
     - type: Construction
       graph: !type:CreateVariants
         values: [ GasBinary, GasBinaryAlt1, GasBinaryAlt2 ]

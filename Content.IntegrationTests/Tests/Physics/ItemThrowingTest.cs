@@ -108,3 +108,4 @@ public sealed class ItemThrowingTest : InteractionTest
         AssertDeleted(pen);
     }
 }
+

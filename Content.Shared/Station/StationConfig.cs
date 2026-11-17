@@ -14,3 +14,4 @@ public sealed partial class StationConfig
     [DataField("components", required: true)]
     public ComponentRegistry StationComponentOverrides = default!;
 }
+

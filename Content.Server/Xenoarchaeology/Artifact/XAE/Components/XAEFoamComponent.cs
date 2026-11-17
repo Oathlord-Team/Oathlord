@@ -53,3 +53,4 @@ public sealed partial class XAEFoamComponent : Component
     [DataField]
     public bool ReplaceDescription;
 }
+

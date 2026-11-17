@@ -44,3 +44,4 @@ public sealed partial class JitterOnTriggerComponent : BaseXOnTriggerComponent
     [DataField, AutoNetworkedField]
     public bool ForceValueChange;
 }
+

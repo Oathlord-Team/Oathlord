@@ -83,3 +83,4 @@ public sealed class UserInteractUsingEvent : HandledEntityEventArgs
         ClickLocation = clickLocation;
     }
 }
+

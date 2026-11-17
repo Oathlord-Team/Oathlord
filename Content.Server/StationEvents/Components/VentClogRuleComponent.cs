@@ -19,7 +19,7 @@ public sealed partial class VentClogRuleComponent : Component
     /// </summary>
     [DataField]
     public float AnyReagentChance = 0.05f;
-
+    
     /// <summary>
     /// Somewhat safe chemicals to put in foam that probably won't instantly kill you.
     /// There is a small chance of using any reagent, ignoring this (see <see cref="AnyReagentChance"/>).

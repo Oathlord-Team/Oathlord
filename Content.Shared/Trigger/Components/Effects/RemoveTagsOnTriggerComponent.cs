@@ -17,3 +17,4 @@ public sealed partial class RemoveTagsOnTriggerComponent : BaseXOnTriggerCompone
     [DataField, AutoNetworkedField]
     public List<ProtoId<TagPrototype>> Tags = new();
 }
+

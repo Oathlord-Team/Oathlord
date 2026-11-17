@@ -18,7 +18,7 @@
     values: [ GasVentPumpFreezer, GasVentPumpFreezerAlt1, GasVentPumpFreezerAlt2 ]
   categories: !type:CreateVariants
     sequences: [ [ ], [ HideSpawnMenu ], [ HideSpawnMenu ] ]
-
+    
 - type: entity
   parent: !type:CreateVariants
     sequences: [ [AirSensorFreezerBase, GasVentScrubber], [AirSensorFreezerBase, GasVentScrubberAlt1], [AirSensorFreezerBase, GasVentScrubberAlt2] ]

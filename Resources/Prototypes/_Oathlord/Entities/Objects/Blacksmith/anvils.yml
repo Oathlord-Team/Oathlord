@@ -1,4 +1,4 @@
-# Put all anvils in this file.
+﻿# Put all anvils in this file.
 #
 # An anvil is a structure machine that takes in metals, and outputs parts based off those metals.
 # It does not, however, work like a lathe. Instead, it has a minigame.description:

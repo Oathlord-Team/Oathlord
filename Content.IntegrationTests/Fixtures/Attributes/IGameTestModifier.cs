@@ -17,3 +17,4 @@ public interface IGameTestModifier
     /// <returns>Async task to await.</returns>
     Task ApplyToTest(GameTest test);
 }
+

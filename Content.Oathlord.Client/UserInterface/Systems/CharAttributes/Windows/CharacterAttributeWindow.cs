@@ -101,3 +101,4 @@ public sealed partial class CharacterAttributeWindow : FancyWindow
         ApplyChanges?.Invoke(_changedAttributes);
     }
 }
+

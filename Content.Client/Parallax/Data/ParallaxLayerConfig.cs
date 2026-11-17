@@ -67,3 +67,4 @@ public sealed partial class ParallaxLayerConfig
 
     [DataField("shader")] public string? Shader = "unshaded";
 }
+

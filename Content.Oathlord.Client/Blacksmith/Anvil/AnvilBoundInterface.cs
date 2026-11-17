@@ -1,4 +1,4 @@
-using Content.Oathlord.Shared.Blacksmith.Anvil;
+﻿using Content.Oathlord.Shared.Blacksmith.Anvil;
 using Content.Oathlord.Shared.Blacksmith.Anvil.Prototypes;
 using JetBrains.Annotations;
 using Robust.Client.UserInterface;
@@ -53,3 +53,4 @@ public sealed partial class AnvilBoundInterface : BoundUserInterface
             _anvil.UpdateWindow -= UpdateWindow;
     }
 }
+

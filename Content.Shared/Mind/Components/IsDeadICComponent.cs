@@ -4,3 +4,5 @@ namespace Content.Shared.Mind.Components;
 public sealed partial class IsDeadICComponent : Component
 {
 }
+
+

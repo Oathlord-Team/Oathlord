@@ -35,3 +35,4 @@ public sealed class AnomalyGeneratorBoundUserInterface : BoundUserInterface
         _window?.UpdateState(msg);
     }
 }
+

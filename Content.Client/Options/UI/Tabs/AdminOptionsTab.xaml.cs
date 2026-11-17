@@ -84,3 +84,4 @@ public sealed partial class AdminOptionsTab : Control
         Control.AddOptionCheckBox(CCVars.AdminStripMenuOverlayDefault, EnableAdminStripOverlayDefault);
     }
 }
+

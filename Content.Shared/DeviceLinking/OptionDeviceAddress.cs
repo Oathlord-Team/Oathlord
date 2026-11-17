@@ -1,4 +1,4 @@
-using System.Diagnostics.CodeAnalysis;
+﻿using System.Diagnostics.CodeAnalysis;
 using Content.Shared.DeviceConfigurator.Systems;
 using Content.Shared.DeviceNetwork;
 

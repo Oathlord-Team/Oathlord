@@ -46,3 +46,4 @@ public sealed partial class AntagonistTagCondition : EntityConditionBase<Antagon
         return String.Empty;
     }
 }
+

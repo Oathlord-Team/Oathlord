@@ -1,4 +1,4 @@
-using Content.Oathlord.Shared.Economy.Components;
+﻿using Content.Oathlord.Shared.Economy.Components;
 using Content.Oathlord.Shared.Economy.Prototypes;
 using Content.Shared.GameTicking;
 using Content.Shared.Popups;

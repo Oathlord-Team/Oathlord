@@ -225,3 +225,4 @@ public readonly record struct ApplyOrganProfileDataEvent(OrganProfileData? Base,
 /// </summary>
 [ByRefEvent]
 public readonly record struct ApplyOrganMarkingsEvent(Dictionary<ProtoId<OrganCategoryPrototype>, Dictionary<HumanoidVisualLayers, List<Marking>>> Markings);
+

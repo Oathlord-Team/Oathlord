@@ -1,4 +1,4 @@
-using Content.Oathlord.Common.Input;
+﻿using Content.Oathlord.Common.Input;
 using Content.Oathlord.Shared.Spellcasting.Components;
 using Content.Shared.Actions;
 using Content.Shared.Actions.Components;

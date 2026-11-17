@@ -30,3 +30,4 @@ public sealed partial class BodyWhitelistCondition : EntityConditionBase<BodyWhi
         return String.Empty;
     }
 }
+

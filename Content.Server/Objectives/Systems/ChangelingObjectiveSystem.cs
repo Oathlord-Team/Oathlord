@@ -28,7 +28,7 @@ public sealed partial class ChangelingObjectiveSystem : EntitySystem
     {
         if (!_mind.TryGetMind(args.Changeling, out var mind, out _))
             return;
-
+        
         EnsureComp<ChangelingMindIdentityTrackerComponent>(mind, out var tracker);
         // Only count unique identities that the changeling didn't start as
         if (args.NewIdentity && !args.Identity.Starting)

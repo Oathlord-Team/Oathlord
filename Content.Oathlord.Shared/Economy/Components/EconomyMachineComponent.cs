@@ -1,4 +1,4 @@
-using Content.Oathlord.Shared.Economy.Prototypes;
+﻿using Content.Oathlord.Shared.Economy.Prototypes;
 using Content.Oathlord.Shared.Economy.Systems;
 using Robust.Shared.Audio;
 using Robust.Shared.GameStates;

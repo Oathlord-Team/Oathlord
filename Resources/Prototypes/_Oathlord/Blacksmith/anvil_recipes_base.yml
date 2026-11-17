@@ -1,4 +1,4 @@
-# An anvil recipe is a prototype that gets called by the anvil, when the user requests them.
+﻿# An anvil recipe is a prototype that gets called by the anvil, when the user requests them.
 #
 # Recipes are not tied to metals, nor the anvil.
 #

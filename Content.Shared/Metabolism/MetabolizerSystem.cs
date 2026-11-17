@@ -379,3 +379,4 @@ public sealed partial class MetabolizerSystem : EntitySystem
         return false;
     }
 }
+

@@ -16,3 +16,4 @@ public interface IResolvesToEntity
     /// </summary>
     EntityUid? CEntity { get; }
 }
+

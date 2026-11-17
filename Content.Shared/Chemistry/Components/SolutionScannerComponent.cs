@@ -8,3 +8,4 @@ namespace Content.Shared.Chemistry.Components;
 /// </summary>
 [RegisterComponent, NetworkedComponent]
 public sealed partial class SolutionScannerComponent : Component;
+

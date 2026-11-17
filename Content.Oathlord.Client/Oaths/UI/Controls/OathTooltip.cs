@@ -15,3 +15,4 @@ public sealed partial class OathTooltip : PanelContainer
         OathDescLabel.Text = description;
     }
 }
+
