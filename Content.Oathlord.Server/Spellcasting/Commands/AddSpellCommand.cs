@@ -3,7 +3,6 @@ using Content.Oathlord.Shared.Spellcasting.Components;
 using Content.Oathlord.Shared.Spellcasting.Systems;
 using Content.Server.Administration;
 using Content.Shared.Administration;
-using Content.Shared.Prototypes;
 using Robust.Shared.Console;
 using Robust.Shared.Prototypes;
 

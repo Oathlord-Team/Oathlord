@@ -1,11 +1,12 @@
 ﻿- type: entity
   save: false
   abstract: true
-  id: BaseSpeciesMob
+  id: BaseSpeciesMobOrganic
   components:
   - type: ManaUser
     currentMana: 100
   - type: Spells
+  - type: CharacterAttributes
 
 - type: entity
   save: false

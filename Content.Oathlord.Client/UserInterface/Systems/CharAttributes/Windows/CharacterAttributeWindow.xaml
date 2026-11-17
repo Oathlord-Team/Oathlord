@@ -1,0 +1,21 @@
+<controls:FancyWindow
+    xmlns="https://spacestation14.io"
+    xmlns:controls="using:Content.Client.UserInterface.Controls"
+    Title="Attributes"
+    Resizable="False"
+    MinSize="600 400">
+    <BoxContainer Orientation="Vertical">
+        <ScrollContainer VerticalExpand="True" HScrollEnabled="False" Margin="12 -32 12 32">
+            <TableContainer Name="AttributesContainer" Columns="16"/>
+        </ScrollContainer>
+        <VBox VerticalExpand="True" VerticalAlignment="Bottom" >
+            <RichTextLabel Name="PointsLeftLabel" Margin="2" HorizontalAlignment="Center"/>
+            <Button Text="Resolve"
+                    Name="ApplyButton"
+                    HorizontalAlignment="Center"
+                    Margin="0 12"
+                    Disabled="True"
+                    ToolTip="This will apply all the changes you made to the attributes."/>
+        </VBox>
+    </BoxContainer>
+</controls:FancyWindow>

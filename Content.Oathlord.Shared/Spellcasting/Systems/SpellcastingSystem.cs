@@ -153,7 +153,7 @@ public abstract partial class SpellcastingSystem : EntitySystem
 
                 // so things don't get fucked up, always reset the index to the first spell
                 ent.Comp.SelectedSpell = 0;
-                Dirty(ent);
+                DirtyField(ent, nameof(SpellsComponent.SelectedSpell));
                 break;
             }
         }
@@ -174,6 +174,7 @@ public abstract partial class SpellcastingSystem : EntitySystem
             return;
 
         SetActive(spell, active: spellTransferType == SpellTransfer.Active);
+
         UpdateUi((ent.Owner, ent.Comp));
     }
 
@@ -384,9 +385,31 @@ public abstract partial class SpellcastingSystem : EntitySystem
         }
 
         ent.Comp.SelectedSpell = currentSpell;
-        Dirty(ent);
+        DirtyField(ent, nameof(SpellsComponent.SelectedSpell));
 
         UpdateUi((ent.Owner, ent.Comp));
+    }
+
+    /// <summary>
+    /// Adds a slot to our memory.
+    /// </summary>
+    /// <param name="ent">The entity</param>
+    /// <param name="amount">How many slots to add</param>
+    /// <param name="type">In which section to add the slots</param>
+    public void AddSlot(Entity<SpellsComponent?> ent, int amount, SpellTransfer type)
+    {
+        if (!_spellsQuery.Resolve(ent.Owner, ref ent.Comp))
+            return;
+
+        if (type == SpellTransfer.Active)
+        {
+            ent.Comp.CurrentSlots = Math.Clamp(ent.Comp.CurrentSlots + amount, 0, 99); // 99 limit seems reasonable
+            DirtyField(ent, nameof(SpellsComponent.CurrentSlots));
+            return;
+        }
+
+        ent.Comp.MaxLearned = Math.Clamp(ent.Comp.MaxLearned + amount, 0, 99);
+        DirtyField(ent, nameof(SpellsComponent.MaxLearned));
     }
 
     #endregion

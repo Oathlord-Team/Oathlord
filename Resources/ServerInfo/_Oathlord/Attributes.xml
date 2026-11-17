@@ -1,0 +1,29 @@
+<Document>
+  # Attributes
+
+  This feature is: [color=orange]In-Progress[/color].
+
+  Attributes are not skills. Let's get this out of the way first. Rather, they define who you--as a character--are, and eventually, strive to be.
+
+  They provide benefits in various activities, so you can have freedom of expressing the "path" you choose.
+
+  The number one mission of Oathlord's attribute system is to stop players from focusing on attributes. Really.
+  And to do that, the aim is to have everyone be equal at any moment, regarding attributes, with rare exceptions (you never know what happens in a world like this).
+
+  This, in turn, means that you won't get better at strength by punching things.
+  Instead, as the round (and time) goes by, you will be given points to invest at certain moments.
+
+  ## How to invest
+
+  Simply press the keybind (by default 'O'), or click the button at the top bar. It should have a "gate" with pillars as an icon.
+
+  On that screen, you will be able to see how many points you currently own, information about the attributes, and a button next to each attribute which allows you to increase them.
+
+  If you have enough points, you can press the button on the right of an attribute of your choosing to increase it's current points.
+  Each attribute has a maximum of points it can reach, and it will be indicated by having the "MAX" label on it, instead of a plain number.
+
+  When you are ready to apply your points, press "Resolve" at the bottom.
+  You'll get a popup on your character that the process was successful.
+
+  No, you can not undo the points you spend on attributes, so be careful. Unless...
+</Document>

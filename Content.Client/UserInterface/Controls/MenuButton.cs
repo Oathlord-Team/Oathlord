@@ -9,7 +9,8 @@ using Robust.Shared.Utility;
 
 namespace Content.Client.UserInterface.Controls;
 
-public sealed partial class MenuButton : ContainerButton
+[Virtual] // Oathlord - Added virtual
+public partial class MenuButton : ContainerButton // Oathlord - not sealed anymore
 {
     [Dependency] private IInputManager _inputManager = default!;
     public const string StyleClassLabelTopButton = "topButtonLabel";

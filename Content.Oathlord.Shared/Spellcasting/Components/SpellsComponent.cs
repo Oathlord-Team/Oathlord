@@ -10,7 +10,7 @@ namespace Content.Oathlord.Shared.Spellcasting.Components;
 /// It holds all learned spells, and active spells in a container on the entity.
 /// </summary>
 [RegisterComponent, NetworkedComponent, Access(typeof(SpellcastingSystem))]
-[AutoGenerateComponentState]
+[AutoGenerateComponentState(fieldDeltas: true)]
 public sealed partial class SpellsComponent : Component
 {
     /// <summary>
@@ -23,13 +23,13 @@ public sealed partial class SpellsComponent : Component
     /// <summary>
     /// How many active slots we currently have
     /// </summary>
-    [DataField]
+    [DataField, AutoNetworkedField]
     public int CurrentSlots = 3;
 
     /// <summary>
     /// How many learned slots we are allowed to have
     /// </summary>
-    [DataField]
+    [DataField, AutoNetworkedField]
     public int MaxLearned = 10;
 
     public const string ContainerId = "spells";

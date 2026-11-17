@@ -24,4 +24,10 @@ public static class OathlordKeyFunctions
     public static readonly BoundKeyFunction MovementMod = "MovementMod";
 
     #endregion
+
+    #region Attributes
+
+    public static readonly BoundKeyFunction OpenAttributesMenu = "OpenAttributesMenu";
+
+    #endregion
 }

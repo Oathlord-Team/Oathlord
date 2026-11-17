@@ -1,0 +1,29 @@
+- type: entity
+  abstract: true
+  id: BaseCharAttribute
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Interface/attributes.rsi
+  - type: CharacterAttribute
+
+- type: entity
+  parent: BaseCharAttribute
+  id: StrengthAttribute
+  name: Strength
+  description: Helps you at punching better.
+  components:
+  - type: Sprite
+    state: strength
+  - type: CharacterAttribute
+  - type: StrengthAttribute
+
+- type: entity
+  parent: BaseCharAttribute
+  id: IntelligenceAttribute
+  name: Intelligence
+  description: Increases your spell slots every few points.
+  components:
+  - type: Sprite
+    state: magic
+  - type: CharacterAttribute
+  - type: IntelligenceAttribute

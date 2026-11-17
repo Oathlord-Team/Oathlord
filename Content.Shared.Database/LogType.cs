@@ -488,4 +488,13 @@ public enum LogType
     /// Silicon law changes.
     /// </summary>
     SiliconLaw = 105,
+
+    #region Oathlord
+
+    /// <summary>
+    /// Events related to changing character attributes
+    /// </summary>
+    CharacterAttribute = 5001,
+
+    #endregion
 }
