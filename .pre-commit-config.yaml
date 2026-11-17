@@ -23,8 +23,11 @@ repos:
   - id: check-merge-conflict
   # Fixers that can and will change commits to PRs
   - id: end-of-file-fixer
+    files: "^(Content\\.Oathlord\\.|Resources/.*_Oathlord/|Resources/(Prototypes/_Oathlord|Partials)/)"
   - id: trailing-whitespace
+    files: "^(Content\\.Oathlord\\.|Resources/.*_Oathlord/|Resources/(Prototypes/_Oathlord|Partials)/)"
   - id: fix-byte-order-marker
+    files: "^(Content\\.Oathlord\\.|Resources/.*_Oathlord/|Resources/(Prototypes/_Oathlord|Partials)/)"
 - repo: "local"
   hooks:
   # Fixers
