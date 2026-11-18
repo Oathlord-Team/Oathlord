@@ -41,15 +41,23 @@ public sealed partial class CharacterAttributeWindow : FancyWindow
 
     public void Populate(EntityUid user)
     {
-        ApplyButton.Disabled = true;
-        _changedAttributes.Clear();
-
         AttributesContainer.Children.Clear();
+        _changedAttributes.Clear();
+        ApplyButton.Disabled = true;
 
-        var pointsLeft = _charAttribute.GetPoints(user);
+        // Don't populate anything if we don't have it, otherwise resolve will fail...
+        if (!_ent.TryGetComponent<CharacterAttributesComponent>(user, out var charAttributes))
+        {
+            PointsLeftLabel.Text = "You lack the will to resolve...";
+            return;
+        }
+
+        var attr = (user, charAttributes);
+
+        var pointsLeft = _charAttribute.GetPoints(attr);
         PointsLeftLabel.Text = Loc.GetString("attribute-ui-points-left", ("count", pointsLeft));
 
-        var attributes = _charAttribute.GetAttributes(user);
+        var attributes = _charAttribute.GetAttributes(attr);
         foreach (var attribute in attributes)
         {
             var canIncrease = pointsLeft > 0;
