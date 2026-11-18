@@ -27,13 +27,15 @@ public abstract partial class SharedCombatModeSystem : EntitySystem
 
     private void OnMapInit(EntityUid uid, CombatModeComponent component, MapInitEvent args)
     {
+        /* <Oathlord> - No action combat mode
         _actionsSystem.AddAction(uid, ref component.CombatToggleActionEntity, component.CombatToggleAction);
         Dirty(uid, component);
+        </Oathlord> */
     }
 
     private void OnShutdown(EntityUid uid, CombatModeComponent component, ComponentShutdown args)
     {
-        _actionsSystem.RemoveAction(uid, component.CombatToggleActionEntity);
+        // _actionsSystem.RemoveAction(uid, component.CombatToggleActionEntity); - Oathlord - No action combat mode
 
         SetMouseRotatorComponents(uid, false);
     }
@@ -67,6 +69,11 @@ public abstract partial class SharedCombatModeSystem : EntitySystem
     {
         if (!Resolve(entity, ref component))
             return;
+
+        // <Oathlord>
+        if (!component.CanToggle)
+            return;
+        // <Oathlord>
 
         if (component.IsInCombatMode == value)
             return;

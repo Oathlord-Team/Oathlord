@@ -4,8 +4,8 @@ meta:
   engineVersion: 294.0.3
   forkId: ""
   forkVersion: ""
-  time: 11/18/2026 18:34:01
-  entityCount: 22
+  time: 11/18/2026 20:12:36
+  entityCount: 21
 maps:
 - 2
 grids:
@@ -133,7 +133,7 @@ entities:
       pos: 0.5111122,5.6325197
 - proto: EconomyMachine
   entities:
-  - uid: 15
+  - uid: 11
     components:
     - type: Transform
       parent: 2
@@ -221,11 +221,6 @@ entities:
     - type: Transform
       parent: 2
       pos: -1.5,5.5
-  - uid: 11
-    components:
-    - type: Transform
-      parent: 2
-      pos: 4.5,5.5
   - uid: 14
     components:
     - type: Transform

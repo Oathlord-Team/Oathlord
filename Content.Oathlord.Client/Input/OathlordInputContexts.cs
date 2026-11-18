@@ -18,5 +18,6 @@ public static class OathlordInputContexts
         human.AddFunction(OathlordKeyFunctions.MoveSpellDown);
         human.AddFunction(OathlordKeyFunctions.MoveSpellUp);
         human.AddFunction(OathlordKeyFunctions.OpenAttributesMenu);
+        human.AddFunction(OathlordKeyFunctions.ToggleCombatMode);
     }
 }

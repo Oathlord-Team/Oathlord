@@ -25,16 +25,16 @@ public sealed partial class VocalSystem : EntitySystem
     private void OnMapInit(Entity<VocalComponent> ent, ref MapInitEvent args)
     {
         // try to add scream action when vocal comp added
-        _actions.AddAction(ent.Owner, ref ent.Comp.EmoteActionEntity, ent.Comp.EmoteAction);
-        Dirty(ent);
+        //_actions.AddAction(ent.Owner, ref ent.Comp.EmoteActionEntity, ent.Comp.EmoteAction); - Oathlord - remove scream
+        // Dirty(ent); - Oathlord
     }
 
     [SubscribeLocalEvent]
     private void OnShutdown(Entity<VocalComponent> ent, ref ComponentShutdown args)
     {
         // remove scream action when component removed
-        _actions.RemoveAction(ent.Owner, ent.Comp.EmoteActionEntity);
-        Dirty(ent);
+        // _actions.RemoveAction(ent.Owner, ent.Comp.EmoteActionEntity); - Oathlord - remove scream
+        // Dirty(ent); - Oathlord
     }
 
     [SubscribeLocalEvent]

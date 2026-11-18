@@ -114,7 +114,8 @@ public sealed partial class PacificationSystem : EntitySystem
         if (component.DisallowAllCombat)
         {
             _combatSystem.SetInCombatMode(uid, false, combatMode);
-            _actionsSystem.SetEnabled(combatMode.CombatToggleActionEntity, false);
+            //_actionsSystem.SetEnabled(combatMode.CombatToggleActionEntity, false); - Oathlord
+            _combatSystem.SetToggle((uid, combatMode), false); // Oathlord - Combat mode action changes
         }
 
         _alertsSystem.ShowAlert(uid, component.PacifiedAlert);
@@ -128,7 +129,8 @@ public sealed partial class PacificationSystem : EntitySystem
         if (combatMode.CanDisarm != null)
             _combatSystem.SetCanDisarm(uid, true, combatMode);
 
-        _actionsSystem.SetEnabled(combatMode.CombatToggleActionEntity, true);
+        //_actionsSystem.SetEnabled(combatMode.CombatToggleActionEntity, true); - Oathlord
+        _combatSystem.SetToggle((uid, combatMode), true); // Oathlord - Combat mode action changes
         _alertsSystem.ClearAlert(uid, component.PacifiedAlert);
     }
 

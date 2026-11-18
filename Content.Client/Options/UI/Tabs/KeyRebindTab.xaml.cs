@@ -193,6 +193,7 @@ namespace Content.Client.Options.UI.Tabs
             AddButton(OathlordKeyFunctions.SpecialItemAction);
             AddButton(OathlordKeyFunctions.MoveSpellUp);
             AddButton(OathlordKeyFunctions.MoveSpellDown);
+            AddButton(OathlordKeyFunctions.ToggleCombatMode);
             // <Oathlord>
             AddButton(ContentKeyFunctions.Drop);
             AddButton(ContentKeyFunctions.ExamineEntity);
