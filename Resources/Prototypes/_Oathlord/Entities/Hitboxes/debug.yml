@@ -1,0 +1,25 @@
+- type: entity
+  parent: BaseHitbox
+  id: DebugHitbox
+  components:
+  - type: Hitbox
+    damage:
+      types:
+        Heat: 2.5
+    offset: 0,-0.8
+  - type: TimedDespawn
+    lifetime: 0.05
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.25,-0.25,0.25,0.25"
+        density: 20
+        hard: false
+        mask:
+        - MobMask
+        layer:
+        - Impassable
+        restitution: 0.3
+        friction: 0.2

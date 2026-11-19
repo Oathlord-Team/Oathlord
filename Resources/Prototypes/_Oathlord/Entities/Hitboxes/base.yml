@@ -1,0 +1,9 @@
+- type: entity
+  abstract: true
+  id: BaseHitbox
+  components:
+  - type: Transform
+  - type: Physics
+    bodyType: Dynamic
+  - type: Fixtures
+  - type: Hitbox

@@ -1,0 +1,9 @@
+- type: entity
+  parent: KitchenKnife
+  id: DebugKnife
+  categories: [ ForkFiltered ]
+  components:
+  - type: MeleeWeapon
+    range: 999
+  - type: HitboxMeleeWeapon
+    hitbox: DebugHitbox
