@@ -21,6 +21,7 @@ public sealed class ActionsAddedTest : GameTest
     // TODO add ghost toggle-fov test (client-side action)
 
     [Test]
+    [Ignore("Oathlord - Combat Mode does not use the action anymore")]
     public async Task TestCombatActionsAdded()
     {
         var pair = Pair;

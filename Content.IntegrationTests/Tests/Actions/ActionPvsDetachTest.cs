@@ -26,7 +26,7 @@ public sealed class ActionPvsDetachTest : GameTest
         // Spawn mob that has some actions
         EntityUid ent = default;
         var map = await pair.CreateTestMap();
-        await server.WaitPost(() => ent = server.EntMan.SpawnAtPosition("MobHuman", map.GridCoords));
+        await server.WaitPost(() => ent = server.EntMan.SpawnAtPosition("MobReptilian", map.GridCoords)); // Oathlord - Changed MobHuman to MobReptilian due to MobHuman not having any starting actions now.
         await pair.RunTicksSync(5);
         var cEnt = pair.ToClientUid(ent);
 

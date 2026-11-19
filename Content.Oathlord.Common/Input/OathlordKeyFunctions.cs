@@ -10,6 +10,7 @@ public static class OathlordKeyFunctions
     #region Activation
 
     public static readonly BoundKeyFunction SpecialItemAction = "SpecialItemAction";
+    public static readonly BoundKeyFunction ToggleCombatMode = "ToggleCombatMode";
 
     #endregion
 
