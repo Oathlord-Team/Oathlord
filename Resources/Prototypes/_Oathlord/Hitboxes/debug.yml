@@ -1,0 +1,16 @@
+- type: hitboxPatterns
+  id: DebugPattern
+  patterns:
+    Light:
+    - hitboxProto: DebugHitbox
+      time: 0.7
+      grace: 0.2
+      offset: 0,-0.8
+    - hitboxProto: DebugHitbox2
+      time: 0.5
+      grace: 0.1
+      offset: 0,-0.8
+    - hitboxProto: DebugHitbox
+      time: 0.7
+      grace: 0.2
+      offset: 0,-0.8

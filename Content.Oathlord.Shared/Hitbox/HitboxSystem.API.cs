@@ -24,31 +24,20 @@ public sealed partial class HitboxSystem
     }
 
     /// <summary>
-    /// Returns the offset of the hitbox
-    /// </summary>
-    public Vector2 GetOffset(Entity<HitboxComponent?> ent)
-    {
-        if (!_hitboxQuery.Resolve(ent.Owner, ref ent.Comp))
-            return Vector2.Zero;
-
-        return ent.Comp.Offset;
-    }
-
-    /// <summary>
     /// Spawns a hitbox at the user's location
     /// </summary>
     /// <param name="user">The user who initiated the hitbox</param>
     /// <param name="weapon">The weapon used to initiate the hitbox</param>
     /// <param name="clickLocation">The click location of the attack, used to calculate angles</param>
     /// <param name="hitbox">The hitbox prototype to spawn</param>
-    public void SpawnHitbox(EntityUid user, EntityUid weapon, Vector2 clickLocation, [ForbidLiteral] EntProtoId hitbox)
+    /// <param name="offset">The offset of the hitbox</param>
+    public void SpawnHitbox(EntityUid user, EntityUid weapon, Vector2 clickLocation, [ForbidLiteral] EntProtoId hitbox, Vector2 offset)
     {
         var xform = Transform(user);
 
         var hitboxEnt = PredictedSpawnAtPosition(hitbox, xform.Coordinates);
         SetHitboxData(hitboxEnt, user, weapon);
 
-        var hitboxOffset = GetOffset(hitboxEnt);
         var hitboxXform = Transform(hitboxEnt);
 
         var worldRot = _transform.GetWorldRotation(xform);
@@ -60,7 +49,7 @@ public sealed partial class HitboxSystem
         var directionToClick = clickLocation - coords;
         var clickAngle = directionToClick == Vector2.Zero ? worldRot : directionToClick.ToWorldAngle();
 
-        var rotatedOffset = hitboxOffset == Vector2.Zero ? Vector2.Zero : clickAngle.RotateVec(hitboxOffset);
+        var rotatedOffset = offset == Vector2.Zero ? Vector2.Zero : clickAngle.RotateVec(offset);
         var worldPos = rotatedOffset + coords;
 
         _transform.SetWorldRotation(hitboxXform, clickAngle);
@@ -68,5 +57,16 @@ public sealed partial class HitboxSystem
 
         // It makes sense that the hitbox would NOT stay on air and follow the user, lol...?
         _transform.SetParent(hitboxEnt, user);
+    }
+
+    public HitboxPattern[] GetHitboxPatterns([ForbidLiteral] ProtoId<HitboxPatternsPrototype> patternProto, AttackType type)
+    {
+        if (!ProtoMan.Resolve(patternProto, out var patternDict))
+            return Array.Empty<HitboxPattern>();
+
+        if (!patternDict.Patterns.TryGetValue(type, out var patterns))
+            return Array.Empty<HitboxPattern>();
+
+        return patterns;
     }
 }

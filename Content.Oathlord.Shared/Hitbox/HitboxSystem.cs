@@ -15,10 +15,9 @@ public sealed partial class HitboxSystem : EntitySystem
     [SubscribeLocalEvent]
     private void StartCollide(Entity<HitboxComponent> ent, ref StartCollideEvent args)
     {
-        if (ent.Comp.User is not { } user)
-            return;
-
+        var user = ent.Comp.User;
         var target = args.OtherEntity;
+
         if (target == user)
             return;
 

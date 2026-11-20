@@ -9,3 +9,11 @@
     bodyType: Dynamic
   - type: Fixtures
   - type: Hitbox
+
+- type: entity
+  abstract: true
+  parent: BaseHitbox
+  id: BaseTemporaryHitbox
+  components:
+  - type: TimedDespawn
+    lifetime: 0.05

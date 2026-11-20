@@ -1,22 +1,42 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 - type: entity
-  parent: BaseHitbox
+  parent: BaseTemporaryHitbox
   id: DebugHitbox
   components:
   - type: Hitbox
     damage:
       types:
         Heat: 2.5
-    offset: 0,-0.8
-  - type: TimedDespawn
-    lifetime: 0.05
   - type: Fixtures
     fixtures:
-      fix1:
+      hitbox:
         shape:
           !type:PhysShapeAabb
           bounds: "-0.25,-0.25,0.25,0.25"
+        density: 20
+        hard: false
+        mask:
+        - MobMask
+        layer:
+        - Impassable
+        restitution: 0.3
+        friction: 0.2
+
+- type: entity
+  parent: BaseTemporaryHitbox
+  id: DebugHitbox2
+  components:
+  - type: Hitbox
+    damage:
+      types:
+        Heat: 5
+  - type: Fixtures
+    fixtures:
+      hitbox:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.5,-0.5,0.5,0.5"
         density: 20
         hard: false
         mask:

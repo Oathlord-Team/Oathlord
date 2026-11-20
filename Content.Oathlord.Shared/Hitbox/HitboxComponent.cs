@@ -1,6 +1,5 @@
 // SPDX-License-Identifier: AGPL-3.0-or-later
 
-using System.Numerics;
 using Content.Shared.Damage;
 using Robust.Shared.GameStates;
 
@@ -18,12 +17,6 @@ public sealed partial class HitboxComponent : Component
     /// </summary>
     [DataField]
     public DamageSpecifier Damage = new();
-
-    /// <summary>
-    /// An optional offset, set from the user's position when spawning the hitbox.
-    /// </summary>
-    [DataField]
-    public Vector2 Offset;
 
     /// <summary>
     /// Who initiated this hitbox.

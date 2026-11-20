@@ -7,5 +7,6 @@
   components:
   - type: MeleeWeapon
     range: 999
+    attackRate: 0.1
   - type: HitboxMeleeWeapon
     hitbox: DebugHitbox
