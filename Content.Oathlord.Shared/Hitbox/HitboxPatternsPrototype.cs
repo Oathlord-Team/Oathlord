@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: AGPL-3.0-or-later
+
 using System.Numerics;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Serialization;
@@ -42,4 +44,3 @@ public enum AttackType : byte
     Light, // Left-click
     Heavy, // Right-click
 }
-
