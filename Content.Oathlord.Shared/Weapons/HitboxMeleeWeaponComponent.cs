@@ -3,6 +3,7 @@
 using Content.Oathlord.Shared.Hitbox;
 using Robust.Shared.GameStates;
 using Robust.Shared.Prototypes;
+using Robust.Shared.Serialization.TypeSerializers.Implementations.Custom;
 
 namespace Content.Oathlord.Shared.Weapons;
 
@@ -10,7 +11,7 @@ namespace Content.Oathlord.Shared.Weapons;
 /// Component used on mêlée weapons that work with hitboxes
 /// </summary>
 [RegisterComponent, NetworkedComponent]
-[AutoGenerateComponentState, AutoGenerateComponentPause]
+[AutoGenerateComponentState(fieldDeltas: true), AutoGenerateComponentPause]
 public sealed partial class HitboxMeleeWeaponComponent : Component
 {
     /// <summary>
@@ -25,10 +26,25 @@ public sealed partial class HitboxMeleeWeaponComponent : Component
     [DataField, AutoNetworkedField]
     public int CurrentPattern = -1;
 
-    [DataField, AutoNetworkedField]
+    /// <summary>
+    /// The time until the next pattern.
+    /// </summary>
+    [DataField(customTypeSerializer: typeof(TimeOffsetSerializer)), AutoNetworkedField]
     [AutoPausedField]
     public TimeSpan NextPattern;
 
+    /// <summary>
+    /// What type is the next attack?
+    /// </summary>
     [DataField, AutoNetworkedField]
     public AttackType NextAttack = AttackType.None;
+
+    /// <summary>
+    /// What type was the previous attack?
+    /// Used to check against the new attack type, and the previous one.
+    ///
+    /// If it's not the same, then we reset the pattern to start the other attack type's pattern.
+    /// </summary>
+    [DataField, AutoNetworkedField]
+    public AttackType PrevAttack = AttackType.None;
 }

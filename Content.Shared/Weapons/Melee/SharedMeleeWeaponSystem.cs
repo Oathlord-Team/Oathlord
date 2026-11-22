@@ -484,7 +484,7 @@ public abstract partial class SharedMeleeWeaponSystem : EntitySystem
                     throw new NotImplementedException();
             }
 
-            DoLungeAnimation(user, weaponUid, weapon.Angle, TransformSystem.ToMapCoordinates(GetCoordinates(attack.Coordinates)), weapon.Range, animation);
+            // DoLungeAnimation(user, weaponUid, weapon.Angle, TransformSystem.ToMapCoordinates(GetCoordinates(attack.Coordinates)), weapon.Range, animation); - Oathlord - Hitbox Combat
         }
 
         var attackEv = new MeleeAttackEvent(weaponUid);
@@ -529,7 +529,7 @@ public abstract partial class SharedMeleeWeaponSystem : EntitySystem
             }
             var missEvent = new MeleeHitEvent(new HashSet<EntityUid>(), user, meleeUid, damage, null, clickLocation: ev.Coordinates); // Oathlord - click location
             RaiseLocalEvent(meleeUid, missEvent);
-            _meleeSound.PlaySwingSound(user, meleeUid, component);
+            // _meleeSound.PlaySwingSound(user, meleeUid, component); - Oathlord - Hitbox Combat
             return;
         }
 
@@ -640,7 +640,7 @@ public abstract partial class SharedMeleeWeaponSystem : EntitySystem
             RaiseLocalEvent(meleeUid, missEvent);
 
             // immediate audio feedback
-            _meleeSound.PlaySwingSound(user, meleeUid, component);
+            // _meleeSound.PlaySwingSound(user, meleeUid, component); - Oathlord - Hitbox Combat
 
             return true;
         }
@@ -927,7 +927,7 @@ public abstract partial class SharedMeleeWeaponSystem : EntitySystem
         if (_netMan.IsClient)
         {
             // Play a sound to give instant feedback; same with playing the animations
-            _meleeSound.PlaySwingSound(user, meleeUid, component);
+            // _meleeSound.PlaySwingSound(user, meleeUid, component); - Oathlord - Hitbox Combat
             return true;
         }
 
