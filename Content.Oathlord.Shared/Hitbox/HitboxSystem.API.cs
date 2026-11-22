@@ -55,6 +55,8 @@ public sealed partial class HitboxSystem
         _transform.SetWorldRotation(hitboxXform, clickAngle);
         _transform.SetWorldPosition(hitboxXform, worldPos);
 
+        _transform.SetWorldRotation(user, clickAngle); // User should be facing the attack...
+
         // It makes sense that the hitbox would NOT stay on air and follow the user, lol...?
         _transform.SetParent(hitboxEnt, user);
     }

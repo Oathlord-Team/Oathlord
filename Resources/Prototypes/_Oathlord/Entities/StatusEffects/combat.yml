@@ -1,0 +1,20 @@
+- type: entity
+  parent: MobStatusEffectBase
+  id: HitboxCombatStatusEffect
+  name: attacking restrictions
+  components:
+  - type: EffectsOnStatusEffect
+   # likely no easy way to do this, but this works partially.
+   # (todo: disallow rotation during whole duration of combat + during a hitbox attack, so players don't change outside combat)
+   # This will likely be possible if we make combat mode do-after...
+    onApplied:
+    - !type:AddComponents
+      components:
+      - type: NoRotateOnMove
+    onRemoved:
+    - !type:RemoveComponents
+      components:
+      - type: NoRotateOnMove
+  - type: MovementModStatusEffect
+    sprintSpeedModifier: 0.2
+    walkSpeedModifier: 0.2

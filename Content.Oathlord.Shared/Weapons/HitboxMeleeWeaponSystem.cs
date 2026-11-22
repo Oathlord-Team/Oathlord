@@ -2,8 +2,10 @@
 
 using System.Numerics;
 using Content.Oathlord.Shared.Hitbox;
+using Content.Shared.StatusEffectNew;
 using Content.Shared.Weapons.Melee.Events;
 using Robust.Shared.Map;
+using Robust.Shared.Prototypes;
 using Robust.Shared.Timing;
 
 namespace Content.Oathlord.Shared.Weapons;
@@ -20,8 +22,17 @@ public sealed partial class HitboxMeleeWeaponSystem : EntitySystem
     [Dependency] private IGameTiming _timing = default!;
     [Dependency] private HitboxSystem _hitbox = default!;
     [Dependency] private SharedTransformSystem _transform = default!;
+    [Dependency] private StatusEffectsSystem _status = default!;
 
     [Dependency] private EntityQuery<HitboxMeleeWeaponComponent> _hitboxMeleeQuery = default!;
+
+    /// <summary>
+    /// A status effect that restricts you from rotating during combat, in order for the hitbox to not move, since it's parented to the user.
+    /// Hitbox must follow the user, but it can not go to other big positions since it will re-trigger hits and stuff like that.
+    ///
+    /// Oh, and also, restricts movement.
+    /// </summary>
+    public static readonly EntProtoId HitboxStatusEffect = "HitboxCombatStatusEffect";
 
     [SubscribeLocalEvent]
     private void OnMeleeHit(Entity<HitboxMeleeWeaponComponent> ent, ref MeleeHitEvent args)
@@ -47,7 +58,9 @@ public sealed partial class HitboxMeleeWeaponSystem : EntitySystem
         EntityCoordinates clickLoc,
         Vector2? direction)
     {
+        // based on upstream combat, direction being null means it was a click-attack, otherwise it's a wideswing
         var attackType = direction == null ? AttackType.Light : AttackType.Heavy;
+
         var patterns = _hitbox.GetHitboxPatterns(ent.Comp.WeaponPattern, attackType);
         if (patterns.Length == 0)
         {
@@ -138,6 +151,9 @@ public sealed partial class HitboxMeleeWeaponSystem : EntitySystem
 
         ent.Comp.CurrentPattern++;
         Dirty(ent);
+
+        // The status effect is as long as the pattern attack.
+        _status.TryAddStatusEffectDuration(user, HitboxStatusEffect, pattern.Time);
 
         Log.Info($"Pattern done, and advanced to {ent.Comp.CurrentPattern}!");
     }
