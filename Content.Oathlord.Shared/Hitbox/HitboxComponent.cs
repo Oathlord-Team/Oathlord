@@ -62,3 +62,9 @@ public partial record struct DamageConfig(
     bool IgnoreResistances = false,
     bool IgnoreGlobalModifiers = false,
     bool InterruptDoAfters = true);
+
+/// <summary>
+/// Event raised when a hitbox has been spawned.
+/// </summary>
+[ByRefEvent]
+public record struct PlayerHitboxAttackEvent(EntityUid User, EntityUid Hitbox);
