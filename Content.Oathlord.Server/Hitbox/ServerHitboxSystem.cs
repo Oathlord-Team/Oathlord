@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: AGPL-3.0-or-later
+
 using Content.Oathlord.Common.CCVar;
 using Content.Oathlord.Shared.Hitbox;
 using Content.Server.Movement.Components;
