@@ -18,5 +18,5 @@
       components:
       - type: NoRotateOnMove
   - type: MovementModStatusEffect
-    sprintSpeedModifier: 0.2
-    walkSpeedModifier: 0.2
+    sprintSpeedModifier: 0.1
+    walkSpeedModifier: 0.1

@@ -17,3 +17,19 @@
   components:
   - type: TimedDespawn
     lifetime: 0.05
+
+- type: entity
+  abstract: true
+  id: BaseHitboxEffect
+  components:
+  - type: Sprite
+    drawdepth: Effects
+  - type: Appearance
+
+- type: entity
+  abstract: true
+  id: BaseHitboxSlashEffect
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Effects/Hitbox/slashes.rsi
+    drawdepth: Effects
