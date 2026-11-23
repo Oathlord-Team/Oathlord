@@ -61,14 +61,17 @@ public sealed partial class HitboxSystem
         _transform.SetParent(hitboxEnt, user);
     }
 
+    /// <summary>
+    /// Returns an array of hitbox patterns, of a <see cref="HitboxPatternsPrototype"/> prototype, based on the attack type provided.
+    /// </summary>
+    /// <param name="patternProto">The pattern prototype</param>
+    /// <param name="type">The attack type</param>
     public HitboxPattern[] GetHitboxPatterns([ForbidLiteral] ProtoId<HitboxPatternsPrototype> patternProto, AttackType type)
     {
-        if (!ProtoMan.Resolve(patternProto, out var patternDict))
-            return Array.Empty<HitboxPattern>();
+        if (!_cachedPatterns.TryGetValue(patternProto, out var patterns)
+            || !patterns.TryGetValue(type, out var pattern))
+            return [];
 
-        if (!patternDict.Patterns.TryGetValue(type, out var patterns))
-            return Array.Empty<HitboxPattern>();
-
-        return patterns;
+        return pattern;
     }
 }

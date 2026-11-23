@@ -29,8 +29,8 @@ public sealed partial class HitboxMeleeWeaponComponent : Component
     /// <summary>
     /// The time until the next pattern.
     /// </summary>
-    [DataField(customTypeSerializer: typeof(TimeOffsetSerializer)), AutoNetworkedField]
-    [AutoPausedField]
+    [DataField(customTypeSerializer: typeof(TimeOffsetSerializer))]
+    [AutoPausedField, AutoNetworkedField]
     public TimeSpan NextPattern;
 
     /// <summary>

@@ -15,8 +15,20 @@ public sealed partial class HitboxComponent : Component
     /// <summary>
     /// The damage this hitbox will inflict on the target
     /// </summary>
+    [DataField(required: true)]
+    public DamageConfig DamageConfig;
+
+    /// <summary>
+    /// The color of the hit effect.
+    /// </summary>
     [DataField]
-    public DamageSpecifier Damage = new();
+    public Color HitColor = Color.Red;
+
+    /// <summary>
+    /// If true, the collision can re-trigger hits, ignoring <see cref="HitTargets"/>
+    /// </summary>
+    [DataField]
+    public bool MultiHit;
 
     /// <summary>
     /// Who initiated this hitbox.
@@ -36,3 +48,17 @@ public sealed partial class HitboxComponent : Component
     [DataField, AutoNetworkedField]
     public HashSet<EntityUid> HitTargets = new();
 }
+
+/// <summary>
+/// A record struct holding data that gets passed to damage methods.
+/// </summary>
+/// <param name="Damage">The damage specified to inflict on the target</param>
+/// <param name="IgnoreResistances">Whether the damage should ignore resistances</param>
+/// <param name="IgnoreGlobalModifiers">Whether the damage should ignore global modifiers</param>
+/// <param name="InterruptDoAfters">Whether the damage should interrupt all do-afters</param>
+[DataRecord]
+public partial record struct DamageConfig(
+    DamageSpecifier Damage,
+    bool IgnoreResistances = false,
+    bool IgnoreGlobalModifiers = false,
+    bool InterruptDoAfters = true);

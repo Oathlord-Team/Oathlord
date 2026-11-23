@@ -3,6 +3,7 @@
 using System.Numerics;
 using Content.Oathlord.Shared.Hitbox;
 using Content.Shared.StatusEffectNew;
+using Content.Shared.Weapons.Melee;
 using Content.Shared.Weapons.Melee.Events;
 using Robust.Shared.Map;
 using Robust.Shared.Prototypes;
@@ -23,7 +24,9 @@ public sealed partial class HitboxMeleeWeaponSystem : EntitySystem
     [Dependency] private HitboxSystem _hitbox = default!;
     [Dependency] private SharedTransformSystem _transform = default!;
     [Dependency] private StatusEffectsSystem _status = default!;
+    [Dependency] private MeleeSoundSystem _meleeSound = default!;
 
+    [Dependency] private EntityQuery<MeleeWeaponComponent> _meleeQuery = default!;
     [Dependency] private EntityQuery<HitboxMeleeWeaponComponent> _hitboxMeleeQuery = default!;
 
     /// <summary>
@@ -112,22 +115,15 @@ public sealed partial class HitboxMeleeWeaponSystem : EntitySystem
         }
 
         var now = _timing.CurTime;
-        // We can add the pattenr only within the next pattern minus the grace period,
-        // so the player can select the next attack before it begins...
-        if (now > ent.Comp.NextPattern - pattern.Grace)
-        {
-            if (ent.Comp.PrevAttack != type)
-            {
-                Log.Info("Commited different attacks, cancelling!");
-                ResetPattern(ent);
-                return;
-            }
-        }
-
         // We can attack between the next pattern and grace period
         if (now > ent.Comp.NextPattern && now <= ent.Comp.NextPattern + pattern.Grace)
         {
-            Log.Info("You attack at the right moment!");
+            if (ent.Comp.PrevAttack != type)
+            {
+                ResetPattern(ent);
+                return;
+            }
+
             SpawnHitbox(ent, user, weapon, clickLoc, pattern, type);
             return;
         }
@@ -143,6 +139,9 @@ public sealed partial class HitboxMeleeWeaponSystem : EntitySystem
         var clickPos = _transform.ToMapCoordinates(clickLoc).Position;
         _hitbox.SpawnHitbox(user, weapon, clickPos, pattern.HitboxProto, pattern.Offset);
 
+        if (_meleeQuery.TryComp(weapon, out var meleeWeapon))
+            _meleeSound.PlaySwingSound(user, weapon, meleeWeapon);
+
         var now = _timing.CurTime;
         ent.Comp.NextPattern = pattern.Time + now;
 
@@ -154,8 +153,6 @@ public sealed partial class HitboxMeleeWeaponSystem : EntitySystem
 
         // The status effect is as long as the pattern attack.
         _status.TryAddStatusEffectDuration(user, HitboxStatusEffect, pattern.Time);
-
-        Log.Info($"Pattern done, and advanced to {ent.Comp.CurrentPattern}!");
     }
 
     /// <summary>
@@ -168,8 +165,6 @@ public sealed partial class HitboxMeleeWeaponSystem : EntitySystem
         ent.Comp.PrevAttack = AttackType.None;
         ent.Comp.NextPattern = TimeSpan.Zero;
         Dirty(ent);
-
-        Log.Info("Current pattern was reset!");
     }
 
     /// <summary>

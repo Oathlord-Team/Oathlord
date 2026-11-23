@@ -5,9 +5,10 @@
   id: DebugHitbox
   components:
   - type: Hitbox
-    damage:
-      types:
-        Heat: 2.5
+    damageConfig:
+      damage:
+        types:
+          Heat: 2.5
   - type: Fixtures
     fixtures:
       hitbox:
@@ -28,9 +29,10 @@
   id: DebugHitbox2
   components:
   - type: Hitbox
-    damage:
-      types:
-        Heat: 5
+    damageConfig:
+      damage:
+        types:
+          Heat: 5
   - type: Fixtures
     fixtures:
       hitbox:

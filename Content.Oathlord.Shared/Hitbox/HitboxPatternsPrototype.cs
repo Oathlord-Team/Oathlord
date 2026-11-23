@@ -16,6 +16,9 @@ public sealed partial class HitboxPatternsPrototype : IPrototype
     [IdDataField]
     public string ID { get; private set; } = default!;
 
+    /// <summary>
+    /// A dictionary containing the patterns, based on the attack type.
+    /// </summary>
     [DataField(required: true)]
     public Dictionary<AttackType, HitboxPattern[]> Patterns = new();
 }
@@ -25,7 +28,9 @@ public sealed partial class HitboxPatternsPrototype : IPrototype
 /// </summary>
 /// <param name="HitboxProto">The hitbox prototype</param>
 /// <param name="Time">How long to wait until the next attack</param>
-/// <param name="Grace">Added to <see cref="Time"/>, that's when the next attack can be commited</param>
+/// <param name="Grace"> An extra "grace" period added to <see cref="Time"/>, in order to give the players extra a bit extra time to go to commit the next attack.
+/// Players can attack between: <see cref="Time"/> and <see cref="Time"/>+<see cref="Grace"/>
+/// </param>
 /// <param name="Offset">The positional offset of the spawned hitbox</param>
 [DataRecord]
 public partial record struct HitboxPattern(
