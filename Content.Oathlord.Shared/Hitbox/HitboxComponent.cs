@@ -2,6 +2,7 @@
 
 using Content.Shared.Damage;
 using Robust.Shared.GameStates;
+using Robust.Shared.Serialization;
 
 namespace Content.Oathlord.Shared.Hitbox;
 
@@ -68,3 +69,12 @@ public partial record struct DamageConfig(
 /// </summary>
 [ByRefEvent]
 public record struct PlayerHitboxAttackEvent(EntityUid User, EntityUid Hitbox);
+
+/// <summary>
+/// Raised from server->client after a hitbox spawns.
+/// </summary>
+[Serializable, NetSerializable]
+public sealed class PredictedHitboxAttackEvent : EntityEventArgs
+{
+    public NetEntity Hitbox;
+}

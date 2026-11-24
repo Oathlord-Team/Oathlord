@@ -83,8 +83,14 @@ public sealed partial class ServerHitboxSystem : EntitySystem
         if (!_actorQuery.TryComp(args.User, out var actor))
             return;
 
-        var lag = EnsureComp<LagCompHitboxComponent>(args.Hitbox);
+        var hitbox = args.Hitbox;
+        var session = actor.PlayerSession;
+
+        var lag = EnsureComp<LagCompHitboxComponent>(hitbox);
         lag.Attacker = args.User;
-        lag.Session = actor.PlayerSession;
+        lag.Session = session;
+
+        var ev = new PredictedHitboxAttackEvent { Hitbox = GetNetEntity(hitbox) };
+        RaiseNetworkEvent(ev, session);
     }
 }

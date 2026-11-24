@@ -12,10 +12,21 @@ namespace Content.Oathlord.Client.Hitbox;
 public sealed partial class ClientHitboxSystem : EntitySystem
 {
     [Dependency] private IPlayerManager _player = default!;
+    [Dependency] private PhysicsSystem _physics = default!;
 
     [SubscribeLocalEvent]
     private void OnUpdateIsPredicted(Entity<HitboxComponent> ent, ref UpdateIsPredictedEvent args)
     {
         args.IsPredicted = _player.LocalEntity == ent.Comp.User;
+    }
+
+    [SubscribeNetworkEvent]
+    private void OnPredictedHitbox(PredictedHitboxAttackEvent args)
+    {
+        var hitbox = GetEntity(args.Hitbox);
+        if (!hitbox.IsValid())
+            return;
+
+        _physics.UpdateIsPredicted(hitbox);
     }
 }
