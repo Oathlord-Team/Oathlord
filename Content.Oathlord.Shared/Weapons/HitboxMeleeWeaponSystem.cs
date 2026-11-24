@@ -79,8 +79,6 @@ public sealed partial class HitboxMeleeWeaponSystem : EntitySystem
     /// </summary>
     private void StartPattern(Entity<HitboxMeleeWeaponComponent> ent, EntityUid user, EntityUid weapon, EntityCoordinates clickLoc, HitboxPattern[] patterns, AttackType type)
     {
-        Log.Info("Staring new pattern...");
-
         ent.Comp.CurrentPattern++;
         DirtyField(ent, ent.Comp, nameof(HitboxMeleeWeaponComponent.CurrentPattern));
 

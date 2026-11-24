@@ -1,5 +1,6 @@
 // SPDX-License-Identifier: AGPL-3.0-or-later
 
+using System.Numerics;
 using Content.Shared.Damage;
 using Robust.Shared.GameStates;
 using Robust.Shared.Serialization;
@@ -69,6 +70,22 @@ public partial record struct DamageConfig(
 /// </summary>
 [ByRefEvent]
 public record struct PlayerHitboxAttackEvent(EntityUid User, EntityUid Hitbox);
+
+/// <summary>
+/// Raised on the hitbox when initialized, so other components can respond to it.
+/// </summary>
+/// <param name="User">The user of the hitbox</param>
+/// <param name="Weapon">The weapon of the hitbox</param>
+/// <param name="ClickLocation">The click location</param>
+[ByRefEvent]
+public record struct HitboxInitializedEvent(EntityUid User, EntityUid Weapon, Vector2 ClickLocation);
+
+/// <summary>
+/// Raised on the hitbox when it has hit a target
+/// </summary>
+/// <param name="Target">The target that was hit</param>
+[ByRefEvent]
+public record struct HitboxHitEvent(EntityUid? User, EntityUid Target);
 
 /// <summary>
 /// Raised from server->client after a hitbox spawns.

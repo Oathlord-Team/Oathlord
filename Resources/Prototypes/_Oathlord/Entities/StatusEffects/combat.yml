@@ -1,22 +1,31 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
+# This status effect gets applied when you attack with a hitbox weapon.
+#
+# It restricts you from going to combat mode during the duration of the hitbox,
+# and disallows you from rotating with your mouse (you already can't rotate with your move inputs during combat mode).
+#
+# To make combat more strategic, a slowdown is applied when attacking.
 - type: entity
   parent: MobStatusEffectBase
   id: HitboxCombatStatusEffect
   name: attacking restrictions
   components:
   - type: EffectsOnStatusEffect
-   # likely no easy way to do this, but this works partially.
-   # (todo: disallow rotation during whole duration of combat + during a hitbox attack, so players don't change outside combat)
-   # This will likely be possible if we make combat mode do-after...
     onApplied:
-    - !type:AddComponents
-      components:
-      - type: NoRotateOnMove
-    onRemoved:
+    - !type:SetCombatModeToggle
+      toggle: false
     - !type:RemoveComponents
       components:
-      - type: NoRotateOnMove
+      - type: MouseRotator
+    onRemoved:
+    - !type:AddComponents
+      conditions:
+      - !type:CombatCondition # only add it if we're still in combat mode
+      components:
+      - type: MouseRotator
+    - !type:SetCombatModeToggle
+      toggle: true
   - type: MovementModStatusEffect
     sprintSpeedModifier: 0.1
     walkSpeedModifier: 0.1

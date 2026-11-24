@@ -35,12 +35,19 @@ public sealed partial class HitboxSystem
     /// <param name="clickLocation">The click location of the attack, used to calculate angles</param>
     /// <param name="hitbox">The hitbox prototype to spawn</param>
     /// <param name="offset">The offset of the hitbox</param>
-    public void SpawnHitbox(EntityUid user, EntityUid weapon, Vector2 clickLocation, [ForbidLiteral] EntProtoId hitbox, Vector2 offset)
+    /// <param name="init">Whether to run initialize event</param>
+    public void SpawnHitbox(EntityUid user, EntityUid weapon, Vector2 clickLocation, [ForbidLiteral] EntProtoId hitbox, Vector2 offset, bool init = true)
     {
         var xform = Transform(user);
 
         var hitboxEnt = PredictedSpawnAtPosition(hitbox, xform.Coordinates);
         SetHitboxData(hitboxEnt, user, weapon);
+
+        if (init)
+        {
+            var initEv = new HitboxInitializedEvent(user, weapon, clickLocation);
+            RaiseLocalEvent(hitboxEnt, ref initEv);
+        }
 
         // Required for proper prediction, for high-ping combat.
         var physics = EnsureComp<PhysicsComponent>(hitboxEnt);
@@ -141,5 +148,8 @@ public sealed partial class HitboxSystem
 
         ent.Comp.HitTargets.Add(target);
         DirtyField(ent.AsNullable(), nameof(HitboxComponent.HitTargets));
+
+        var hitEv = new HitboxHitEvent(user, target);
+        RaiseLocalEvent(ent, ref hitEv);
     }
 }

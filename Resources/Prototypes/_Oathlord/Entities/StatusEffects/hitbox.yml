@@ -1,0 +1,21 @@
+- type: entity
+  parent: StatusEffectBase
+  id: HitboxStatusEffectBase
+  abstract: true
+  components:
+  - type: StatusEffect
+    whitelist:
+      components:
+      - Hitbox
+
+- type: entity
+  parent: HitboxStatusEffectBase
+  id: RotatingHitboxStatusEffect
+  components:
+  - type: StatusEffectEffects
+    delay: 0.01
+    effects:
+    - !type:Rotate
+      angle: 45
+      force: true
+      type: Adjust

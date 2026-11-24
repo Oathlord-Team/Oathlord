@@ -43,10 +43,15 @@ public sealed partial class OathlordCombatModeSystem : EntitySystem
         if (session?.AttachedEntity is not { Valid: true } attachedEnt || !_combatModeQuery.TryComp(attachedEnt, out var combatMode))
             return;
 
-        var toggle = !combatMode.IsInCombatMode;
-        _combat.SetInCombatMode(attachedEnt, toggle, combatMode);
+        ToggleCombatMode((attachedEnt, combatMode));
+    }
 
-        var msg = combatMode.IsInCombatMode ? "action-popup-combat-enabled" : "action-popup-combat-disabled";
-        _popup.PopupEntity(Loc.GetString(msg), attachedEnt, attachedEnt);
+    private void ToggleCombatMode(Entity<CombatModeComponent> ent)
+    {
+        var toggle = !ent.Comp.IsInCombatMode;
+        _combat.SetInCombatMode(ent, toggle, ent.Comp);
+
+        var msg = ent.Comp.IsInCombatMode ? "action-popup-combat-enabled" : "action-popup-combat-disabled";
+        _popup.PopupEntity(Loc.GetString(msg), ent, ent);
     }
 }
