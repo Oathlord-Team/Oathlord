@@ -27,12 +27,6 @@ public sealed partial class HitboxComponent : Component
     public Color HitColor = Color.Red;
 
     /// <summary>
-    /// If true, the collision can re-trigger hits, ignoring <see cref="HitTargets"/>
-    /// </summary>
-    [DataField]
-    public bool MultiHit;
-
-    /// <summary>
     /// Who initiated this hitbox.
     /// </summary>
     [DataField, AutoNetworkedField]

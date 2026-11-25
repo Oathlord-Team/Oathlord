@@ -116,7 +116,8 @@ public sealed partial class HitboxSystem
         if (user == target)
             return;
 
-        if (ent.Comp.HitTargets.Contains(target) && !ent.Comp.MultiHit)
+        // todo for future: support hitboxes that can re-trigger hits by clearing the hashset every X seconds (?)
+        if (ent.Comp.HitTargets.Contains(target))
             return;
 
         var bonus = new DamageSpecifier();

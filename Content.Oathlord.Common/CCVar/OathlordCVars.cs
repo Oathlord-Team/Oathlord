@@ -13,7 +13,7 @@ public sealed partial class OathlordCVars
     /// The range which enlarges the hitbox's AABB search range for checking against lag-compensated targets, for hitbox prediction.
     /// </summary>
     public static readonly CVarDef<float> HitboxLagRange =
-        CVarDef.Create("oathlord.hitbox_lag_range", 2.5f, CVar.SERVER);
+        CVarDef.Create("oathlord.hitbox_lag_range", 3.5f, CVar.SERVER);
 
     #endregion
 }
