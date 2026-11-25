@@ -6,6 +6,7 @@ using Content.Shared.Damage.Prototypes;
 using Content.Shared.Damage.Systems;
 using Content.Shared.Effects;
 using Content.Shared.FixedPoint;
+using Content.Shared.Interaction;
 using Content.Shared.Weapons.Melee;
 using Robust.Shared.Physics.Events;
 using Robust.Shared.Physics.Systems;
@@ -20,6 +21,7 @@ public sealed partial class HitboxSystem : EntitySystem
     [Dependency] private SharedColorFlashEffectSystem _color = default!;
     [Dependency] private MeleeSoundSystem _meleeSound = default!;
     [Dependency] private SharedPhysicsSystem _physics = default!;
+    [Dependency] private SharedInteractionSystem _interaction = default!;
 
     [Dependency] private EntityQuery<HitboxComponent> _hitboxQuery = default!;
     [Dependency] private EntityQuery<MeleeWeaponComponent> _meleeQuery = default!;

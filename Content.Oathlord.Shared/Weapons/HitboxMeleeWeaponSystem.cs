@@ -1,6 +1,5 @@
 // SPDX-License-Identifier: AGPL-3.0-or-later
 
-using System.Numerics;
 using Content.Oathlord.Shared.Hitbox;
 using Content.Shared.StatusEffectNew;
 using Content.Shared.Weapons.Melee;
@@ -48,7 +47,10 @@ public sealed partial class HitboxMeleeWeaponSystem : EntitySystem
             return;
 
         var clickCoords = GetCoordinates(args.ClickLocation);
-        DoHitboxAttack(ent, args.User, args.Weapon, clickCoords, args.Direction);
+
+        // based on upstream combat, direction being null means it was a click-attack, otherwise it's a wideswing
+        var attackType = args.Direction == null ? AttackType.Light : AttackType.Heavy;
+        DoHitboxAttack(ent, args.User, args.Weapon, clickCoords, attackType);
     }
 
     /// <summary>
@@ -59,11 +61,8 @@ public sealed partial class HitboxMeleeWeaponSystem : EntitySystem
         EntityUid user,
         EntityUid weapon,
         EntityCoordinates clickLoc,
-        Vector2? direction)
+        AttackType attackType)
     {
-        // based on upstream combat, direction being null means it was a click-attack, otherwise it's a wideswing
-        var attackType = direction == null ? AttackType.Light : AttackType.Heavy;
-
         var patterns = _hitbox.GetHitboxPatterns(ent.Comp.WeaponPattern, attackType);
         if (patterns.Length == 0)
         {
@@ -95,7 +94,7 @@ public sealed partial class HitboxMeleeWeaponSystem : EntitySystem
     /// <summary>
     /// Advances the current pattern on the mêlée hitbox weapon
     /// </summary>
-    private void AdvancePattern(Entity<HitboxMeleeWeaponComponent> ent, EntityUid user, EntityUid weapon, EntityCoordinates clickLoc, HitboxPattern[] patterns, AttackType type)
+    public void AdvancePattern(Entity<HitboxMeleeWeaponComponent> ent, EntityUid user, EntityUid weapon, EntityCoordinates clickLoc, HitboxPattern[] patterns, AttackType type)
     {
         if (!HasActivePattern(ent.AsNullable()))
         {
@@ -116,9 +115,10 @@ public sealed partial class HitboxMeleeWeaponSystem : EntitySystem
         // We can attack between the next pattern and grace period
         if (now > ent.Comp.NextPattern && now <= ent.Comp.NextPattern + pattern.Grace)
         {
+            // We can't attack with another attack type, just reset
             if (ent.Comp.PrevAttack != type)
             {
-                ResetPattern(ent);
+                ResetPattern(ent.AsNullable());
                 return;
             }
 
@@ -154,18 +154,6 @@ public sealed partial class HitboxMeleeWeaponSystem : EntitySystem
     }
 
     /// <summary>
-    /// Resets the mêlée hitbox weapon to its default state.
-    /// </summary>
-    private void ResetPattern(Entity<HitboxMeleeWeaponComponent> ent)
-    {
-        ent.Comp.CurrentPattern = -1;
-        ent.Comp.NextAttack = AttackType.None;
-        ent.Comp.PrevAttack = AttackType.None;
-        ent.Comp.NextPattern = TimeSpan.Zero;
-        Dirty(ent);
-    }
-
-    /// <summary>
     /// Resets the component fields on the weapon, and starts a new pattern all-together
     /// </summary>
     private void ResetAndStartPattern(
@@ -176,8 +164,23 @@ public sealed partial class HitboxMeleeWeaponSystem : EntitySystem
         HitboxPattern[] patterns,
         AttackType type)
     {
-        ResetPattern(ent);
+        ResetPattern(ent.AsNullable());
         StartPattern(ent, user, weapon, clickLoc, patterns, type);
+    }
+
+    /// <summary>
+    /// Resets the mêlée hitbox weapon to its default state.
+    /// </summary>
+    public void ResetPattern(Entity<HitboxMeleeWeaponComponent?> ent)
+    {
+        if (!_hitboxMeleeQuery.Resolve(ent.Owner, ref ent.Comp))
+            return;
+
+        ent.Comp.CurrentPattern = -1;
+        ent.Comp.NextAttack = AttackType.None;
+        ent.Comp.PrevAttack = AttackType.None;
+        ent.Comp.NextPattern = TimeSpan.Zero;
+        Dirty(ent);
     }
 
     /// <summary>

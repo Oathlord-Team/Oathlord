@@ -1,0 +1,8 @@
+- type: entity
+  abstract: true
+  id: BaseHitboxWeapon
+  components:
+  - type: MeleeWeapon
+    range: 999    # Unlimited range
+    attackRate: 5 # 5 should work for everything time-related
+  - type: HitboxMeleeWeapon

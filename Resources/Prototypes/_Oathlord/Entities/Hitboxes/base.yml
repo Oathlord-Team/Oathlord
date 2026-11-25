@@ -7,8 +7,12 @@
   - type: Transform
   - type: Physics
     bodyType: Dynamic
+    sleepingAllowed: false
   - type: Fixtures
   - type: Hitbox
+  - type: Tag
+    tags:
+    - HideContextMenu
 
 - type: entity
   abstract: true

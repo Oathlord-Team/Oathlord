@@ -26,10 +26,6 @@
         hard: false
         mask:
         - MobMask
-        layer:
-        - Impassable
-        restitution: 0.3
-        friction: 0.2
 
 - type: entity
   parent: [ BaseTemporaryHitbox, BaseHitboxSlashEffect]
@@ -51,12 +47,8 @@
       hitbox:
         shape:
           !type:PhysShapeAabb
-          bounds: "-0.5,-0.5,0.5,0.5"
+          bounds: "-0.5,-1,0.5,0.5"
         density: 20
         hard: false
         mask:
         - MobMask
-        layer:
-        - Impassable
-        restitution: 0.3
-        friction: 0.2

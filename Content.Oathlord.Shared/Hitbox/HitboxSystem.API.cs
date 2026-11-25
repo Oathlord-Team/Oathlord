@@ -2,6 +2,7 @@
 
 using System.Numerics;
 using Content.Shared.Damage;
+using Content.Shared.Physics;
 using Content.Shared.Weapons.Melee.Events;
 using Robust.Shared.Physics.Components;
 using Robust.Shared.Player;
@@ -109,21 +110,28 @@ public sealed partial class HitboxSystem
     /// <inheritdoc cref="TryDoHit(Robust.Shared.GameObjects.EntityUid,Robust.Shared.GameObjects.EntityUid)"/>
     public void TryDoHit(Entity<HitboxComponent> ent, EntityUid target)
     {
-        var user = ent.Comp.User;
         var weapon = ent.Comp.Weapon;
         var damageConfig = ent.Comp.DamageConfig;
 
-        if (user == target)
+        if (ent.Comp.User is not { } user || user == target)
             return;
 
         // todo for future: support hitboxes that can re-trigger hits by clearing the hashset every X seconds (?)
         if (ent.Comp.HitTargets.Contains(target))
             return;
 
-        var bonus = new DamageSpecifier();
-        if (weapon is { } used && user is { } usr)
+        // Don't run a hitbox on walls since you can abuse that to get hitboxes on the other side
+        if (!_interaction.InRangeUnobstructed(user, target, 999f))
         {
-            var ev = new AttackedEvent(used, usr, Transform(ent).Coordinates);
+            QueueDel(ent);
+            return;
+        }
+
+        // todo: need to cover more melee events
+        var bonus = new DamageSpecifier();
+        if (weapon is { } used)
+        {
+            var ev = new AttackedEvent(used, user, Transform(ent).Coordinates);
             RaiseLocalEvent(target, ev);
 
             bonus += ev.BonusDamage;
@@ -139,13 +147,16 @@ public sealed partial class HitboxSystem
                 ignoreGlobalModifiers: damageConfig.IgnoreGlobalModifiers))
             return;
 
-        // Do user feedback
-        // Fun fact: Did you know that using `[target]` instead is a sandbox violation
-        _color.RaiseEffect(Color.Red, new List<EntityUid> { target }, Filter.Pvs(target, entityManager: EntityManager));
-
         // Melee system may need a HUGE refactor from wizden, now that I'm thinking about it
         if (_meleeQuery.TryComp(weapon, out var weaponMelee))
             _meleeSound.PlayHitSound(target, user, GetHighestDamageSound(damageSpef), null, weaponMelee);
+
+        // Do user feedback
+        if (!TerminatingOrDeleted(target))
+        {
+            // Fun fact: Did you know that using `[target]` instead is a sandbox violation
+            _color.RaiseEffect(Color.Red, new List<EntityUid> { target }, Filter.Pvs(target, entityManager: EntityManager));
+        }
 
         ent.Comp.HitTargets.Add(target);
         DirtyField(ent.AsNullable(), nameof(HitboxComponent.HitTargets));
