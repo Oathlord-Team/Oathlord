@@ -1,0 +1,39 @@
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+- type: entity
+  abstract: true
+  id: BaseHitbox
+  components:
+  - type: Transform
+  - type: Physics
+    bodyType: Dynamic
+    sleepingAllowed: false
+  - type: Fixtures
+  - type: Hitbox
+  - type: Tag
+    tags:
+    - HideContextMenu
+
+- type: entity
+  abstract: true
+  parent: BaseHitbox
+  id: BaseTemporaryHitbox
+  components:
+  - type: TimedDespawn
+    lifetime: 0.05
+
+- type: entity
+  abstract: true
+  id: BaseHitboxEffect
+  components:
+  - type: Sprite
+    drawdepth: Effects
+  - type: Appearance
+
+- type: entity
+  abstract: true
+  id: BaseHitboxSlashEffect
+  components:
+  - type: Sprite
+    sprite: _Oathlord/Effects/Hitbox/slashes.rsi
+    drawdepth: Effects

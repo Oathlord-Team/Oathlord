@@ -484,7 +484,7 @@ public abstract partial class SharedMeleeWeaponSystem : EntitySystem
                     throw new NotImplementedException();
             }
 
-            DoLungeAnimation(user, weaponUid, weapon.Angle, TransformSystem.ToMapCoordinates(GetCoordinates(attack.Coordinates)), weapon.Range, animation);
+            // DoLungeAnimation(user, weaponUid, weapon.Angle, TransformSystem.ToMapCoordinates(GetCoordinates(attack.Coordinates)), weapon.Range, animation); - Oathlord - Hitbox Combat
         }
 
         var attackEv = new MeleeAttackEvent(weaponUid);
@@ -527,16 +527,16 @@ public abstract partial class SharedMeleeWeaponSystem : EntitySystem
                     LogImpact.Low,
                     $"{ToPrettyString(user):actor} melee attacked (light) using {ToPrettyString(meleeUid):tool} and missed");
             }
-            var missEvent = new MeleeHitEvent(new HashSet<EntityUid>(), user, meleeUid, damage, null);
+            var missEvent = new MeleeHitEvent(new HashSet<EntityUid>(), user, meleeUid, damage, null, clickLocation: ev.Coordinates); // Oathlord - click location
             RaiseLocalEvent(meleeUid, missEvent);
-            _meleeSound.PlaySwingSound(user, meleeUid, component);
+            // _meleeSound.PlaySwingSound(user, meleeUid, component); - Oathlord - Hitbox Combat
             return;
         }
 
         // Sawmill.Debug($"Melee damage is {damage.Total} out of {component.Damage.Total}");
 
         // Raise event before doing damage so we can cancel damage if the event is handled
-        var hitEvent = new MeleeHitEvent(new HashSet<EntityUid> { target.Value }, user, meleeUid, damage, null);
+        var hitEvent = new MeleeHitEvent(new HashSet<EntityUid> { target.Value }, user, meleeUid, damage, null, clickLocation: ev.Coordinates); // Oathlord - click location
         RaiseLocalEvent(meleeUid, hitEvent);
 
         if (hitEvent.Handled)
@@ -636,11 +636,11 @@ public abstract partial class SharedMeleeWeaponSystem : EntitySystem
                     LogImpact.Low,
                     $"{ToPrettyString(user):actor} melee attacked (heavy) using {ToPrettyString(meleeUid):tool} and missed");
             }
-            var missEvent = new MeleeHitEvent(new HashSet<EntityUid>(), user, meleeUid, damage, direction);
+            var missEvent = new MeleeHitEvent(new HashSet<EntityUid>(), user, meleeUid, damage, direction, clickLocation: ev.Coordinates); // Oathlord - click location
             RaiseLocalEvent(meleeUid, missEvent);
 
             // immediate audio feedback
-            _meleeSound.PlaySwingSound(user, meleeUid, component);
+            // _meleeSound.PlaySwingSound(user, meleeUid, component); - Oathlord - Hitbox Combat
 
             return true;
         }
@@ -675,7 +675,7 @@ public abstract partial class SharedMeleeWeaponSystem : EntitySystem
         // Sawmill.Debug($"Melee damage is {damage.Total} out of {component.Damage.Total}");
 
         // Raise event before doing damage so we can cancel damage if the event is handled
-        var hitEvent = new MeleeHitEvent(targets, user, meleeUid, damage, direction);
+        var hitEvent = new MeleeHitEvent(targets, user, meleeUid, damage, direction, clickLocation: ev.Coordinates); // Oathlord - click location
         RaiseLocalEvent(meleeUid, hitEvent);
 
         if (hitEvent.Handled)
@@ -927,7 +927,7 @@ public abstract partial class SharedMeleeWeaponSystem : EntitySystem
         if (_netMan.IsClient)
         {
             // Play a sound to give instant feedback; same with playing the animations
-            _meleeSound.PlaySwingSound(user, meleeUid, component);
+            // _meleeSound.PlaySwingSound(user, meleeUid, component); - Oathlord - Hitbox Combat
             return true;
         }
 

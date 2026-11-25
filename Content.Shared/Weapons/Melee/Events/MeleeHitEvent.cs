@@ -1,3 +1,4 @@
+using Robust.Shared.Map; // Oathlord
 using System.Numerics;
 using Content.Shared.Damage;
 using Content.Shared.FixedPoint;
@@ -66,13 +67,17 @@ public sealed class MeleeHitEvent : HandledEntityEventArgs
     /// </remarks>
     public bool IsHit = true;
 
-    public MeleeHitEvent(HashSet<EntityUid> hitEntities, EntityUid user, EntityUid weapon, DamageSpecifier baseDamage, Vector2? direction)
+    public NetCoordinates ClickLocation; // Oathlord - The location the user clicked
+
+    public MeleeHitEvent(HashSet<EntityUid> hitEntities, EntityUid user, EntityUid weapon, DamageSpecifier baseDamage, Vector2? direction
+    ,NetCoordinates clickLocation) // Oathlord
     {
         HitEntities = hitEntities;
         User = user;
         Weapon = weapon;
         BaseDamage = baseDamage;
         Direction = direction;
+        ClickLocation = clickLocation; // Oathlord
     }
 }
 

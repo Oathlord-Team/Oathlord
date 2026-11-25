@@ -1,0 +1,39 @@
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+# Put hitbox patterns here.
+#
+# Patterns are split into Light and Heavy attacks.
+#
+# As a general rule of thumb, light attacks should be faster to commit than heavy attacks, but heavy attacks should hit harder.
+#
+# hitboxProto -> the entity prototype of the hitbox
+# time -> how long until the next attack can be commited, and for how long is the user being slowed-down
+# grace -> an extra period where the user can input an attack: time < now <= time + grace
+# offset -> positional offset from the user, the hitbox itself spawns on top of the user, but you probably want to position it somewhere further away
+#
+# This is a debug pattern used by the debug weapon, as an example.
+- type: hitboxPatterns
+  id: DebugPattern
+  patterns:
+    Light:
+    - hitboxProto: DebugHitbox
+      time: 1.2
+      grace: 0.2
+      offset: -0.2,-0.9
+    - hitboxProto: DebugHitbox2
+      time: 1.2
+      grace: 0.5
+      offset: 0,-0.5
+    - hitboxProto: DebugHitbox2
+      time: 1.3
+      grace: 0.5
+      offset: 0,-0.5
+    Heavy:
+    - hitboxProto: DebugHitbox2
+      time: 2.5
+      grace: 0.5
+      offset: 0,-0.5
+    - hitboxProto: DebugHitbox2
+      time: 2.5
+      grace: 0.5
+      offset: 0,-0.5

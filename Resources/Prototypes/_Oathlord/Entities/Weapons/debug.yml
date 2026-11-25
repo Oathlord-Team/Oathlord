@@ -1,0 +1,11 @@
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+- type: entity
+  parent: [ BaseHitboxWeapon, KitchenKnife ]
+  id: DebugHitboxWeapon
+  name: Hitbox Weapon
+  description: Use this to test weapon patterns.
+  categories: [ ForkFiltered ]
+  components:
+  - type: HitboxMeleeWeapon
+    weaponPattern: DebugPattern

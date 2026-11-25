@@ -1,0 +1,23 @@
+{
+    "version": 1,
+    "license": "CC-BY-SA-3.0",
+    "copyright": "Drawn by frostwindz (@itch.io). slash_wide & slash_small HAVE CUSTOM LICENSE AND NOT CCBYSA3.0 https://docs.google.com/document/d/1Fof_nmunthXksubxZtXbNn2LJsgM9uNXn1TtBeRz4dA",
+    "size": {
+        "x": 64,
+        "y": 64
+    },
+    "states": [
+        {
+            "name": "slash_wide",
+            "delays": [
+                [ 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1 ]
+            ]
+        },
+        {
+            "name": "slash_small",
+            "delays": [
+                [ 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1 ]
+            ]
+        }
+    ]
+}
