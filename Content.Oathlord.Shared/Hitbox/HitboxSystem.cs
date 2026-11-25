@@ -1,6 +1,7 @@
 // SPDX-License-Identifier: AGPL-3.0-or-later
 
 using System.Linq;
+using Content.Shared.Administration.Logs;
 using Content.Shared.Damage;
 using Content.Shared.Damage.Prototypes;
 using Content.Shared.Damage.Systems;
@@ -16,10 +17,11 @@ namespace Content.Oathlord.Shared.Hitbox;
 
 public sealed partial class HitboxSystem : EntitySystem
 {
+    [Dependency] private ISharedAdminLogManager _admin = default!;
     [Dependency] private DamageableSystem _damage = default!;
+    [Dependency] private MeleeSoundSystem _meleeSound = default!;
     [Dependency] private SharedTransformSystem _transform = default!;
     [Dependency] private SharedColorFlashEffectSystem _color = default!;
-    [Dependency] private MeleeSoundSystem _meleeSound = default!;
     [Dependency] private SharedPhysicsSystem _physics = default!;
     [Dependency] private SharedInteractionSystem _interaction = default!;
 

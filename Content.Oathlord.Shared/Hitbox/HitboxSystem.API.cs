@@ -2,7 +2,7 @@
 
 using System.Numerics;
 using Content.Shared.Damage;
-using Content.Shared.Physics;
+using Content.Shared.Database;
 using Content.Shared.Weapons.Melee.Events;
 using Robust.Shared.Physics.Components;
 using Robust.Shared.Player;
@@ -78,6 +78,8 @@ public sealed partial class HitboxSystem
 
         // It makes sense that the hitbox would NOT stay on air and follow the user, lol...?
         _transform.SetParent(hitboxEnt, user);
+
+        _admin.Add(LogType.EntitySpawn, LogImpact.Medium, $"{user} attacked with weapon {weapon} at {clickLocation}. Spawned the hitbox {hitboxEnt} ({hitbox.Id}) at {worldPos}");
     }
 
     /// <summary>
