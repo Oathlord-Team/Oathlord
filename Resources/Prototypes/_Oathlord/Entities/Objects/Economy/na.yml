@@ -17,6 +17,9 @@
     count: 1
     baseLayer: base
   - type: Appearance
+  - type: EconomyValue
+  - type: EconomyCurrency
+
 
 - type: entity
   parent: BaseNa
@@ -25,6 +28,10 @@
   description: The coin that is used by the economy.
   categories: [ ForkFiltered ]
   components:
+  - type: EconomyValue
+    value: 1
+  - type: EconomyCurrency
+    currency: Na
   - type: Stack
     stackType: BaseNaStack
     layerStates:
@@ -43,6 +50,10 @@
   description: A shiny silver coin.
   categories: [ ForkFiltered ]
   components:
+  - type: EconomyValue
+    value: 10
+  - type: EconomyCurrency
+    currency: Nar
   - type: Sprite
     sprite: _Oathlord/Objects/Economy/silver.rsi
     layers:
@@ -66,6 +77,10 @@
   description: A gold coin.
   categories: [ ForkFiltered ]
   components:
+  - type: EconomyValue
+    value: 100
+  - type: EconomyCurrency
+    currency: Nara
   - type: Sprite
     sprite: _Oathlord/Objects/Economy/gold.rsi
     layers:

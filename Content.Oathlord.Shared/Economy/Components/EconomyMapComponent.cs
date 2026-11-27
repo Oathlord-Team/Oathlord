@@ -29,9 +29,8 @@ public sealed partial class EconomyMapComponent : Component
     /// <summary>
     /// Because we may want to look this value often (for UIs), we cache it here.
     /// Use <see cref="GetTotalEconomyStored"/> method instead for getting this value.
-    /// todo: use this sometime...
     /// </summary>
-    [AutoNetworkedField]
+    [DataField, AutoNetworkedField]
     public int TotalStored;
 
     /// <summary>
