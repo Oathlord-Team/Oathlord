@@ -193,6 +193,57 @@ public sealed partial class OathlordEconomySystem : EntitySystem
         DirtyField(ent, nameof(EconomyMapComponent.StoredCurrencies));
     }
 
+    public void AdjustStoredCurrencies(Entity<EconomyMapComponent?> ent, Dictionary<ProtoId<EconomyCurrencyPrototype>, int> currencies)
+    {
+        if (!_econMapQuery.Resolve(ent.Owner, ref ent.Comp))
+            return;
+
+        foreach (var (proto, _) in ent.Comp.StoredCurrencies)
+        {
+            if (!currencies.TryGetValue(proto, out var value))
+                continue;
+
+            ent.Comp.StoredCurrencies[proto] += value;
+        }
+
+        DirtyField(ent, nameof(EconomyMapComponent.StoredCurrencies));
+    }
+
+    public void AdjustStoredCurrencies(Entity<EconomyMapComponent?> ent, ProtoId<EconomyCurrencyPrototype> currency, int value)
+    {
+        if (!_econMapQuery.Resolve(ent.Owner, ref ent.Comp))
+            return;
+
+        foreach (var (proto, _) in ent.Comp.StoredCurrencies)
+        {
+            if (proto != currency)
+                continue;
+
+            ent.Comp.StoredCurrencies[proto] += value;
+        }
+
+        DirtyField(ent, nameof(EconomyMapComponent.StoredCurrencies));
+    }
+
+    public void AdjustEconomyTotal(EntityUid entity, int value)
+    {
+        if (GetCurrentEconomy(entity) is not { } econ)
+            return;
+
+        AdjustEconomyTotal(econ.AsNullable(), value);
+    }
+
+    public void AdjustEconomyTotal(Entity<EconomyMapComponent?> ent, int value)
+    {
+        if (!_econMapQuery.Resolve(ent.Owner, ref ent.Comp))
+            return;
+
+        ent.Comp.TotalStored += value;
+        DirtyField(ent, nameof(EconomyMapComponent.TotalStored));
+
+        Log.Info($"Total Stored: {ent.Comp.TotalStored}");
+    }
+
     #endregion
 
     #region Helpers
